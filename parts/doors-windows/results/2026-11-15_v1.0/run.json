@@ -1,0 +1,15 @@
+{
+  "run": "2026-11-15_v1.0",
+  "date": "2026-11-15",
+  "version": "1.0",
+  "cases": 20,
+  "runs_per_case": 1,
+  "agent_model": "claude-opus-5-5",
+  "time_limit_per_case_min": 60,
+  "reviewer": {
+    "name": "reviewer v2",
+    "model": "gpt-5.6-sol",
+    "votes": 1
+  },
+  "mean_score": 7.4
+}

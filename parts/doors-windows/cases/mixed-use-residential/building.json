@@ -1,0 +1,2339 @@
+{
+  "slug": "mixed-use-residential",
+  "typology": "mixed-use-residential",
+  "provenance": "AI-authored synthetic recorded starting layout for a doors/windows benchmark; not a customer design or a certified design.",
+  "notes": [
+    "AI-authored synthetic recorded benchmark input only. Not a customer layout, certified design, construction document, or code-compliance claim.",
+    "Coordinates are metres in a local x/z plan. The rectangular footprint is 84.5 m by 18 m: 8 m deep room banks either side of a 2 m corridor. All geometry is axis-aligned space envelopes; walls and wall thickness are not modelled.",
+    "Two widely separated stair footprints and two lift footprints are explicitly RESERVED on every floor, with identical stacked coordinates. They are not physical stairs, lift cars, shafts, equipment, or verified vertical routes.",
+    "A continuous 2 m main corridor connects a central lift core (two 2.5 m lifts facing each other across the corridor, each opening into an open lobby with a floor store behind) and two 3 m by 8 m stair reservations 11 m in from the gables, so no corridor door is more than 30 m from a stair. Access edges are bidirectional same-floor intended adjacencies only, not installed or seeded doors, windows, or openings.",
+    "Every apartment, studio, guest room, lodge room, and residential suite marked envelope includes its internal living, sleeping, kitchenette where appropriate, and sanitary functions. Internal bathrooms and partitions are deliberately unresolved; no overlapping nested bathroom rectangles are used.",
+    "Public WC envelopes, where present, are disjoint rooms. No other sanitary fixtures, furniture, structure, facade openings, external paths, or site access geometry is supplied.",
+    "Floor 1 arrival and reception rooms connect to internal circulation; their outside entrance openings are intentionally unseeded. Ground-floor uses and upper residential, amenity, and service uses differ by floor.",
+    "Dimensions and programs are plausible benchmark assumptions, not checks of fire escape, accessibility, occupancy, daylight, ventilation, plumbing, acoustics, or statutory requirements. Same-floor access does not certify egress."
+  ],
+  "floors": [
+    {
+      "number": 1,
+      "name": "Street retail and residential arrival",
+      "height_m": 4.8,
+      "rooms": [
+        {
+          "label": "F01:mixed-use-residential:Main corridor",
+          "box": [
+            0,
+            8,
+            84.5,
+            10
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01:mixed-use-residential:South reserved lift lobby",
+            "F01:mixed-use-residential:North reserved lift lobby",
+            "F01:mixed-use-residential:West stair RESERVED",
+            "F01:mixed-use-residential:East stair RESERVED",
+            "F01:mixed-use-residential:Street cafe room",
+            "F01:mixed-use-residential:Cafe preparation kitchen",
+            "F01:mixed-use-residential:Neighbourhood grocery room",
+            "F01:mixed-use-residential:Bookshop room",
+            "F01:mixed-use-residential:Repair shop room",
+            "F01:mixed-use-residential:Community exhibition room",
+            "F01:mixed-use-residential:Local enterprise office",
+            "F01:mixed-use-residential:Co-working room",
+            "F01:mixed-use-residential:Small business meeting room",
+            "F01:mixed-use-residential:Resident cycle room",
+            "F01:mixed-use-residential:Visitor waiting lounge",
+            "F01:mixed-use-residential:Retail staff rest room",
+            "F01:mixed-use-residential:Community advice room",
+            "F01:mixed-use-residential:Electrical intake room",
+            "F01:mixed-use-residential:Accessible public WC envelope",
+            "F01:mixed-use-residential:Public WC and accessible WC",
+            "F01:mixed-use-residential:Residential reception",
+            "F01:mixed-use-residential:Residential parcel room",
+            "F01:mixed-use-residential:Property management"
+          ]
+        },
+        {
+          "label": "F01:mixed-use-residential:West stair RESERVED",
+          "box": [
+            11,
+            0,
+            14,
+            8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F01:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:mixed-use-residential:East stair RESERVED",
+          "box": [
+            70.5,
+            10,
+            73.5,
+            18
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F01:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:mixed-use-residential:South lift RESERVED",
+          "box": [
+            39.5,
+            5.5,
+            42,
+            8
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F01:mixed-use-residential:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F01:mixed-use-residential:South reserved lift lobby",
+          "box": [
+            42,
+            5.5,
+            44.5,
+            8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01:mixed-use-residential:Main corridor",
+            "F01:mixed-use-residential:South lift RESERVED",
+            "F01:mixed-use-residential:Retail waste room"
+          ]
+        },
+        {
+          "label": "F01:mixed-use-residential:Retail waste room",
+          "box": [
+            39.5,
+            0,
+            44.5,
+            5.5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01:mixed-use-residential:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F01:mixed-use-residential:North reserved lift lobby",
+          "box": [
+            39.5,
+            10,
+            42,
+            12.5
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01:mixed-use-residential:Main corridor",
+            "F01:mixed-use-residential:North lift RESERVED",
+            "F01:mixed-use-residential:Goods receiving store"
+          ]
+        },
+        {
+          "label": "F01:mixed-use-residential:North lift RESERVED",
+          "box": [
+            42,
+            10,
+            44.5,
+            12.5
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F01:mixed-use-residential:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F01:mixed-use-residential:Goods receiving store",
+          "box": [
+            39.5,
+            12.5,
+            44.5,
+            18
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01:mixed-use-residential:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F01:mixed-use-residential:Street cafe room",
+          "box": [
+            26.75,
+            0,
+            39.5,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:mixed-use-residential:Main corridor",
+            "F01:mixed-use-residential:Cafe preparation kitchen"
+          ]
+        },
+        {
+          "label": "F01:mixed-use-residential:Cafe preparation kitchen",
+          "box": [
+            14,
+            0,
+            26.75,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:mixed-use-residential:Main corridor",
+            "F01:mixed-use-residential:Street cafe room"
+          ]
+        },
+        {
+          "label": "F01:mixed-use-residential:Neighbourhood grocery room",
+          "box": [
+            0,
+            0,
+            11,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:mixed-use-residential:Bookshop room",
+          "box": [
+            0,
+            10,
+            9.186,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:mixed-use-residential:Repair shop room",
+          "box": [
+            9.186,
+            10,
+            18.372,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:mixed-use-residential:Community exhibition room",
+          "box": [
+            18.372,
+            10,
+            30.314,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:mixed-use-residential:Local enterprise office",
+          "box": [
+            30.314,
+            10,
+            39.5,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:mixed-use-residential:Co-working room",
+          "box": [
+            44.5,
+            10,
+            54.742,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:mixed-use-residential:Small business meeting room",
+          "box": [
+            54.742,
+            10,
+            62.621,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:mixed-use-residential:Resident cycle room",
+          "box": [
+            62.621,
+            10,
+            70.5,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:mixed-use-residential:Visitor waiting lounge",
+          "box": [
+            73.5,
+            10,
+            84.5,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:mixed-use-residential:Retail staff rest room",
+          "box": [
+            77.888,
+            0,
+            84.5,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:mixed-use-residential:Community advice room",
+          "box": [
+            73.59,
+            0,
+            77.888,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:mixed-use-residential:Electrical intake room",
+          "box": [
+            70.59,
+            0,
+            73.59,
+            8
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:mixed-use-residential:Accessible public WC envelope",
+          "box": [
+            67.504,
+            0,
+            70.59,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:mixed-use-residential:Public WC and accessible WC",
+          "box": [
+            64.004,
+            0,
+            67.504,
+            8
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:mixed-use-residential:Residential reception",
+          "box": [
+            55.409,
+            0,
+            64.004,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:mixed-use-residential:Residential parcel room",
+          "box": [
+            51.111,
+            0,
+            55.409,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:mixed-use-residential:Property management",
+          "box": [
+            44.5,
+            0,
+            51.111,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:mixed-use-residential:Main corridor"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Workplace and transition amenities",
+      "height_m": 4,
+      "rooms": [
+        {
+          "label": "F02:mixed-use-residential:Main corridor",
+          "box": [
+            0,
+            8,
+            84.5,
+            10
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02:mixed-use-residential:South reserved lift lobby",
+            "F02:mixed-use-residential:North reserved lift lobby",
+            "F02:mixed-use-residential:West stair RESERVED",
+            "F02:mixed-use-residential:East stair RESERVED",
+            "F02:mixed-use-residential:Workers dining room",
+            "F02:mixed-use-residential:Shared office kitchen",
+            "F02:mixed-use-residential:Childcare dining room",
+            "F02:mixed-use-residential:Community workshop",
+            "F02:mixed-use-residential:Shared office studio",
+            "F02:mixed-use-residential:Design practice room",
+            "F02:mixed-use-residential:Accountancy office",
+            "F02:mixed-use-residential:Neighbourhood clinic consulting",
+            "F02:mixed-use-residential:Therapy consulting room",
+            "F02:mixed-use-residential:Training classroom",
+            "F02:mixed-use-residential:Business meeting room",
+            "F02:mixed-use-residential:Resident fitness studio",
+            "F02:mixed-use-residential:Resident yoga room",
+            "F02:mixed-use-residential:Childcare activity room",
+            "F02:mixed-use-residential:Childcare quiet room",
+            "F02:mixed-use-residential:Tenant support office",
+            "F02:mixed-use-residential:Accessible visitor suite envelope",
+            "F02:mixed-use-residential:Data equipment room"
+          ]
+        },
+        {
+          "label": "F02:mixed-use-residential:West stair RESERVED",
+          "box": [
+            11,
+            0,
+            14,
+            8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F02:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:mixed-use-residential:East stair RESERVED",
+          "box": [
+            70.5,
+            10,
+            73.5,
+            18
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F02:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:mixed-use-residential:South lift RESERVED",
+          "box": [
+            39.5,
+            5.5,
+            42,
+            8
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F02:mixed-use-residential:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F02:mixed-use-residential:South reserved lift lobby",
+          "box": [
+            42,
+            5.5,
+            44.5,
+            8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02:mixed-use-residential:Main corridor",
+            "F02:mixed-use-residential:South lift RESERVED",
+            "F02:mixed-use-residential:Commercial cleaning store"
+          ]
+        },
+        {
+          "label": "F02:mixed-use-residential:Commercial cleaning store",
+          "box": [
+            39.5,
+            0,
+            44.5,
+            5.5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F02:mixed-use-residential:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F02:mixed-use-residential:North reserved lift lobby",
+          "box": [
+            39.5,
+            10,
+            42,
+            12.5
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02:mixed-use-residential:Main corridor",
+            "F02:mixed-use-residential:North lift RESERVED",
+            "F02:mixed-use-residential:Floor waste room"
+          ]
+        },
+        {
+          "label": "F02:mixed-use-residential:North lift RESERVED",
+          "box": [
+            42,
+            10,
+            44.5,
+            12.5
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F02:mixed-use-residential:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F02:mixed-use-residential:Floor waste room",
+          "box": [
+            39.5,
+            12.5,
+            44.5,
+            18
+          ],
+          "kind": "service",
+          "access_to": [
+            "F02:mixed-use-residential:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F02:mixed-use-residential:Workers dining room",
+          "box": [
+            31,
+            0,
+            39.5,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:mixed-use-residential:Main corridor",
+            "F02:mixed-use-residential:Shared office kitchen"
+          ]
+        },
+        {
+          "label": "F02:mixed-use-residential:Shared office kitchen",
+          "box": [
+            22.5,
+            0,
+            31,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:mixed-use-residential:Main corridor",
+            "F02:mixed-use-residential:Workers dining room",
+            "F02:mixed-use-residential:Childcare dining room"
+          ]
+        },
+        {
+          "label": "F02:mixed-use-residential:Childcare dining room",
+          "box": [
+            14,
+            0,
+            22.5,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:mixed-use-residential:Main corridor",
+            "F02:mixed-use-residential:Shared office kitchen"
+          ]
+        },
+        {
+          "label": "F02:mixed-use-residential:Community workshop",
+          "box": [
+            0,
+            0,
+            11,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:mixed-use-residential:Shared office studio",
+          "box": [
+            0,
+            10,
+            11.942,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:mixed-use-residential:Design practice room",
+          "box": [
+            11.942,
+            10,
+            21.128,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:mixed-use-residential:Accountancy office",
+          "box": [
+            21.128,
+            10,
+            30.314,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:mixed-use-residential:Neighbourhood clinic consulting",
+          "box": [
+            30.314,
+            10,
+            39.5,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:mixed-use-residential:Therapy consulting room",
+          "box": [
+            44.5,
+            10,
+            52.379,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:mixed-use-residential:Training classroom",
+          "box": [
+            52.379,
+            10,
+            62.621,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:mixed-use-residential:Business meeting room",
+          "box": [
+            62.621,
+            10,
+            70.5,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:mixed-use-residential:Resident fitness studio",
+          "box": [
+            73.5,
+            10,
+            84.5,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:mixed-use-residential:Resident yoga room",
+          "box": [
+            77.316,
+            0,
+            84.5,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:mixed-use-residential:Childcare activity room",
+          "box": [
+            67.976,
+            0,
+            77.316,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:mixed-use-residential:Childcare quiet room",
+          "box": [
+            63.306,
+            0,
+            67.976,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:mixed-use-residential:Tenant support office",
+          "box": [
+            56.122,
+            0,
+            63.306,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:mixed-use-residential:Accessible visitor suite envelope",
+          "box": [
+            47.501,
+            0,
+            56.122,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:mixed-use-residential:Data equipment room",
+          "box": [
+            44.5,
+            0,
+            47.501,
+            8
+          ],
+          "kind": "service",
+          "access_to": [
+            "F02:mixed-use-residential:Main corridor"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Urban compact homes",
+      "height_m": 3.2,
+      "rooms": [
+        {
+          "label": "F03:mixed-use-residential:Main corridor",
+          "box": [
+            0,
+            8,
+            84.5,
+            10
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03:mixed-use-residential:South reserved lift lobby",
+            "F03:mixed-use-residential:North reserved lift lobby",
+            "F03:mixed-use-residential:West stair RESERVED",
+            "F03:mixed-use-residential:East stair RESERVED",
+            "F03:mixed-use-residential:Shared kitchen",
+            "F03:mixed-use-residential:Resident co-working room",
+            "F03:mixed-use-residential:Resident meeting room",
+            "F03:mixed-use-residential:Neighbourhood lounge",
+            "F03:mixed-use-residential:Resident laundry",
+            "F03:mixed-use-residential:East compact apartment envelope",
+            "F03:mixed-use-residential:West compact apartment envelope",
+            "F03:mixed-use-residential:North couple apartment envelope",
+            "F03:mixed-use-residential:South couple apartment envelope",
+            "F03:mixed-use-residential:Accessible urban apartment envelope",
+            "F03:mixed-use-residential:Corner live-work envelope",
+            "F03:mixed-use-residential:Courtyard studio envelope",
+            "F03:mixed-use-residential:Quiet studio envelope",
+            "F03:mixed-use-residential:Single resident apartment envelope",
+            "F03:mixed-use-residential:Shared household apartment envelope",
+            "F03:mixed-use-residential:Family starter apartment envelope",
+            "F03:mixed-use-residential:Home-office apartment envelope",
+            "F03:mixed-use-residential:Housekeeping store"
+          ]
+        },
+        {
+          "label": "F03:mixed-use-residential:West stair RESERVED",
+          "box": [
+            11,
+            0,
+            14,
+            8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F03:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:mixed-use-residential:East stair RESERVED",
+          "box": [
+            70.5,
+            10,
+            73.5,
+            18
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F03:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:mixed-use-residential:South lift RESERVED",
+          "box": [
+            39.5,
+            5.5,
+            42,
+            8
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F03:mixed-use-residential:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F03:mixed-use-residential:South reserved lift lobby",
+          "box": [
+            42,
+            5.5,
+            44.5,
+            8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03:mixed-use-residential:Main corridor",
+            "F03:mixed-use-residential:South lift RESERVED",
+            "F03:mixed-use-residential:Floor recycling room"
+          ]
+        },
+        {
+          "label": "F03:mixed-use-residential:Floor recycling room",
+          "box": [
+            39.5,
+            0,
+            44.5,
+            5.5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F03:mixed-use-residential:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F03:mixed-use-residential:North reserved lift lobby",
+          "box": [
+            39.5,
+            10,
+            42,
+            12.5
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03:mixed-use-residential:Main corridor",
+            "F03:mixed-use-residential:North lift RESERVED",
+            "F03:mixed-use-residential:Water service room"
+          ]
+        },
+        {
+          "label": "F03:mixed-use-residential:North lift RESERVED",
+          "box": [
+            42,
+            10,
+            44.5,
+            12.5
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F03:mixed-use-residential:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F03:mixed-use-residential:Water service room",
+          "box": [
+            39.5,
+            12.5,
+            44.5,
+            18
+          ],
+          "kind": "service",
+          "access_to": [
+            "F03:mixed-use-residential:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F03:mixed-use-residential:Shared kitchen",
+          "box": [
+            30.292,
+            0,
+            39.5,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:mixed-use-residential:Resident co-working room",
+          "box": [
+            21.084,
+            0,
+            30.292,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:mixed-use-residential:Resident meeting room",
+          "box": [
+            14,
+            0,
+            21.084,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:mixed-use-residential:Neighbourhood lounge",
+          "box": [
+            0,
+            0,
+            11,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:mixed-use-residential:Resident laundry",
+          "box": [
+            0,
+            10,
+            6,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:mixed-use-residential:East compact apartment envelope",
+          "box": [
+            6,
+            10,
+            16,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:mixed-use-residential:West compact apartment envelope",
+          "box": [
+            16,
+            10,
+            26,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:mixed-use-residential:North couple apartment envelope",
+          "box": [
+            26,
+            10,
+            39.5,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:mixed-use-residential:South couple apartment envelope",
+          "box": [
+            44.5,
+            10,
+            53.386,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:mixed-use-residential:Accessible urban apartment envelope",
+          "box": [
+            53.386,
+            10,
+            61.614,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:mixed-use-residential:Corner live-work envelope",
+          "box": [
+            61.614,
+            10,
+            70.5,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:mixed-use-residential:Courtyard studio envelope",
+          "box": [
+            73.5,
+            10,
+            79,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:mixed-use-residential:Quiet studio envelope",
+          "box": [
+            79,
+            10,
+            84.5,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:mixed-use-residential:Single resident apartment envelope",
+          "box": [
+            76.109,
+            0,
+            84.5,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:mixed-use-residential:Shared household apartment envelope",
+          "box": [
+            67.718,
+            0,
+            76.109,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:mixed-use-residential:Family starter apartment envelope",
+          "box": [
+            56.39,
+            0,
+            67.718,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:mixed-use-residential:Home-office apartment envelope",
+          "box": [
+            47.999,
+            0,
+            56.39,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:mixed-use-residential:Housekeeping store",
+          "box": [
+            44.5,
+            0,
+            47.999,
+            8
+          ],
+          "kind": "service",
+          "access_to": [
+            "F03:mixed-use-residential:Main corridor"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "name": "Family neighbourhood homes",
+      "height_m": 3.2,
+      "rooms": [
+        {
+          "label": "F04:mixed-use-residential:Main corridor",
+          "box": [
+            0,
+            8,
+            84.5,
+            10
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F04:mixed-use-residential:South reserved lift lobby",
+            "F04:mixed-use-residential:North reserved lift lobby",
+            "F04:mixed-use-residential:West stair RESERVED",
+            "F04:mixed-use-residential:East stair RESERVED",
+            "F04:mixed-use-residential:Family dining room",
+            "F04:mixed-use-residential:Community kitchen",
+            "F04:mixed-use-residential:Childrens playroom",
+            "F04:mixed-use-residential:Homework room",
+            "F04:mixed-use-residential:Resident laundry",
+            "F04:mixed-use-residential:East family home envelope",
+            "F04:mixed-use-residential:West family home envelope",
+            "F04:mixed-use-residential:North two-bedroom envelope",
+            "F04:mixed-use-residential:South two-bedroom envelope",
+            "F04:mixed-use-residential:Accessible family home envelope",
+            "F04:mixed-use-residential:Corner three-bedroom envelope",
+            "F04:mixed-use-residential:Courtyard family envelope",
+            "F04:mixed-use-residential:Quiet family envelope",
+            "F04:mixed-use-residential:Multigeneration home envelope",
+            "F04:mixed-use-residential:Single-parent home envelope",
+            "F04:mixed-use-residential:Couple home envelope",
+            "F04:mixed-use-residential:Flexible household envelope",
+            "F04:mixed-use-residential:Cleaning store"
+          ]
+        },
+        {
+          "label": "F04:mixed-use-residential:West stair RESERVED",
+          "box": [
+            11,
+            0,
+            14,
+            8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F04:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:mixed-use-residential:East stair RESERVED",
+          "box": [
+            70.5,
+            10,
+            73.5,
+            18
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F04:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:mixed-use-residential:South lift RESERVED",
+          "box": [
+            39.5,
+            5.5,
+            42,
+            8
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F04:mixed-use-residential:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F04:mixed-use-residential:South reserved lift lobby",
+          "box": [
+            42,
+            5.5,
+            44.5,
+            8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F04:mixed-use-residential:Main corridor",
+            "F04:mixed-use-residential:South lift RESERVED",
+            "F04:mixed-use-residential:Floor waste room"
+          ]
+        },
+        {
+          "label": "F04:mixed-use-residential:Floor waste room",
+          "box": [
+            39.5,
+            0,
+            44.5,
+            5.5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F04:mixed-use-residential:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F04:mixed-use-residential:North reserved lift lobby",
+          "box": [
+            39.5,
+            10,
+            42,
+            12.5
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F04:mixed-use-residential:Main corridor",
+            "F04:mixed-use-residential:North lift RESERVED",
+            "F04:mixed-use-residential:Electrical service room"
+          ]
+        },
+        {
+          "label": "F04:mixed-use-residential:North lift RESERVED",
+          "box": [
+            42,
+            10,
+            44.5,
+            12.5
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F04:mixed-use-residential:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F04:mixed-use-residential:Electrical service room",
+          "box": [
+            39.5,
+            12.5,
+            44.5,
+            18
+          ],
+          "kind": "service",
+          "access_to": [
+            "F04:mixed-use-residential:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F04:mixed-use-residential:Family dining room",
+          "box": [
+            31,
+            0,
+            39.5,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:mixed-use-residential:Main corridor",
+            "F04:mixed-use-residential:Community kitchen"
+          ]
+        },
+        {
+          "label": "F04:mixed-use-residential:Community kitchen",
+          "box": [
+            22.5,
+            0,
+            31,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:mixed-use-residential:Main corridor",
+            "F04:mixed-use-residential:Family dining room"
+          ]
+        },
+        {
+          "label": "F04:mixed-use-residential:Childrens playroom",
+          "box": [
+            14,
+            0,
+            22.5,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:mixed-use-residential:Homework room",
+          "box": [
+            6,
+            0,
+            11,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:mixed-use-residential:Resident laundry",
+          "box": [
+            0,
+            0,
+            6,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:mixed-use-residential:East family home envelope",
+          "box": [
+            0,
+            10,
+            11.346,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:mixed-use-residential:West family home envelope",
+          "box": [
+            11.346,
+            10,
+            22.692,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:mixed-use-residential:North two-bedroom envelope",
+          "box": [
+            22.692,
+            10,
+            31.096,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:mixed-use-residential:South two-bedroom envelope",
+          "box": [
+            31.096,
+            10,
+            39.5,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:mixed-use-residential:Accessible family home envelope",
+          "box": [
+            44.5,
+            10,
+            52.728,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:mixed-use-residential:Corner three-bedroom envelope",
+          "box": [
+            52.728,
+            10,
+            61.614,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:mixed-use-residential:Courtyard family envelope",
+          "box": [
+            61.614,
+            10,
+            70.5,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:mixed-use-residential:Quiet family envelope",
+          "box": [
+            73.5,
+            10,
+            84.5,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:mixed-use-residential:Multigeneration home envelope",
+          "box": [
+            74.016,
+            0,
+            84.5,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:mixed-use-residential:Single-parent home envelope",
+          "box": [
+            66.25,
+            0,
+            74.016,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:mixed-use-residential:Couple home envelope",
+          "box": [
+            55.766,
+            0,
+            66.25,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:mixed-use-residential:Flexible household envelope",
+          "box": [
+            48,
+            0,
+            55.766,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:mixed-use-residential:Cleaning store",
+          "box": [
+            44.5,
+            0,
+            48,
+            8
+          ],
+          "kind": "service",
+          "access_to": [
+            "F04:mixed-use-residential:Main corridor"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "name": "Live-work and creative homes",
+      "height_m": 3.3,
+      "rooms": [
+        {
+          "label": "F05:mixed-use-residential:Main corridor",
+          "box": [
+            0,
+            8,
+            84.5,
+            10
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F05:mixed-use-residential:South reserved lift lobby",
+            "F05:mixed-use-residential:North reserved lift lobby",
+            "F05:mixed-use-residential:West stair RESERVED",
+            "F05:mixed-use-residential:East stair RESERVED",
+            "F05:mixed-use-residential:Community supper room",
+            "F05:mixed-use-residential:Shared creative studio",
+            "F05:mixed-use-residential:Quiet work lounge",
+            "F05:mixed-use-residential:Project meeting room",
+            "F05:mixed-use-residential:Resident laundry",
+            "F05:mixed-use-residential:East artist home envelope",
+            "F05:mixed-use-residential:West maker home envelope",
+            "F05:mixed-use-residential:North live-work envelope",
+            "F05:mixed-use-residential:South live-work envelope",
+            "F05:mixed-use-residential:Accessible creative home envelope",
+            "F05:mixed-use-residential:Corner designer home envelope",
+            "F05:mixed-use-residential:Courtyard studio home envelope",
+            "F05:mixed-use-residential:Quiet writer home envelope",
+            "F05:mixed-use-residential:Researcher home envelope",
+            "F05:mixed-use-residential:Freelancer home envelope",
+            "F05:mixed-use-residential:Family work-live envelope",
+            "F05:mixed-use-residential:Flexible studio home envelope",
+            "F05:mixed-use-residential:Cleaning supply room"
+          ]
+        },
+        {
+          "label": "F05:mixed-use-residential:West stair RESERVED",
+          "box": [
+            11,
+            0,
+            14,
+            8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F05:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:mixed-use-residential:East stair RESERVED",
+          "box": [
+            70.5,
+            10,
+            73.5,
+            18
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F05:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:mixed-use-residential:South lift RESERVED",
+          "box": [
+            39.5,
+            5.5,
+            42,
+            8
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F05:mixed-use-residential:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F05:mixed-use-residential:South reserved lift lobby",
+          "box": [
+            42,
+            5.5,
+            44.5,
+            8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F05:mixed-use-residential:Main corridor",
+            "F05:mixed-use-residential:South lift RESERVED",
+            "F05:mixed-use-residential:Floor recycling room"
+          ]
+        },
+        {
+          "label": "F05:mixed-use-residential:Floor recycling room",
+          "box": [
+            39.5,
+            0,
+            44.5,
+            5.5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F05:mixed-use-residential:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F05:mixed-use-residential:North reserved lift lobby",
+          "box": [
+            39.5,
+            10,
+            42,
+            12.5
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F05:mixed-use-residential:Main corridor",
+            "F05:mixed-use-residential:North lift RESERVED",
+            "F05:mixed-use-residential:Data service room"
+          ]
+        },
+        {
+          "label": "F05:mixed-use-residential:North lift RESERVED",
+          "box": [
+            42,
+            10,
+            44.5,
+            12.5
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F05:mixed-use-residential:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F05:mixed-use-residential:Data service room",
+          "box": [
+            39.5,
+            12.5,
+            44.5,
+            18
+          ],
+          "kind": "service",
+          "access_to": [
+            "F05:mixed-use-residential:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F05:mixed-use-residential:Community supper room",
+          "box": [
+            32.417,
+            0,
+            39.5,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:mixed-use-residential:Shared creative studio",
+          "box": [
+            23.209,
+            0,
+            32.417,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:mixed-use-residential:Quiet work lounge",
+          "box": [
+            14,
+            0,
+            23.209,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:mixed-use-residential:Project meeting room",
+          "box": [
+            6,
+            0,
+            11,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:mixed-use-residential:Resident laundry",
+          "box": [
+            0,
+            0,
+            6,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:mixed-use-residential:East artist home envelope",
+          "box": [
+            0,
+            10,
+            9.875,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:mixed-use-residential:West maker home envelope",
+          "box": [
+            9.875,
+            10,
+            19.75,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:mixed-use-residential:North live-work envelope",
+          "box": [
+            19.75,
+            10,
+            29.625,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:mixed-use-residential:South live-work envelope",
+          "box": [
+            29.625,
+            10,
+            39.5,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:mixed-use-residential:Accessible creative home envelope",
+          "box": [
+            44.5,
+            10,
+            57,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:mixed-use-residential:Corner designer home envelope",
+          "box": [
+            57,
+            10,
+            70.5,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:mixed-use-residential:Courtyard studio home envelope",
+          "box": [
+            73.5,
+            10,
+            79,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:mixed-use-residential:Quiet writer home envelope",
+          "box": [
+            79,
+            10,
+            84.5,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:mixed-use-residential:Researcher home envelope",
+          "box": [
+            76.109,
+            0,
+            84.5,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:mixed-use-residential:Freelancer home envelope",
+          "box": [
+            67.718,
+            0,
+            76.109,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:mixed-use-residential:Family work-live envelope",
+          "box": [
+            56.39,
+            0,
+            67.718,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:mixed-use-residential:Flexible studio home envelope",
+          "box": [
+            47.999,
+            0,
+            56.39,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:mixed-use-residential:Cleaning supply room",
+          "box": [
+            44.5,
+            0,
+            47.999,
+            8
+          ],
+          "kind": "service",
+          "access_to": [
+            "F05:mixed-use-residential:Main corridor"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "name": "Upper homes and shared club",
+      "height_m": 3.5,
+      "rooms": [
+        {
+          "label": "F06:mixed-use-residential:Main corridor",
+          "box": [
+            0,
+            8,
+            84.5,
+            10
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F06:mixed-use-residential:South reserved lift lobby",
+            "F06:mixed-use-residential:North reserved lift lobby",
+            "F06:mixed-use-residential:West stair RESERVED",
+            "F06:mixed-use-residential:East stair RESERVED",
+            "F06:mixed-use-residential:Community dining room",
+            "F06:mixed-use-residential:Club kitchen",
+            "F06:mixed-use-residential:Resident club lounge",
+            "F06:mixed-use-residential:Indoor planting room",
+            "F06:mixed-use-residential:Meditation room",
+            "F06:mixed-use-residential:Hobby studio",
+            "F06:mixed-use-residential:Resident laundry",
+            "F06:mixed-use-residential:East upper apartment envelope",
+            "F06:mixed-use-residential:West upper apartment envelope",
+            "F06:mixed-use-residential:North family apartment envelope",
+            "F06:mixed-use-residential:South couple apartment envelope",
+            "F06:mixed-use-residential:Accessible upper home envelope",
+            "F06:mixed-use-residential:Corner family home envelope",
+            "F06:mixed-use-residential:Courtyard upper home envelope",
+            "F06:mixed-use-residential:Quiet upper home envelope",
+            "F06:mixed-use-residential:Guest apartment envelope",
+            "F06:mixed-use-residential:Flexible household home envelope",
+            "F06:mixed-use-residential:Maintenance store"
+          ]
+        },
+        {
+          "label": "F06:mixed-use-residential:West stair RESERVED",
+          "box": [
+            11,
+            0,
+            14,
+            8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F06:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:mixed-use-residential:East stair RESERVED",
+          "box": [
+            70.5,
+            10,
+            73.5,
+            18
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F06:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:mixed-use-residential:South lift RESERVED",
+          "box": [
+            39.5,
+            5.5,
+            42,
+            8
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F06:mixed-use-residential:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F06:mixed-use-residential:South reserved lift lobby",
+          "box": [
+            42,
+            5.5,
+            44.5,
+            8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F06:mixed-use-residential:Main corridor",
+            "F06:mixed-use-residential:South lift RESERVED",
+            "F06:mixed-use-residential:Roof plant access room"
+          ]
+        },
+        {
+          "label": "F06:mixed-use-residential:Roof plant access room",
+          "box": [
+            39.5,
+            0,
+            44.5,
+            5.5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F06:mixed-use-residential:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F06:mixed-use-residential:North reserved lift lobby",
+          "box": [
+            39.5,
+            10,
+            42,
+            12.5
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F06:mixed-use-residential:Main corridor",
+            "F06:mixed-use-residential:North lift RESERVED",
+            "F06:mixed-use-residential:Floor waste room"
+          ]
+        },
+        {
+          "label": "F06:mixed-use-residential:North lift RESERVED",
+          "box": [
+            42,
+            10,
+            44.5,
+            12.5
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F06:mixed-use-residential:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F06:mixed-use-residential:Floor waste room",
+          "box": [
+            39.5,
+            12.5,
+            44.5,
+            18
+          ],
+          "kind": "service",
+          "access_to": [
+            "F06:mixed-use-residential:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F06:mixed-use-residential:Community dining room",
+          "box": [
+            26.75,
+            0,
+            39.5,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:mixed-use-residential:Main corridor",
+            "F06:mixed-use-residential:Club kitchen"
+          ]
+        },
+        {
+          "label": "F06:mixed-use-residential:Club kitchen",
+          "box": [
+            14,
+            0,
+            26.75,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:mixed-use-residential:Main corridor",
+            "F06:mixed-use-residential:Community dining room"
+          ]
+        },
+        {
+          "label": "F06:mixed-use-residential:Resident club lounge",
+          "box": [
+            0,
+            0,
+            11,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:mixed-use-residential:Indoor planting room",
+          "box": [
+            0,
+            10,
+            8.568,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:mixed-use-residential:Meditation room",
+          "box": [
+            8.568,
+            10,
+            14.137,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:mixed-use-residential:Hobby studio",
+          "box": [
+            14.137,
+            10,
+            25.275,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:mixed-use-residential:Resident laundry",
+          "box": [
+            25.275,
+            10,
+            31.275,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:mixed-use-residential:East upper apartment envelope",
+          "box": [
+            31.275,
+            10,
+            39.5,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:mixed-use-residential:West upper apartment envelope",
+          "box": [
+            44.5,
+            10,
+            51.527,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:mixed-use-residential:North family apartment envelope",
+          "box": [
+            51.527,
+            10,
+            61.013,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:mixed-use-residential:South couple apartment envelope",
+          "box": [
+            61.013,
+            10,
+            70.5,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:mixed-use-residential:Accessible upper home envelope",
+          "box": [
+            73.5,
+            10,
+            84.5,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:mixed-use-residential:Corner family home envelope",
+          "box": [
+            75.29,
+            0,
+            84.5,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:mixed-use-residential:Courtyard upper home envelope",
+          "box": [
+            68.468,
+            0,
+            75.29,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:mixed-use-residential:Quiet upper home envelope",
+          "box": [
+            61.646,
+            0,
+            68.468,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:mixed-use-residential:Guest apartment envelope",
+          "box": [
+            54.824,
+            0,
+            61.646,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:mixed-use-residential:Flexible household home envelope",
+          "box": [
+            48.002,
+            0,
+            54.824,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:mixed-use-residential:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:mixed-use-residential:Maintenance store",
+          "box": [
+            44.5,
+            0,
+            48.002,
+            8
+          ],
+          "kind": "service",
+          "access_to": [
+            "F06:mixed-use-residential:Main corridor"
+          ]
+        }
+      ]
+    }
+  ]
+}

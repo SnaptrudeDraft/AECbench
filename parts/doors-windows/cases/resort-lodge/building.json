@@ -1,0 +1,1184 @@
+{
+  "slug": "resort-lodge",
+  "typology": "resort-lodge",
+  "provenance": "AI-authored synthetic recorded starting layout for a doors/windows benchmark; not a customer design or a certified design.",
+  "notes": [
+    "AI-authored synthetic recorded benchmark input only. Not a customer layout, certified design, construction document, or code-compliance claim.",
+    "Coordinates are metres in a local x/z plan. The rectangular footprint is 61.5 m by 18 m: 8 m deep room banks either side of a 2 m corridor. All geometry is axis-aligned space envelopes; walls and wall thickness are not modelled.",
+    "Two widely separated stair footprints and two lift footprints are explicitly RESERVED on every floor, with identical stacked coordinates. They are not physical stairs, lift cars, shafts, equipment, or verified vertical routes.",
+    "A continuous 2 m main corridor connects a central lift core (two 2.5 m lifts facing each other across the corridor, each opening into an open lobby with a floor store behind) and two 3 m by 8 m stair reservations 0 m in from the gables, so no corridor door is more than 30 m from a stair. Access edges are bidirectional same-floor intended adjacencies only, not installed or seeded doors, windows, or openings.",
+    "Every apartment, studio, guest room, lodge room, and residential suite marked envelope includes its internal living, sleeping, kitchenette where appropriate, and sanitary functions. Internal bathrooms and partitions are deliberately unresolved; no overlapping nested bathroom rectangles are used.",
+    "Public WC envelopes, where present, are disjoint rooms. No other sanitary fixtures, furniture, structure, facade openings, external paths, or site access geometry is supplied.",
+    "Floor 1 arrival and reception rooms connect to internal circulation; their outside entrance openings are intentionally unseeded. Ground-floor uses and upper residential, amenity, and service uses differ by floor.",
+    "Dimensions and programs are plausible benchmark assumptions, not checks of fire escape, accessibility, occupancy, daylight, ventilation, plumbing, acoustics, or statutory requirements. Same-floor access does not certify egress."
+  ],
+  "floors": [
+    {
+      "number": 1,
+      "name": "Lodge arrival and outdoor recreation",
+      "height_m": 4.6,
+      "rooms": [
+        {
+          "label": "F01:resort-lodge:Main corridor",
+          "box": [
+            0,
+            8,
+            61.5,
+            10
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01:resort-lodge:South reserved lift lobby",
+            "F01:resort-lodge:North reserved lift lobby",
+            "F01:resort-lodge:West stair RESERVED",
+            "F01:resort-lodge:East stair RESERVED",
+            "F01:resort-lodge:Lodge reception",
+            "F01:resort-lodge:Adventure concierge room",
+            "F01:resort-lodge:Luggage and equipment check",
+            "F01:resort-lodge:Arrival fireside lounge",
+            "F01:resort-lodge:Public WC and accessible WC",
+            "F01:resort-lodge:All-day lodge dining",
+            "F01:resort-lodge:Lodge finishing kitchen",
+            "F01:resort-lodge:Private group dining",
+            "F01:resort-lodge:Outdoor equipment fitting",
+            "F01:resort-lodge:Drying and boot room",
+            "F01:resort-lodge:Nature interpretation room",
+            "F01:resort-lodge:Guided activity briefing",
+            "F01:resort-lodge:Childrens discovery room",
+            "F01:resort-lodge:Wellness consultation",
+            "F01:resort-lodge:Quiet reading lounge",
+            "F01:resort-lodge:Local crafts room",
+            "F01:resort-lodge:Accessible lodge suite envelope",
+            "F01:resort-lodge:Family arrival suite envelope",
+            "F01:resort-lodge:Electrical intake room"
+          ]
+        },
+        {
+          "label": "F01:resort-lodge:West stair RESERVED",
+          "box": [
+            0,
+            0,
+            3,
+            8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F01:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:resort-lodge:East stair RESERVED",
+          "box": [
+            58.5,
+            10,
+            61.5,
+            18
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F01:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:resort-lodge:South lift RESERVED",
+          "box": [
+            28.5,
+            5.5,
+            31,
+            8
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F01:resort-lodge:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F01:resort-lodge:South reserved lift lobby",
+          "box": [
+            31,
+            5.5,
+            33.5,
+            8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01:resort-lodge:Main corridor",
+            "F01:resort-lodge:South lift RESERVED",
+            "F01:resort-lodge:Food receiving room"
+          ]
+        },
+        {
+          "label": "F01:resort-lodge:Food receiving room",
+          "box": [
+            28.5,
+            0,
+            33.5,
+            5.5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01:resort-lodge:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F01:resort-lodge:North reserved lift lobby",
+          "box": [
+            28.5,
+            10,
+            31,
+            12.5
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01:resort-lodge:Main corridor",
+            "F01:resort-lodge:North lift RESERVED",
+            "F01:resort-lodge:Waste sorting room"
+          ]
+        },
+        {
+          "label": "F01:resort-lodge:North lift RESERVED",
+          "box": [
+            31,
+            10,
+            33.5,
+            12.5
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F01:resort-lodge:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F01:resort-lodge:Waste sorting room",
+          "box": [
+            28.5,
+            12.5,
+            33.5,
+            18
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01:resort-lodge:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F01:resort-lodge:Lodge reception",
+          "box": [
+            21.771,
+            0,
+            28.5,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:resort-lodge:Adventure concierge room",
+          "box": [
+            16.595,
+            0,
+            21.771,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:resort-lodge:Luggage and equipment check",
+          "box": [
+            13.23,
+            0,
+            16.595,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:resort-lodge:Arrival fireside lounge",
+          "box": [
+            6.501,
+            0,
+            13.23,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:resort-lodge:Public WC and accessible WC",
+          "box": [
+            3,
+            0,
+            6.501,
+            8
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:resort-lodge:All-day lodge dining",
+          "box": [
+            0,
+            10,
+            7.561,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:resort-lodge:Main corridor",
+            "F01:resort-lodge:Lodge finishing kitchen"
+          ]
+        },
+        {
+          "label": "F01:resort-lodge:Lodge finishing kitchen",
+          "box": [
+            7.561,
+            10,
+            15.122,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:resort-lodge:Main corridor",
+            "F01:resort-lodge:All-day lodge dining",
+            "F01:resort-lodge:Private group dining"
+          ]
+        },
+        {
+          "label": "F01:resort-lodge:Private group dining",
+          "box": [
+            15.122,
+            10,
+            22.683,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:resort-lodge:Main corridor",
+            "F01:resort-lodge:Lodge finishing kitchen"
+          ]
+        },
+        {
+          "label": "F01:resort-lodge:Outdoor equipment fitting",
+          "box": [
+            22.683,
+            10,
+            28.5,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:resort-lodge:Drying and boot room",
+          "box": [
+            33.5,
+            10,
+            39.314,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:resort-lodge:Nature interpretation room",
+          "box": [
+            39.314,
+            10,
+            45.128,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:resort-lodge:Guided activity briefing",
+          "box": [
+            45.128,
+            10,
+            52.686,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:resort-lodge:Childrens discovery room",
+          "box": [
+            52.686,
+            10,
+            58.5,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:resort-lodge:Wellness consultation",
+          "box": [
+            58.079,
+            0,
+            61.5,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:resort-lodge:Quiet reading lounge",
+          "box": [
+            51.237,
+            0,
+            58.079,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:resort-lodge:Local crafts room",
+          "box": [
+            45.974,
+            0,
+            51.237,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:resort-lodge:Accessible lodge suite envelope",
+          "box": [
+            41.419,
+            0,
+            45.974,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:resort-lodge:Family arrival suite envelope",
+          "box": [
+            36.5,
+            0,
+            41.419,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:resort-lodge:Electrical intake room",
+          "box": [
+            33.5,
+            0,
+            36.5,
+            8
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01:resort-lodge:Main corridor"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Family and activity lodge stays",
+      "height_m": 3.5,
+      "rooms": [
+        {
+          "label": "F02:resort-lodge:Main corridor",
+          "box": [
+            0,
+            8,
+            61.5,
+            10
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02:resort-lodge:South reserved lift lobby",
+            "F02:resort-lodge:North reserved lift lobby",
+            "F02:resort-lodge:West stair RESERVED",
+            "F02:resort-lodge:East stair RESERVED",
+            "F02:resort-lodge:Family tea pantry",
+            "F02:resort-lodge:Adventure planning lounge",
+            "F02:resort-lodge:Indoor games room",
+            "F02:resort-lodge:Stretching studio",
+            "F02:resort-lodge:Guest laundry",
+            "F02:resort-lodge:East family lodge envelope",
+            "F02:resort-lodge:West family lodge envelope",
+            "F02:resort-lodge:North twin lodge envelope",
+            "F02:resort-lodge:South twin lodge envelope",
+            "F02:resort-lodge:Accessible lodge room envelope",
+            "F02:resort-lodge:Corner family lodge envelope",
+            "F02:resort-lodge:Courtyard lodge suite envelope",
+            "F02:resort-lodge:Quiet woodland suite envelope",
+            "F02:resort-lodge:Group leader suite envelope",
+            "F02:resort-lodge:Companion lodge suite envelope",
+            "F02:resort-lodge:Couple lodge suite envelope",
+            "F02:resort-lodge:Extended family suite envelope",
+            "F02:resort-lodge:Housekeeping store"
+          ]
+        },
+        {
+          "label": "F02:resort-lodge:West stair RESERVED",
+          "box": [
+            0,
+            0,
+            3,
+            8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F02:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:resort-lodge:East stair RESERVED",
+          "box": [
+            58.5,
+            10,
+            61.5,
+            18
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F02:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:resort-lodge:South lift RESERVED",
+          "box": [
+            28.5,
+            5.5,
+            31,
+            8
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F02:resort-lodge:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F02:resort-lodge:South reserved lift lobby",
+          "box": [
+            31,
+            5.5,
+            33.5,
+            8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02:resort-lodge:Main corridor",
+            "F02:resort-lodge:South lift RESERVED",
+            "F02:resort-lodge:Clean linen room"
+          ]
+        },
+        {
+          "label": "F02:resort-lodge:Clean linen room",
+          "box": [
+            28.5,
+            0,
+            33.5,
+            5.5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F02:resort-lodge:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F02:resort-lodge:North reserved lift lobby",
+          "box": [
+            28.5,
+            10,
+            31,
+            12.5
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02:resort-lodge:Main corridor",
+            "F02:resort-lodge:North lift RESERVED",
+            "F02:resort-lodge:Soiled linen room"
+          ]
+        },
+        {
+          "label": "F02:resort-lodge:North lift RESERVED",
+          "box": [
+            31,
+            10,
+            33.5,
+            12.5
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F02:resort-lodge:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F02:resort-lodge:Soiled linen room",
+          "box": [
+            28.5,
+            12.5,
+            33.5,
+            18
+          ],
+          "kind": "service",
+          "access_to": [
+            "F02:resort-lodge:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F02:resort-lodge:Family tea pantry",
+          "box": [
+            24.6,
+            0,
+            28.5,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:resort-lodge:Adventure planning lounge",
+          "box": [
+            16.8,
+            0,
+            24.6,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:resort-lodge:Indoor games room",
+          "box": [
+            10.8,
+            0,
+            16.8,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:resort-lodge:Stretching studio",
+          "box": [
+            3,
+            0,
+            10.8,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:resort-lodge:Guest laundry",
+          "box": [
+            0,
+            10,
+            5.2,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:resort-lodge:East family lodge envelope",
+          "box": [
+            5.2,
+            10,
+            11.025,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:resort-lodge:West family lodge envelope",
+          "box": [
+            11.025,
+            10,
+            16.85,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:resort-lodge:North twin lodge envelope",
+          "box": [
+            16.85,
+            10,
+            22.675,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:resort-lodge:South twin lodge envelope",
+          "box": [
+            22.675,
+            10,
+            28.5,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:resort-lodge:Accessible lodge room envelope",
+          "box": [
+            33.5,
+            10,
+            40.293,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:resort-lodge:Corner family lodge envelope",
+          "box": [
+            40.293,
+            10,
+            47.63,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:resort-lodge:Courtyard lodge suite envelope",
+          "box": [
+            47.63,
+            10,
+            53.065,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:resort-lodge:Quiet woodland suite envelope",
+          "box": [
+            53.065,
+            10,
+            58.5,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:resort-lodge:Group leader suite envelope",
+          "box": [
+            55.375,
+            0,
+            61.5,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:resort-lodge:Companion lodge suite envelope",
+          "box": [
+            49.25,
+            0,
+            55.375,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:resort-lodge:Couple lodge suite envelope",
+          "box": [
+            43.125,
+            0,
+            49.25,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:resort-lodge:Extended family suite envelope",
+          "box": [
+            37,
+            0,
+            43.125,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:resort-lodge:Housekeeping store",
+          "box": [
+            33.5,
+            0,
+            37,
+            8
+          ],
+          "kind": "service",
+          "access_to": [
+            "F02:resort-lodge:Main corridor"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Retreat lodge and quiet hospitality",
+      "height_m": 3.6,
+      "rooms": [
+        {
+          "label": "F03:resort-lodge:Main corridor",
+          "box": [
+            0,
+            8,
+            61.5,
+            10
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03:resort-lodge:South reserved lift lobby",
+            "F03:resort-lodge:North reserved lift lobby",
+            "F03:resort-lodge:West stair RESERVED",
+            "F03:resort-lodge:East stair RESERVED",
+            "F03:resort-lodge:Retreat library",
+            "F03:resort-lodge:Meditation studio",
+            "F03:resort-lodge:Small retreat seminar room",
+            "F03:resort-lodge:Guest tea lounge",
+            "F03:resort-lodge:Wellness activity room",
+            "F03:resort-lodge:East retreat suite envelope",
+            "F03:resort-lodge:West retreat suite envelope",
+            "F03:resort-lodge:North couple suite envelope",
+            "F03:resort-lodge:South couple suite envelope",
+            "F03:resort-lodge:Accessible retreat suite envelope",
+            "F03:resort-lodge:Corner view suite envelope",
+            "F03:resort-lodge:Courtyard retreat envelope",
+            "F03:resort-lodge:Quiet nature suite envelope",
+            "F03:resort-lodge:Companion retreat envelope",
+            "F03:resort-lodge:Visiting guide suite envelope",
+            "F03:resort-lodge:Private group suite envelope",
+            "F03:resort-lodge:Premium lodge suite envelope",
+            "F03:resort-lodge:Roof maintenance room"
+          ]
+        },
+        {
+          "label": "F03:resort-lodge:West stair RESERVED",
+          "box": [
+            0,
+            0,
+            3,
+            8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F03:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:resort-lodge:East stair RESERVED",
+          "box": [
+            58.5,
+            10,
+            61.5,
+            18
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F03:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:resort-lodge:South lift RESERVED",
+          "box": [
+            28.5,
+            5.5,
+            31,
+            8
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F03:resort-lodge:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F03:resort-lodge:South reserved lift lobby",
+          "box": [
+            31,
+            5.5,
+            33.5,
+            8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03:resort-lodge:Main corridor",
+            "F03:resort-lodge:South lift RESERVED",
+            "F03:resort-lodge:Clean linen store"
+          ]
+        },
+        {
+          "label": "F03:resort-lodge:Clean linen store",
+          "box": [
+            28.5,
+            0,
+            33.5,
+            5.5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F03:resort-lodge:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F03:resort-lodge:North reserved lift lobby",
+          "box": [
+            28.5,
+            10,
+            31,
+            12.5
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03:resort-lodge:Main corridor",
+            "F03:resort-lodge:North lift RESERVED",
+            "F03:resort-lodge:Soiled linen store"
+          ]
+        },
+        {
+          "label": "F03:resort-lodge:North lift RESERVED",
+          "box": [
+            31,
+            10,
+            33.5,
+            12.5
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F03:resort-lodge:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F03:resort-lodge:Soiled linen store",
+          "box": [
+            28.5,
+            12.5,
+            33.5,
+            18
+          ],
+          "kind": "service",
+          "access_to": [
+            "F03:resort-lodge:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F03:resort-lodge:Retreat library",
+          "box": [
+            20.773,
+            0,
+            28.5,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:resort-lodge:Meditation studio",
+          "box": [
+            10.728,
+            0,
+            20.773,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:resort-lodge:Small retreat seminar room",
+          "box": [
+            3,
+            0,
+            10.728,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:resort-lodge:Guest tea lounge",
+          "box": [
+            0,
+            10,
+            7.532,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:resort-lodge:Wellness activity room",
+          "box": [
+            7.532,
+            10,
+            15.064,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:resort-lodge:East retreat suite envelope",
+          "box": [
+            15.064,
+            10,
+            19.075,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:resort-lodge:West retreat suite envelope",
+          "box": [
+            19.075,
+            10,
+            23.086,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:resort-lodge:North couple suite envelope",
+          "box": [
+            23.086,
+            10,
+            28.5,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:resort-lodge:South couple suite envelope",
+          "box": [
+            33.5,
+            10,
+            39.172,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:resort-lodge:Accessible retreat suite envelope",
+          "box": [
+            39.172,
+            10,
+            44.424,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:resort-lodge:Corner view suite envelope",
+          "box": [
+            44.424,
+            10,
+            50.096,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:resort-lodge:Courtyard retreat envelope",
+          "box": [
+            50.096,
+            10,
+            54.298,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:resort-lodge:Quiet nature suite envelope",
+          "box": [
+            54.298,
+            10,
+            58.5,
+            18
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:resort-lodge:Companion retreat envelope",
+          "box": [
+            54.817,
+            0,
+            61.5,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:resort-lodge:Visiting guide suite envelope",
+          "box": [
+            49.867,
+            0,
+            54.817,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:resort-lodge:Private group suite envelope",
+          "box": [
+            43.184,
+            0,
+            49.867,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:resort-lodge:Premium lodge suite envelope",
+          "box": [
+            36.501,
+            0,
+            43.184,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:resort-lodge:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:resort-lodge:Roof maintenance room",
+          "box": [
+            33.5,
+            0,
+            36.501,
+            8
+          ],
+          "kind": "service",
+          "access_to": [
+            "F03:resort-lodge:Main corridor"
+          ]
+        }
+      ]
+    }
+  ]
+}

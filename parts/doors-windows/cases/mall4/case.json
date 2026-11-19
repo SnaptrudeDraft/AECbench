@@ -1,0 +1,24 @@
+{
+  "id": "mall4",
+  "name": "Four-level retail and leisure centre",
+  "typology": "Four-level neighbourhood retail and leisure centre",
+  "provenance": "Deterministic AI-authored synthetic architectural program and coordinates; not a source-model replay, surveyed building, live-audited fixture or compliance design.",
+  "start_state": "Whole-building recorded BIM layout; zero starting openings; reserved vertical cores",
+  "storeys": 4,
+  "program_rooms": 65,
+  "labelled_zones": 121,
+  "required_standards": [
+    "doors and windows (review/standard.md)"
+  ],
+  "grading": "Scored by the reviewer. There is no exact answer key.",
+  "limitations": [
+    "Metres; +X east, +Z north, Y vertical. Shared partition centre-line extents. Envelope 60 by 42 m. Full-width 3 m south/north galleries connect side galleries and corner cores along real edges. Tenant units are whole operational envelopes, not sales/stock subdivisions padded into room counts.",
+    "Floor elevations accumulate height_m from zero. Central event court [11,11,49,31] is 18.6 m tall, the sum of all four floor heights. The exact footprint is omitted from floors 2, 3 and 4. The consumer MUST omit all three upper slabs across it and roof above floor 4; never fill the outer envelope with an upper slab.",
+    "Two separated stairs, a passenger lift and a freight/service lift stack exactly as reservations only. They contain no physical stairs, landings, shafts or cars and do not establish vertical access. No escalators are modeled or implied.",
+    "access_to lists intended access across actual shared positive-length boundaries only. There is no hidden opening count, storefront family or swing target. Shop, food and leisure labels differ meaningfully by level; program totals exclude circulation and core reservations.",
+    "This compact centre uses shared galleries for service movement: no independent back-of-house service ring is modeled. Receiving, stock, waste, food preparation and security need controlled thresholds and time-separated delivery management; service segregation is a disclosed limitation, not verified performance.",
+    "Restaurant envelopes include unpartitioned cooking/seating allowances, with shared catering support separately labeled. Food queues and seating must remain within program zones, not the 3 m circulation backbone. Shops may intentionally have blind external walls; atrium shopfronts are not exterior daylight windows.",
+    "Review customer access versus service/privacy, storefront host cuts, delivery routes without crossing unrelated tenants, food-court queue clearance, atrium edge protection and no doors into voids. No doors, windows or opening families supplied. No capacity, smoke-control, structural or regulatory claim; not live-audited.",
+    "Corrected 2026-11-11: corner cores were 8 by 8 m reservations. Stairs are now 4 by 8 m (1.5 m flights for assembly use), the passenger lift 3 by 3 m and the goods lift 4 by 4 m; the rest of each corner is riser, plant or store rooms reached from the gallery."
+  ]
+}

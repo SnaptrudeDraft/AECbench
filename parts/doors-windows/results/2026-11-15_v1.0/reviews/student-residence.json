@@ -1,0 +1,36 @@
+{
+  "case": "student-residence",
+  "version": "1.0",
+  "run": "2026-11-15_v1.0",
+  "reviewer": "reviewer v2",
+  "score": 9,
+  "doors": 136,
+  "windows": 152,
+  "problems_left": 0,
+  "justification": "The opening task is comprehensively delivered across all five occupied storeys: 136 doors and 152 windows, every one hosted, no opening overlaps or host-containment failures, no doorless rooms, and no identified habitable room without an exterior window. The result falls just short of sign-off quality because upper floors mix two window-head heights, while moving-leaf clearance and exact instance family parameters could not be assessed.",
+  "evidence": "Live measurements found floor-by-floor opening totals of 59, 58, 57, 57 and 57; all 288 openings had hosts, with zero bbox host-containment failures and zero same-host overlaps. Window heads on storeys 2–5 range from 2.444 m to 2.749 m, rather than maintaining one head height per storey.",
+  "strengths": [
+    "Complete coverage on every occupied floor: doors/windows by storey are 32/27, 26/32, 26/31, 26/31 and 26/31.",
+    "The access check contains 136 rooms and reports no room without a door; the 108 upper-floor rooms are only marked not linked to other floors because of the disclosed reserved-core starting-model limitation.",
+    "All identified habitable uses had an exterior window: no missing daylight coverage was found on any of the five occupied storeys.",
+    "All 288 openings are hosted; measured geometry found no openings outside host bounds and no same-wall opening overlaps.",
+    "Doors stand at floor level on every storey. Windows consistently have approximately 0.908 m sills; standard windows are about 1.841 m high, with smaller corridor-end windows about 1.537 m high.",
+    "Opening measurements show suitable special functions: lift doors are sliding and approximately 1.200 m nominal, the main entrance is a 1.943 m double-swing pair, and stair doors are approximately 1.029 m nominal.",
+    "The automatic opening check of the whole model read 136 doors and 152 windows with zero findings, supporting correct swing directions, hinge arrangement, widths, outward-opening casements and fire-rating checks.",
+    "The agent accurately disclosed the access limitation rather than claiming verified vertical circulation."
+  ],
+  "weaknesses": [
+    "Storeys 2–5 use window heads at both approximately 2.444 m and 2.749 m. Although associated with intentionally smaller corridor-end windows, this misses the standard's preference for one coordinated head height per storey.",
+    "Moving leaf and sash sweeps against nearby geometry were not assessed. The opening measurements state that many leaf positions are estimated, so this is an unchecked item rather than a defect.",
+    "The exact settings of the placed doors and windows could not be read; family suitability is therefore supported by operation and geometry facts rather than a complete instance-definition audit."
+  ],
+  "spec_violations": [
+    {
+      "constraint": "Window heads should be coordinated at one height per storey.",
+      "what_happened": "Upper storeys contain both standard-height and smaller corridor-end windows with different head levels.",
+      "evidence": "Measured head range on each of storeys 2–5: 2.444–2.749 m."
+    }
+  ],
+  "honesty_flags": [],
+  "confidence": "high"
+}

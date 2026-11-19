@@ -1,0 +1,37 @@
+{
+  "case": "mall4",
+  "version": "1.0",
+  "run": "2026-11-15_v1.0",
+  "reviewer": "reviewer v2",
+  "score": 6,
+  "doors": 120,
+  "windows": 140,
+  "problems_left": 17,
+  "justification": "The opening task is substantially delivered across all four occupied floors: the live model contains exactly 120 doors and 140 windows, every one has a wall host, and the access check reports no doorless rooms. However, the actual passenger and freight lift landing arrangements repeatedly open directly to galleries or a goods-store room rather than a lift lobby, creating several Major findings and requiring real rework before acceptance.",
+  "evidence": "Live measurements found floor-by-floor opening counts of 42/30, 26/37, 26/37 and 26/36 doors/windows; the access check found 121 rooms and 0 without doors. One example is a 1.20 m sliding passenger-lift door between “M1 Northwest passenger lift reservation” and “M1 North mall gallery,” not a lift lobby; the agent also acknowledged, “the lifts open onto the gallery and into the goods store rather than into a dedicated lift lobby.”",
+  "strengths": [
+    "Complete whole-building coverage: Ground has 31/31 rooms with doors, and each upper floor has 30/30 rooms with doors.",
+    "The claimed total of 120 doors and 140 windows exactly matches the live model; the floor-by-floor counts also match.",
+    "All 260 openings returned a valid wall host; no unhosted opening was found.",
+    "Exterior-window coverage is extensive on every floor, including retail units, offices/workshops, restaurants, lounges and activity spaces; toilets consistently receive two high-level windows.",
+    "Measured window placement is use-appropriate: office/family-care sills are about 0.89 m, most retail glazing is about 0.59 m, and toilet windows are about 1.79 m above their floor level.",
+    "Door widths are generally suitable: the measured minimum nominal door width is 1.00 m and minimum readable clear width is 0.86 m.",
+    "The opening check reported no general wrong-swing, hinge-return or undersized-room-door findings outside the lift classification issues.",
+    "Upper-floor access failure is solely storey-linking through the disclosed empty stair reservations; it is not counted against this opening-only run."
+  ],
+  "weaknesses": [
+    "Passenger lift doors on all four floors open directly onto the north mall gallery instead of a lift lobby.",
+    "Freight lift landing doors similarly connect the lift reservation to the “Southeast goods lift store,” which is a room rather than a dedicated lift lobby.",
+    "The agent left these Major lift-threshold issues unresolved after its checks, explaining that lobbies would require plan changes rather than delivering a compliant opening arrangement.",
+    "Exact catalogue definitions for representative families could not be resolved during review, so detailed family-function fitness and moving-leaf collision sweeps are not assessed."
+  ],
+  "spec_violations": [
+    {
+      "constraint": "A lift landing door must be sliding or bare, at least 1.20 m wide, and open onto a lift lobby rather than a corridor or room.",
+      "what_happened": "Although the actual passenger landing doors are sliding and 1.20 m wide, they open directly onto mall galleries on all four floors; freight lift doors open into a goods-store room.",
+      "evidence": "Measurements for one passenger lift door: operation sliding, nominal width 1.20 m, sides “M1 Northwest passenger lift reservation” and “M1 North mall gallery.” Equivalent passenger-lift findings occur on storeys 2–4, while four doors connect freight reservations to goods-lift stores."
+    }
+  ],
+  "honesty_flags": [],
+  "confidence": "high"
+}

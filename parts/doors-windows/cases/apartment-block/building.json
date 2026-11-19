@@ -1,0 +1,2333 @@
+{
+  "slug": "apartment-block",
+  "typology": "apartment-block",
+  "provenance": "AI-authored synthetic recorded starting layout for a doors/windows benchmark; not a customer design or a certified design.",
+  "notes": [
+    "AI-authored synthetic recorded benchmark input only. Not a customer layout, certified design, construction document, or code-compliance claim.",
+    "Coordinates are metres in a local x/z plan. The rectangular footprint is 79 m by 18.8 m: 8.5 m deep room banks either side of a 1.8 m corridor. All geometry is axis-aligned space envelopes; walls and wall thickness are not modelled.",
+    "Two widely separated stair footprints and two lift footprints are explicitly RESERVED on every floor, with identical stacked coordinates. They are not physical stairs, lift cars, shafts, equipment, or verified vertical routes.",
+    "A continuous 1.8 m main corridor connects a central lift core (two 2.5 m lifts facing each other across the corridor, each opening into an open lobby with a floor store behind) and two 3 m by 8.5 m stair reservations 8 m in from the gables, so no corridor door is more than 30 m from a stair. Access edges are bidirectional same-floor intended adjacencies only, not installed or seeded doors, windows, or openings.",
+    "Every apartment, studio, guest room, lodge room, and residential suite marked envelope includes its internal living, sleeping, kitchenette where appropriate, and sanitary functions. Internal bathrooms and partitions are deliberately unresolved; no overlapping nested bathroom rectangles are used.",
+    "Public WC envelopes, where present, are disjoint rooms. No other sanitary fixtures, furniture, structure, facade openings, external paths, or site access geometry is supplied.",
+    "Floor 1 arrival and reception rooms connect to internal circulation; their outside entrance openings are intentionally unseeded. Ground-floor uses and upper residential, amenity, and service uses differ by floor.",
+    "Dimensions and programs are plausible benchmark assumptions, not checks of fire escape, accessibility, occupancy, daylight, ventilation, plumbing, acoustics, or statutory requirements. Same-floor access does not certify egress."
+  ],
+  "floors": [
+    {
+      "number": 1,
+      "name": "Ground arrival and shared living",
+      "height_m": 4.2,
+      "rooms": [
+        {
+          "label": "F01:apartment-block:Main corridor",
+          "box": [
+            0,
+            8.5,
+            79,
+            10.3
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01:apartment-block:South reserved lift lobby",
+            "F01:apartment-block:North reserved lift lobby",
+            "F01:apartment-block:West stair RESERVED",
+            "F01:apartment-block:East stair RESERVED",
+            "F01:apartment-block:Shared dining room",
+            "F01:apartment-block:Residents kitchen",
+            "F01:apartment-block:Cycle workshop",
+            "F01:apartment-block:Community lounge",
+            "F01:apartment-block:Childrens playroom",
+            "F01:apartment-block:Co-working studio",
+            "F01:apartment-block:Quiet reading room",
+            "F01:apartment-block:Garden activity room",
+            "F01:apartment-block:Fitness studio",
+            "F01:apartment-block:Visitor waiting room",
+            "F01:apartment-block:Residents meeting room",
+            "F01:apartment-block:Guest apartment envelope",
+            "F01:apartment-block:Accessible resident suite envelope",
+            "F01:apartment-block:Cleaning store",
+            "F01:apartment-block:Public WC and accessible WC",
+            "F01:apartment-block:Entry reception",
+            "F01:apartment-block:Resident mail and parcels",
+            "F01:apartment-block:Property management office",
+            "F01:apartment-block:Leasing consultation"
+          ]
+        },
+        {
+          "label": "F01:apartment-block:West stair RESERVED",
+          "box": [
+            8,
+            0,
+            11,
+            8.5
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F01:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:apartment-block:East stair RESERVED",
+          "box": [
+            68,
+            10.3,
+            71,
+            18.8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F01:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:apartment-block:South lift RESERVED",
+          "box": [
+            37,
+            6,
+            39.5,
+            8.5
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F01:apartment-block:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F01:apartment-block:South reserved lift lobby",
+          "box": [
+            39.5,
+            6,
+            42,
+            8.5
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01:apartment-block:Main corridor",
+            "F01:apartment-block:South lift RESERVED",
+            "F01:apartment-block:Refuse sorting"
+          ]
+        },
+        {
+          "label": "F01:apartment-block:Refuse sorting",
+          "box": [
+            37,
+            0,
+            42,
+            6
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01:apartment-block:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F01:apartment-block:North reserved lift lobby",
+          "box": [
+            37,
+            10.3,
+            39.5,
+            12.8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01:apartment-block:Main corridor",
+            "F01:apartment-block:North lift RESERVED",
+            "F01:apartment-block:Electrical intake"
+          ]
+        },
+        {
+          "label": "F01:apartment-block:North lift RESERVED",
+          "box": [
+            39.5,
+            10.3,
+            42,
+            12.8
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F01:apartment-block:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F01:apartment-block:Electrical intake",
+          "box": [
+            37,
+            12.8,
+            42,
+            18.8
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01:apartment-block:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F01:apartment-block:Shared dining room",
+          "box": [
+            28.333,
+            0,
+            37,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:apartment-block:Main corridor",
+            "F01:apartment-block:Residents kitchen"
+          ]
+        },
+        {
+          "label": "F01:apartment-block:Residents kitchen",
+          "box": [
+            19.666,
+            0,
+            28.333,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:apartment-block:Main corridor",
+            "F01:apartment-block:Shared dining room"
+          ]
+        },
+        {
+          "label": "F01:apartment-block:Cycle workshop",
+          "box": [
+            11,
+            0,
+            19.666,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:apartment-block:Community lounge",
+          "box": [
+            0,
+            0,
+            8,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:apartment-block:Childrens playroom",
+          "box": [
+            0,
+            10.3,
+            10.571,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:apartment-block:Co-working studio",
+          "box": [
+            10.571,
+            10.3,
+            21.142,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:apartment-block:Quiet reading room",
+          "box": [
+            21.142,
+            10.3,
+            26.428,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:apartment-block:Garden activity room",
+          "box": [
+            26.428,
+            10.3,
+            37,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:apartment-block:Fitness studio",
+          "box": [
+            42,
+            10.3,
+            50.496,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:apartment-block:Visitor waiting room",
+          "box": [
+            50.496,
+            10.3,
+            54.744,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:apartment-block:Residents meeting room",
+          "box": [
+            54.744,
+            10.3,
+            61.279,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:apartment-block:Guest apartment envelope",
+          "box": [
+            61.279,
+            10.3,
+            68,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:apartment-block:Accessible resident suite envelope",
+          "box": [
+            71,
+            10.3,
+            79,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:apartment-block:Cleaning store",
+          "box": [
+            75.5,
+            0,
+            79,
+            8.5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:apartment-block:Public WC and accessible WC",
+          "box": [
+            72,
+            0,
+            75.5,
+            8.5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:apartment-block:Entry reception",
+          "box": [
+            61.167,
+            0,
+            72,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:apartment-block:Resident mail and parcels",
+          "box": [
+            55.75,
+            0,
+            61.167,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:apartment-block:Property management office",
+          "box": [
+            47.417,
+            0,
+            55.75,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:apartment-block:Leasing consultation",
+          "box": [
+            42,
+            0,
+            47.417,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:apartment-block:Main corridor"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Family homes and play",
+      "height_m": 3.2,
+      "rooms": [
+        {
+          "label": "F02:apartment-block:Main corridor",
+          "box": [
+            0,
+            8.5,
+            79,
+            10.3
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02:apartment-block:South reserved lift lobby",
+            "F02:apartment-block:North reserved lift lobby",
+            "F02:apartment-block:West stair RESERVED",
+            "F02:apartment-block:East stair RESERVED",
+            "F02:apartment-block:Shared homework room",
+            "F02:apartment-block:Toddler playroom",
+            "F02:apartment-block:Family social room",
+            "F02:apartment-block:Resident laundry",
+            "F02:apartment-block:Pram and mobility store",
+            "F02:apartment-block:East family apartment envelope",
+            "F02:apartment-block:West family apartment envelope",
+            "F02:apartment-block:Garden two-bedroom envelope",
+            "F02:apartment-block:Courtyard two-bedroom envelope",
+            "F02:apartment-block:South accessible apartment envelope",
+            "F02:apartment-block:North accessible apartment envelope",
+            "F02:apartment-block:Corner three-bedroom envelope",
+            "F02:apartment-block:Family flex apartment envelope",
+            "F02:apartment-block:Compact one-bedroom envelope",
+            "F02:apartment-block:Paired-occupant apartment envelope",
+            "F02:apartment-block:Single-occupant studio envelope",
+            "F02:apartment-block:Work-from-home apartment envelope",
+            "F02:apartment-block:Housekeeping store"
+          ]
+        },
+        {
+          "label": "F02:apartment-block:West stair RESERVED",
+          "box": [
+            8,
+            0,
+            11,
+            8.5
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F02:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:apartment-block:East stair RESERVED",
+          "box": [
+            68,
+            10.3,
+            71,
+            18.8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F02:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:apartment-block:South lift RESERVED",
+          "box": [
+            37,
+            6,
+            39.5,
+            8.5
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F02:apartment-block:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F02:apartment-block:South reserved lift lobby",
+          "box": [
+            39.5,
+            6,
+            42,
+            8.5
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02:apartment-block:Main corridor",
+            "F02:apartment-block:South lift RESERVED",
+            "F02:apartment-block:Floor refuse store"
+          ]
+        },
+        {
+          "label": "F02:apartment-block:Floor refuse store",
+          "box": [
+            37,
+            0,
+            42,
+            6
+          ],
+          "kind": "service",
+          "access_to": [
+            "F02:apartment-block:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F02:apartment-block:North reserved lift lobby",
+          "box": [
+            37,
+            10.3,
+            39.5,
+            12.8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02:apartment-block:Main corridor",
+            "F02:apartment-block:North lift RESERVED",
+            "F02:apartment-block:Water riser service room"
+          ]
+        },
+        {
+          "label": "F02:apartment-block:North lift RESERVED",
+          "box": [
+            39.5,
+            10.3,
+            42,
+            12.8
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F02:apartment-block:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F02:apartment-block:Water riser service room",
+          "box": [
+            37,
+            12.8,
+            42,
+            18.8
+          ],
+          "kind": "service",
+          "access_to": [
+            "F02:apartment-block:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F02:apartment-block:Shared homework room",
+          "box": [
+            29.121,
+            0,
+            37,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:apartment-block:Toddler playroom",
+          "box": [
+            18.879,
+            0,
+            29.121,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:apartment-block:Family social room",
+          "box": [
+            11,
+            0,
+            18.879,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:apartment-block:Resident laundry",
+          "box": [
+            3.586,
+            0,
+            8,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:apartment-block:Pram and mobility store",
+          "box": [
+            0,
+            0,
+            3.586,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:apartment-block:East family apartment envelope",
+          "box": [
+            0,
+            10.3,
+            10.628,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:apartment-block:West family apartment envelope",
+          "box": [
+            10.628,
+            10.3,
+            21.256,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:apartment-block:Garden two-bedroom envelope",
+          "box": [
+            21.256,
+            10.3,
+            29.128,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:apartment-block:Courtyard two-bedroom envelope",
+          "box": [
+            29.128,
+            10.3,
+            37,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:apartment-block:South accessible apartment envelope",
+          "box": [
+            42,
+            10.3,
+            50.442,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:apartment-block:North accessible apartment envelope",
+          "box": [
+            50.442,
+            10.3,
+            58.884,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:apartment-block:Corner three-bedroom envelope",
+          "box": [
+            58.884,
+            10.3,
+            68,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:apartment-block:Family flex apartment envelope",
+          "box": [
+            71,
+            10.3,
+            79,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:apartment-block:Compact one-bedroom envelope",
+          "box": [
+            70.625,
+            0,
+            79,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:apartment-block:Paired-occupant apartment envelope",
+          "box": [
+            62.25,
+            0,
+            70.625,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:apartment-block:Single-occupant studio envelope",
+          "box": [
+            53.875,
+            0,
+            62.25,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:apartment-block:Work-from-home apartment envelope",
+          "box": [
+            45.5,
+            0,
+            53.875,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:apartment-block:Housekeeping store",
+          "box": [
+            42,
+            0,
+            45.5,
+            8.5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F02:apartment-block:Main corridor"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Work and study residences",
+      "height_m": 3.2,
+      "rooms": [
+        {
+          "label": "F03:apartment-block:Main corridor",
+          "box": [
+            0,
+            8.5,
+            79,
+            10.3
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03:apartment-block:South reserved lift lobby",
+            "F03:apartment-block:North reserved lift lobby",
+            "F03:apartment-block:West stair RESERVED",
+            "F03:apartment-block:East stair RESERVED",
+            "F03:apartment-block:Shared study room",
+            "F03:apartment-block:Video meeting room",
+            "F03:apartment-block:Resident library",
+            "F03:apartment-block:Project workspace",
+            "F03:apartment-block:Resident laundry",
+            "F03:apartment-block:Live-work apartment envelope",
+            "F03:apartment-block:Artist apartment envelope",
+            "F03:apartment-block:Researcher studio envelope",
+            "F03:apartment-block:Quiet one-bedroom envelope",
+            "F03:apartment-block:East two-bedroom envelope",
+            "F03:apartment-block:West two-bedroom envelope",
+            "F03:apartment-block:Accessible work-live envelope",
+            "F03:apartment-block:Courtyard studio envelope",
+            "F03:apartment-block:South family apartment envelope",
+            "F03:apartment-block:North family apartment envelope",
+            "F03:apartment-block:Corner apartment envelope",
+            "F03:apartment-block:Guest-ready apartment envelope",
+            "F03:apartment-block:Cleaning supply room"
+          ]
+        },
+        {
+          "label": "F03:apartment-block:West stair RESERVED",
+          "box": [
+            8,
+            0,
+            11,
+            8.5
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F03:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:apartment-block:East stair RESERVED",
+          "box": [
+            68,
+            10.3,
+            71,
+            18.8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F03:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:apartment-block:South lift RESERVED",
+          "box": [
+            37,
+            6,
+            39.5,
+            8.5
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F03:apartment-block:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F03:apartment-block:South reserved lift lobby",
+          "box": [
+            39.5,
+            6,
+            42,
+            8.5
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03:apartment-block:Main corridor",
+            "F03:apartment-block:South lift RESERVED",
+            "F03:apartment-block:Floor recycling store"
+          ]
+        },
+        {
+          "label": "F03:apartment-block:Floor recycling store",
+          "box": [
+            37,
+            0,
+            42,
+            6
+          ],
+          "kind": "service",
+          "access_to": [
+            "F03:apartment-block:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F03:apartment-block:North reserved lift lobby",
+          "box": [
+            37,
+            10.3,
+            39.5,
+            12.8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03:apartment-block:Main corridor",
+            "F03:apartment-block:North lift RESERVED",
+            "F03:apartment-block:Data distribution room"
+          ]
+        },
+        {
+          "label": "F03:apartment-block:North lift RESERVED",
+          "box": [
+            39.5,
+            10.3,
+            42,
+            12.8
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F03:apartment-block:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F03:apartment-block:Data distribution room",
+          "box": [
+            37,
+            12.8,
+            42,
+            18.8
+          ],
+          "kind": "service",
+          "access_to": [
+            "F03:apartment-block:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F03:apartment-block:Shared study room",
+          "box": [
+            28.333,
+            0,
+            37,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:apartment-block:Video meeting room",
+          "box": [
+            19.666,
+            0,
+            28.333,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:apartment-block:Resident library",
+          "box": [
+            11,
+            0,
+            19.666,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:apartment-block:Project workspace",
+          "box": [
+            0,
+            0,
+            8,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:apartment-block:Resident laundry",
+          "box": [
+            0,
+            10.3,
+            5.6,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:apartment-block:Live-work apartment envelope",
+          "box": [
+            5.6,
+            10.3,
+            13.45,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:apartment-block:Artist apartment envelope",
+          "box": [
+            13.45,
+            10.3,
+            21.3,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:apartment-block:Researcher studio envelope",
+          "box": [
+            21.3,
+            10.3,
+            29.15,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:apartment-block:Quiet one-bedroom envelope",
+          "box": [
+            29.15,
+            10.3,
+            37,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:apartment-block:East two-bedroom envelope",
+          "box": [
+            42,
+            10.3,
+            50,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:apartment-block:West two-bedroom envelope",
+          "box": [
+            50,
+            10.3,
+            58,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:apartment-block:Accessible work-live envelope",
+          "box": [
+            58,
+            10.3,
+            68,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:apartment-block:Courtyard studio envelope",
+          "box": [
+            71,
+            10.3,
+            79,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:apartment-block:South family apartment envelope",
+          "box": [
+            70.045,
+            0,
+            79,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:apartment-block:North family apartment envelope",
+          "box": [
+            61.09,
+            0,
+            70.045,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:apartment-block:Corner apartment envelope",
+          "box": [
+            52.135,
+            0,
+            61.09,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:apartment-block:Guest-ready apartment envelope",
+          "box": [
+            45.501,
+            0,
+            52.135,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:apartment-block:Cleaning supply room",
+          "box": [
+            42,
+            0,
+            45.501,
+            8.5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F03:apartment-block:Main corridor"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "name": "Intergenerational residences",
+      "height_m": 3.2,
+      "rooms": [
+        {
+          "label": "F04:apartment-block:Main corridor",
+          "box": [
+            0,
+            8.5,
+            79,
+            10.3
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F04:apartment-block:South reserved lift lobby",
+            "F04:apartment-block:North reserved lift lobby",
+            "F04:apartment-block:West stair RESERVED",
+            "F04:apartment-block:East stair RESERVED",
+            "F04:apartment-block:Shared family dining",
+            "F04:apartment-block:Intergenerational lounge",
+            "F04:apartment-block:Craft activity room",
+            "F04:apartment-block:Quiet visiting room",
+            "F04:apartment-block:Resident laundry",
+            "F04:apartment-block:Multigeneration apartment envelope",
+            "F04:apartment-block:Carer-linked apartment envelope",
+            "F04:apartment-block:Accessible family envelope",
+            "F04:apartment-block:Senior couple apartment envelope",
+            "F04:apartment-block:Young family apartment envelope",
+            "F04:apartment-block:Single-parent apartment envelope",
+            "F04:apartment-block:East one-bedroom envelope",
+            "F04:apartment-block:West one-bedroom envelope",
+            "F04:apartment-block:North two-bedroom envelope",
+            "F04:apartment-block:South two-bedroom envelope",
+            "F04:apartment-block:Corner studio envelope",
+            "F04:apartment-block:Companion apartment envelope",
+            "F04:apartment-block:Linen and cleaning store"
+          ]
+        },
+        {
+          "label": "F04:apartment-block:West stair RESERVED",
+          "box": [
+            8,
+            0,
+            11,
+            8.5
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F04:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:apartment-block:East stair RESERVED",
+          "box": [
+            68,
+            10.3,
+            71,
+            18.8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F04:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:apartment-block:South lift RESERVED",
+          "box": [
+            37,
+            6,
+            39.5,
+            8.5
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F04:apartment-block:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F04:apartment-block:South reserved lift lobby",
+          "box": [
+            39.5,
+            6,
+            42,
+            8.5
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F04:apartment-block:Main corridor",
+            "F04:apartment-block:South lift RESERVED",
+            "F04:apartment-block:Floor refuse store"
+          ]
+        },
+        {
+          "label": "F04:apartment-block:Floor refuse store",
+          "box": [
+            37,
+            0,
+            42,
+            6
+          ],
+          "kind": "service",
+          "access_to": [
+            "F04:apartment-block:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F04:apartment-block:North reserved lift lobby",
+          "box": [
+            37,
+            10.3,
+            39.5,
+            12.8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F04:apartment-block:Main corridor",
+            "F04:apartment-block:North lift RESERVED",
+            "F04:apartment-block:Mechanical distribution room"
+          ]
+        },
+        {
+          "label": "F04:apartment-block:North lift RESERVED",
+          "box": [
+            39.5,
+            10.3,
+            42,
+            12.8
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F04:apartment-block:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F04:apartment-block:Mechanical distribution room",
+          "box": [
+            37,
+            12.8,
+            42,
+            18.8
+          ],
+          "kind": "service",
+          "access_to": [
+            "F04:apartment-block:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F04:apartment-block:Shared family dining",
+          "box": [
+            28.333,
+            0,
+            37,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:apartment-block:Intergenerational lounge",
+          "box": [
+            19.666,
+            0,
+            28.333,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:apartment-block:Craft activity room",
+          "box": [
+            11,
+            0,
+            19.666,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:apartment-block:Quiet visiting room",
+          "box": [
+            4.414,
+            0,
+            8,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:apartment-block:Resident laundry",
+          "box": [
+            0,
+            0,
+            4.414,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:apartment-block:Multigeneration apartment envelope",
+          "box": [
+            0,
+            10.3,
+            10.091,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:apartment-block:Carer-linked apartment envelope",
+          "box": [
+            10.091,
+            10.3,
+            17.566,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:apartment-block:Accessible family envelope",
+          "box": [
+            17.566,
+            10.3,
+            26.909,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:apartment-block:Senior couple apartment envelope",
+          "box": [
+            26.909,
+            10.3,
+            37,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:apartment-block:Young family apartment envelope",
+          "box": [
+            42,
+            10.3,
+            52.478,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:apartment-block:Single-parent apartment envelope",
+          "box": [
+            52.478,
+            10.3,
+            60.239,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:apartment-block:East one-bedroom envelope",
+          "box": [
+            60.239,
+            10.3,
+            68,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:apartment-block:West one-bedroom envelope",
+          "box": [
+            71,
+            10.3,
+            79,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:apartment-block:North two-bedroom envelope",
+          "box": [
+            71.872,
+            0,
+            79,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:apartment-block:South two-bedroom envelope",
+          "box": [
+            64.744,
+            0,
+            71.872,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:apartment-block:Corner studio envelope",
+          "box": [
+            55.122,
+            0,
+            64.744,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:apartment-block:Companion apartment envelope",
+          "box": [
+            45.5,
+            0,
+            55.122,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:apartment-block:Linen and cleaning store",
+          "box": [
+            42,
+            0,
+            45.5,
+            8.5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F04:apartment-block:Main corridor"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "name": "Larger homes and wellness",
+      "height_m": 3.2,
+      "rooms": [
+        {
+          "label": "F05:apartment-block:Main corridor",
+          "box": [
+            0,
+            8.5,
+            79,
+            10.3
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F05:apartment-block:South reserved lift lobby",
+            "F05:apartment-block:North reserved lift lobby",
+            "F05:apartment-block:West stair RESERVED",
+            "F05:apartment-block:East stair RESERVED",
+            "F05:apartment-block:Shared cooking studio",
+            "F05:apartment-block:Yoga room",
+            "F05:apartment-block:Wellness consultation",
+            "F05:apartment-block:Quiet lounge",
+            "F05:apartment-block:Resident laundry",
+            "F05:apartment-block:East two-bedroom home envelope",
+            "F05:apartment-block:West two-bedroom home envelope",
+            "F05:apartment-block:Courtyard family envelope",
+            "F05:apartment-block:South family envelope",
+            "F05:apartment-block:North accessible envelope",
+            "F05:apartment-block:Corner two-bedroom envelope",
+            "F05:apartment-block:Flexible household envelope",
+            "F05:apartment-block:Home-office apartment envelope",
+            "F05:apartment-block:Couple apartment envelope",
+            "F05:apartment-block:Guest-inclusive apartment envelope",
+            "F05:apartment-block:Compact studio envelope",
+            "F05:apartment-block:Garden-facing apartment envelope",
+            "F05:apartment-block:Housekeeping store"
+          ]
+        },
+        {
+          "label": "F05:apartment-block:West stair RESERVED",
+          "box": [
+            8,
+            0,
+            11,
+            8.5
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F05:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:apartment-block:East stair RESERVED",
+          "box": [
+            68,
+            10.3,
+            71,
+            18.8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F05:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:apartment-block:South lift RESERVED",
+          "box": [
+            37,
+            6,
+            39.5,
+            8.5
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F05:apartment-block:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F05:apartment-block:South reserved lift lobby",
+          "box": [
+            39.5,
+            6,
+            42,
+            8.5
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F05:apartment-block:Main corridor",
+            "F05:apartment-block:South lift RESERVED",
+            "F05:apartment-block:Floor recycling store"
+          ]
+        },
+        {
+          "label": "F05:apartment-block:Floor recycling store",
+          "box": [
+            37,
+            0,
+            42,
+            6
+          ],
+          "kind": "service",
+          "access_to": [
+            "F05:apartment-block:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F05:apartment-block:North reserved lift lobby",
+          "box": [
+            37,
+            10.3,
+            39.5,
+            12.8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F05:apartment-block:Main corridor",
+            "F05:apartment-block:North lift RESERVED",
+            "F05:apartment-block:Electrical distribution room"
+          ]
+        },
+        {
+          "label": "F05:apartment-block:North lift RESERVED",
+          "box": [
+            39.5,
+            10.3,
+            42,
+            12.8
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F05:apartment-block:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F05:apartment-block:Electrical distribution room",
+          "box": [
+            37,
+            12.8,
+            42,
+            18.8
+          ],
+          "kind": "service",
+          "access_to": [
+            "F05:apartment-block:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F05:apartment-block:Shared cooking studio",
+          "box": [
+            25.542,
+            0,
+            37,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:apartment-block:Yoga room",
+          "box": [
+            16.728,
+            0,
+            25.542,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:apartment-block:Wellness consultation",
+          "box": [
+            11,
+            0,
+            16.728,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:apartment-block:Quiet lounge",
+          "box": [
+            0,
+            0,
+            8,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:apartment-block:Resident laundry",
+          "box": [
+            0,
+            10.3,
+            5.6,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:apartment-block:East two-bedroom home envelope",
+          "box": [
+            5.6,
+            10.3,
+            12.281,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:apartment-block:West two-bedroom home envelope",
+          "box": [
+            12.281,
+            10.3,
+            18.962,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:apartment-block:Courtyard family envelope",
+          "box": [
+            18.962,
+            10.3,
+            27.981,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:apartment-block:South family envelope",
+          "box": [
+            27.981,
+            10.3,
+            37,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:apartment-block:North accessible envelope",
+          "box": [
+            42,
+            10.3,
+            51.028,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:apartment-block:Corner two-bedroom envelope",
+          "box": [
+            51.028,
+            10.3,
+            60.778,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:apartment-block:Flexible household envelope",
+          "box": [
+            60.778,
+            10.3,
+            68,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:apartment-block:Home-office apartment envelope",
+          "box": [
+            71,
+            10.3,
+            79,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:apartment-block:Couple apartment envelope",
+          "box": [
+            68.603,
+            0,
+            79,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:apartment-block:Guest-inclusive apartment envelope",
+          "box": [
+            60.902,
+            0,
+            68.603,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:apartment-block:Compact studio envelope",
+          "box": [
+            53.201,
+            0,
+            60.902,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:apartment-block:Garden-facing apartment envelope",
+          "box": [
+            45.5,
+            0,
+            53.201,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:apartment-block:Housekeeping store",
+          "box": [
+            42,
+            0,
+            45.5,
+            8.5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F05:apartment-block:Main corridor"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "name": "Top homes and community",
+      "height_m": 3.4,
+      "rooms": [
+        {
+          "label": "F06:apartment-block:Main corridor",
+          "box": [
+            0,
+            8.5,
+            79,
+            10.3
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F06:apartment-block:South reserved lift lobby",
+            "F06:apartment-block:North reserved lift lobby",
+            "F06:apartment-block:West stair RESERVED",
+            "F06:apartment-block:East stair RESERVED",
+            "F06:apartment-block:Community dining room",
+            "F06:apartment-block:Celebration kitchen",
+            "F06:apartment-block:Hobby workshop",
+            "F06:apartment-block:Resident club room",
+            "F06:apartment-block:Indoor garden lounge",
+            "F06:apartment-block:Resident laundry",
+            "F06:apartment-block:East top-floor home envelope",
+            "F06:apartment-block:West top-floor home envelope",
+            "F06:apartment-block:Family duplex-free envelope",
+            "F06:apartment-block:Accessible top-floor envelope",
+            "F06:apartment-block:South two-bedroom envelope",
+            "F06:apartment-block:North two-bedroom envelope",
+            "F06:apartment-block:Corner family envelope",
+            "F06:apartment-block:Artist live-work envelope",
+            "F06:apartment-block:Courtyard studio envelope",
+            "F06:apartment-block:Compact one-bedroom envelope",
+            "F06:apartment-block:Guest apartment envelope",
+            "F06:apartment-block:Maintenance store"
+          ]
+        },
+        {
+          "label": "F06:apartment-block:West stair RESERVED",
+          "box": [
+            8,
+            0,
+            11,
+            8.5
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F06:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:apartment-block:East stair RESERVED",
+          "box": [
+            68,
+            10.3,
+            71,
+            18.8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F06:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:apartment-block:South lift RESERVED",
+          "box": [
+            37,
+            6,
+            39.5,
+            8.5
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F06:apartment-block:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F06:apartment-block:South reserved lift lobby",
+          "box": [
+            39.5,
+            6,
+            42,
+            8.5
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F06:apartment-block:Main corridor",
+            "F06:apartment-block:South lift RESERVED",
+            "F06:apartment-block:Roof plant access room"
+          ]
+        },
+        {
+          "label": "F06:apartment-block:Roof plant access room",
+          "box": [
+            37,
+            0,
+            42,
+            6
+          ],
+          "kind": "service",
+          "access_to": [
+            "F06:apartment-block:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F06:apartment-block:North reserved lift lobby",
+          "box": [
+            37,
+            10.3,
+            39.5,
+            12.8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F06:apartment-block:Main corridor",
+            "F06:apartment-block:North lift RESERVED",
+            "F06:apartment-block:Floor refuse store"
+          ]
+        },
+        {
+          "label": "F06:apartment-block:North lift RESERVED",
+          "box": [
+            39.5,
+            10.3,
+            42,
+            12.8
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F06:apartment-block:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F06:apartment-block:Floor refuse store",
+          "box": [
+            37,
+            12.8,
+            42,
+            18.8
+          ],
+          "kind": "service",
+          "access_to": [
+            "F06:apartment-block:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F06:apartment-block:Community dining room",
+          "box": [
+            28.333,
+            0,
+            37,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:apartment-block:Main corridor",
+            "F06:apartment-block:Celebration kitchen"
+          ]
+        },
+        {
+          "label": "F06:apartment-block:Celebration kitchen",
+          "box": [
+            19.666,
+            0,
+            28.333,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:apartment-block:Main corridor",
+            "F06:apartment-block:Community dining room"
+          ]
+        },
+        {
+          "label": "F06:apartment-block:Hobby workshop",
+          "box": [
+            11,
+            0,
+            19.666,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:apartment-block:Resident club room",
+          "box": [
+            0,
+            0,
+            8,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:apartment-block:Indoor garden lounge",
+          "box": [
+            0,
+            10.3,
+            8.601,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:apartment-block:Resident laundry",
+          "box": [
+            8.601,
+            10.3,
+            14.201,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:apartment-block:East top-floor home envelope",
+          "box": [
+            14.201,
+            10.3,
+            21.007,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:apartment-block:West top-floor home envelope",
+          "box": [
+            21.007,
+            10.3,
+            27.813,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:apartment-block:Family duplex-free envelope",
+          "box": [
+            27.813,
+            10.3,
+            37,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:apartment-block:Accessible top-floor envelope",
+          "box": [
+            42,
+            10.3,
+            52,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:apartment-block:South two-bedroom envelope",
+          "box": [
+            52,
+            10.3,
+            60,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:apartment-block:North two-bedroom envelope",
+          "box": [
+            60,
+            10.3,
+            68,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:apartment-block:Corner family envelope",
+          "box": [
+            71,
+            10.3,
+            79,
+            18.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:apartment-block:Artist live-work envelope",
+          "box": [
+            70.625,
+            0,
+            79,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:apartment-block:Courtyard studio envelope",
+          "box": [
+            62.25,
+            0,
+            70.625,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:apartment-block:Compact one-bedroom envelope",
+          "box": [
+            53.875,
+            0,
+            62.25,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:apartment-block:Guest apartment envelope",
+          "box": [
+            45.5,
+            0,
+            53.875,
+            8.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:apartment-block:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:apartment-block:Maintenance store",
+          "box": [
+            42,
+            0,
+            45.5,
+            8.5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F06:apartment-block:Main corridor"
+          ]
+        }
+      ]
+    }
+  ]
+}

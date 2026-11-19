@@ -1,0 +1,3263 @@
+{
+  "slug": "office-tower",
+  "typology": "office-tower",
+  "provenance": "AI-authored synthetic recorded starting layout for a doors/windows benchmark; not customer data, not a certified design.",
+  "notes": [
+    "Supplemental synthetic benchmark coverage only, not selected production-run cases or evidence of a production result.",
+    "Metre coordinates describe disjoint clear-space boxes, not walls. No doors or windows are seeded. Empty areas are unassigned shell, exterior, courtyard, or the explicitly described void.",
+    "Exactly two stair footprints and two lift footprints are vertically stacked reservations on every floor. They are not physical stairs, lifts, shafts, or installed equipment.",
+    "Public, controlled and service labels and circulation zones express intended thresholds. Access edges are reciprocal same-floor adjacency intentions, not installed doors or an enforced security policy.",
+    "No structural, fire, accessibility, egress, acoustic, laboratory safety, sporting-body, or transport-operational compliance is asserted. Reservations do not model inter-floor travel or exit discharge.",
+    "72 m long double-loaded tower bar. An 8 by 12 m entrance lobby on the south facade opens onto the central spine, with public reception on one side and the security office on the other. One 6 by 10 m central lift lobby opens off the office spine, with the two lifts facing each other across it; 3.2 by 6.5 m end stair reservations leave small external corner recesses. Floor partitions change with department needs; the top floor is an occupied amenity floor, not a plant-only level."
+  ],
+  "floors": [
+    {
+      "number": 1,
+      "name": "Arrival and building services",
+      "height_m": 4.2,
+      "rooms": [
+        {
+          "label": "F01-office-tower: Public arrival spine",
+          "box": [
+            0,
+            12,
+            28,
+            15
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01-office-tower: Controlled central office spine",
+            "F01-office-tower: Service west stair reservation",
+            "F01-office-tower: Public business lounge",
+            "F01-office-tower: Public meeting suite",
+            "F01-office-tower: Public exhibition room",
+            "F01-office-tower: Public visitor waiting",
+            "F01-office-tower: Public reception",
+            "F01-office-tower: Public permit consultation",
+            "F01-office-tower: Public tenant information",
+            "F01-office-tower: Public visitor workroom",
+            "F01-office-tower: Public small conference"
+          ]
+        },
+        {
+          "label": "F01-office-tower: Controlled central office spine",
+          "box": [
+            28,
+            12,
+            40,
+            15
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01-office-tower: Public arrival spine",
+            "F01-office-tower: Controlled east office spine",
+            "F01-office-tower: Controlled central lift lobby",
+            "F01-office-tower: Controlled lift A reservation",
+            "F01-office-tower: Controlled lift B reservation",
+            "F01-office-tower: Public entrance lobby",
+            "F01-office-tower: Public reception"
+          ]
+        },
+        {
+          "label": "F01-office-tower: Controlled east office spine",
+          "box": [
+            40,
+            12,
+            72,
+            15
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01-office-tower: Controlled central office spine",
+            "F01-office-tower: Service east stair reservation",
+            "F01-office-tower: Controlled security office",
+            "F01-office-tower: Controlled facilities briefing",
+            "F01-office-tower: Controlled training room",
+            "F01-office-tower: Controlled tenant induction",
+            "F01-office-tower: Controlled interview room",
+            "F01-office-tower: Controlled building management",
+            "F01-office-tower: Controlled leasing office",
+            "F01-office-tower: Controlled tenant support",
+            "F01-office-tower: Controlled staff meeting"
+          ]
+        },
+        {
+          "label": "F01-office-tower: Controlled central lift lobby",
+          "box": [
+            31,
+            15,
+            37,
+            25
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01-office-tower: Controlled central office spine",
+            "F01-office-tower: Controlled lift A reservation",
+            "F01-office-tower: Controlled lift B reservation",
+            "F01-office-tower: Service accessible washrooms and wash area",
+            "F01-office-tower: Service pantry and cleaning store"
+          ]
+        },
+        {
+          "label": "F01-office-tower: Service west stair reservation",
+          "box": [
+            0,
+            15,
+            3.2,
+            21.5
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F01-office-tower: Public arrival spine"
+          ]
+        },
+        {
+          "label": "F01-office-tower: Service east stair reservation",
+          "box": [
+            68.8,
+            15,
+            72,
+            21.5
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F01-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F01-office-tower: Controlled lift A reservation",
+          "box": [
+            28,
+            15,
+            31,
+            18
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F01-office-tower: Controlled central office spine",
+            "F01-office-tower: Controlled central lift lobby"
+          ]
+        },
+        {
+          "label": "F01-office-tower: Controlled lift B reservation",
+          "box": [
+            37,
+            15,
+            40,
+            18
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F01-office-tower: Controlled central office spine",
+            "F01-office-tower: Controlled central lift lobby"
+          ]
+        },
+        {
+          "label": "F01-office-tower: Public entrance lobby",
+          "box": [
+            32,
+            0,
+            40,
+            12
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01-office-tower: Controlled central office spine",
+            "F01-office-tower: Public reception",
+            "F01-office-tower: Controlled security office"
+          ]
+        },
+        {
+          "label": "F01-office-tower: Public business lounge",
+          "box": [
+            0,
+            0,
+            6.982,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-office-tower: Public arrival spine"
+          ]
+        },
+        {
+          "label": "F01-office-tower: Public meeting suite",
+          "box": [
+            6.982,
+            0,
+            12.218,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-office-tower: Public arrival spine"
+          ]
+        },
+        {
+          "label": "F01-office-tower: Public exhibition room",
+          "box": [
+            12.218,
+            0,
+            18.618,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-office-tower: Public arrival spine"
+          ]
+        },
+        {
+          "label": "F01-office-tower: Public visitor waiting",
+          "box": [
+            18.618,
+            0,
+            26.182,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-office-tower: Public arrival spine"
+          ]
+        },
+        {
+          "label": "F01-office-tower: Public reception",
+          "box": [
+            26.182,
+            0,
+            32,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-office-tower: Public arrival spine",
+            "F01-office-tower: Controlled central office spine",
+            "F01-office-tower: Public entrance lobby"
+          ]
+        },
+        {
+          "label": "F01-office-tower: Controlled security office",
+          "box": [
+            40,
+            0,
+            45.236,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-office-tower: Controlled east office spine",
+            "F01-office-tower: Public entrance lobby"
+          ]
+        },
+        {
+          "label": "F01-office-tower: Controlled facilities briefing",
+          "box": [
+            45.236,
+            0,
+            51.636,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F01-office-tower: Controlled training room",
+          "box": [
+            51.636,
+            0,
+            59.2,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F01-office-tower: Controlled tenant induction",
+          "box": [
+            59.2,
+            0,
+            65.018,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F01-office-tower: Controlled interview room",
+          "box": [
+            65.018,
+            0,
+            72,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F01-office-tower: Public permit consultation",
+          "box": [
+            3.2,
+            15,
+            8.391,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-office-tower: Public arrival spine"
+          ]
+        },
+        {
+          "label": "F01-office-tower: Public tenant information",
+          "box": [
+            8.391,
+            15,
+            14.735,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-office-tower: Public arrival spine"
+          ]
+        },
+        {
+          "label": "F01-office-tower: Public visitor workroom",
+          "box": [
+            14.735,
+            15,
+            22.233,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-office-tower: Public arrival spine"
+          ]
+        },
+        {
+          "label": "F01-office-tower: Public small conference",
+          "box": [
+            22.233,
+            15,
+            28,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-office-tower: Public arrival spine"
+          ]
+        },
+        {
+          "label": "F01-office-tower: Controlled building management",
+          "box": [
+            40,
+            15,
+            46.887,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F01-office-tower: Controlled leasing office",
+          "box": [
+            46.887,
+            15,
+            55.026,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F01-office-tower: Controlled tenant support",
+          "box": [
+            55.026,
+            15,
+            61.287,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F01-office-tower: Controlled staff meeting",
+          "box": [
+            61.287,
+            15,
+            68.8,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F01-office-tower: Service accessible washrooms and wash area",
+          "box": [
+            28,
+            18,
+            31,
+            25
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01-office-tower: Controlled central lift lobby"
+          ]
+        },
+        {
+          "label": "F01-office-tower: Service pantry and cleaning store",
+          "box": [
+            37,
+            18,
+            40,
+            25
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01-office-tower: Controlled central lift lobby"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Finance and procurement",
+      "height_m": 3.6,
+      "rooms": [
+        {
+          "label": "F02-office-tower: Controlled west office spine",
+          "box": [
+            0,
+            12,
+            28,
+            15
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02-office-tower: Controlled central office spine",
+            "F02-office-tower: Service west stair reservation",
+            "F02-office-tower: Controlled accounts team",
+            "F02-office-tower: Controlled payroll team",
+            "F02-office-tower: Controlled procurement team",
+            "F02-office-tower: Controlled audit team",
+            "F02-office-tower: Controlled treasury office",
+            "F02-office-tower: Controlled finance lead",
+            "F02-office-tower: Controlled accounts review",
+            "F02-office-tower: Controlled tax planning"
+          ]
+        },
+        {
+          "label": "F02-office-tower: Controlled central office spine",
+          "box": [
+            28,
+            12,
+            40,
+            15
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02-office-tower: Controlled west office spine",
+            "F02-office-tower: Controlled east office spine",
+            "F02-office-tower: Controlled central lift lobby",
+            "F02-office-tower: Controlled lift A reservation",
+            "F02-office-tower: Controlled lift B reservation",
+            "F02-office-tower: Controlled finance meeting",
+            "F02-office-tower: Controlled budget planning"
+          ]
+        },
+        {
+          "label": "F02-office-tower: Controlled east office spine",
+          "box": [
+            40,
+            12,
+            72,
+            15
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02-office-tower: Controlled central office spine",
+            "F02-office-tower: Service east stair reservation",
+            "F02-office-tower: Controlled budget planning",
+            "F02-office-tower: Controlled contract review",
+            "F02-office-tower: Controlled vendor interview",
+            "F02-office-tower: Controlled project accounts",
+            "F02-office-tower: Controlled staff quiet room",
+            "F02-office-tower: Controlled finance analytics",
+            "F02-office-tower: Controlled financial reporting",
+            "F02-office-tower: Controlled analyst meeting",
+            "F02-office-tower: Controlled staff mentoring"
+          ]
+        },
+        {
+          "label": "F02-office-tower: Controlled central lift lobby",
+          "box": [
+            31,
+            15,
+            37,
+            25
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02-office-tower: Controlled central office spine",
+            "F02-office-tower: Controlled lift A reservation",
+            "F02-office-tower: Controlled lift B reservation",
+            "F02-office-tower: Service accessible washrooms and wash area",
+            "F02-office-tower: Service pantry and cleaning store"
+          ]
+        },
+        {
+          "label": "F02-office-tower: Service west stair reservation",
+          "box": [
+            0,
+            15,
+            3.2,
+            21.5
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F02-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F02-office-tower: Service east stair reservation",
+          "box": [
+            68.8,
+            15,
+            72,
+            21.5
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F02-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F02-office-tower: Controlled lift A reservation",
+          "box": [
+            28,
+            15,
+            31,
+            18
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F02-office-tower: Controlled central office spine",
+            "F02-office-tower: Controlled central lift lobby"
+          ]
+        },
+        {
+          "label": "F02-office-tower: Controlled lift B reservation",
+          "box": [
+            37,
+            15,
+            40,
+            18
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F02-office-tower: Controlled central office spine",
+            "F02-office-tower: Controlled central lift lobby"
+          ]
+        },
+        {
+          "label": "F02-office-tower: Controlled accounts team",
+          "box": [
+            0,
+            0,
+            5.891,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F02-office-tower: Controlled payroll team",
+          "box": [
+            5.891,
+            0,
+            13.091,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F02-office-tower: Controlled procurement team",
+          "box": [
+            13.091,
+            0,
+            21.6,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F02-office-tower: Controlled audit team",
+          "box": [
+            21.6,
+            0,
+            28.145,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F02-office-tower: Controlled finance meeting",
+          "box": [
+            28.145,
+            0,
+            36,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-office-tower: Controlled central office spine"
+          ]
+        },
+        {
+          "label": "F02-office-tower: Controlled budget planning",
+          "box": [
+            36,
+            0,
+            41.891,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-office-tower: Controlled central office spine",
+            "F02-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F02-office-tower: Controlled contract review",
+          "box": [
+            41.891,
+            0,
+            49.091,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F02-office-tower: Controlled vendor interview",
+          "box": [
+            49.091,
+            0,
+            57.6,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F02-office-tower: Controlled project accounts",
+          "box": [
+            57.6,
+            0,
+            64.145,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F02-office-tower: Controlled staff quiet room",
+          "box": [
+            64.145,
+            0,
+            72,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F02-office-tower: Controlled treasury office",
+          "box": [
+            3.2,
+            15,
+            9.13,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F02-office-tower: Controlled finance lead",
+          "box": [
+            9.13,
+            15,
+            16.139,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F02-office-tower: Controlled accounts review",
+          "box": [
+            16.139,
+            15,
+            21.53,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F02-office-tower: Controlled tax planning",
+          "box": [
+            21.53,
+            15,
+            28,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F02-office-tower: Controlled finance analytics",
+          "box": [
+            40,
+            15,
+            48.509,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F02-office-tower: Controlled financial reporting",
+          "box": [
+            48.509,
+            15,
+            55.055,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F02-office-tower: Controlled analyst meeting",
+          "box": [
+            55.055,
+            15,
+            62.909,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F02-office-tower: Controlled staff mentoring",
+          "box": [
+            62.909,
+            15,
+            68.8,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F02-office-tower: Service accessible washrooms and wash area",
+          "box": [
+            28,
+            18,
+            31,
+            25
+          ],
+          "kind": "service",
+          "access_to": [
+            "F02-office-tower: Controlled central lift lobby"
+          ]
+        },
+        {
+          "label": "F02-office-tower: Service pantry and cleaning store",
+          "box": [
+            37,
+            18,
+            40,
+            25
+          ],
+          "kind": "service",
+          "access_to": [
+            "F02-office-tower: Controlled central lift lobby"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Design and product",
+      "height_m": 3.6,
+      "rooms": [
+        {
+          "label": "F03-office-tower: Controlled west office spine",
+          "box": [
+            0,
+            12,
+            28,
+            15
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03-office-tower: Controlled central office spine",
+            "F03-office-tower: Service west stair reservation",
+            "F03-office-tower: Controlled design studio",
+            "F03-office-tower: Controlled product studio",
+            "F03-office-tower: Controlled research studio",
+            "F03-office-tower: Controlled design review",
+            "F03-office-tower: Controlled design lead",
+            "F03-office-tower: Controlled design critique",
+            "F03-office-tower: Controlled visualization studio",
+            "F03-office-tower: Controlled samples review"
+          ]
+        },
+        {
+          "label": "F03-office-tower: Controlled central office spine",
+          "box": [
+            28,
+            12,
+            40,
+            15
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03-office-tower: Controlled west office spine",
+            "F03-office-tower: Controlled east office spine",
+            "F03-office-tower: Controlled central lift lobby",
+            "F03-office-tower: Controlled lift A reservation",
+            "F03-office-tower: Controlled lift B reservation",
+            "F03-office-tower: Controlled design review",
+            "F03-office-tower: Controlled model workshop",
+            "F03-office-tower: Controlled materials library"
+          ]
+        },
+        {
+          "label": "F03-office-tower: Controlled east office spine",
+          "box": [
+            40,
+            12,
+            72,
+            15
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03-office-tower: Controlled central office spine",
+            "F03-office-tower: Service east stair reservation",
+            "F03-office-tower: Controlled materials library",
+            "F03-office-tower: Controlled client workshop",
+            "F03-office-tower: Controlled user research",
+            "F03-office-tower: Controlled prototype review",
+            "F03-office-tower: Controlled team lounge",
+            "F03-office-tower: Controlled experience team",
+            "F03-office-tower: Controlled editorial team",
+            "F03-office-tower: Controlled creative meeting",
+            "F03-office-tower: Controlled studio support"
+          ]
+        },
+        {
+          "label": "F03-office-tower: Controlled central lift lobby",
+          "box": [
+            31,
+            15,
+            37,
+            25
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03-office-tower: Controlled central office spine",
+            "F03-office-tower: Controlled lift A reservation",
+            "F03-office-tower: Controlled lift B reservation",
+            "F03-office-tower: Service accessible washrooms and wash area",
+            "F03-office-tower: Service pantry and cleaning store"
+          ]
+        },
+        {
+          "label": "F03-office-tower: Service west stair reservation",
+          "box": [
+            0,
+            15,
+            3.2,
+            21.5
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F03-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F03-office-tower: Service east stair reservation",
+          "box": [
+            68.8,
+            15,
+            72,
+            21.5
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F03-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F03-office-tower: Controlled lift A reservation",
+          "box": [
+            28,
+            15,
+            31,
+            18
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F03-office-tower: Controlled central office spine",
+            "F03-office-tower: Controlled central lift lobby"
+          ]
+        },
+        {
+          "label": "F03-office-tower: Controlled lift B reservation",
+          "box": [
+            37,
+            15,
+            40,
+            18
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F03-office-tower: Controlled central office spine",
+            "F03-office-tower: Controlled central lift lobby"
+          ]
+        },
+        {
+          "label": "F03-office-tower: Controlled design studio",
+          "box": [
+            0,
+            0,
+            7.2,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F03-office-tower: Controlled product studio",
+          "box": [
+            7.2,
+            0,
+            15.709,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F03-office-tower: Controlled research studio",
+          "box": [
+            15.709,
+            0,
+            22.255,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F03-office-tower: Controlled design review",
+          "box": [
+            22.255,
+            0,
+            30.109,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-office-tower: Controlled west office spine",
+            "F03-office-tower: Controlled central office spine"
+          ]
+        },
+        {
+          "label": "F03-office-tower: Controlled model workshop",
+          "box": [
+            30.109,
+            0,
+            36,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-office-tower: Controlled central office spine"
+          ]
+        },
+        {
+          "label": "F03-office-tower: Controlled materials library",
+          "box": [
+            36,
+            0,
+            43.2,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-office-tower: Controlled central office spine",
+            "F03-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F03-office-tower: Controlled client workshop",
+          "box": [
+            43.2,
+            0,
+            51.709,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F03-office-tower: Controlled user research",
+          "box": [
+            51.709,
+            0,
+            58.255,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F03-office-tower: Controlled prototype review",
+          "box": [
+            58.255,
+            0,
+            66.109,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F03-office-tower: Controlled team lounge",
+          "box": [
+            66.109,
+            0,
+            72,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F03-office-tower: Controlled design lead",
+          "box": [
+            3.2,
+            15,
+            10.527,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F03-office-tower: Controlled design critique",
+          "box": [
+            10.527,
+            15,
+            16.164,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F03-office-tower: Controlled visualization studio",
+          "box": [
+            16.164,
+            15,
+            22.927,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F03-office-tower: Controlled samples review",
+          "box": [
+            22.927,
+            15,
+            28,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F03-office-tower: Controlled experience team",
+          "box": [
+            40,
+            15,
+            46.857,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F03-office-tower: Controlled editorial team",
+          "box": [
+            46.857,
+            15,
+            55.086,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F03-office-tower: Controlled creative meeting",
+          "box": [
+            55.086,
+            15,
+            61.257,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F03-office-tower: Controlled studio support",
+          "box": [
+            61.257,
+            15,
+            68.8,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F03-office-tower: Service accessible washrooms and wash area",
+          "box": [
+            28,
+            18,
+            31,
+            25
+          ],
+          "kind": "service",
+          "access_to": [
+            "F03-office-tower: Controlled central lift lobby"
+          ]
+        },
+        {
+          "label": "F03-office-tower: Service pantry and cleaning store",
+          "box": [
+            37,
+            18,
+            40,
+            25
+          ],
+          "kind": "service",
+          "access_to": [
+            "F03-office-tower: Controlled central lift lobby"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "name": "Engineering and technology",
+      "height_m": 3.6,
+      "rooms": [
+        {
+          "label": "F04-office-tower: Controlled west office spine",
+          "box": [
+            0,
+            12,
+            28,
+            15
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F04-office-tower: Controlled central office spine",
+            "F04-office-tower: Service west stair reservation",
+            "F04-office-tower: Controlled engineering team",
+            "F04-office-tower: Controlled platform team",
+            "F04-office-tower: Controlled quality team",
+            "F04-office-tower: Controlled technical support",
+            "F04-office-tower: Controlled engineering lead",
+            "F04-office-tower: Controlled architecture review",
+            "F04-office-tower: Controlled reliability team",
+            "F04-office-tower: Controlled test review"
+          ]
+        },
+        {
+          "label": "F04-office-tower: Controlled central office spine",
+          "box": [
+            28,
+            12,
+            40,
+            15
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F04-office-tower: Controlled west office spine",
+            "F04-office-tower: Controlled east office spine",
+            "F04-office-tower: Controlled central lift lobby",
+            "F04-office-tower: Controlled lift A reservation",
+            "F04-office-tower: Controlled lift B reservation",
+            "F04-office-tower: Controlled incident room",
+            "F04-office-tower: Controlled systems planning"
+          ]
+        },
+        {
+          "label": "F04-office-tower: Controlled east office spine",
+          "box": [
+            40,
+            12,
+            72,
+            15
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F04-office-tower: Controlled central office spine",
+            "F04-office-tower: Service east stair reservation",
+            "F04-office-tower: Controlled systems planning",
+            "F04-office-tower: Controlled engineering meeting",
+            "F04-office-tower: Controlled training lab",
+            "F04-office-tower: Controlled documentation team",
+            "F04-office-tower: Controlled focus room",
+            "F04-office-tower: Controlled development lab",
+            "F04-office-tower: Controlled release planning",
+            "F04-office-tower: Controlled technical library",
+            "F04-office-tower: Controlled team retrospective"
+          ]
+        },
+        {
+          "label": "F04-office-tower: Controlled central lift lobby",
+          "box": [
+            31,
+            15,
+            37,
+            25
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F04-office-tower: Controlled central office spine",
+            "F04-office-tower: Controlled lift A reservation",
+            "F04-office-tower: Controlled lift B reservation",
+            "F04-office-tower: Service accessible washrooms and wash area",
+            "F04-office-tower: Service pantry and cleaning store"
+          ]
+        },
+        {
+          "label": "F04-office-tower: Service west stair reservation",
+          "box": [
+            0,
+            15,
+            3.2,
+            21.5
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F04-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F04-office-tower: Service east stair reservation",
+          "box": [
+            68.8,
+            15,
+            72,
+            21.5
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F04-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F04-office-tower: Controlled lift A reservation",
+          "box": [
+            28,
+            15,
+            31,
+            18
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F04-office-tower: Controlled central office spine",
+            "F04-office-tower: Controlled central lift lobby"
+          ]
+        },
+        {
+          "label": "F04-office-tower: Controlled lift B reservation",
+          "box": [
+            37,
+            15,
+            40,
+            18
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F04-office-tower: Controlled central office spine",
+            "F04-office-tower: Controlled central lift lobby"
+          ]
+        },
+        {
+          "label": "F04-office-tower: Controlled engineering team",
+          "box": [
+            0,
+            0,
+            8.509,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F04-office-tower: Controlled platform team",
+          "box": [
+            8.509,
+            0,
+            15.055,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F04-office-tower: Controlled quality team",
+          "box": [
+            15.055,
+            0,
+            22.909,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F04-office-tower: Controlled technical support",
+          "box": [
+            22.909,
+            0,
+            28.8,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F04-office-tower: Controlled incident room",
+          "box": [
+            28.8,
+            0,
+            36,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-office-tower: Controlled central office spine"
+          ]
+        },
+        {
+          "label": "F04-office-tower: Controlled systems planning",
+          "box": [
+            36,
+            0,
+            44.509,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-office-tower: Controlled central office spine",
+            "F04-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F04-office-tower: Controlled engineering meeting",
+          "box": [
+            44.509,
+            0,
+            51.055,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F04-office-tower: Controlled training lab",
+          "box": [
+            51.055,
+            0,
+            58.909,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F04-office-tower: Controlled documentation team",
+          "box": [
+            58.909,
+            0,
+            64.8,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F04-office-tower: Controlled focus room",
+          "box": [
+            64.8,
+            0,
+            72,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F04-office-tower: Controlled engineering lead",
+          "box": [
+            3.2,
+            15,
+            9.105,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F04-office-tower: Controlled architecture review",
+          "box": [
+            9.105,
+            15,
+            16.19,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F04-office-tower: Controlled reliability team",
+          "box": [
+            16.19,
+            15,
+            21.505,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F04-office-tower: Controlled test review",
+          "box": [
+            21.505,
+            15,
+            28,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F04-office-tower: Controlled development lab",
+          "box": [
+            40,
+            15,
+            47.68,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F04-office-tower: Controlled release planning",
+          "box": [
+            47.68,
+            15,
+            53.44,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F04-office-tower: Controlled technical library",
+          "box": [
+            53.44,
+            15,
+            60.48,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F04-office-tower: Controlled team retrospective",
+          "box": [
+            60.48,
+            15,
+            68.8,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F04-office-tower: Service accessible washrooms and wash area",
+          "box": [
+            28,
+            18,
+            31,
+            25
+          ],
+          "kind": "service",
+          "access_to": [
+            "F04-office-tower: Controlled central lift lobby"
+          ]
+        },
+        {
+          "label": "F04-office-tower: Service pantry and cleaning store",
+          "box": [
+            37,
+            18,
+            40,
+            25
+          ],
+          "kind": "service",
+          "access_to": [
+            "F04-office-tower: Controlled central lift lobby"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "name": "Legal and compliance",
+      "height_m": 3.6,
+      "rooms": [
+        {
+          "label": "F05-office-tower: Controlled west office spine",
+          "box": [
+            0,
+            12,
+            28,
+            15
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F05-office-tower: Controlled central office spine",
+            "F05-office-tower: Service west stair reservation",
+            "F05-office-tower: Controlled legal team",
+            "F05-office-tower: Controlled compliance team",
+            "F05-office-tower: Controlled risk team",
+            "F05-office-tower: Controlled policy team",
+            "F05-office-tower: Controlled general counsel",
+            "F05-office-tower: Controlled policy research",
+            "F05-office-tower: Controlled case review",
+            "F05-office-tower: Controlled privacy team"
+          ]
+        },
+        {
+          "label": "F05-office-tower: Controlled central office spine",
+          "box": [
+            28,
+            12,
+            40,
+            15
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F05-office-tower: Controlled west office spine",
+            "F05-office-tower: Controlled east office spine",
+            "F05-office-tower: Controlled central lift lobby",
+            "F05-office-tower: Controlled lift A reservation",
+            "F05-office-tower: Controlled lift B reservation",
+            "F05-office-tower: Controlled mediation room",
+            "F05-office-tower: Controlled legal meeting"
+          ]
+        },
+        {
+          "label": "F05-office-tower: Controlled east office spine",
+          "box": [
+            40,
+            12,
+            72,
+            15
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F05-office-tower: Controlled central office spine",
+            "F05-office-tower: Service east stair reservation",
+            "F05-office-tower: Controlled legal meeting",
+            "F05-office-tower: Controlled records review",
+            "F05-office-tower: Controlled confidential interview",
+            "F05-office-tower: Controlled contract drafting",
+            "F05-office-tower: Controlled staff lounge",
+            "F05-office-tower: Controlled regulatory team",
+            "F05-office-tower: Controlled internal assurance",
+            "F05-office-tower: Controlled legal research",
+            "F05-office-tower: Controlled compliance training"
+          ]
+        },
+        {
+          "label": "F05-office-tower: Controlled central lift lobby",
+          "box": [
+            31,
+            15,
+            37,
+            25
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F05-office-tower: Controlled central office spine",
+            "F05-office-tower: Controlled lift A reservation",
+            "F05-office-tower: Controlled lift B reservation",
+            "F05-office-tower: Service accessible washrooms and wash area",
+            "F05-office-tower: Service pantry and cleaning store"
+          ]
+        },
+        {
+          "label": "F05-office-tower: Service west stair reservation",
+          "box": [
+            0,
+            15,
+            3.2,
+            21.5
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F05-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F05-office-tower: Service east stair reservation",
+          "box": [
+            68.8,
+            15,
+            72,
+            21.5
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F05-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F05-office-tower: Controlled lift A reservation",
+          "box": [
+            28,
+            15,
+            31,
+            18
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F05-office-tower: Controlled central office spine",
+            "F05-office-tower: Controlled central lift lobby"
+          ]
+        },
+        {
+          "label": "F05-office-tower: Controlled lift B reservation",
+          "box": [
+            37,
+            15,
+            40,
+            18
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F05-office-tower: Controlled central office spine",
+            "F05-office-tower: Controlled central lift lobby"
+          ]
+        },
+        {
+          "label": "F05-office-tower: Controlled legal team",
+          "box": [
+            0,
+            0,
+            6.545,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F05-office-tower: Controlled compliance team",
+          "box": [
+            6.545,
+            0,
+            14.4,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F05-office-tower: Controlled risk team",
+          "box": [
+            14.4,
+            0,
+            20.291,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F05-office-tower: Controlled policy team",
+          "box": [
+            20.291,
+            0,
+            27.491,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F05-office-tower: Controlled mediation room",
+          "box": [
+            27.491,
+            0,
+            36,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05-office-tower: Controlled central office spine"
+          ]
+        },
+        {
+          "label": "F05-office-tower: Controlled legal meeting",
+          "box": [
+            36,
+            0,
+            42.545,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05-office-tower: Controlled central office spine",
+            "F05-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F05-office-tower: Controlled records review",
+          "box": [
+            42.545,
+            0,
+            50.4,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F05-office-tower: Controlled confidential interview",
+          "box": [
+            50.4,
+            0,
+            56.291,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F05-office-tower: Controlled contract drafting",
+          "box": [
+            56.291,
+            0,
+            63.491,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F05-office-tower: Controlled staff lounge",
+          "box": [
+            63.491,
+            0,
+            72,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F05-office-tower: Controlled general counsel",
+          "box": [
+            3.2,
+            15,
+            9.813,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F05-office-tower: Controlled policy research",
+          "box": [
+            9.813,
+            15,
+            14.773,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F05-office-tower: Controlled case review",
+          "box": [
+            14.773,
+            15,
+            20.836,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F05-office-tower: Controlled privacy team",
+          "box": [
+            20.836,
+            15,
+            28,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F05-office-tower: Controlled regulatory team",
+          "box": [
+            40,
+            15,
+            46.028,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F05-office-tower: Controlled internal assurance",
+          "box": [
+            46.028,
+            15,
+            53.395,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F05-office-tower: Controlled legal research",
+          "box": [
+            53.395,
+            15,
+            62.102,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F05-office-tower: Controlled compliance training",
+          "box": [
+            62.102,
+            15,
+            68.8,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F05-office-tower: Service accessible washrooms and wash area",
+          "box": [
+            28,
+            18,
+            31,
+            25
+          ],
+          "kind": "service",
+          "access_to": [
+            "F05-office-tower: Controlled central lift lobby"
+          ]
+        },
+        {
+          "label": "F05-office-tower: Service pantry and cleaning store",
+          "box": [
+            37,
+            18,
+            40,
+            25
+          ],
+          "kind": "service",
+          "access_to": [
+            "F05-office-tower: Controlled central lift lobby"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "name": "Regional operations",
+      "height_m": 3.6,
+      "rooms": [
+        {
+          "label": "F06-office-tower: Controlled west office spine",
+          "box": [
+            0,
+            12,
+            28,
+            15
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F06-office-tower: Controlled central office spine",
+            "F06-office-tower: Service west stair reservation",
+            "F06-office-tower: Controlled regional operations",
+            "F06-office-tower: Controlled logistics team",
+            "F06-office-tower: Controlled scheduling team",
+            "F06-office-tower: Controlled service desk",
+            "F06-office-tower: Controlled operations lead",
+            "F06-office-tower: Controlled dispatch planning",
+            "F06-office-tower: Controlled service review",
+            "F06-office-tower: Controlled resource meeting"
+          ]
+        },
+        {
+          "label": "F06-office-tower: Controlled central office spine",
+          "box": [
+            28,
+            12,
+            40,
+            15
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F06-office-tower: Controlled west office spine",
+            "F06-office-tower: Controlled east office spine",
+            "F06-office-tower: Controlled central lift lobby",
+            "F06-office-tower: Controlled lift A reservation",
+            "F06-office-tower: Controlled lift B reservation",
+            "F06-office-tower: Controlled service desk",
+            "F06-office-tower: Controlled operations briefing",
+            "F06-office-tower: Controlled workforce planning"
+          ]
+        },
+        {
+          "label": "F06-office-tower: Controlled east office spine",
+          "box": [
+            40,
+            12,
+            72,
+            15
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F06-office-tower: Controlled central office spine",
+            "F06-office-tower: Service east stair reservation",
+            "F06-office-tower: Controlled workforce planning",
+            "F06-office-tower: Controlled customer success",
+            "F06-office-tower: Controlled operations meeting",
+            "F06-office-tower: Controlled resource planning",
+            "F06-office-tower: Controlled quiet workroom",
+            "F06-office-tower: Controlled business continuity",
+            "F06-office-tower: Controlled regional meeting",
+            "F06-office-tower: Controlled operations training",
+            "F06-office-tower: Controlled workforce support"
+          ]
+        },
+        {
+          "label": "F06-office-tower: Controlled central lift lobby",
+          "box": [
+            31,
+            15,
+            37,
+            25
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F06-office-tower: Controlled central office spine",
+            "F06-office-tower: Controlled lift A reservation",
+            "F06-office-tower: Controlled lift B reservation",
+            "F06-office-tower: Service accessible washrooms and wash area",
+            "F06-office-tower: Service pantry and cleaning store"
+          ]
+        },
+        {
+          "label": "F06-office-tower: Service west stair reservation",
+          "box": [
+            0,
+            15,
+            3.2,
+            21.5
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F06-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F06-office-tower: Service east stair reservation",
+          "box": [
+            68.8,
+            15,
+            72,
+            21.5
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F06-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F06-office-tower: Controlled lift A reservation",
+          "box": [
+            28,
+            15,
+            31,
+            18
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F06-office-tower: Controlled central office spine",
+            "F06-office-tower: Controlled central lift lobby"
+          ]
+        },
+        {
+          "label": "F06-office-tower: Controlled lift B reservation",
+          "box": [
+            37,
+            15,
+            40,
+            18
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F06-office-tower: Controlled central office spine",
+            "F06-office-tower: Controlled central lift lobby"
+          ]
+        },
+        {
+          "label": "F06-office-tower: Controlled regional operations",
+          "box": [
+            0,
+            0,
+            7.855,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F06-office-tower: Controlled logistics team",
+          "box": [
+            7.855,
+            0,
+            13.745,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F06-office-tower: Controlled scheduling team",
+          "box": [
+            13.745,
+            0,
+            20.945,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F06-office-tower: Controlled service desk",
+          "box": [
+            20.945,
+            0,
+            29.455,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06-office-tower: Controlled west office spine",
+            "F06-office-tower: Controlled central office spine"
+          ]
+        },
+        {
+          "label": "F06-office-tower: Controlled operations briefing",
+          "box": [
+            29.455,
+            0,
+            36,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06-office-tower: Controlled central office spine"
+          ]
+        },
+        {
+          "label": "F06-office-tower: Controlled workforce planning",
+          "box": [
+            36,
+            0,
+            43.855,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06-office-tower: Controlled central office spine",
+            "F06-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F06-office-tower: Controlled customer success",
+          "box": [
+            43.855,
+            0,
+            49.745,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F06-office-tower: Controlled operations meeting",
+          "box": [
+            49.745,
+            0,
+            56.945,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F06-office-tower: Controlled resource planning",
+          "box": [
+            56.945,
+            0,
+            65.455,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F06-office-tower: Controlled quiet workroom",
+          "box": [
+            65.455,
+            0,
+            72,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F06-office-tower: Controlled operations lead",
+          "box": [
+            3.2,
+            15,
+            8.391,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F06-office-tower: Controlled dispatch planning",
+          "box": [
+            8.391,
+            15,
+            14.735,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F06-office-tower: Controlled service review",
+          "box": [
+            14.735,
+            15,
+            22.233,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F06-office-tower: Controlled resource meeting",
+          "box": [
+            22.233,
+            15,
+            28,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F06-office-tower: Controlled business continuity",
+          "box": [
+            40,
+            15,
+            46.887,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F06-office-tower: Controlled regional meeting",
+          "box": [
+            46.887,
+            15,
+            55.026,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F06-office-tower: Controlled operations training",
+          "box": [
+            55.026,
+            15,
+            61.287,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F06-office-tower: Controlled workforce support",
+          "box": [
+            61.287,
+            15,
+            68.8,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F06-office-tower: Service accessible washrooms and wash area",
+          "box": [
+            28,
+            18,
+            31,
+            25
+          ],
+          "kind": "service",
+          "access_to": [
+            "F06-office-tower: Controlled central lift lobby"
+          ]
+        },
+        {
+          "label": "F06-office-tower: Service pantry and cleaning store",
+          "box": [
+            37,
+            18,
+            40,
+            25
+          ],
+          "kind": "service",
+          "access_to": [
+            "F06-office-tower: Controlled central lift lobby"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "name": "Executive and governance",
+      "height_m": 3.6,
+      "rooms": [
+        {
+          "label": "F07-office-tower: Controlled west office spine",
+          "box": [
+            0,
+            12,
+            28,
+            15
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F07-office-tower: Controlled central office spine",
+            "F07-office-tower: Service west stair reservation",
+            "F07-office-tower: Controlled executive assistants",
+            "F07-office-tower: Controlled directors suite",
+            "F07-office-tower: Controlled strategy team",
+            "F07-office-tower: Controlled board preparation",
+            "F07-office-tower: Controlled chair office",
+            "F07-office-tower: Controlled chief executive office",
+            "F07-office-tower: Controlled private meeting",
+            "F07-office-tower: Controlled strategy review"
+          ]
+        },
+        {
+          "label": "F07-office-tower: Controlled central office spine",
+          "box": [
+            28,
+            12,
+            40,
+            15
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F07-office-tower: Controlled west office spine",
+            "F07-office-tower: Controlled east office spine",
+            "F07-office-tower: Controlled central lift lobby",
+            "F07-office-tower: Controlled lift A reservation",
+            "F07-office-tower: Controlled lift B reservation",
+            "F07-office-tower: Controlled boardroom",
+            "F07-office-tower: Controlled investor meeting"
+          ]
+        },
+        {
+          "label": "F07-office-tower: Controlled east office spine",
+          "box": [
+            40,
+            12,
+            72,
+            15
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F07-office-tower: Controlled central office spine",
+            "F07-office-tower: Service east stair reservation",
+            "F07-office-tower: Controlled investor meeting",
+            "F07-office-tower: Controlled executive interview",
+            "F07-office-tower: Controlled governance room",
+            "F07-office-tower: Controlled executive workroom",
+            "F07-office-tower: Controlled executive lounge",
+            "F07-office-tower: Controlled deputy director office",
+            "F07-office-tower: Controlled leadership meeting",
+            "F07-office-tower: Controlled communications office",
+            "F07-office-tower: Controlled confidential workroom"
+          ]
+        },
+        {
+          "label": "F07-office-tower: Controlled central lift lobby",
+          "box": [
+            31,
+            15,
+            37,
+            25
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F07-office-tower: Controlled central office spine",
+            "F07-office-tower: Controlled lift A reservation",
+            "F07-office-tower: Controlled lift B reservation",
+            "F07-office-tower: Service accessible washrooms and wash area",
+            "F07-office-tower: Service pantry and cleaning store"
+          ]
+        },
+        {
+          "label": "F07-office-tower: Service west stair reservation",
+          "box": [
+            0,
+            15,
+            3.2,
+            21.5
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F07-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F07-office-tower: Service east stair reservation",
+          "box": [
+            68.8,
+            15,
+            72,
+            21.5
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F07-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F07-office-tower: Controlled lift A reservation",
+          "box": [
+            28,
+            15,
+            31,
+            18
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F07-office-tower: Controlled central office spine",
+            "F07-office-tower: Controlled central lift lobby"
+          ]
+        },
+        {
+          "label": "F07-office-tower: Controlled lift B reservation",
+          "box": [
+            37,
+            15,
+            40,
+            18
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F07-office-tower: Controlled central office spine",
+            "F07-office-tower: Controlled central lift lobby"
+          ]
+        },
+        {
+          "label": "F07-office-tower: Controlled executive assistants",
+          "box": [
+            0,
+            0,
+            5.891,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F07-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F07-office-tower: Controlled directors suite",
+          "box": [
+            5.891,
+            0,
+            13.091,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F07-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F07-office-tower: Controlled strategy team",
+          "box": [
+            13.091,
+            0,
+            21.6,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F07-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F07-office-tower: Controlled board preparation",
+          "box": [
+            21.6,
+            0,
+            28.145,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F07-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F07-office-tower: Controlled boardroom",
+          "box": [
+            28.145,
+            0,
+            36,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F07-office-tower: Controlled central office spine"
+          ]
+        },
+        {
+          "label": "F07-office-tower: Controlled investor meeting",
+          "box": [
+            36,
+            0,
+            41.891,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F07-office-tower: Controlled central office spine",
+            "F07-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F07-office-tower: Controlled executive interview",
+          "box": [
+            41.891,
+            0,
+            49.091,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F07-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F07-office-tower: Controlled governance room",
+          "box": [
+            49.091,
+            0,
+            57.6,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F07-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F07-office-tower: Controlled executive workroom",
+          "box": [
+            57.6,
+            0,
+            64.145,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F07-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F07-office-tower: Controlled executive lounge",
+          "box": [
+            64.145,
+            0,
+            72,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F07-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F07-office-tower: Controlled chair office",
+          "box": [
+            3.2,
+            15,
+            9.13,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F07-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F07-office-tower: Controlled chief executive office",
+          "box": [
+            9.13,
+            15,
+            16.139,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F07-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F07-office-tower: Controlled private meeting",
+          "box": [
+            16.139,
+            15,
+            21.53,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F07-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F07-office-tower: Controlled strategy review",
+          "box": [
+            21.53,
+            15,
+            28,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F07-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F07-office-tower: Controlled deputy director office",
+          "box": [
+            40,
+            15,
+            48.509,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F07-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F07-office-tower: Controlled leadership meeting",
+          "box": [
+            48.509,
+            15,
+            55.055,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F07-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F07-office-tower: Controlled communications office",
+          "box": [
+            55.055,
+            15,
+            62.909,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F07-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F07-office-tower: Controlled confidential workroom",
+          "box": [
+            62.909,
+            15,
+            68.8,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F07-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F07-office-tower: Service accessible washrooms and wash area",
+          "box": [
+            28,
+            18,
+            31,
+            25
+          ],
+          "kind": "service",
+          "access_to": [
+            "F07-office-tower: Controlled central lift lobby"
+          ]
+        },
+        {
+          "label": "F07-office-tower: Service pantry and cleaning store",
+          "box": [
+            37,
+            18,
+            40,
+            25
+          ],
+          "kind": "service",
+          "access_to": [
+            "F07-office-tower: Controlled central lift lobby"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "name": "Learning and staff amenities",
+      "height_m": 3.6,
+      "rooms": [
+        {
+          "label": "F08-office-tower: Controlled west office spine",
+          "box": [
+            0,
+            12,
+            28,
+            15
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F08-office-tower: Controlled central office spine",
+            "F08-office-tower: Service west stair reservation",
+            "F08-office-tower: Controlled seminar room",
+            "F08-office-tower: Controlled workshop room",
+            "F08-office-tower: Controlled conference room",
+            "F08-office-tower: Controlled breakout room",
+            "F08-office-tower: Controlled learning studio",
+            "F08-office-tower: Controlled library lounge",
+            "F08-office-tower: Controlled mentoring room",
+            "F08-office-tower: Controlled meditation room"
+          ]
+        },
+        {
+          "label": "F08-office-tower: Controlled central office spine",
+          "box": [
+            28,
+            12,
+            40,
+            15
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F08-office-tower: Controlled west office spine",
+            "F08-office-tower: Controlled east office spine",
+            "F08-office-tower: Controlled central lift lobby",
+            "F08-office-tower: Controlled lift A reservation",
+            "F08-office-tower: Controlled lift B reservation",
+            "F08-office-tower: Controlled breakout room",
+            "F08-office-tower: Controlled presentation studio",
+            "F08-office-tower: Controlled event preparation"
+          ]
+        },
+        {
+          "label": "F08-office-tower: Controlled east office spine",
+          "box": [
+            40,
+            12,
+            72,
+            15
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F08-office-tower: Controlled central office spine",
+            "F08-office-tower: Service east stair reservation",
+            "F08-office-tower: Controlled event preparation",
+            "F08-office-tower: Controlled catering briefing",
+            "F08-office-tower: Controlled staff club",
+            "F08-office-tower: Controlled wellness studio",
+            "F08-office-tower: Controlled quiet lounge",
+            "F08-office-tower: Controlled staff fitness room",
+            "F08-office-tower: Controlled wellbeing consultation",
+            "F08-office-tower: Controlled first aid room",
+            "F08-office-tower: Controlled recreation room"
+          ]
+        },
+        {
+          "label": "F08-office-tower: Controlled central lift lobby",
+          "box": [
+            31,
+            15,
+            37,
+            25
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F08-office-tower: Controlled central office spine",
+            "F08-office-tower: Controlled lift A reservation",
+            "F08-office-tower: Controlled lift B reservation",
+            "F08-office-tower: Service accessible washrooms and wash area",
+            "F08-office-tower: Service pantry and cleaning store"
+          ]
+        },
+        {
+          "label": "F08-office-tower: Service west stair reservation",
+          "box": [
+            0,
+            15,
+            3.2,
+            21.5
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F08-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F08-office-tower: Service east stair reservation",
+          "box": [
+            68.8,
+            15,
+            72,
+            21.5
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F08-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F08-office-tower: Controlled lift A reservation",
+          "box": [
+            28,
+            15,
+            31,
+            18
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F08-office-tower: Controlled central office spine",
+            "F08-office-tower: Controlled central lift lobby"
+          ]
+        },
+        {
+          "label": "F08-office-tower: Controlled lift B reservation",
+          "box": [
+            37,
+            15,
+            40,
+            18
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F08-office-tower: Controlled central office spine",
+            "F08-office-tower: Controlled central lift lobby"
+          ]
+        },
+        {
+          "label": "F08-office-tower: Controlled seminar room",
+          "box": [
+            0,
+            0,
+            7.2,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F08-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F08-office-tower: Controlled workshop room",
+          "box": [
+            7.2,
+            0,
+            15.709,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F08-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F08-office-tower: Controlled conference room",
+          "box": [
+            15.709,
+            0,
+            22.255,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F08-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F08-office-tower: Controlled breakout room",
+          "box": [
+            22.255,
+            0,
+            30.109,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F08-office-tower: Controlled west office spine",
+            "F08-office-tower: Controlled central office spine"
+          ]
+        },
+        {
+          "label": "F08-office-tower: Controlled presentation studio",
+          "box": [
+            30.109,
+            0,
+            36,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F08-office-tower: Controlled central office spine"
+          ]
+        },
+        {
+          "label": "F08-office-tower: Controlled event preparation",
+          "box": [
+            36,
+            0,
+            43.2,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F08-office-tower: Controlled central office spine",
+            "F08-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F08-office-tower: Controlled catering briefing",
+          "box": [
+            43.2,
+            0,
+            51.709,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F08-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F08-office-tower: Controlled staff club",
+          "box": [
+            51.709,
+            0,
+            58.255,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F08-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F08-office-tower: Controlled wellness studio",
+          "box": [
+            58.255,
+            0,
+            66.109,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F08-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F08-office-tower: Controlled quiet lounge",
+          "box": [
+            66.109,
+            0,
+            72,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F08-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F08-office-tower: Controlled learning studio",
+          "box": [
+            3.2,
+            15,
+            10.527,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F08-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F08-office-tower: Controlled library lounge",
+          "box": [
+            10.527,
+            15,
+            16.164,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F08-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F08-office-tower: Controlled mentoring room",
+          "box": [
+            16.164,
+            15,
+            22.927,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F08-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F08-office-tower: Controlled meditation room",
+          "box": [
+            22.927,
+            15,
+            28,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F08-office-tower: Controlled west office spine"
+          ]
+        },
+        {
+          "label": "F08-office-tower: Controlled staff fitness room",
+          "box": [
+            40,
+            15,
+            46.857,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F08-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F08-office-tower: Controlled wellbeing consultation",
+          "box": [
+            46.857,
+            15,
+            55.086,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F08-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F08-office-tower: Controlled first aid room",
+          "box": [
+            55.086,
+            15,
+            61.257,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F08-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F08-office-tower: Controlled recreation room",
+          "box": [
+            61.257,
+            15,
+            68.8,
+            25
+          ],
+          "kind": "program",
+          "access_to": [
+            "F08-office-tower: Controlled east office spine"
+          ]
+        },
+        {
+          "label": "F08-office-tower: Service accessible washrooms and wash area",
+          "box": [
+            28,
+            18,
+            31,
+            25
+          ],
+          "kind": "service",
+          "access_to": [
+            "F08-office-tower: Controlled central lift lobby"
+          ]
+        },
+        {
+          "label": "F08-office-tower: Service pantry and cleaning store",
+          "box": [
+            37,
+            18,
+            40,
+            25
+          ],
+          "kind": "service",
+          "access_to": [
+            "F08-office-tower: Controlled central lift lobby"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "case": "resort-lodge",
+  "version": "1.0",
+  "run": "2026-11-15_v1.0",
+  "reviewer": "reviewer v2",
+  "score": 7,
+  "doors": 88,
+  "windows": 148,
+  "problems_left": 0,
+  "justification": "The opening task is substantially complete across all occupied storeys: I measured 36/26/26 doors and 46/53/49 windows on storeys 1–3, with every room having a door and every identified habitable room having an exterior window. The systemic defect is window suitability: nearly all windows have a 0.604 m sill, including guest-suite and office-like uses where the standard expects about 0.9–1.0 m, so significant repeated adjustment is needed despite otherwise strong hosting, sizing, and operation checks.",
+  "evidence": "Live measurements found 88 doors and 148 windows, all 236 hosted and bounding-box-contained in their host walls; the access check found 0 doorless rooms and habitable-window coverage of 15/15 on storey 1, 15/15 on storey 2, and 17/17 on storey 3. Window bounding boxes measured 0.604 m sills throughout almost all rooms, matching the agent’s statement: “Every room people use has … casements on a 2′-0″ (0.6 m) sill.”",
+  "strengths": [
+    "Complete whole-building coverage: storey 1 has 36 doors/46 windows, storey 2 has 26/53, and storey 3 has 26/49.",
+    "All 82 recorded rooms have at least one door; no floor or room-use group is missing door coverage.",
+    "Habitable-window coverage is complete by floor: 15/15 occupied rooms on floor 1, 15/15 on floor 2, and 17/17 on floor 3.",
+    "All 236 openings have wall hosts and lie within their host bounding boxes.",
+    "Opening measurements report no swing, hand, sash-direction, width, lift-door, or fire-rating findings. Lift doors are sliding and measure 1.20 m nominal; the main entrance is a wide double-swing door.",
+    "The final counts of 88 doors and 148 windows exactly match the live model, and the agent openly disclosed the 0.6 m sill choice."
+  ],
+  "weaknesses": [
+    "A single 0.604 m sill strategy was applied to nearly all windows, including the 19 guest/suite-envelope rooms and office-like uses; this is below the standard’s approximately 0.9–1.0 m expectation for bedrooms and offices.",
+    "Moving-leaf and sash sweep clearance against walls, fixtures, and adjacent leaves was not independently established; this remains not assessed rather than a failure.",
+    "Building-wide access status is unverified because 54 upper-floor rooms are reported as not linked to other floors, but this results from the disclosed reserved stair/lift starting-model condition and is not penalized in this opening-only review."
+  ],
+  "spec_violations": [
+    {
+      "constraint": "Window sill heights must suit the room use, approximately 0.9–1.0 m in bedrooms and offices.",
+      "what_happened": "Almost all habitable-room windows use a uniform low sill of approximately 0.604 m, including guest-suite and office-like rooms.",
+      "evidence": "Measured window bottoms were 0.604 m above the floor on all floor-1 windows and nearly all floor-2 and floor-3 windows; only four upper-corridor windows measured about 0.908 m."
+    }
+  ],
+  "honesty_flags": [],
+  "confidence": "high"
+}

@@ -1,0 +1,141 @@
+{
+  "part": "doors-windows",
+  "version": "1.0",
+  "automatic_checks": [
+    {
+      "id": "door_too_narrow",
+      "name": "Door wide enough",
+      "description": "The clear width suits what goes through the door: people, wheelchairs, beds, goods.",
+      "added_in": "1.0",
+      "status": "live"
+    },
+    {
+      "id": "door_swings_into_corridor",
+      "name": "Door does not swing into a corridor",
+      "description": "A door that opens into a corridor can hit people who walk past.",
+      "added_in": "1.0",
+      "status": "live"
+    },
+    {
+      "id": "door_hinge_off_return",
+      "name": "Door opens against a wall",
+      "description": "The hinge is on the side near a wall, so the open door does not block the room.",
+      "added_in": "1.0",
+      "status": "live"
+    },
+    {
+      "id": "window_sash_opens_inward",
+      "name": "Window opens the right way",
+      "description": "An opening sash does not swing into the room, unless the agent gives a reason.",
+      "added_in": "1.0",
+      "status": "live"
+    },
+    {
+      "id": "lift_door_check",
+      "name": "Lift doors slide and open onto a lobby",
+      "description": "Sliding landing doors at least 1.2 m wide, with a lobby in front where people wait.",
+      "added_in": "1.0",
+      "status": "live"
+    },
+    {
+      "id": "stair_door_not_fire_rated",
+      "name": "Stair doors are fire-rated",
+      "description": "A door into a stair has a fire rating.",
+      "added_in": "1.0",
+      "status": "live"
+    }
+  ],
+  "review_criteria": [
+    {
+      "id": "coverage",
+      "name": "Coverage",
+      "description": "Every room that needs a door or a window has one, on every floor.",
+      "added_in": "1.0",
+      "status": "live"
+    },
+    {
+      "id": "entrances",
+      "name": "Entrances",
+      "description": "People can get into the building from outside.",
+      "added_in": "1.0",
+      "status": "live"
+    },
+    {
+      "id": "type-for-place",
+      "name": "The right type for the place",
+      "description": "An exterior door at an entrance, sliding doors at a lift, a fire-rated door at a stair, pair doors for a large room.",
+      "added_in": "1.0",
+      "status": "live"
+    },
+    {
+      "id": "swing-and-hinge",
+      "name": "Door swing and hinge side",
+      "description": "Doors open the right way and against a wall.",
+      "added_in": "1.0",
+      "status": "live"
+    },
+    {
+      "id": "door-width",
+      "name": "Door width",
+      "description": "Doors are wide enough for their use, for example for wheelchairs or beds.",
+      "added_in": "1.0",
+      "status": "live"
+    },
+    {
+      "id": "windows",
+      "name": "Windows",
+      "description": "Windows open the right way and sit at the right height for the room.",
+      "added_in": "1.0",
+      "status": "live"
+    },
+    {
+      "id": "lift-doors",
+      "name": "Lift doors",
+      "description": "Lift doors slide and open onto a lobby.",
+      "added_in": "1.0",
+      "status": "live"
+    },
+    {
+      "id": "stair-doors",
+      "name": "Stair doors",
+      "description": "Stair doors are fire-rated.",
+      "added_in": "1.0",
+      "status": "live"
+    },
+    {
+      "id": "facade-system",
+      "name": "The facade system",
+      "description": "Windows line up from floor to floor, use a few sizes, and give each room the right amount of glass.",
+      "added_in": "1.0",
+      "status": "live"
+    },
+    {
+      "id": "honesty",
+      "name": "Honesty",
+      "description": "What the agent says it did matches the model. A claim more than 5% off caps the score at 3.",
+      "added_in": "1.0",
+      "status": "live"
+    },
+    {
+      "id": "view-and-privacy",
+      "name": "View and privacy",
+      "description": "Windows that look out to a good view. No clear glass where people need privacy.",
+      "added_in": null,
+      "status": "coming"
+    },
+    {
+      "id": "travel-distance",
+      "name": "Travel distance",
+      "description": "How far a person walks from each room, through its door, to the nearest stair or exit.",
+      "added_in": null,
+      "status": "coming"
+    },
+    {
+      "id": "sunlight-and-daylight",
+      "name": "Sunlight and daylight",
+      "description": "Enough daylight in each room, and the right amount of sun.",
+      "added_in": null,
+      "status": "coming"
+    }
+  ]
+}

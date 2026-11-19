@@ -1,0 +1,1383 @@
+{
+  "slug": "sports-centre",
+  "typology": "sports-centre",
+  "provenance": "AI-authored synthetic recorded starting layout for a doors/windows benchmark; not customer data, not a certified design.",
+  "notes": [
+    "Supplemental synthetic benchmark coverage only, not selected production-run cases or evidence of a production result.",
+    "Metre coordinates describe disjoint clear-space boxes, not walls. No doors or windows are seeded. Empty areas are unassigned shell, exterior, courtyard, or the explicitly described void.",
+    "Exactly two stair footprints and two lift footprints are vertically stacked reservations on every floor. They are not physical stairs, lifts, shafts, or installed equipment.",
+    "Public, controlled and service labels and circulation zones express intended thresholds. Access edges are reciprocal same-floor adjacency intentions, not installed doors or an enforced security policy.",
+    "No structural, fire, accessibility, egress, acoustic, laboratory safety, sporting-body, or transport-operational compliance is asserted. Reservations do not model inter-floor travel or exit discharge.",
+    "Ground sports hall is 32 by 30 m and 12 m high, equal to all three floor heights. Its full footprint is omitted on floors 2 and 3; these floors occupy only the adjacent fitness and front wings. The hall is a generic court envelope with run-off allowance, not a certified court layout. There is no pool, fake upper-floor court, interior bridge or equipment geometry. The hall sits against the athlete wing; a 4 m external recess on the west gable holds the west stair."
+  ],
+  "floors": [
+    {
+      "number": 1,
+      "name": "Court hall and changing",
+      "height_m": 4,
+      "rooms": [
+        {
+          "label": "F01-sports-centre: Public spectator approach",
+          "box": [
+            0,
+            12,
+            32,
+            16
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01-sports-centre: Controlled athlete threshold gallery",
+            "F01-sports-centre: Controlled shared lift lobby",
+            "F01-sports-centre: Service west stair reservation",
+            "F01-sports-centre: Public sports reception",
+            "F01-sports-centre: Public membership office",
+            "F01-sports-centre: Public equipment hire",
+            "F01-sports-centre: Public first aid room",
+            "F01-sports-centre: Public cafe seating",
+            "F01-sports-centre: Public multi-use sports hall with single basketball court allowance"
+          ]
+        },
+        {
+          "label": "F01-sports-centre: Controlled athlete threshold gallery",
+          "box": [
+            32,
+            12,
+            48,
+            16
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01-sports-centre: Public spectator approach",
+            "F01-sports-centre: Controlled fitness entry gallery",
+            "F01-sports-centre: Controlled shared lift lobby",
+            "F01-sports-centre: Controlled accessible changing",
+            "F01-sports-centre: Controlled team changing east",
+            "F01-sports-centre: Controlled equipment induction",
+            "F01-sports-centre: Public multi-use sports hall with single basketball court allowance"
+          ]
+        },
+        {
+          "label": "F01-sports-centre: Controlled fitness entry gallery",
+          "box": [
+            48,
+            12,
+            72,
+            16
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01-sports-centre: Controlled athlete threshold gallery",
+            "F01-sports-centre: Controlled fitness wing spine",
+            "F01-sports-centre: Service east stair reservation",
+            "F01-sports-centre: Controlled team changing east",
+            "F01-sports-centre: Controlled team changing west",
+            "F01-sports-centre: Controlled officials room",
+            "F01-sports-centre: Controlled pool-free warmup room",
+            "F01-sports-centre: Service fitness wing store"
+          ]
+        },
+        {
+          "label": "F01-sports-centre: Controlled fitness wing spine",
+          "box": [
+            48,
+            16,
+            52,
+            46
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01-sports-centre: Controlled fitness entry gallery",
+            "F01-sports-centre: Controlled equipment induction",
+            "F01-sports-centre: Controlled warmup studio",
+            "F01-sports-centre: Controlled movement studio",
+            "F01-sports-centre: Controlled team briefing",
+            "F01-sports-centre: Controlled sports massage",
+            "F01-sports-centre: Controlled sports administration",
+            "F01-sports-centre: Controlled referee briefing",
+            "F01-sports-centre: Controlled coaching room",
+            "F01-sports-centre: Controlled community sports room",
+            "F01-sports-centre: Service fitness wing store"
+          ]
+        },
+        {
+          "label": "F01-sports-centre: Controlled shared lift lobby",
+          "box": [
+            30,
+            6,
+            42,
+            12
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01-sports-centre: Public spectator approach",
+            "F01-sports-centre: Controlled athlete threshold gallery",
+            "F01-sports-centre: Controlled lift A reservation",
+            "F01-sports-centre: Controlled lift B reservation",
+            "F01-sports-centre: Public cafe seating",
+            "F01-sports-centre: Controlled accessible changing",
+            "F01-sports-centre: Service accessible washrooms"
+          ]
+        },
+        {
+          "label": "F01-sports-centre: Service west stair reservation",
+          "box": [
+            0,
+            16,
+            4,
+            22
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F01-sports-centre: Public spectator approach"
+          ]
+        },
+        {
+          "label": "F01-sports-centre: Service east stair reservation",
+          "box": [
+            58,
+            16,
+            62,
+            22
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F01-sports-centre: Controlled fitness entry gallery"
+          ]
+        },
+        {
+          "label": "F01-sports-centre: Controlled lift A reservation",
+          "box": [
+            36,
+            3,
+            39,
+            6
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F01-sports-centre: Controlled shared lift lobby"
+          ]
+        },
+        {
+          "label": "F01-sports-centre: Controlled lift B reservation",
+          "box": [
+            39,
+            3,
+            42,
+            6
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F01-sports-centre: Controlled shared lift lobby"
+          ]
+        },
+        {
+          "label": "F01-sports-centre: Public sports reception",
+          "box": [
+            0,
+            0,
+            6.545,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-sports-centre: Public spectator approach"
+          ]
+        },
+        {
+          "label": "F01-sports-centre: Public membership office",
+          "box": [
+            6.545,
+            0,
+            11.455,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-sports-centre: Public spectator approach"
+          ]
+        },
+        {
+          "label": "F01-sports-centre: Public equipment hire",
+          "box": [
+            11.455,
+            0,
+            17.455,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-sports-centre: Public spectator approach"
+          ]
+        },
+        {
+          "label": "F01-sports-centre: Public first aid room",
+          "box": [
+            17.455,
+            0,
+            24.545,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-sports-centre: Public spectator approach"
+          ]
+        },
+        {
+          "label": "F01-sports-centre: Public cafe seating",
+          "box": [
+            24.545,
+            0,
+            30,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-sports-centre: Public spectator approach",
+            "F01-sports-centre: Controlled shared lift lobby"
+          ]
+        },
+        {
+          "label": "F01-sports-centre: Controlled accessible changing",
+          "box": [
+            42,
+            0,
+            46.909,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-sports-centre: Controlled athlete threshold gallery",
+            "F01-sports-centre: Controlled shared lift lobby"
+          ]
+        },
+        {
+          "label": "F01-sports-centre: Controlled team changing east",
+          "box": [
+            46.909,
+            0,
+            52.909,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-sports-centre: Controlled athlete threshold gallery",
+            "F01-sports-centre: Controlled fitness entry gallery"
+          ]
+        },
+        {
+          "label": "F01-sports-centre: Controlled team changing west",
+          "box": [
+            52.909,
+            0,
+            60,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-sports-centre: Controlled fitness entry gallery"
+          ]
+        },
+        {
+          "label": "F01-sports-centre: Controlled officials room",
+          "box": [
+            60,
+            0,
+            65.455,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-sports-centre: Controlled fitness entry gallery"
+          ]
+        },
+        {
+          "label": "F01-sports-centre: Controlled pool-free warmup room",
+          "box": [
+            65.455,
+            0,
+            72,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-sports-centre: Controlled fitness entry gallery"
+          ]
+        },
+        {
+          "label": "F01-sports-centre: Controlled equipment induction",
+          "box": [
+            36,
+            16,
+            48,
+            22.545
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-sports-centre: Controlled athlete threshold gallery",
+            "F01-sports-centre: Controlled fitness wing spine"
+          ]
+        },
+        {
+          "label": "F01-sports-centre: Controlled warmup studio",
+          "box": [
+            36,
+            22.545,
+            48,
+            27.455
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-sports-centre: Controlled fitness wing spine"
+          ]
+        },
+        {
+          "label": "F01-sports-centre: Controlled movement studio",
+          "box": [
+            36,
+            27.455,
+            48,
+            33.455
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-sports-centre: Controlled fitness wing spine"
+          ]
+        },
+        {
+          "label": "F01-sports-centre: Controlled team briefing",
+          "box": [
+            36,
+            33.455,
+            48,
+            40.545
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-sports-centre: Controlled fitness wing spine"
+          ]
+        },
+        {
+          "label": "F01-sports-centre: Controlled sports massage",
+          "box": [
+            36,
+            40.545,
+            48,
+            46
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-sports-centre: Controlled fitness wing spine"
+          ]
+        },
+        {
+          "label": "F01-sports-centre: Controlled sports administration",
+          "box": [
+            52,
+            22,
+            62,
+            27.739
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-sports-centre: Controlled fitness wing spine"
+          ]
+        },
+        {
+          "label": "F01-sports-centre: Controlled referee briefing",
+          "box": [
+            52,
+            27.739,
+            62,
+            34.522
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-sports-centre: Controlled fitness wing spine"
+          ]
+        },
+        {
+          "label": "F01-sports-centre: Controlled coaching room",
+          "box": [
+            52,
+            34.522,
+            62,
+            39.739
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-sports-centre: Controlled fitness wing spine"
+          ]
+        },
+        {
+          "label": "F01-sports-centre: Controlled community sports room",
+          "box": [
+            52,
+            39.739,
+            62,
+            46
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-sports-centre: Controlled fitness wing spine"
+          ]
+        },
+        {
+          "label": "F01-sports-centre: Service accessible washrooms",
+          "box": [
+            30,
+            0,
+            36,
+            6
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01-sports-centre: Service cleaning and sports consumables",
+            "F01-sports-centre: Controlled shared lift lobby"
+          ]
+        },
+        {
+          "label": "F01-sports-centre: Service cleaning and sports consumables",
+          "box": [
+            36,
+            0,
+            42,
+            3
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01-sports-centre: Service accessible washrooms"
+          ]
+        },
+        {
+          "label": "F01-sports-centre: Service fitness wing store",
+          "box": [
+            52,
+            16,
+            58,
+            22
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01-sports-centre: Controlled fitness entry gallery",
+            "F01-sports-centre: Controlled fitness wing spine"
+          ]
+        },
+        {
+          "label": "F01-sports-centre: Public multi-use sports hall with single basketball court allowance",
+          "box": [
+            4,
+            16,
+            36,
+            46
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-sports-centre: Public spectator approach",
+            "F01-sports-centre: Controlled athlete threshold gallery"
+          ],
+          "height_m": 12
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Fitness and rehabilitation wing",
+      "height_m": 4,
+      "rooms": [
+        {
+          "label": "F02-sports-centre: Controlled court-edge gallery",
+          "box": [
+            0,
+            12,
+            32,
+            16
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02-sports-centre: Controlled athlete threshold gallery",
+            "F02-sports-centre: Controlled shared lift lobby",
+            "F02-sports-centre: Service west stair reservation",
+            "F02-sports-centre: Controlled fitness assessment",
+            "F02-sports-centre: Controlled personal training",
+            "F02-sports-centre: Controlled physiotherapy",
+            "F02-sports-centre: Controlled nutrition consultation",
+            "F02-sports-centre: Controlled member lounge"
+          ]
+        },
+        {
+          "label": "F02-sports-centre: Controlled athlete threshold gallery",
+          "box": [
+            32,
+            12,
+            48,
+            16
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02-sports-centre: Controlled court-edge gallery",
+            "F02-sports-centre: Controlled fitness entry gallery",
+            "F02-sports-centre: Controlled shared lift lobby",
+            "F02-sports-centre: Controlled member changing east",
+            "F02-sports-centre: Controlled resistance training"
+          ]
+        },
+        {
+          "label": "F02-sports-centre: Controlled fitness entry gallery",
+          "box": [
+            48,
+            12,
+            72,
+            16
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02-sports-centre: Controlled athlete threshold gallery",
+            "F02-sports-centre: Controlled fitness wing spine",
+            "F02-sports-centre: Service east stair reservation",
+            "F02-sports-centre: Controlled member changing west",
+            "F02-sports-centre: Controlled recovery room",
+            "F02-sports-centre: Controlled mobility studio",
+            "F02-sports-centre: Controlled training review",
+            "F02-sports-centre: Service fitness wing store"
+          ]
+        },
+        {
+          "label": "F02-sports-centre: Controlled fitness wing spine",
+          "box": [
+            48,
+            16,
+            52,
+            46
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02-sports-centre: Controlled fitness entry gallery",
+            "F02-sports-centre: Controlled resistance training",
+            "F02-sports-centre: Controlled free weights studio",
+            "F02-sports-centre: Controlled functional training",
+            "F02-sports-centre: Controlled conditioning studio",
+            "F02-sports-centre: Controlled stretching studio",
+            "F02-sports-centre: Controlled cycle training studio",
+            "F02-sports-centre: Controlled rowing fitness studio",
+            "F02-sports-centre: Controlled exercise studio",
+            "F02-sports-centre: Controlled small group training",
+            "F02-sports-centre: Service fitness wing store"
+          ]
+        },
+        {
+          "label": "F02-sports-centre: Controlled shared lift lobby",
+          "box": [
+            30,
+            6,
+            42,
+            12
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02-sports-centre: Controlled court-edge gallery",
+            "F02-sports-centre: Controlled athlete threshold gallery",
+            "F02-sports-centre: Controlled lift A reservation",
+            "F02-sports-centre: Controlled lift B reservation",
+            "F02-sports-centre: Controlled member lounge",
+            "F02-sports-centre: Controlled member changing east",
+            "F02-sports-centre: Service accessible washrooms"
+          ]
+        },
+        {
+          "label": "F02-sports-centre: Service west stair reservation",
+          "box": [
+            0,
+            16,
+            4,
+            22
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F02-sports-centre: Controlled court-edge gallery"
+          ]
+        },
+        {
+          "label": "F02-sports-centre: Service east stair reservation",
+          "box": [
+            58,
+            16,
+            62,
+            22
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F02-sports-centre: Controlled fitness entry gallery"
+          ]
+        },
+        {
+          "label": "F02-sports-centre: Controlled lift A reservation",
+          "box": [
+            36,
+            3,
+            39,
+            6
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F02-sports-centre: Controlled shared lift lobby"
+          ]
+        },
+        {
+          "label": "F02-sports-centre: Controlled lift B reservation",
+          "box": [
+            39,
+            3,
+            42,
+            6
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F02-sports-centre: Controlled shared lift lobby"
+          ]
+        },
+        {
+          "label": "F02-sports-centre: Controlled fitness assessment",
+          "box": [
+            0,
+            0,
+            4.909,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-sports-centre: Controlled court-edge gallery"
+          ]
+        },
+        {
+          "label": "F02-sports-centre: Controlled personal training",
+          "box": [
+            4.909,
+            0,
+            10.909,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-sports-centre: Controlled court-edge gallery"
+          ]
+        },
+        {
+          "label": "F02-sports-centre: Controlled physiotherapy",
+          "box": [
+            10.909,
+            0,
+            18,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-sports-centre: Controlled court-edge gallery"
+          ]
+        },
+        {
+          "label": "F02-sports-centre: Controlled nutrition consultation",
+          "box": [
+            18,
+            0,
+            23.455,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-sports-centre: Controlled court-edge gallery"
+          ]
+        },
+        {
+          "label": "F02-sports-centre: Controlled member lounge",
+          "box": [
+            23.455,
+            0,
+            30,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-sports-centre: Controlled court-edge gallery",
+            "F02-sports-centre: Controlled shared lift lobby"
+          ]
+        },
+        {
+          "label": "F02-sports-centre: Controlled member changing east",
+          "box": [
+            42,
+            0,
+            48,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-sports-centre: Controlled athlete threshold gallery",
+            "F02-sports-centre: Controlled shared lift lobby"
+          ]
+        },
+        {
+          "label": "F02-sports-centre: Controlled member changing west",
+          "box": [
+            48,
+            0,
+            55.091,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-sports-centre: Controlled fitness entry gallery"
+          ]
+        },
+        {
+          "label": "F02-sports-centre: Controlled recovery room",
+          "box": [
+            55.091,
+            0,
+            60.545,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-sports-centre: Controlled fitness entry gallery"
+          ]
+        },
+        {
+          "label": "F02-sports-centre: Controlled mobility studio",
+          "box": [
+            60.545,
+            0,
+            67.091,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-sports-centre: Controlled fitness entry gallery"
+          ]
+        },
+        {
+          "label": "F02-sports-centre: Controlled training review",
+          "box": [
+            67.091,
+            0,
+            72,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-sports-centre: Controlled fitness entry gallery"
+          ]
+        },
+        {
+          "label": "F02-sports-centre: Controlled resistance training",
+          "box": [
+            36,
+            16,
+            48,
+            20.909
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-sports-centre: Controlled athlete threshold gallery",
+            "F02-sports-centre: Controlled fitness wing spine"
+          ]
+        },
+        {
+          "label": "F02-sports-centre: Controlled free weights studio",
+          "box": [
+            36,
+            20.909,
+            48,
+            26.909
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-sports-centre: Controlled fitness wing spine"
+          ]
+        },
+        {
+          "label": "F02-sports-centre: Controlled functional training",
+          "box": [
+            36,
+            26.909,
+            48,
+            34
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-sports-centre: Controlled fitness wing spine"
+          ]
+        },
+        {
+          "label": "F02-sports-centre: Controlled conditioning studio",
+          "box": [
+            36,
+            34,
+            48,
+            39.455
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-sports-centre: Controlled fitness wing spine"
+          ]
+        },
+        {
+          "label": "F02-sports-centre: Controlled stretching studio",
+          "box": [
+            36,
+            39.455,
+            48,
+            46
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-sports-centre: Controlled fitness wing spine"
+          ]
+        },
+        {
+          "label": "F02-sports-centre: Controlled cycle training studio",
+          "box": [
+            52,
+            22,
+            62,
+            29.091
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-sports-centre: Controlled fitness wing spine"
+          ]
+        },
+        {
+          "label": "F02-sports-centre: Controlled rowing fitness studio",
+          "box": [
+            52,
+            29.091,
+            62,
+            34.545
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-sports-centre: Controlled fitness wing spine"
+          ]
+        },
+        {
+          "label": "F02-sports-centre: Controlled exercise studio",
+          "box": [
+            52,
+            34.545,
+            62,
+            41.091
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-sports-centre: Controlled fitness wing spine"
+          ]
+        },
+        {
+          "label": "F02-sports-centre: Controlled small group training",
+          "box": [
+            52,
+            41.091,
+            62,
+            46
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-sports-centre: Controlled fitness wing spine"
+          ]
+        },
+        {
+          "label": "F02-sports-centre: Service accessible washrooms",
+          "box": [
+            30,
+            0,
+            36,
+            6
+          ],
+          "kind": "service",
+          "access_to": [
+            "F02-sports-centre: Service cleaning and sports consumables",
+            "F02-sports-centre: Controlled shared lift lobby"
+          ]
+        },
+        {
+          "label": "F02-sports-centre: Service cleaning and sports consumables",
+          "box": [
+            36,
+            0,
+            42,
+            3
+          ],
+          "kind": "service",
+          "access_to": [
+            "F02-sports-centre: Service accessible washrooms"
+          ]
+        },
+        {
+          "label": "F02-sports-centre: Service fitness wing store",
+          "box": [
+            52,
+            16,
+            58,
+            22
+          ],
+          "kind": "service",
+          "access_to": [
+            "F02-sports-centre: Controlled fitness entry gallery",
+            "F02-sports-centre: Controlled fitness wing spine"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Studios and club learning wing",
+      "height_m": 4,
+      "rooms": [
+        {
+          "label": "F03-sports-centre: Controlled court-edge gallery",
+          "box": [
+            0,
+            12,
+            32,
+            16
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03-sports-centre: Controlled athlete threshold gallery",
+            "F03-sports-centre: Controlled shared lift lobby",
+            "F03-sports-centre: Service west stair reservation",
+            "F03-sports-centre: Controlled club office",
+            "F03-sports-centre: Controlled coach education",
+            "F03-sports-centre: Controlled sports development",
+            "F03-sports-centre: Controlled team meeting",
+            "F03-sports-centre: Controlled staff lounge"
+          ]
+        },
+        {
+          "label": "F03-sports-centre: Controlled athlete threshold gallery",
+          "box": [
+            32,
+            12,
+            48,
+            16
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03-sports-centre: Controlled court-edge gallery",
+            "F03-sports-centre: Controlled fitness entry gallery",
+            "F03-sports-centre: Controlled shared lift lobby",
+            "F03-sports-centre: Controlled instructor office",
+            "F03-sports-centre: Controlled dance studio"
+          ]
+        },
+        {
+          "label": "F03-sports-centre: Controlled fitness entry gallery",
+          "box": [
+            48,
+            12,
+            72,
+            16
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03-sports-centre: Controlled athlete threshold gallery",
+            "F03-sports-centre: Controlled fitness wing spine",
+            "F03-sports-centre: Service east stair reservation",
+            "F03-sports-centre: Controlled instructor office",
+            "F03-sports-centre: Controlled course classroom",
+            "F03-sports-centre: Controlled club seminar",
+            "F03-sports-centre: Controlled volunteer briefing",
+            "F03-sports-centre: Controlled staff welfare",
+            "F03-sports-centre: Service fitness wing store"
+          ]
+        },
+        {
+          "label": "F03-sports-centre: Controlled fitness wing spine",
+          "box": [
+            48,
+            16,
+            52,
+            46
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03-sports-centre: Controlled fitness entry gallery",
+            "F03-sports-centre: Controlled dance studio",
+            "F03-sports-centre: Controlled yoga studio",
+            "F03-sports-centre: Controlled pilates studio",
+            "F03-sports-centre: Controlled martial arts studio",
+            "F03-sports-centre: Controlled balance studio",
+            "F03-sports-centre: Controlled recreation classroom",
+            "F03-sports-centre: Controlled movement teaching",
+            "F03-sports-centre: Controlled instructor mentoring",
+            "F03-sports-centre: Controlled quiet wellbeing room",
+            "F03-sports-centre: Service fitness wing store"
+          ]
+        },
+        {
+          "label": "F03-sports-centre: Controlled shared lift lobby",
+          "box": [
+            30,
+            6,
+            42,
+            12
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03-sports-centre: Controlled court-edge gallery",
+            "F03-sports-centre: Controlled athlete threshold gallery",
+            "F03-sports-centre: Controlled lift A reservation",
+            "F03-sports-centre: Controlled lift B reservation",
+            "F03-sports-centre: Controlled staff lounge",
+            "F03-sports-centre: Controlled instructor office",
+            "F03-sports-centre: Service accessible washrooms"
+          ]
+        },
+        {
+          "label": "F03-sports-centre: Service west stair reservation",
+          "box": [
+            0,
+            16,
+            4,
+            22
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F03-sports-centre: Controlled court-edge gallery"
+          ]
+        },
+        {
+          "label": "F03-sports-centre: Service east stair reservation",
+          "box": [
+            58,
+            16,
+            62,
+            22
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F03-sports-centre: Controlled fitness entry gallery"
+          ]
+        },
+        {
+          "label": "F03-sports-centre: Controlled lift A reservation",
+          "box": [
+            36,
+            3,
+            39,
+            6
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F03-sports-centre: Controlled shared lift lobby"
+          ]
+        },
+        {
+          "label": "F03-sports-centre: Controlled lift B reservation",
+          "box": [
+            39,
+            3,
+            42,
+            6
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F03-sports-centre: Controlled shared lift lobby"
+          ]
+        },
+        {
+          "label": "F03-sports-centre: Controlled club office",
+          "box": [
+            0,
+            0,
+            6,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-sports-centre: Controlled court-edge gallery"
+          ]
+        },
+        {
+          "label": "F03-sports-centre: Controlled coach education",
+          "box": [
+            6,
+            0,
+            13.091,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-sports-centre: Controlled court-edge gallery"
+          ]
+        },
+        {
+          "label": "F03-sports-centre: Controlled sports development",
+          "box": [
+            13.091,
+            0,
+            18.545,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-sports-centre: Controlled court-edge gallery"
+          ]
+        },
+        {
+          "label": "F03-sports-centre: Controlled team meeting",
+          "box": [
+            18.545,
+            0,
+            25.091,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-sports-centre: Controlled court-edge gallery"
+          ]
+        },
+        {
+          "label": "F03-sports-centre: Controlled staff lounge",
+          "box": [
+            25.091,
+            0,
+            30,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-sports-centre: Controlled court-edge gallery",
+            "F03-sports-centre: Controlled shared lift lobby"
+          ]
+        },
+        {
+          "label": "F03-sports-centre: Controlled instructor office",
+          "box": [
+            42,
+            0,
+            49.091,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-sports-centre: Controlled athlete threshold gallery",
+            "F03-sports-centre: Controlled fitness entry gallery",
+            "F03-sports-centre: Controlled shared lift lobby"
+          ]
+        },
+        {
+          "label": "F03-sports-centre: Controlled course classroom",
+          "box": [
+            49.091,
+            0,
+            54.545,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-sports-centre: Controlled fitness entry gallery"
+          ]
+        },
+        {
+          "label": "F03-sports-centre: Controlled club seminar",
+          "box": [
+            54.545,
+            0,
+            61.091,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-sports-centre: Controlled fitness entry gallery"
+          ]
+        },
+        {
+          "label": "F03-sports-centre: Controlled volunteer briefing",
+          "box": [
+            61.091,
+            0,
+            66,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-sports-centre: Controlled fitness entry gallery"
+          ]
+        },
+        {
+          "label": "F03-sports-centre: Controlled staff welfare",
+          "box": [
+            66,
+            0,
+            72,
+            12
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-sports-centre: Controlled fitness entry gallery"
+          ]
+        },
+        {
+          "label": "F03-sports-centre: Controlled dance studio",
+          "box": [
+            36,
+            16,
+            48,
+            22
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-sports-centre: Controlled athlete threshold gallery",
+            "F03-sports-centre: Controlled fitness wing spine"
+          ]
+        },
+        {
+          "label": "F03-sports-centre: Controlled yoga studio",
+          "box": [
+            36,
+            22,
+            48,
+            29.091
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-sports-centre: Controlled fitness wing spine"
+          ]
+        },
+        {
+          "label": "F03-sports-centre: Controlled pilates studio",
+          "box": [
+            36,
+            29.091,
+            48,
+            34.545
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-sports-centre: Controlled fitness wing spine"
+          ]
+        },
+        {
+          "label": "F03-sports-centre: Controlled martial arts studio",
+          "box": [
+            36,
+            34.545,
+            48,
+            41.091
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-sports-centre: Controlled fitness wing spine"
+          ]
+        },
+        {
+          "label": "F03-sports-centre: Controlled balance studio",
+          "box": [
+            36,
+            41.091,
+            48,
+            46
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-sports-centre: Controlled fitness wing spine"
+          ]
+        },
+        {
+          "label": "F03-sports-centre: Controlled recreation classroom",
+          "box": [
+            52,
+            22,
+            62,
+            27.714
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-sports-centre: Controlled fitness wing spine"
+          ]
+        },
+        {
+          "label": "F03-sports-centre: Controlled movement teaching",
+          "box": [
+            52,
+            27.714,
+            62,
+            34.571
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-sports-centre: Controlled fitness wing spine"
+          ]
+        },
+        {
+          "label": "F03-sports-centre: Controlled instructor mentoring",
+          "box": [
+            52,
+            34.571,
+            62,
+            39.714
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-sports-centre: Controlled fitness wing spine"
+          ]
+        },
+        {
+          "label": "F03-sports-centre: Controlled quiet wellbeing room",
+          "box": [
+            52,
+            39.714,
+            62,
+            46
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-sports-centre: Controlled fitness wing spine"
+          ]
+        },
+        {
+          "label": "F03-sports-centre: Service accessible washrooms",
+          "box": [
+            30,
+            0,
+            36,
+            6
+          ],
+          "kind": "service",
+          "access_to": [
+            "F03-sports-centre: Service cleaning and sports consumables",
+            "F03-sports-centre: Controlled shared lift lobby"
+          ]
+        },
+        {
+          "label": "F03-sports-centre: Service cleaning and sports consumables",
+          "box": [
+            36,
+            0,
+            42,
+            3
+          ],
+          "kind": "service",
+          "access_to": [
+            "F03-sports-centre: Service accessible washrooms"
+          ]
+        },
+        {
+          "label": "F03-sports-centre: Service fitness wing store",
+          "box": [
+            52,
+            16,
+            58,
+            22
+          ],
+          "kind": "service",
+          "access_to": [
+            "F03-sports-centre: Controlled fitness entry gallery",
+            "F03-sports-centre: Controlled fitness wing spine"
+          ]
+        }
+      ]
+    }
+  ]
+}

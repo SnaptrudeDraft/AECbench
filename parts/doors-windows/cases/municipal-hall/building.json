@@ -1,0 +1,2003 @@
+{
+  "slug": "municipal-hall",
+  "typology": "municipal-hall",
+  "provenance": "AI-authored synthetic recorded starting layout for a doors/windows benchmark; not customer data, not a certified design.",
+  "notes": [
+    "Supplemental synthetic benchmark coverage only, not selected production-run cases or evidence of a production result.",
+    "Metre coordinates describe disjoint clear-space boxes, not walls. No doors or windows are seeded. Empty areas are unassigned shell, exterior, courtyard, or the explicitly described void.",
+    "Exactly two stair footprints and two lift footprints are vertically stacked reservations on every floor. They are not physical stairs, lifts, shafts, or installed equipment.",
+    "Public, controlled and service labels and circulation zones express intended thresholds. Access edges are reciprocal same-floor adjacency intentions, not installed doors or an enforced security policy.",
+    "No structural, fire, accessibility, egress, acoustic, laboratory safety, sporting-body, or transport-operational compliance is asserted. Reservations do not model inter-floor travel or exit discharge.",
+    "Cross-shaped civic plan: a central orientation hall feeds public counter wings and a narrower controlled administrative wing. Council chamber is a single-storey committee-scale chamber on the top floor, with 4.5 m clear-height placeholder, not an auditorium or atrium. Two open light wells (4 by 7 m and 8 by 7 m) north of the lift lobbies are exterior voids, not shafts."
+  ],
+  "floors": [
+    {
+      "number": 1,
+      "name": "Citizen services and participation",
+      "height_m": 4,
+      "rooms": [
+        {
+          "label": "F01-municipal-hall: Public west service gallery",
+          "box": [
+            0,
+            19,
+            24,
+            23
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01-municipal-hall: Public west lift lobby",
+            "F01-municipal-hall: Service west stair reservation",
+            "F01-municipal-hall: Public citizen reception",
+            "F01-municipal-hall: Public benefits advice",
+            "F01-municipal-hall: Public housing advice",
+            "F01-municipal-hall: Public assisted applications",
+            "F01-municipal-hall: Public community meeting",
+            "F01-municipal-hall: Public neighbourhood workshop",
+            "F01-municipal-hall: Public digital assistance"
+          ]
+        },
+        {
+          "label": "F01-municipal-hall: Public east service gallery",
+          "box": [
+            40,
+            19,
+            64,
+            23
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01-municipal-hall: Controlled east lift lobby",
+            "F01-municipal-hall: Service east stair reservation",
+            "F01-municipal-hall: Public licensing counter room",
+            "F01-municipal-hall: Public civil records consultation",
+            "F01-municipal-hall: Public tax assistance",
+            "F01-municipal-hall: Public community advice",
+            "F01-municipal-hall: Public civic exhibition",
+            "F01-municipal-hall: Public participation workshop",
+            "F01-municipal-hall: Public volunteer room"
+          ]
+        },
+        {
+          "label": "F01-municipal-hall: Public west lift lobby",
+          "box": [
+            24,
+            16,
+            28,
+            28
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01-municipal-hall: Public west service gallery",
+            "F01-municipal-hall: Public civic orientation hall",
+            "F01-municipal-hall: Public lift A reservation",
+            "F01-municipal-hall: Public assisted applications",
+            "F01-municipal-hall: Public digital assistance"
+          ]
+        },
+        {
+          "label": "F01-municipal-hall: Public civic orientation hall",
+          "box": [
+            28,
+            16,
+            36,
+            28
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01-municipal-hall: Public west lift lobby",
+            "F01-municipal-hall: Controlled east lift lobby",
+            "F01-municipal-hall: Controlled north administrative spine",
+            "F01-municipal-hall: Public south arrival spine",
+            "F01-municipal-hall: Public washroom lobby"
+          ]
+        },
+        {
+          "label": "F01-municipal-hall: Controlled east lift lobby",
+          "box": [
+            36,
+            16,
+            40,
+            28
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01-municipal-hall: Public east service gallery",
+            "F01-municipal-hall: Public civic orientation hall",
+            "F01-municipal-hall: Controlled lift B reservation",
+            "F01-municipal-hall: Public licensing counter room",
+            "F01-municipal-hall: Public civic exhibition"
+          ]
+        },
+        {
+          "label": "F01-municipal-hall: Controlled north administrative spine",
+          "box": [
+            28,
+            28,
+            32,
+            53
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01-municipal-hall: Public civic orientation hall",
+            "F01-municipal-hall: Controlled citizen services lead",
+            "F01-municipal-hall: Controlled casework office",
+            "F01-municipal-hall: Controlled service coordination",
+            "F01-municipal-hall: Controlled public welfare team",
+            "F01-municipal-hall: Controlled community grants",
+            "F01-municipal-hall: Controlled civic operations"
+          ]
+        },
+        {
+          "label": "F01-municipal-hall: Public south arrival spine",
+          "box": [
+            28,
+            0,
+            32,
+            16
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01-municipal-hall: Public civic orientation hall",
+            "F01-municipal-hall: Public lift A reservation",
+            "F01-municipal-hall: Public washroom lobby",
+            "F01-municipal-hall: Public private consultation",
+            "F01-municipal-hall: Service washrooms and cleaner room"
+          ]
+        },
+        {
+          "label": "F01-municipal-hall: Service west stair reservation",
+          "box": [
+            0,
+            23,
+            5,
+            29
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F01-municipal-hall: Public west service gallery"
+          ]
+        },
+        {
+          "label": "F01-municipal-hall: Service east stair reservation",
+          "box": [
+            59,
+            23,
+            64,
+            29
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F01-municipal-hall: Public east service gallery"
+          ]
+        },
+        {
+          "label": "F01-municipal-hall: Public lift A reservation",
+          "box": [
+            24,
+            13,
+            28,
+            16
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F01-municipal-hall: Public west lift lobby",
+            "F01-municipal-hall: Public south arrival spine"
+          ]
+        },
+        {
+          "label": "F01-municipal-hall: Controlled lift B reservation",
+          "box": [
+            36,
+            13,
+            40,
+            16
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F01-municipal-hall: Controlled east lift lobby",
+            "F01-municipal-hall: Public washroom lobby"
+          ]
+        },
+        {
+          "label": "F01-municipal-hall: Public washroom lobby",
+          "box": [
+            32,
+            13,
+            36,
+            16
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01-municipal-hall: Public civic orientation hall",
+            "F01-municipal-hall: Public south arrival spine",
+            "F01-municipal-hall: Controlled lift B reservation",
+            "F01-municipal-hall: Service washrooms and cleaner room"
+          ]
+        },
+        {
+          "label": "F01-municipal-hall: Public citizen reception",
+          "box": [
+            0,
+            7,
+            6.4,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-municipal-hall: Public west service gallery"
+          ]
+        },
+        {
+          "label": "F01-municipal-hall: Public benefits advice",
+          "box": [
+            6.4,
+            7,
+            11.2,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-municipal-hall: Public west service gallery"
+          ]
+        },
+        {
+          "label": "F01-municipal-hall: Public housing advice",
+          "box": [
+            11.2,
+            7,
+            17.067,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-municipal-hall: Public west service gallery"
+          ]
+        },
+        {
+          "label": "F01-municipal-hall: Public assisted applications",
+          "box": [
+            17.067,
+            7,
+            24,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-municipal-hall: Public west service gallery",
+            "F01-municipal-hall: Public west lift lobby"
+          ]
+        },
+        {
+          "label": "F01-municipal-hall: Public licensing counter room",
+          "box": [
+            40,
+            7,
+            45.023,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-municipal-hall: Public east service gallery",
+            "F01-municipal-hall: Controlled east lift lobby"
+          ]
+        },
+        {
+          "label": "F01-municipal-hall: Public civil records consultation",
+          "box": [
+            45.023,
+            7,
+            51.163,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-municipal-hall: Public east service gallery"
+          ]
+        },
+        {
+          "label": "F01-municipal-hall: Public tax assistance",
+          "box": [
+            51.163,
+            7,
+            58.419,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-municipal-hall: Public east service gallery"
+          ]
+        },
+        {
+          "label": "F01-municipal-hall: Public community advice",
+          "box": [
+            58.419,
+            7,
+            64,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-municipal-hall: Public east service gallery"
+          ]
+        },
+        {
+          "label": "F01-municipal-hall: Public community meeting",
+          "box": [
+            5,
+            23,
+            12.125,
+            35
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-municipal-hall: Public west service gallery"
+          ]
+        },
+        {
+          "label": "F01-municipal-hall: Public neighbourhood workshop",
+          "box": [
+            12.125,
+            23,
+            17.469,
+            35
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-municipal-hall: Public west service gallery"
+          ]
+        },
+        {
+          "label": "F01-municipal-hall: Public digital assistance",
+          "box": [
+            17.469,
+            23,
+            24,
+            35
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-municipal-hall: Public west service gallery",
+            "F01-municipal-hall: Public west lift lobby"
+          ]
+        },
+        {
+          "label": "F01-municipal-hall: Public civic exhibition",
+          "box": [
+            40,
+            23,
+            46.147,
+            35
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-municipal-hall: Public east service gallery",
+            "F01-municipal-hall: Controlled east lift lobby"
+          ]
+        },
+        {
+          "label": "F01-municipal-hall: Public participation workshop",
+          "box": [
+            46.147,
+            23,
+            53.412,
+            35
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-municipal-hall: Public east service gallery"
+          ]
+        },
+        {
+          "label": "F01-municipal-hall: Public volunteer room",
+          "box": [
+            53.412,
+            23,
+            59,
+            35
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-municipal-hall: Public east service gallery"
+          ]
+        },
+        {
+          "label": "F01-municipal-hall: Controlled citizen services lead",
+          "box": [
+            16,
+            35,
+            28,
+            41.75
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-municipal-hall: Controlled north administrative spine"
+          ]
+        },
+        {
+          "label": "F01-municipal-hall: Controlled casework office",
+          "box": [
+            16,
+            41.75,
+            28,
+            46.812
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-municipal-hall: Controlled north administrative spine"
+          ]
+        },
+        {
+          "label": "F01-municipal-hall: Controlled service coordination",
+          "box": [
+            16,
+            46.812,
+            28,
+            53
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-municipal-hall: Controlled north administrative spine"
+          ]
+        },
+        {
+          "label": "F01-municipal-hall: Controlled public welfare team",
+          "box": [
+            32,
+            35,
+            44,
+            39.909
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-municipal-hall: Controlled north administrative spine"
+          ]
+        },
+        {
+          "label": "F01-municipal-hall: Controlled community grants",
+          "box": [
+            32,
+            39.909,
+            44,
+            45.909
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-municipal-hall: Controlled north administrative spine"
+          ]
+        },
+        {
+          "label": "F01-municipal-hall: Controlled civic operations",
+          "box": [
+            32,
+            45.909,
+            44,
+            53
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-municipal-hall: Controlled north administrative spine"
+          ]
+        },
+        {
+          "label": "F01-municipal-hall: Public private consultation",
+          "box": [
+            24,
+            7,
+            28,
+            13
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-municipal-hall: Public south arrival spine"
+          ]
+        },
+        {
+          "label": "F01-municipal-hall: Service washrooms and cleaner room",
+          "box": [
+            32,
+            0,
+            40,
+            13
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01-municipal-hall: Public south arrival spine",
+            "F01-municipal-hall: Public washroom lobby"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Planning and public works",
+      "height_m": 4,
+      "rooms": [
+        {
+          "label": "F02-municipal-hall: Public west service gallery",
+          "box": [
+            0,
+            19,
+            24,
+            23
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02-municipal-hall: Public west lift lobby",
+            "F02-municipal-hall: Service west stair reservation",
+            "F02-municipal-hall: Public planning consultation",
+            "F02-municipal-hall: Public building application",
+            "F02-municipal-hall: Public zoning advice",
+            "F02-municipal-hall: Public heritage consultation",
+            "F02-municipal-hall: Controlled development review",
+            "F02-municipal-hall: Controlled planning studio",
+            "F02-municipal-hall: Controlled mapping workroom"
+          ]
+        },
+        {
+          "label": "F02-municipal-hall: Public east service gallery",
+          "box": [
+            40,
+            19,
+            64,
+            23
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02-municipal-hall: Controlled east lift lobby",
+            "F02-municipal-hall: Service east stair reservation",
+            "F02-municipal-hall: Public engineering consultation",
+            "F02-municipal-hall: Public environmental advice",
+            "F02-municipal-hall: Public transport consultation",
+            "F02-municipal-hall: Public works advice",
+            "F02-municipal-hall: Controlled infrastructure review",
+            "F02-municipal-hall: Controlled engineering studio",
+            "F02-municipal-hall: Controlled inspection briefing"
+          ]
+        },
+        {
+          "label": "F02-municipal-hall: Public west lift lobby",
+          "box": [
+            24,
+            16,
+            28,
+            28
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02-municipal-hall: Public west service gallery",
+            "F02-municipal-hall: Public civic orientation hall",
+            "F02-municipal-hall: Public lift A reservation",
+            "F02-municipal-hall: Public heritage consultation",
+            "F02-municipal-hall: Controlled mapping workroom"
+          ]
+        },
+        {
+          "label": "F02-municipal-hall: Public civic orientation hall",
+          "box": [
+            28,
+            16,
+            36,
+            28
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02-municipal-hall: Public west lift lobby",
+            "F02-municipal-hall: Controlled east lift lobby",
+            "F02-municipal-hall: Controlled north administrative spine",
+            "F02-municipal-hall: Public south arrival spine",
+            "F02-municipal-hall: Public washroom lobby"
+          ]
+        },
+        {
+          "label": "F02-municipal-hall: Controlled east lift lobby",
+          "box": [
+            36,
+            16,
+            40,
+            28
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02-municipal-hall: Public east service gallery",
+            "F02-municipal-hall: Public civic orientation hall",
+            "F02-municipal-hall: Controlled lift B reservation",
+            "F02-municipal-hall: Public engineering consultation",
+            "F02-municipal-hall: Controlled infrastructure review"
+          ]
+        },
+        {
+          "label": "F02-municipal-hall: Controlled north administrative spine",
+          "box": [
+            28,
+            28,
+            32,
+            53
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02-municipal-hall: Public civic orientation hall",
+            "F02-municipal-hall: Controlled planning director",
+            "F02-municipal-hall: Controlled policy research",
+            "F02-municipal-hall: Controlled permit coordination",
+            "F02-municipal-hall: Controlled city engineer",
+            "F02-municipal-hall: Controlled sustainability team",
+            "F02-municipal-hall: Controlled public works planning"
+          ]
+        },
+        {
+          "label": "F02-municipal-hall: Public south arrival spine",
+          "box": [
+            28,
+            0,
+            32,
+            16
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02-municipal-hall: Public civic orientation hall",
+            "F02-municipal-hall: Public lift A reservation",
+            "F02-municipal-hall: Public washroom lobby",
+            "F02-municipal-hall: Public private consultation",
+            "F02-municipal-hall: Service washrooms and cleaner room"
+          ]
+        },
+        {
+          "label": "F02-municipal-hall: Service west stair reservation",
+          "box": [
+            0,
+            23,
+            5,
+            29
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F02-municipal-hall: Public west service gallery"
+          ]
+        },
+        {
+          "label": "F02-municipal-hall: Service east stair reservation",
+          "box": [
+            59,
+            23,
+            64,
+            29
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F02-municipal-hall: Public east service gallery"
+          ]
+        },
+        {
+          "label": "F02-municipal-hall: Public lift A reservation",
+          "box": [
+            24,
+            13,
+            28,
+            16
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F02-municipal-hall: Public west lift lobby",
+            "F02-municipal-hall: Public south arrival spine"
+          ]
+        },
+        {
+          "label": "F02-municipal-hall: Controlled lift B reservation",
+          "box": [
+            36,
+            13,
+            40,
+            16
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F02-municipal-hall: Controlled east lift lobby",
+            "F02-municipal-hall: Public washroom lobby"
+          ]
+        },
+        {
+          "label": "F02-municipal-hall: Public washroom lobby",
+          "box": [
+            32,
+            13,
+            36,
+            16
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02-municipal-hall: Public civic orientation hall",
+            "F02-municipal-hall: Public south arrival spine",
+            "F02-municipal-hall: Controlled lift B reservation",
+            "F02-municipal-hall: Service washrooms and cleaner room"
+          ]
+        },
+        {
+          "label": "F02-municipal-hall: Public planning consultation",
+          "box": [
+            0,
+            7,
+            5.023,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-municipal-hall: Public west service gallery"
+          ]
+        },
+        {
+          "label": "F02-municipal-hall: Public building application",
+          "box": [
+            5.023,
+            7,
+            11.163,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-municipal-hall: Public west service gallery"
+          ]
+        },
+        {
+          "label": "F02-municipal-hall: Public zoning advice",
+          "box": [
+            11.163,
+            7,
+            18.419,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-municipal-hall: Public west service gallery"
+          ]
+        },
+        {
+          "label": "F02-municipal-hall: Public heritage consultation",
+          "box": [
+            18.419,
+            7,
+            24,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-municipal-hall: Public west service gallery",
+            "F02-municipal-hall: Public west lift lobby"
+          ]
+        },
+        {
+          "label": "F02-municipal-hall: Public engineering consultation",
+          "box": [
+            40,
+            7,
+            45.739,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-municipal-hall: Public east service gallery",
+            "F02-municipal-hall: Controlled east lift lobby"
+          ]
+        },
+        {
+          "label": "F02-municipal-hall: Public environmental advice",
+          "box": [
+            45.739,
+            7,
+            52.522,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-municipal-hall: Public east service gallery"
+          ]
+        },
+        {
+          "label": "F02-municipal-hall: Public transport consultation",
+          "box": [
+            52.522,
+            7,
+            57.739,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-municipal-hall: Public east service gallery"
+          ]
+        },
+        {
+          "label": "F02-municipal-hall: Public works advice",
+          "box": [
+            57.739,
+            7,
+            64,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-municipal-hall: Public east service gallery"
+          ]
+        },
+        {
+          "label": "F02-municipal-hall: Controlled development review",
+          "box": [
+            5,
+            23,
+            10.182,
+            35
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-municipal-hall: Public west service gallery"
+          ]
+        },
+        {
+          "label": "F02-municipal-hall: Controlled planning studio",
+          "box": [
+            10.182,
+            23,
+            16.515,
+            35
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-municipal-hall: Public west service gallery"
+          ]
+        },
+        {
+          "label": "F02-municipal-hall: Controlled mapping workroom",
+          "box": [
+            16.515,
+            23,
+            24,
+            35
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-municipal-hall: Public west service gallery",
+            "F02-municipal-hall: Public west lift lobby"
+          ]
+        },
+        {
+          "label": "F02-municipal-hall: Controlled infrastructure review",
+          "box": [
+            40,
+            23,
+            47.057,
+            35
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-municipal-hall: Public east service gallery",
+            "F02-municipal-hall: Controlled east lift lobby"
+          ]
+        },
+        {
+          "label": "F02-municipal-hall: Controlled engineering studio",
+          "box": [
+            47.057,
+            23,
+            52.486,
+            35
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-municipal-hall: Public east service gallery"
+          ]
+        },
+        {
+          "label": "F02-municipal-hall: Controlled inspection briefing",
+          "box": [
+            52.486,
+            23,
+            59,
+            35
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-municipal-hall: Public east service gallery"
+          ]
+        },
+        {
+          "label": "F02-municipal-hall: Controlled planning director",
+          "box": [
+            16,
+            35,
+            28,
+            39.909
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-municipal-hall: Controlled north administrative spine"
+          ]
+        },
+        {
+          "label": "F02-municipal-hall: Controlled policy research",
+          "box": [
+            16,
+            39.909,
+            28,
+            45.909
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-municipal-hall: Controlled north administrative spine"
+          ]
+        },
+        {
+          "label": "F02-municipal-hall: Controlled permit coordination",
+          "box": [
+            16,
+            45.909,
+            28,
+            53
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-municipal-hall: Controlled north administrative spine"
+          ]
+        },
+        {
+          "label": "F02-municipal-hall: Controlled city engineer",
+          "box": [
+            32,
+            35,
+            44,
+            40.824
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-municipal-hall: Controlled north administrative spine"
+          ]
+        },
+        {
+          "label": "F02-municipal-hall: Controlled sustainability team",
+          "box": [
+            32,
+            40.824,
+            44,
+            47.706
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-municipal-hall: Controlled north administrative spine"
+          ]
+        },
+        {
+          "label": "F02-municipal-hall: Controlled public works planning",
+          "box": [
+            32,
+            47.706,
+            44,
+            53
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-municipal-hall: Controlled north administrative spine"
+          ]
+        },
+        {
+          "label": "F02-municipal-hall: Public private consultation",
+          "box": [
+            24,
+            7,
+            28,
+            13
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-municipal-hall: Public south arrival spine"
+          ]
+        },
+        {
+          "label": "F02-municipal-hall: Service washrooms and cleaner room",
+          "box": [
+            32,
+            0,
+            40,
+            13
+          ],
+          "kind": "service",
+          "access_to": [
+            "F02-municipal-hall: Public south arrival spine",
+            "F02-municipal-hall: Public washroom lobby"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Finance and personnel",
+      "height_m": 4,
+      "rooms": [
+        {
+          "label": "F03-municipal-hall: Controlled west office gallery",
+          "box": [
+            0,
+            19,
+            24,
+            23
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03-municipal-hall: Public west lift lobby",
+            "F03-municipal-hall: Service west stair reservation",
+            "F03-municipal-hall: Controlled finance office",
+            "F03-municipal-hall: Controlled revenue office",
+            "F03-municipal-hall: Controlled procurement office",
+            "F03-municipal-hall: Controlled audit office",
+            "F03-municipal-hall: Controlled budget meeting",
+            "F03-municipal-hall: Controlled accounts review",
+            "F03-municipal-hall: Controlled financial analysis"
+          ]
+        },
+        {
+          "label": "F03-municipal-hall: Controlled east office gallery",
+          "box": [
+            40,
+            19,
+            64,
+            23
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03-municipal-hall: Controlled east lift lobby",
+            "F03-municipal-hall: Service east stair reservation",
+            "F03-municipal-hall: Controlled human resources",
+            "F03-municipal-hall: Controlled payroll office",
+            "F03-municipal-hall: Controlled staff training",
+            "F03-municipal-hall: Controlled mediation room",
+            "F03-municipal-hall: Controlled personnel meeting",
+            "F03-municipal-hall: Controlled wellbeing consultation",
+            "F03-municipal-hall: Controlled staff common room"
+          ]
+        },
+        {
+          "label": "F03-municipal-hall: Public west lift lobby",
+          "box": [
+            24,
+            16,
+            28,
+            28
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03-municipal-hall: Controlled west office gallery",
+            "F03-municipal-hall: Public civic orientation hall",
+            "F03-municipal-hall: Public lift A reservation",
+            "F03-municipal-hall: Controlled audit office",
+            "F03-municipal-hall: Controlled financial analysis"
+          ]
+        },
+        {
+          "label": "F03-municipal-hall: Public civic orientation hall",
+          "box": [
+            28,
+            16,
+            36,
+            28
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03-municipal-hall: Public west lift lobby",
+            "F03-municipal-hall: Controlled east lift lobby",
+            "F03-municipal-hall: Controlled north administrative spine",
+            "F03-municipal-hall: Public south arrival spine",
+            "F03-municipal-hall: Public washroom lobby"
+          ]
+        },
+        {
+          "label": "F03-municipal-hall: Controlled east lift lobby",
+          "box": [
+            36,
+            16,
+            40,
+            28
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03-municipal-hall: Controlled east office gallery",
+            "F03-municipal-hall: Public civic orientation hall",
+            "F03-municipal-hall: Controlled lift B reservation",
+            "F03-municipal-hall: Controlled human resources",
+            "F03-municipal-hall: Controlled personnel meeting"
+          ]
+        },
+        {
+          "label": "F03-municipal-hall: Controlled north administrative spine",
+          "box": [
+            28,
+            28,
+            32,
+            53
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03-municipal-hall: Public civic orientation hall",
+            "F03-municipal-hall: Controlled finance director",
+            "F03-municipal-hall: Controlled internal assurance",
+            "F03-municipal-hall: Controlled grants office",
+            "F03-municipal-hall: Controlled personnel director",
+            "F03-municipal-hall: Controlled recruitment team",
+            "F03-municipal-hall: Controlled organisational development"
+          ]
+        },
+        {
+          "label": "F03-municipal-hall: Public south arrival spine",
+          "box": [
+            28,
+            0,
+            32,
+            16
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03-municipal-hall: Public civic orientation hall",
+            "F03-municipal-hall: Public lift A reservation",
+            "F03-municipal-hall: Public washroom lobby",
+            "F03-municipal-hall: Controlled confidential interview",
+            "F03-municipal-hall: Service washrooms and cleaner room"
+          ]
+        },
+        {
+          "label": "F03-municipal-hall: Service west stair reservation",
+          "box": [
+            0,
+            23,
+            5,
+            29
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F03-municipal-hall: Controlled west office gallery"
+          ]
+        },
+        {
+          "label": "F03-municipal-hall: Service east stair reservation",
+          "box": [
+            59,
+            23,
+            64,
+            29
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F03-municipal-hall: Controlled east office gallery"
+          ]
+        },
+        {
+          "label": "F03-municipal-hall: Public lift A reservation",
+          "box": [
+            24,
+            13,
+            28,
+            16
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F03-municipal-hall: Public west lift lobby",
+            "F03-municipal-hall: Public south arrival spine"
+          ]
+        },
+        {
+          "label": "F03-municipal-hall: Controlled lift B reservation",
+          "box": [
+            36,
+            13,
+            40,
+            16
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F03-municipal-hall: Controlled east lift lobby",
+            "F03-municipal-hall: Public washroom lobby"
+          ]
+        },
+        {
+          "label": "F03-municipal-hall: Public washroom lobby",
+          "box": [
+            32,
+            13,
+            36,
+            16
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03-municipal-hall: Public civic orientation hall",
+            "F03-municipal-hall: Public south arrival spine",
+            "F03-municipal-hall: Controlled lift B reservation",
+            "F03-municipal-hall: Service washrooms and cleaner room"
+          ]
+        },
+        {
+          "label": "F03-municipal-hall: Controlled finance office",
+          "box": [
+            0,
+            7,
+            5.739,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-municipal-hall: Controlled west office gallery"
+          ]
+        },
+        {
+          "label": "F03-municipal-hall: Controlled revenue office",
+          "box": [
+            5.739,
+            7,
+            12.522,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-municipal-hall: Controlled west office gallery"
+          ]
+        },
+        {
+          "label": "F03-municipal-hall: Controlled procurement office",
+          "box": [
+            12.522,
+            7,
+            17.739,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-municipal-hall: Controlled west office gallery"
+          ]
+        },
+        {
+          "label": "F03-municipal-hall: Controlled audit office",
+          "box": [
+            17.739,
+            7,
+            24,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-municipal-hall: Controlled west office gallery",
+            "F03-municipal-hall: Public west lift lobby"
+          ]
+        },
+        {
+          "label": "F03-municipal-hall: Controlled human resources",
+          "box": [
+            40,
+            7,
+            47.091,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-municipal-hall: Controlled east office gallery",
+            "F03-municipal-hall: Controlled east lift lobby"
+          ]
+        },
+        {
+          "label": "F03-municipal-hall: Controlled payroll office",
+          "box": [
+            47.091,
+            7,
+            52.545,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-municipal-hall: Controlled east office gallery"
+          ]
+        },
+        {
+          "label": "F03-municipal-hall: Controlled staff training",
+          "box": [
+            52.545,
+            7,
+            59.091,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-municipal-hall: Controlled east office gallery"
+          ]
+        },
+        {
+          "label": "F03-municipal-hall: Controlled mediation room",
+          "box": [
+            59.091,
+            7,
+            64,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-municipal-hall: Controlled east office gallery"
+          ]
+        },
+        {
+          "label": "F03-municipal-hall: Controlled budget meeting",
+          "box": [
+            5,
+            23,
+            11.147,
+            35
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-municipal-hall: Controlled west office gallery"
+          ]
+        },
+        {
+          "label": "F03-municipal-hall: Controlled accounts review",
+          "box": [
+            11.147,
+            23,
+            18.412,
+            35
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-municipal-hall: Controlled west office gallery"
+          ]
+        },
+        {
+          "label": "F03-municipal-hall: Controlled financial analysis",
+          "box": [
+            18.412,
+            23,
+            24,
+            35
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-municipal-hall: Controlled west office gallery",
+            "F03-municipal-hall: Public west lift lobby"
+          ]
+        },
+        {
+          "label": "F03-municipal-hall: Controlled personnel meeting",
+          "box": [
+            40,
+            23,
+            46.129,
+            35
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-municipal-hall: Controlled east office gallery",
+            "F03-municipal-hall: Controlled east lift lobby"
+          ]
+        },
+        {
+          "label": "F03-municipal-hall: Controlled wellbeing consultation",
+          "box": [
+            46.129,
+            23,
+            53.484,
+            35
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-municipal-hall: Controlled east office gallery"
+          ]
+        },
+        {
+          "label": "F03-municipal-hall: Controlled staff common room",
+          "box": [
+            53.484,
+            23,
+            59,
+            35
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-municipal-hall: Controlled east office gallery"
+          ]
+        },
+        {
+          "label": "F03-municipal-hall: Controlled finance director",
+          "box": [
+            16,
+            35,
+            28,
+            40.824
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-municipal-hall: Controlled north administrative spine"
+          ]
+        },
+        {
+          "label": "F03-municipal-hall: Controlled internal assurance",
+          "box": [
+            16,
+            40.824,
+            28,
+            47.706
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-municipal-hall: Controlled north administrative spine"
+          ]
+        },
+        {
+          "label": "F03-municipal-hall: Controlled grants office",
+          "box": [
+            16,
+            47.706,
+            28,
+            53
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-municipal-hall: Controlled north administrative spine"
+          ]
+        },
+        {
+          "label": "F03-municipal-hall: Controlled personnel director",
+          "box": [
+            32,
+            35,
+            44,
+            41.686
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-municipal-hall: Controlled north administrative spine"
+          ]
+        },
+        {
+          "label": "F03-municipal-hall: Controlled recruitment team",
+          "box": [
+            32,
+            41.686,
+            44,
+            46.829
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-municipal-hall: Controlled north administrative spine"
+          ]
+        },
+        {
+          "label": "F03-municipal-hall: Controlled organisational development",
+          "box": [
+            32,
+            46.829,
+            44,
+            53
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-municipal-hall: Controlled north administrative spine"
+          ]
+        },
+        {
+          "label": "F03-municipal-hall: Controlled confidential interview",
+          "box": [
+            24,
+            7,
+            28,
+            13
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-municipal-hall: Public south arrival spine"
+          ]
+        },
+        {
+          "label": "F03-municipal-hall: Service washrooms and cleaner room",
+          "box": [
+            32,
+            0,
+            40,
+            13
+          ],
+          "kind": "service",
+          "access_to": [
+            "F03-municipal-hall: Public south arrival spine",
+            "F03-municipal-hall: Public washroom lobby"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "name": "Council and executive",
+      "height_m": 4.5,
+      "rooms": [
+        {
+          "label": "F04-municipal-hall: Controlled west office gallery",
+          "box": [
+            0,
+            19,
+            24,
+            23
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F04-municipal-hall: Public west lift lobby",
+            "F04-municipal-hall: Service west stair reservation",
+            "F04-municipal-hall: Controlled mayor support office",
+            "F04-municipal-hall: Controlled executive secretariat",
+            "F04-municipal-hall: Controlled policy drafting",
+            "F04-municipal-hall: Controlled public communications",
+            "F04-municipal-hall: Controlled council chamber",
+            "F04-municipal-hall: Controlled council preparation",
+            "F04-municipal-hall: Controlled civic meeting"
+          ]
+        },
+        {
+          "label": "F04-municipal-hall: Controlled east office gallery",
+          "box": [
+            40,
+            19,
+            64,
+            23
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F04-municipal-hall: Controlled east lift lobby",
+            "F04-municipal-hall: Service east stair reservation",
+            "F04-municipal-hall: Controlled council clerk",
+            "F04-municipal-hall: Controlled agenda preparation",
+            "F04-municipal-hall: Controlled councillor workroom",
+            "F04-municipal-hall: Controlled committee support",
+            "F04-municipal-hall: Controlled committee room A",
+            "F04-municipal-hall: Controlled committee room B",
+            "F04-municipal-hall: Controlled councillor lounge"
+          ]
+        },
+        {
+          "label": "F04-municipal-hall: Public west lift lobby",
+          "box": [
+            24,
+            16,
+            28,
+            28
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F04-municipal-hall: Controlled west office gallery",
+            "F04-municipal-hall: Public civic orientation hall",
+            "F04-municipal-hall: Public lift A reservation",
+            "F04-municipal-hall: Controlled public communications",
+            "F04-municipal-hall: Controlled civic meeting"
+          ]
+        },
+        {
+          "label": "F04-municipal-hall: Public civic orientation hall",
+          "box": [
+            28,
+            16,
+            36,
+            28
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F04-municipal-hall: Public west lift lobby",
+            "F04-municipal-hall: Controlled east lift lobby",
+            "F04-municipal-hall: Controlled north administrative spine",
+            "F04-municipal-hall: Public south arrival spine",
+            "F04-municipal-hall: Public washroom lobby"
+          ]
+        },
+        {
+          "label": "F04-municipal-hall: Controlled east lift lobby",
+          "box": [
+            36,
+            16,
+            40,
+            28
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F04-municipal-hall: Controlled east office gallery",
+            "F04-municipal-hall: Public civic orientation hall",
+            "F04-municipal-hall: Controlled lift B reservation",
+            "F04-municipal-hall: Controlled council clerk",
+            "F04-municipal-hall: Controlled committee room A"
+          ]
+        },
+        {
+          "label": "F04-municipal-hall: Controlled north administrative spine",
+          "box": [
+            28,
+            28,
+            32,
+            53
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F04-municipal-hall: Public civic orientation hall",
+            "F04-municipal-hall: Controlled mayor office",
+            "F04-municipal-hall: Controlled deputy mayor office",
+            "F04-municipal-hall: Controlled executive meeting",
+            "F04-municipal-hall: Controlled council leader office",
+            "F04-municipal-hall: Controlled members meeting",
+            "F04-municipal-hall: Controlled strategic planning"
+          ]
+        },
+        {
+          "label": "F04-municipal-hall: Public south arrival spine",
+          "box": [
+            28,
+            0,
+            32,
+            16
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F04-municipal-hall: Public civic orientation hall",
+            "F04-municipal-hall: Public lift A reservation",
+            "F04-municipal-hall: Public washroom lobby",
+            "F04-municipal-hall: Controlled confidential interview",
+            "F04-municipal-hall: Service washrooms and cleaner room"
+          ]
+        },
+        {
+          "label": "F04-municipal-hall: Service west stair reservation",
+          "box": [
+            0,
+            23,
+            5,
+            29
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F04-municipal-hall: Controlled west office gallery"
+          ]
+        },
+        {
+          "label": "F04-municipal-hall: Service east stair reservation",
+          "box": [
+            59,
+            23,
+            64,
+            29
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F04-municipal-hall: Controlled east office gallery"
+          ]
+        },
+        {
+          "label": "F04-municipal-hall: Public lift A reservation",
+          "box": [
+            24,
+            13,
+            28,
+            16
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F04-municipal-hall: Public west lift lobby",
+            "F04-municipal-hall: Public south arrival spine"
+          ]
+        },
+        {
+          "label": "F04-municipal-hall: Controlled lift B reservation",
+          "box": [
+            36,
+            13,
+            40,
+            16
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F04-municipal-hall: Controlled east lift lobby",
+            "F04-municipal-hall: Public washroom lobby"
+          ]
+        },
+        {
+          "label": "F04-municipal-hall: Public washroom lobby",
+          "box": [
+            32,
+            13,
+            36,
+            16
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F04-municipal-hall: Public civic orientation hall",
+            "F04-municipal-hall: Public south arrival spine",
+            "F04-municipal-hall: Controlled lift B reservation",
+            "F04-municipal-hall: Service washrooms and cleaner room"
+          ]
+        },
+        {
+          "label": "F04-municipal-hall: Controlled mayor support office",
+          "box": [
+            0,
+            7,
+            7.091,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-municipal-hall: Controlled west office gallery"
+          ]
+        },
+        {
+          "label": "F04-municipal-hall: Controlled executive secretariat",
+          "box": [
+            7.091,
+            7,
+            12.545,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-municipal-hall: Controlled west office gallery"
+          ]
+        },
+        {
+          "label": "F04-municipal-hall: Controlled policy drafting",
+          "box": [
+            12.545,
+            7,
+            19.091,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-municipal-hall: Controlled west office gallery"
+          ]
+        },
+        {
+          "label": "F04-municipal-hall: Controlled public communications",
+          "box": [
+            19.091,
+            7,
+            24,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-municipal-hall: Controlled west office gallery",
+            "F04-municipal-hall: Public west lift lobby"
+          ]
+        },
+        {
+          "label": "F04-municipal-hall: Controlled council clerk",
+          "box": [
+            40,
+            7,
+            45.714,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-municipal-hall: Controlled east office gallery",
+            "F04-municipal-hall: Controlled east lift lobby"
+          ]
+        },
+        {
+          "label": "F04-municipal-hall: Controlled agenda preparation",
+          "box": [
+            45.714,
+            7,
+            52.571,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-municipal-hall: Controlled east office gallery"
+          ]
+        },
+        {
+          "label": "F04-municipal-hall: Controlled councillor workroom",
+          "box": [
+            52.571,
+            7,
+            57.714,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-municipal-hall: Controlled east office gallery"
+          ]
+        },
+        {
+          "label": "F04-municipal-hall: Controlled committee support",
+          "box": [
+            57.714,
+            7,
+            64,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-municipal-hall: Controlled east office gallery"
+          ]
+        },
+        {
+          "label": "F04-municipal-hall: Controlled council chamber",
+          "box": [
+            5,
+            23,
+            12.057,
+            35
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-municipal-hall: Controlled west office gallery"
+          ]
+        },
+        {
+          "label": "F04-municipal-hall: Controlled council preparation",
+          "box": [
+            12.057,
+            23,
+            17.486,
+            35
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-municipal-hall: Controlled west office gallery"
+          ]
+        },
+        {
+          "label": "F04-municipal-hall: Controlled civic meeting",
+          "box": [
+            17.486,
+            23,
+            24,
+            35
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-municipal-hall: Controlled west office gallery",
+            "F04-municipal-hall: Public west lift lobby"
+          ]
+        },
+        {
+          "label": "F04-municipal-hall: Controlled committee room A",
+          "box": [
+            40,
+            23,
+            47.125,
+            35
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-municipal-hall: Controlled east office gallery",
+            "F04-municipal-hall: Controlled east lift lobby"
+          ]
+        },
+        {
+          "label": "F04-municipal-hall: Controlled committee room B",
+          "box": [
+            47.125,
+            23,
+            52.469,
+            35
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-municipal-hall: Controlled east office gallery"
+          ]
+        },
+        {
+          "label": "F04-municipal-hall: Controlled councillor lounge",
+          "box": [
+            52.469,
+            23,
+            59,
+            35
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-municipal-hall: Controlled east office gallery"
+          ]
+        },
+        {
+          "label": "F04-municipal-hall: Controlled mayor office",
+          "box": [
+            16,
+            35,
+            28,
+            41.686
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-municipal-hall: Controlled north administrative spine"
+          ]
+        },
+        {
+          "label": "F04-municipal-hall: Controlled deputy mayor office",
+          "box": [
+            16,
+            41.686,
+            28,
+            46.829
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-municipal-hall: Controlled north administrative spine"
+          ]
+        },
+        {
+          "label": "F04-municipal-hall: Controlled executive meeting",
+          "box": [
+            16,
+            46.829,
+            28,
+            53
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-municipal-hall: Controlled north administrative spine"
+          ]
+        },
+        {
+          "label": "F04-municipal-hall: Controlled council leader office",
+          "box": [
+            32,
+            35,
+            44,
+            40.806
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-municipal-hall: Controlled north administrative spine"
+          ]
+        },
+        {
+          "label": "F04-municipal-hall: Controlled members meeting",
+          "box": [
+            32,
+            40.806,
+            44,
+            47.774
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-municipal-hall: Controlled north administrative spine"
+          ]
+        },
+        {
+          "label": "F04-municipal-hall: Controlled strategic planning",
+          "box": [
+            32,
+            47.774,
+            44,
+            53
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-municipal-hall: Controlled north administrative spine"
+          ]
+        },
+        {
+          "label": "F04-municipal-hall: Controlled confidential interview",
+          "box": [
+            24,
+            7,
+            28,
+            13
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-municipal-hall: Public south arrival spine"
+          ]
+        },
+        {
+          "label": "F04-municipal-hall: Service washrooms and cleaner room",
+          "box": [
+            32,
+            0,
+            40,
+            13
+          ],
+          "kind": "service",
+          "access_to": [
+            "F04-municipal-hall: Public south arrival spine",
+            "F04-municipal-hall: Public washroom lobby"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "office-tower",
+  "name": "Office tower",
+  "typology": "office-tower",
+  "provenance": "AI-authored synthetic recorded starting layout for a doors/windows benchmark; not customer data, not a certified design.",
+  "start_state": "Whole-building recorded BIM layout; zero starting openings; reserved vertical cores",
+  "storeys": 8,
+  "program_rooms": 144,
+  "labelled_zones": 225,
+  "required_standards": [
+    "doors and windows (review/standard.md)"
+  ],
+  "grading": "Scored by the reviewer. There is no exact answer key.",
+  "limitations": [
+    "Supplemental synthetic benchmark coverage only, not selected production-run cases or evidence of a production result.",
+    "Metre coordinates describe disjoint clear-space boxes, not walls. No doors or windows are seeded. Empty areas are unassigned shell, exterior, courtyard, or the explicitly described void.",
+    "Exactly two stair footprints and two lift footprints are vertically stacked reservations on every floor. They are not physical stairs, lifts, shafts, or installed equipment.",
+    "Public, controlled and service labels and circulation zones express intended thresholds. Access edges are reciprocal same-floor adjacency intentions, not installed doors or an enforced security policy.",
+    "No structural, fire, accessibility, egress, acoustic, laboratory safety, sporting-body, or transport-operational compliance is asserted. Reservations do not model inter-floor travel or exit discharge.",
+    "72 m long double-loaded tower bar. An 8 by 12 m entrance lobby on the south facade opens onto the central spine, with public reception on one side and the security office on the other. One 6 by 10 m central lift lobby opens off the office spine, with the two lifts facing each other across it; 3.2 by 6.5 m end stair reservations leave small external corner recesses. Floor partitions change with department needs; the top floor is an occupied amenity floor, not a plant-only level."
+  ]
+}

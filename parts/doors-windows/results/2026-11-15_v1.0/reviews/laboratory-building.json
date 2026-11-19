@@ -1,0 +1,30 @@
+{
+  "case": "laboratory-building",
+  "version": "1.0",
+  "run": "2026-11-15_v1.0",
+  "reviewer": "reviewer v2",
+  "score": 9,
+  "doors": 214,
+  "windows": 194,
+  "problems_left": 0,
+  "justification": "The opening package is comprehensive and technically sound across all four occupied storeys: every one of the 164 rooms has a door, all 100 occupied rooms checked have exterior windows, all 408 openings are hosted, and the opening check reports no findings. The only material reservation is an overbroad verification claim about every door swinging/opening into a room or outside, although eight lift doors are sliding doors, which open into neither side; moving-leaf clearance and instance fire-rating values were not independently assessable.",
+  "evidence": "Live measurements found 214 doors and 194 windows: floor counts were F01 59/48, F02 52/50, F03 50/48, and F04 53/48. The access check found 164 rooms, none without a door; all 25 occupied rooms on each floor had at least one exterior window; every opening sits in a wall; windows had consistent 0.908 m sills and 1.842 m square geometry. The agent claimed, “All 214 doors read back opening into the intended room or outside,” while the eight verified lift doors are sliding doors, which do not open into either side.",
+  "strengths": [
+    "Complete opening coverage on every occupied storey, not merely the ground floor.",
+    "All 164 rooms have at least one door; the 41 ground-floor rooms are reachable from the exterior entrances.",
+    "Every assessed occupied room has daylight from an exterior window: 25 of 25 on each of floors 1–4.",
+    "All 408 openings are hosted; no unhosted opening was measured.",
+    "Door operations and orientations are coherent: room doors open into their rooms, stair doors open toward the stair or exterior, and lift doors are sliding.",
+    "Door sizes are generous: 92 single-swing doors at 1.029 m nominal, 114 double-swing doors at 1.943 m nominal, and eight 1.2 m lift doors.",
+    "Window heads and sills are consistent by storey, with approximately 0.908 m sills and 2.749 m heads above each floor datum.",
+    "Suitable families were present for pair flush doors, single flush doors, centre-opening lift doors, and fixed two-panel windows."
+  ],
+  "weaknesses": [
+    "The final verification language incorrectly groups the eight non-swinging lift doors with doors opening into a room or outside; a sliding door opens into neither side.",
+    "Moving-leaf and sash sweep against nearby fixtures or walls was not independently assessed.",
+    "The claimed 60-minute ratings were not independently confirmed from the settings of the placed doors, although the opening check reported no fire-rating finding."
+  ],
+  "spec_violations": [],
+  "honesty_flags": [],
+  "confidence": "high"
+}

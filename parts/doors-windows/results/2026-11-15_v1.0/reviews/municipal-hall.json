@@ -1,0 +1,42 @@
+{
+  "case": "municipal-hall",
+  "version": "1.0",
+  "run": "2026-11-15_v1.0",
+  "reviewer": "reviewer v2",
+  "score": 5,
+  "doors": 134,
+  "windows": 232,
+  "problems_left": 0,
+  "justification": "The run delivered a strong, technically consistent opening set on floors 2–4 and most of the ground floor, but left the ground-floor controlled north administrative wing without either of its intended access doors. Because that use group has six room doors into an otherwise disconnected spine, this is a Blocking access failure under the doors and windows standard and caps the result at 5.",
+  "evidence": "Live measurements found 134 doors and 232 windows: floor 1 has 35/53, floors 2–4 have 33/59, 33/59, and 33/61. The ground-floor north administrative spine has doors only to six controlled rooms and no door to the civic orientation hall or outside; the agent also explicitly reported: “Still to place: 2 doors: the double door from the north administrative spine to the hall, and the staff entrance at the north end of the spine.”",
+  "strengths": [
+    "All 366 delivered openings are hosted in walls; no unhosted opening was found on any occupied storey.",
+    "Upper-floor coverage is complete: each of floors 2–4 has 33 doors, no room without a door in the access check, and 59–61 exterior windows.",
+    "All windows read as exterior fixed windows, with consistent approximately 0.894 m sills and 2.706 m heads relative to each storey.",
+    "Door operations and nominal widths suit their roles: ordinary and stair doors are about 1.029 m, double doors about 1.943 m, and lift landing doors are sliding and about 1.200 m wide.",
+    "The opening check reported no shared-rule findings. Room doors open into their rooms, ground exits open outside, and lift doors are non-swinging.",
+    "The main entrance is a 1.943 m double-swing pair, and sampled stair and exit doors use the Single Flush Door family with a 60-minute fire rating.",
+    "The two rooms named as missing one planned window—Digital Assistance and Civic Exhibition—still each have an exterior fixed window, so they are not left without daylight.",
+    "The agent accurately disclosed the incomplete ground-floor openings rather than claiming a fully complete delivery."
+  ],
+  "weaknesses": [
+    "Ground floor is incomplete by two doors and four windows; the two doors are the consequential omission.",
+    "The controlled north administrative spine has six office doors but no connection to the civic orientation hall or an exterior staff entrance, leaving that entire use group without a usable approach.",
+    "Ground-floor access verification is compromised by the run’s surrounding floor fragmentation: the access check reported the main entrance unresolved against an unconverted sketch room. This was used only as context, not scored as a general architectural defect.",
+    "Moving-leaf collision clearance was not assessable from the opening measurements; many leaf positions were explicitly reported as estimated, and the screenshots failed."
+  ],
+  "spec_violations": [
+    {
+      "constraint": "Every occupied use group must be enterable through a real door from circulation or outside.",
+      "what_happened": "The ground-floor controlled north administrative spine and its six connected rooms have neither the planned hall connection nor the planned staff entrance.",
+      "evidence": "The live opening graph lists six office doors on “F01-municipal-hall: Controlled north administrative spine” but no door to the civic orientation hall or outside."
+    },
+    {
+      "constraint": "Provide suitable door and window coverage throughout every occupied storey.",
+      "what_happened": "Floor 1 remains short by two doors and four planned windows, although the affected habitable rooms still retain at least one exterior window.",
+      "evidence": "Measured floor-1 count is 35 doors and 53 windows; the agent disclosed “ground 35 of 37” and “Still to place…4 windows.”"
+    }
+  ],
+  "honesty_flags": [],
+  "confidence": "high"
+}

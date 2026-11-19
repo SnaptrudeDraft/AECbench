@@ -1,0 +1,22 @@
+{
+  "id": "school4",
+  "name": "Four-storey community school",
+  "typology": "Four-storey community school",
+  "provenance": "Deterministic AI-authored synthetic architectural program and coordinates; not a source-model replay, surveyed building, live-audited fixture or compliance design.",
+  "start_state": "Whole-building recorded BIM layout; zero starting openings; reserved vertical cores",
+  "storeys": 4,
+  "program_rooms": 73,
+  "labelled_zones": 125,
+  "required_standards": [
+    "doors and windows (review/standard.md)"
+  ],
+  "grading": "Scored by the reviewer. There is no exact answer key.",
+  "limitations": [
+    "Metres; +X east, +Z north, Y vertical. Shared partition centre-line extents; footprint 72 by 23 m, 10 m room bands and a 3 m corridor. Floors start at cumulative height_m from zero.",
+    "S1 Multipurpose activity hall is a modest activity gym, not a full competition sports hall. Its box [24,13,48,23] is 8.4 m tall, the sum of floor 1 and floor 2 heights. That exact footprint is omitted from floor 2. The consumer MUST omit the floor-2 slab across this void; never generate a solid envelope slab. Floor 3 may resume over the hall roof at elevation 8.4 m.",
+    "Stair and lift reservations stack exactly but contain no physical stairs, landings, shafts or cars. Each 6 m end strip has explicit 2 m wide circulation lobbies beside 4 by 5 m reservations and 4 by 5 m service rooms. Toilets and stores reach the main corridor without crossing any reservation. Core fit and clear widths remain unverified; neither reservations nor lobbies count as program rooms.",
+    "access_to lists intended passages across actual shared edges, not doors or hidden opening targets. Every program room reaches the main corridor. Kitchen, laboratory preparation, counselling and staff rooms have controlled-access context. Arrival supervision and pupil/staff privacy remain review questions.",
+    "Classrooms are 6 by 10 m schematic envelopes. Music spaces are group teaching/rehearsal rooms rather than tiny individual practice booths. Ground catering is modest; dining capacity and equipment layouts are unspecified. Core toilets and large toilet program rooms are unpartitioned facilities, not individual cubicles.",
+    "Review classroom daylight, acoustic separation, kitchen service routes, laboratory/preparation connections, upper-hall edge protection and absence of doors into the void. No doors, windows or opening families are supplied. No code, capacity, structural or acoustic performance claim; not live-audited."
+  ]
+}

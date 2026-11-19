@@ -1,0 +1,2718 @@
+{
+  "slug": "hotel",
+  "typology": "hotel",
+  "provenance": "AI-authored synthetic recorded starting layout for a doors/windows benchmark; not a customer design or a certified design.",
+  "notes": [
+    "AI-authored synthetic recorded benchmark input only. Not a customer layout, certified design, construction document, or code-compliance claim.",
+    "Coordinates are metres in a local x/z plan. The rectangular footprint is 60 m by 17 m: 7.5 m deep room banks either side of a 2 m corridor. All geometry is axis-aligned space envelopes; walls and wall thickness are not modelled.",
+    "Two widely separated stair footprints and two lift footprints are explicitly RESERVED on every floor, with identical stacked coordinates. They are not physical stairs, lift cars, shafts, equipment, or verified vertical routes.",
+    "A continuous 2 m main corridor connects a central lift core (two 2.5 m lifts facing each other across the corridor, each opening into an open lobby with a floor store behind) and two 3 m by 7.5 m stair reservations 0 m in from the gables, so no corridor door is more than 30 m from a stair. Access edges are bidirectional same-floor intended adjacencies only, not installed or seeded doors, windows, or openings.",
+    "Every apartment, studio, guest room, lodge room, and residential suite marked envelope includes its internal living, sleeping, kitchenette where appropriate, and sanitary functions. Internal bathrooms and partitions are deliberately unresolved; no overlapping nested bathroom rectangles are used.",
+    "Public WC envelopes, where present, are disjoint rooms. No other sanitary fixtures, furniture, structure, facade openings, external paths, or site access geometry is supplied.",
+    "Floor 1 arrival and reception rooms connect to internal circulation; their outside entrance openings are intentionally unseeded. Ground-floor uses and upper residential, amenity, and service uses differ by floor.",
+    "Dimensions and programs are plausible benchmark assumptions, not checks of fire escape, accessibility, occupancy, daylight, ventilation, plumbing, acoustics, or statutory requirements. Same-floor access does not certify egress."
+  ],
+  "floors": [
+    {
+      "number": 1,
+      "name": "Hotel arrival and public hospitality",
+      "height_m": 4.8,
+      "rooms": [
+        {
+          "label": "F01:hotel:Main corridor",
+          "box": [
+            0,
+            7.5,
+            60,
+            9.5
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01:hotel:South reserved lift lobby",
+            "F01:hotel:North reserved lift lobby",
+            "F01:hotel:West stair RESERVED",
+            "F01:hotel:East stair RESERVED",
+            "F01:hotel:Hotel reception",
+            "F01:hotel:Concierge desk room",
+            "F01:hotel:Luggage holding room",
+            "F01:hotel:Guest arrival lounge",
+            "F01:hotel:Front office administration",
+            "F01:hotel:Public WC and accessible WC",
+            "F01:hotel:Cafe seating room",
+            "F01:hotel:Restaurant finishing kitchen",
+            "F01:hotel:Breakfast dining room",
+            "F01:hotel:All-day restaurant room",
+            "F01:hotel:Private dining room",
+            "F01:hotel:Business lounge",
+            "F01:hotel:Small meeting room",
+            "F01:hotel:Conference room",
+            "F01:hotel:Guest fitness room",
+            "F01:hotel:Spa consultation room",
+            "F01:hotel:Family waiting lounge",
+            "F01:hotel:Accessible day-use suite envelope",
+            "F01:hotel:Electrical intake room"
+          ]
+        },
+        {
+          "label": "F01:hotel:West stair RESERVED",
+          "box": [
+            0,
+            0,
+            3,
+            7.5
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F01:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:hotel:East stair RESERVED",
+          "box": [
+            57,
+            9.5,
+            60,
+            17
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F01:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:hotel:South lift RESERVED",
+          "box": [
+            27.5,
+            5,
+            30,
+            7.5
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F01:hotel:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F01:hotel:South reserved lift lobby",
+          "box": [
+            30,
+            5,
+            32.5,
+            7.5
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01:hotel:Main corridor",
+            "F01:hotel:South lift RESERVED",
+            "F01:hotel:Food receiving store"
+          ]
+        },
+        {
+          "label": "F01:hotel:Food receiving store",
+          "box": [
+            27.5,
+            0,
+            32.5,
+            5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01:hotel:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F01:hotel:North reserved lift lobby",
+          "box": [
+            27.5,
+            9.5,
+            30,
+            12
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01:hotel:Main corridor",
+            "F01:hotel:North lift RESERVED",
+            "F01:hotel:Waste holding room"
+          ]
+        },
+        {
+          "label": "F01:hotel:North lift RESERVED",
+          "box": [
+            30,
+            9.5,
+            32.5,
+            12
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F01:hotel:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F01:hotel:Waste holding room",
+          "box": [
+            27.5,
+            12,
+            32.5,
+            17
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01:hotel:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F01:hotel:Hotel reception",
+          "box": [
+            20.035,
+            0,
+            27.5,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:hotel:Concierge desk room",
+          "box": [
+            14.293,
+            0,
+            20.035,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:hotel:Luggage holding room",
+          "box": [
+            10.465,
+            0,
+            14.293,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:hotel:Guest arrival lounge",
+          "box": [
+            3,
+            0,
+            10.465,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:hotel:Front office administration",
+          "box": [
+            0,
+            9.5,
+            4.898,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:hotel:Public WC and accessible WC",
+          "box": [
+            4.898,
+            9.5,
+            8.398,
+            17
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:hotel:Cafe seating room",
+          "box": [
+            8.398,
+            9.5,
+            14.765,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:hotel:Main corridor",
+            "F01:hotel:Restaurant finishing kitchen"
+          ]
+        },
+        {
+          "label": "F01:hotel:Restaurant finishing kitchen",
+          "box": [
+            14.765,
+            9.5,
+            21.132,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:hotel:Main corridor",
+            "F01:hotel:Cafe seating room",
+            "F01:hotel:Breakfast dining room"
+          ]
+        },
+        {
+          "label": "F01:hotel:Breakfast dining room",
+          "box": [
+            21.132,
+            9.5,
+            27.5,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:hotel:Main corridor",
+            "F01:hotel:Restaurant finishing kitchen"
+          ]
+        },
+        {
+          "label": "F01:hotel:All-day restaurant room",
+          "box": [
+            32.5,
+            9.5,
+            39,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:hotel:Private dining room",
+          "box": [
+            39,
+            9.5,
+            45.5,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:hotel:Business lounge",
+          "box": [
+            45.5,
+            9.5,
+            52,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:hotel:Small meeting room",
+          "box": [
+            52,
+            9.5,
+            57,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:hotel:Conference room",
+          "box": [
+            55.196,
+            0,
+            60,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:hotel:Guest fitness room",
+          "box": [
+            48.951,
+            0,
+            55.196,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:hotel:Spa consultation room",
+          "box": [
+            45.748,
+            0,
+            48.951,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:hotel:Family waiting lounge",
+          "box": [
+            39.503,
+            0,
+            45.748,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:hotel:Accessible day-use suite envelope",
+          "box": [
+            35.5,
+            0,
+            39.503,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:hotel:Electrical intake room",
+          "box": [
+            32.5,
+            0,
+            35.5,
+            7.5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01:hotel:Main corridor"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Business guest floor",
+      "height_m": 3.3,
+      "rooms": [
+        {
+          "label": "F02:hotel:Main corridor",
+          "box": [
+            0,
+            7.5,
+            60,
+            9.5
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02:hotel:South reserved lift lobby",
+            "F02:hotel:North reserved lift lobby",
+            "F02:hotel:West stair RESERVED",
+            "F02:hotel:East stair RESERVED",
+            "F02:hotel:Guest pantry",
+            "F02:hotel:Guest work lounge",
+            "F02:hotel:Video meeting room",
+            "F02:hotel:Pressing room",
+            "F02:hotel:East king guest suite envelope",
+            "F02:hotel:West king guest suite envelope",
+            "F02:hotel:North twin guest suite envelope",
+            "F02:hotel:South twin guest suite envelope",
+            "F02:hotel:Accessible business suite envelope",
+            "F02:hotel:Corner executive suite envelope",
+            "F02:hotel:Courtyard queen suite envelope",
+            "F02:hotel:Quiet queen suite envelope",
+            "F02:hotel:Long-stay king suite envelope",
+            "F02:hotel:Business twin suite envelope",
+            "F02:hotel:Premium king suite envelope",
+            "F02:hotel:Companion guest suite envelope",
+            "F02:hotel:Solo traveller suite envelope",
+            "F02:hotel:Housekeeping supply room"
+          ]
+        },
+        {
+          "label": "F02:hotel:West stair RESERVED",
+          "box": [
+            0,
+            0,
+            3,
+            7.5
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F02:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:hotel:East stair RESERVED",
+          "box": [
+            57,
+            9.5,
+            60,
+            17
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F02:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:hotel:South lift RESERVED",
+          "box": [
+            27.5,
+            5,
+            30,
+            7.5
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F02:hotel:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F02:hotel:South reserved lift lobby",
+          "box": [
+            30,
+            5,
+            32.5,
+            7.5
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02:hotel:Main corridor",
+            "F02:hotel:South lift RESERVED",
+            "F02:hotel:Clean linen room"
+          ]
+        },
+        {
+          "label": "F02:hotel:Clean linen room",
+          "box": [
+            27.5,
+            0,
+            32.5,
+            5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F02:hotel:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F02:hotel:North reserved lift lobby",
+          "box": [
+            27.5,
+            9.5,
+            30,
+            12
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02:hotel:Main corridor",
+            "F02:hotel:North lift RESERVED",
+            "F02:hotel:Soiled linen room"
+          ]
+        },
+        {
+          "label": "F02:hotel:North lift RESERVED",
+          "box": [
+            30,
+            9.5,
+            32.5,
+            12
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F02:hotel:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F02:hotel:Soiled linen room",
+          "box": [
+            27.5,
+            12,
+            32.5,
+            17
+          ],
+          "kind": "service",
+          "access_to": [
+            "F02:hotel:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F02:hotel:Guest pantry",
+          "box": [
+            21.994,
+            0,
+            27.5,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:hotel:Guest work lounge",
+          "box": [
+            11.258,
+            0,
+            21.994,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:hotel:Video meeting room",
+          "box": [
+            3,
+            0,
+            11.258,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:hotel:Pressing room",
+          "box": [
+            0,
+            9.5,
+            6.653,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:hotel:East king guest suite envelope",
+          "box": [
+            6.653,
+            9.5,
+            11.088,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:hotel:West king guest suite envelope",
+          "box": [
+            11.088,
+            9.5,
+            15.523,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:hotel:North twin guest suite envelope",
+          "box": [
+            15.523,
+            9.5,
+            21.511,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:hotel:South twin guest suite envelope",
+          "box": [
+            21.511,
+            9.5,
+            27.5,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:hotel:Accessible business suite envelope",
+          "box": [
+            32.5,
+            9.5,
+            37.969,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:hotel:Corner executive suite envelope",
+          "box": [
+            37.969,
+            9.5,
+            43.875,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:hotel:Courtyard queen suite envelope",
+          "box": [
+            43.875,
+            9.5,
+            48.25,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:hotel:Quiet queen suite envelope",
+          "box": [
+            48.25,
+            9.5,
+            52.625,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:hotel:Long-stay king suite envelope",
+          "box": [
+            52.625,
+            9.5,
+            57,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:hotel:Business twin suite envelope",
+          "box": [
+            53.584,
+            0,
+            60,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:hotel:Premium king suite envelope",
+          "box": [
+            47.168,
+            0,
+            53.584,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:hotel:Companion guest suite envelope",
+          "box": [
+            40.752,
+            0,
+            47.168,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:hotel:Solo traveller suite envelope",
+          "box": [
+            36,
+            0,
+            40.752,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:hotel:Housekeeping supply room",
+          "box": [
+            32.5,
+            0,
+            36,
+            7.5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F02:hotel:Main corridor"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Families and companion travel",
+      "height_m": 3.3,
+      "rooms": [
+        {
+          "label": "F03:hotel:Main corridor",
+          "box": [
+            0,
+            7.5,
+            60,
+            9.5
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03:hotel:South reserved lift lobby",
+            "F03:hotel:North reserved lift lobby",
+            "F03:hotel:West stair RESERVED",
+            "F03:hotel:East stair RESERVED",
+            "F03:hotel:Guest pantry",
+            "F03:hotel:Family games lounge",
+            "F03:hotel:Childrens activity room",
+            "F03:hotel:Guest laundry",
+            "F03:hotel:East family guest suite envelope",
+            "F03:hotel:West family guest suite envelope",
+            "F03:hotel:North twin suite envelope",
+            "F03:hotel:South twin suite envelope",
+            "F03:hotel:Accessible family suite envelope",
+            "F03:hotel:Corner family suite envelope",
+            "F03:hotel:Courtyard queen suite envelope",
+            "F03:hotel:Companion twin suite envelope",
+            "F03:hotel:Three-person suite envelope",
+            "F03:hotel:King guest suite envelope",
+            "F03:hotel:Quiet guest suite envelope",
+            "F03:hotel:Parent and child suite envelope",
+            "F03:hotel:Grandparent guest suite envelope",
+            "F03:hotel:Housekeeping store"
+          ]
+        },
+        {
+          "label": "F03:hotel:West stair RESERVED",
+          "box": [
+            0,
+            0,
+            3,
+            7.5
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F03:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:hotel:East stair RESERVED",
+          "box": [
+            57,
+            9.5,
+            60,
+            17
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F03:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:hotel:South lift RESERVED",
+          "box": [
+            27.5,
+            5,
+            30,
+            7.5
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F03:hotel:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F03:hotel:South reserved lift lobby",
+          "box": [
+            30,
+            5,
+            32.5,
+            7.5
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03:hotel:Main corridor",
+            "F03:hotel:South lift RESERVED",
+            "F03:hotel:Clean linen room"
+          ]
+        },
+        {
+          "label": "F03:hotel:Clean linen room",
+          "box": [
+            27.5,
+            0,
+            32.5,
+            5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F03:hotel:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F03:hotel:North reserved lift lobby",
+          "box": [
+            27.5,
+            9.5,
+            30,
+            12
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03:hotel:Main corridor",
+            "F03:hotel:North lift RESERVED",
+            "F03:hotel:Soiled linen room"
+          ]
+        },
+        {
+          "label": "F03:hotel:North lift RESERVED",
+          "box": [
+            30,
+            9.5,
+            32.5,
+            12
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F03:hotel:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F03:hotel:Soiled linen room",
+          "box": [
+            27.5,
+            12,
+            32.5,
+            17
+          ],
+          "kind": "service",
+          "access_to": [
+            "F03:hotel:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F03:hotel:Guest pantry",
+          "box": [
+            22.5,
+            0,
+            27.5,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:hotel:Family games lounge",
+          "box": [
+            12.75,
+            0,
+            22.5,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:hotel:Childrens activity room",
+          "box": [
+            3,
+            0,
+            12.75,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:hotel:Guest laundry",
+          "box": [
+            0,
+            9.5,
+            4.8,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:hotel:East family guest suite envelope",
+          "box": [
+            4.8,
+            9.5,
+            10.475,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:hotel:West family guest suite envelope",
+          "box": [
+            10.475,
+            9.5,
+            16.15,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:hotel:North twin suite envelope",
+          "box": [
+            16.15,
+            9.5,
+            21.825,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:hotel:South twin suite envelope",
+          "box": [
+            21.825,
+            9.5,
+            27.5,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:hotel:Accessible family suite envelope",
+          "box": [
+            32.5,
+            9.5,
+            38.687,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:hotel:Corner family suite envelope",
+          "box": [
+            38.687,
+            9.5,
+            45.369,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:hotel:Courtyard queen suite envelope",
+          "box": [
+            45.369,
+            9.5,
+            50.318,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:hotel:Companion twin suite envelope",
+          "box": [
+            50.318,
+            9.5,
+            57,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:hotel:Three-person suite envelope",
+          "box": [
+            55.2,
+            0,
+            60,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:hotel:King guest suite envelope",
+          "box": [
+            50.4,
+            0,
+            55.2,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:hotel:Quiet guest suite envelope",
+          "box": [
+            45.6,
+            0,
+            50.4,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:hotel:Parent and child suite envelope",
+          "box": [
+            40.8,
+            0,
+            45.6,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:hotel:Grandparent guest suite envelope",
+          "box": [
+            36,
+            0,
+            40.8,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:hotel:Housekeeping store",
+          "box": [
+            32.5,
+            0,
+            36,
+            7.5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F03:hotel:Main corridor"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "name": "Leisure guest rooms",
+      "height_m": 3.3,
+      "rooms": [
+        {
+          "label": "F04:hotel:Main corridor",
+          "box": [
+            0,
+            7.5,
+            60,
+            9.5
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F04:hotel:South reserved lift lobby",
+            "F04:hotel:North reserved lift lobby",
+            "F04:hotel:West stair RESERVED",
+            "F04:hotel:East stair RESERVED",
+            "F04:hotel:Reading lounge",
+            "F04:hotel:Tour planning room",
+            "F04:hotel:Guest refreshment room",
+            "F04:hotel:Wellness stretching room",
+            "F04:hotel:East leisure king suite envelope",
+            "F04:hotel:West leisure king suite envelope",
+            "F04:hotel:North leisure twin envelope",
+            "F04:hotel:South leisure twin envelope",
+            "F04:hotel:Accessible leisure suite envelope",
+            "F04:hotel:Corner view suite envelope",
+            "F04:hotel:Courtyard queen envelope",
+            "F04:hotel:Quiet king envelope",
+            "F04:hotel:Couple retreat suite envelope",
+            "F04:hotel:Friends twin suite envelope",
+            "F04:hotel:Extended weekend suite envelope",
+            "F04:hotel:Garden view suite envelope",
+            "F04:hotel:Premium queen envelope",
+            "F04:hotel:Floor maintenance room"
+          ]
+        },
+        {
+          "label": "F04:hotel:West stair RESERVED",
+          "box": [
+            0,
+            0,
+            3,
+            7.5
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F04:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:hotel:East stair RESERVED",
+          "box": [
+            57,
+            9.5,
+            60,
+            17
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F04:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:hotel:South lift RESERVED",
+          "box": [
+            27.5,
+            5,
+            30,
+            7.5
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F04:hotel:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F04:hotel:South reserved lift lobby",
+          "box": [
+            30,
+            5,
+            32.5,
+            7.5
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F04:hotel:Main corridor",
+            "F04:hotel:South lift RESERVED",
+            "F04:hotel:Clean linen store"
+          ]
+        },
+        {
+          "label": "F04:hotel:Clean linen store",
+          "box": [
+            27.5,
+            0,
+            32.5,
+            5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F04:hotel:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F04:hotel:North reserved lift lobby",
+          "box": [
+            27.5,
+            9.5,
+            30,
+            12
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F04:hotel:Main corridor",
+            "F04:hotel:North lift RESERVED",
+            "F04:hotel:Soiled linen store"
+          ]
+        },
+        {
+          "label": "F04:hotel:North lift RESERVED",
+          "box": [
+            30,
+            9.5,
+            32.5,
+            12
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F04:hotel:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F04:hotel:Soiled linen store",
+          "box": [
+            27.5,
+            12,
+            32.5,
+            17
+          ],
+          "kind": "service",
+          "access_to": [
+            "F04:hotel:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F04:hotel:Reading lounge",
+          "box": [
+            17.848,
+            0,
+            27.5,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:hotel:Tour planning room",
+          "box": [
+            10.424,
+            0,
+            17.848,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:hotel:Guest refreshment room",
+          "box": [
+            3,
+            0,
+            10.424,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:hotel:Wellness stretching room",
+          "box": [
+            0,
+            9.5,
+            6.653,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:hotel:East leisure king suite envelope",
+          "box": [
+            6.653,
+            9.5,
+            11.088,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:hotel:West leisure king suite envelope",
+          "box": [
+            11.088,
+            9.5,
+            15.523,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:hotel:North leisure twin envelope",
+          "box": [
+            15.523,
+            9.5,
+            21.511,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:hotel:South leisure twin envelope",
+          "box": [
+            21.511,
+            9.5,
+            27.5,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:hotel:Accessible leisure suite envelope",
+          "box": [
+            32.5,
+            9.5,
+            37.647,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:hotel:Corner view suite envelope",
+          "box": [
+            37.647,
+            9.5,
+            43.206,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:hotel:Courtyard queen envelope",
+          "box": [
+            43.206,
+            9.5,
+            47.324,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:hotel:Quiet king envelope",
+          "box": [
+            47.324,
+            9.5,
+            51.442,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:hotel:Couple retreat suite envelope",
+          "box": [
+            51.442,
+            9.5,
+            57,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:hotel:Friends twin suite envelope",
+          "box": [
+            53.584,
+            0,
+            60,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:hotel:Extended weekend suite envelope",
+          "box": [
+            47.168,
+            0,
+            53.584,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:hotel:Garden view suite envelope",
+          "box": [
+            42.416,
+            0,
+            47.168,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:hotel:Premium queen envelope",
+          "box": [
+            36,
+            0,
+            42.416,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:hotel:Floor maintenance room",
+          "box": [
+            32.5,
+            0,
+            36,
+            7.5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F04:hotel:Main corridor"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "name": "Conference guests",
+      "height_m": 3.3,
+      "rooms": [
+        {
+          "label": "F05:hotel:Main corridor",
+          "box": [
+            0,
+            7.5,
+            60,
+            9.5
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F05:hotel:South reserved lift lobby",
+            "F05:hotel:North reserved lift lobby",
+            "F05:hotel:West stair RESERVED",
+            "F05:hotel:East stair RESERVED",
+            "F05:hotel:Guest pantry",
+            "F05:hotel:Delegate networking lounge",
+            "F05:hotel:Breakout meeting room",
+            "F05:hotel:Presentation preparation room",
+            "F05:hotel:East delegate king envelope",
+            "F05:hotel:West delegate king envelope",
+            "F05:hotel:North delegate twin envelope",
+            "F05:hotel:South delegate twin envelope",
+            "F05:hotel:Accessible delegate suite envelope",
+            "F05:hotel:Speaker guest suite envelope",
+            "F05:hotel:Corner delegate suite envelope",
+            "F05:hotel:Quiet delegate suite envelope",
+            "F05:hotel:Courtyard delegate suite envelope",
+            "F05:hotel:Team leader suite envelope",
+            "F05:hotel:Premium business suite envelope",
+            "F05:hotel:Companion delegate envelope",
+            "F05:hotel:Solo delegate suite envelope",
+            "F05:hotel:Housekeeping supply room"
+          ]
+        },
+        {
+          "label": "F05:hotel:West stair RESERVED",
+          "box": [
+            0,
+            0,
+            3,
+            7.5
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F05:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:hotel:East stair RESERVED",
+          "box": [
+            57,
+            9.5,
+            60,
+            17
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F05:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:hotel:South lift RESERVED",
+          "box": [
+            27.5,
+            5,
+            30,
+            7.5
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F05:hotel:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F05:hotel:South reserved lift lobby",
+          "box": [
+            30,
+            5,
+            32.5,
+            7.5
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F05:hotel:Main corridor",
+            "F05:hotel:South lift RESERVED",
+            "F05:hotel:Clean linen room"
+          ]
+        },
+        {
+          "label": "F05:hotel:Clean linen room",
+          "box": [
+            27.5,
+            0,
+            32.5,
+            5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F05:hotel:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F05:hotel:North reserved lift lobby",
+          "box": [
+            27.5,
+            9.5,
+            30,
+            12
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F05:hotel:Main corridor",
+            "F05:hotel:North lift RESERVED",
+            "F05:hotel:Soiled linen room"
+          ]
+        },
+        {
+          "label": "F05:hotel:North lift RESERVED",
+          "box": [
+            30,
+            9.5,
+            32.5,
+            12
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F05:hotel:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F05:hotel:Soiled linen room",
+          "box": [
+            27.5,
+            12,
+            32.5,
+            17
+          ],
+          "kind": "service",
+          "access_to": [
+            "F05:hotel:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F05:hotel:Guest pantry",
+          "box": [
+            21.994,
+            0,
+            27.5,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:hotel:Delegate networking lounge",
+          "box": [
+            11.258,
+            0,
+            21.994,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:hotel:Breakout meeting room",
+          "box": [
+            3,
+            0,
+            11.258,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:hotel:Presentation preparation room",
+          "box": [
+            0,
+            9.5,
+            6.653,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:hotel:East delegate king envelope",
+          "box": [
+            6.653,
+            9.5,
+            11.088,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:hotel:West delegate king envelope",
+          "box": [
+            11.088,
+            9.5,
+            15.523,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:hotel:North delegate twin envelope",
+          "box": [
+            15.523,
+            9.5,
+            21.511,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:hotel:South delegate twin envelope",
+          "box": [
+            21.511,
+            9.5,
+            27.5,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:hotel:Accessible delegate suite envelope",
+          "box": [
+            32.5,
+            9.5,
+            37.969,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:hotel:Speaker guest suite envelope",
+          "box": [
+            37.969,
+            9.5,
+            42.344,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:hotel:Corner delegate suite envelope",
+          "box": [
+            42.344,
+            9.5,
+            48.25,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:hotel:Quiet delegate suite envelope",
+          "box": [
+            48.25,
+            9.5,
+            52.625,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:hotel:Courtyard delegate suite envelope",
+          "box": [
+            52.625,
+            9.5,
+            57,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:hotel:Team leader suite envelope",
+          "box": [
+            54.894,
+            0,
+            60,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:hotel:Premium business suite envelope",
+          "box": [
+            48,
+            0,
+            54.894,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:hotel:Companion delegate envelope",
+          "box": [
+            41.106,
+            0,
+            48,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:hotel:Solo delegate suite envelope",
+          "box": [
+            36,
+            0,
+            41.106,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:hotel:Housekeeping supply room",
+          "box": [
+            32.5,
+            0,
+            36,
+            7.5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F05:hotel:Main corridor"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "name": "Premium wellness stays",
+      "height_m": 3.4,
+      "rooms": [
+        {
+          "label": "F06:hotel:Main corridor",
+          "box": [
+            0,
+            7.5,
+            60,
+            9.5
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F06:hotel:South reserved lift lobby",
+            "F06:hotel:North reserved lift lobby",
+            "F06:hotel:West stair RESERVED",
+            "F06:hotel:East stair RESERVED",
+            "F06:hotel:Wellness guest lounge",
+            "F06:hotel:Treatment consultation room",
+            "F06:hotel:Gentle exercise studio",
+            "F06:hotel:Guest tea room",
+            "F06:hotel:East premium king envelope",
+            "F06:hotel:West premium king envelope",
+            "F06:hotel:North premium twin envelope",
+            "F06:hotel:South premium twin envelope",
+            "F06:hotel:Accessible wellness suite envelope",
+            "F06:hotel:Corner wellness suite envelope",
+            "F06:hotel:Courtyard retreat envelope",
+            "F06:hotel:Quiet retreat suite envelope",
+            "F06:hotel:Couple wellness suite envelope",
+            "F06:hotel:Long-stay wellness envelope",
+            "F06:hotel:Premium family envelope",
+            "F06:hotel:Companion wellness envelope",
+            "F06:hotel:Garden outlook suite envelope",
+            "F06:hotel:Housekeeping store"
+          ]
+        },
+        {
+          "label": "F06:hotel:West stair RESERVED",
+          "box": [
+            0,
+            0,
+            3,
+            7.5
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F06:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:hotel:East stair RESERVED",
+          "box": [
+            57,
+            9.5,
+            60,
+            17
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F06:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:hotel:South lift RESERVED",
+          "box": [
+            27.5,
+            5,
+            30,
+            7.5
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F06:hotel:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F06:hotel:South reserved lift lobby",
+          "box": [
+            30,
+            5,
+            32.5,
+            7.5
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F06:hotel:Main corridor",
+            "F06:hotel:South lift RESERVED",
+            "F06:hotel:Clean linen store"
+          ]
+        },
+        {
+          "label": "F06:hotel:Clean linen store",
+          "box": [
+            27.5,
+            0,
+            32.5,
+            5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F06:hotel:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F06:hotel:North reserved lift lobby",
+          "box": [
+            27.5,
+            9.5,
+            30,
+            12
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F06:hotel:Main corridor",
+            "F06:hotel:North lift RESERVED",
+            "F06:hotel:Soiled linen store"
+          ]
+        },
+        {
+          "label": "F06:hotel:North lift RESERVED",
+          "box": [
+            30,
+            9.5,
+            32.5,
+            12
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F06:hotel:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F06:hotel:Soiled linen store",
+          "box": [
+            27.5,
+            12,
+            32.5,
+            17
+          ],
+          "kind": "service",
+          "access_to": [
+            "F06:hotel:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F06:hotel:Wellness guest lounge",
+          "box": [
+            17.75,
+            0,
+            27.5,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:hotel:Treatment consultation room",
+          "box": [
+            12.75,
+            0,
+            17.75,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:hotel:Gentle exercise studio",
+          "box": [
+            3,
+            0,
+            12.75,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:hotel:Guest tea room",
+          "box": [
+            0,
+            9.5,
+            4.297,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:hotel:East premium king envelope",
+          "box": [
+            4.297,
+            9.5,
+            10.098,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:hotel:West premium king envelope",
+          "box": [
+            10.098,
+            9.5,
+            15.899,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:hotel:North premium twin envelope",
+          "box": [
+            15.899,
+            9.5,
+            21.7,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:hotel:South premium twin envelope",
+          "box": [
+            21.7,
+            9.5,
+            27.5,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:hotel:Accessible wellness suite envelope",
+          "box": [
+            32.5,
+            9.5,
+            37.647,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:hotel:Corner wellness suite envelope",
+          "box": [
+            37.647,
+            9.5,
+            43.206,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:hotel:Courtyard retreat envelope",
+          "box": [
+            43.206,
+            9.5,
+            47.324,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:hotel:Quiet retreat suite envelope",
+          "box": [
+            47.324,
+            9.5,
+            51.442,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:hotel:Couple wellness suite envelope",
+          "box": [
+            51.442,
+            9.5,
+            57,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:hotel:Long-stay wellness envelope",
+          "box": [
+            54.894,
+            0,
+            60,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:hotel:Premium family envelope",
+          "box": [
+            48,
+            0,
+            54.894,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:hotel:Companion wellness envelope",
+          "box": [
+            41.106,
+            0,
+            48,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:hotel:Garden outlook suite envelope",
+          "box": [
+            36,
+            0,
+            41.106,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F06:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F06:hotel:Housekeeping store",
+          "box": [
+            32.5,
+            0,
+            36,
+            7.5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F06:hotel:Main corridor"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "name": "Club rooms and private hospitality",
+      "height_m": 3.6,
+      "rooms": [
+        {
+          "label": "F07:hotel:Main corridor",
+          "box": [
+            0,
+            7.5,
+            60,
+            9.5
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F07:hotel:South reserved lift lobby",
+            "F07:hotel:North reserved lift lobby",
+            "F07:hotel:West stair RESERVED",
+            "F07:hotel:East stair RESERVED",
+            "F07:hotel:Private breakfast room",
+            "F07:hotel:Club pantry",
+            "F07:hotel:Club guest lounge",
+            "F07:hotel:Board meeting room",
+            "F07:hotel:Library lounge",
+            "F07:hotel:Private celebration room",
+            "F07:hotel:Guest dressing lounge",
+            "F07:hotel:East club suite envelope",
+            "F07:hotel:West club suite envelope",
+            "F07:hotel:North club twin envelope",
+            "F07:hotel:South club king envelope",
+            "F07:hotel:Accessible club suite envelope",
+            "F07:hotel:Corner signature suite envelope",
+            "F07:hotel:Courtyard club suite envelope",
+            "F07:hotel:Quiet club suite envelope",
+            "F07:hotel:Family club suite envelope",
+            "F07:hotel:Extended-stay club envelope",
+            "F07:hotel:Roof maintenance room"
+          ]
+        },
+        {
+          "label": "F07:hotel:West stair RESERVED",
+          "box": [
+            0,
+            0,
+            3,
+            7.5
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F07:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F07:hotel:East stair RESERVED",
+          "box": [
+            57,
+            9.5,
+            60,
+            17
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F07:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F07:hotel:South lift RESERVED",
+          "box": [
+            27.5,
+            5,
+            30,
+            7.5
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F07:hotel:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F07:hotel:South reserved lift lobby",
+          "box": [
+            30,
+            5,
+            32.5,
+            7.5
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F07:hotel:Main corridor",
+            "F07:hotel:South lift RESERVED",
+            "F07:hotel:Clean linen store"
+          ]
+        },
+        {
+          "label": "F07:hotel:Clean linen store",
+          "box": [
+            27.5,
+            0,
+            32.5,
+            5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F07:hotel:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F07:hotel:North reserved lift lobby",
+          "box": [
+            27.5,
+            9.5,
+            30,
+            12
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F07:hotel:Main corridor",
+            "F07:hotel:North lift RESERVED",
+            "F07:hotel:Soiled linen store"
+          ]
+        },
+        {
+          "label": "F07:hotel:North lift RESERVED",
+          "box": [
+            30,
+            9.5,
+            32.5,
+            12
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F07:hotel:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F07:hotel:Soiled linen store",
+          "box": [
+            27.5,
+            12,
+            32.5,
+            17
+          ],
+          "kind": "service",
+          "access_to": [
+            "F07:hotel:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F07:hotel:Private breakfast room",
+          "box": [
+            23.005,
+            0,
+            27.5,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F07:hotel:Main corridor",
+            "F07:hotel:Club pantry"
+          ]
+        },
+        {
+          "label": "F07:hotel:Club pantry",
+          "box": [
+            18.51,
+            0,
+            23.005,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F07:hotel:Main corridor",
+            "F07:hotel:Private breakfast room"
+          ]
+        },
+        {
+          "label": "F07:hotel:Club guest lounge",
+          "box": [
+            9.744,
+            0,
+            18.51,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F07:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F07:hotel:Board meeting room",
+          "box": [
+            3,
+            0,
+            9.744,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F07:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F07:hotel:Library lounge",
+          "box": [
+            0,
+            9.5,
+            8.58,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F07:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F07:hotel:Private celebration room",
+          "box": [
+            8.58,
+            9.5,
+            12.98,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F07:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F07:hotel:Guest dressing lounge",
+          "box": [
+            12.98,
+            9.5,
+            21.56,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F07:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F07:hotel:East club suite envelope",
+          "box": [
+            21.56,
+            9.5,
+            27.5,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F07:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F07:hotel:West club suite envelope",
+          "box": [
+            32.5,
+            9.5,
+            37.474,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F07:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F07:hotel:North club twin envelope",
+          "box": [
+            37.474,
+            9.5,
+            42.448,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F07:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F07:hotel:South club king envelope",
+          "box": [
+            42.448,
+            9.5,
+            47.422,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F07:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F07:hotel:Accessible club suite envelope",
+          "box": [
+            47.422,
+            9.5,
+            52.027,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F07:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F07:hotel:Corner signature suite envelope",
+          "box": [
+            52.027,
+            9.5,
+            57,
+            17
+          ],
+          "kind": "program",
+          "access_to": [
+            "F07:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F07:hotel:Courtyard club suite envelope",
+          "box": [
+            53.875,
+            0,
+            60,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F07:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F07:hotel:Quiet club suite envelope",
+          "box": [
+            47.75,
+            0,
+            53.875,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F07:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F07:hotel:Family club suite envelope",
+          "box": [
+            41.625,
+            0,
+            47.75,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F07:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F07:hotel:Extended-stay club envelope",
+          "box": [
+            35.5,
+            0,
+            41.625,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F07:hotel:Main corridor"
+          ]
+        },
+        {
+          "label": "F07:hotel:Roof maintenance room",
+          "box": [
+            32.5,
+            0,
+            35.5,
+            7.5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F07:hotel:Main corridor"
+          ]
+        }
+      ]
+    }
+  ]
+}

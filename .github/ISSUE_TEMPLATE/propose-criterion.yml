@@ -1,0 +1,21 @@
+name: Propose a criterion
+description: Suggest something that the benchmark should check.
+title: "[Criterion] "
+labels: [new-criterion]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Criterion
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What an architect checks, and why it matters
+    validations:
+      required: true
+  - type: textarea
+    id: how
+    attributes:
+      label: How to tell from a model that it passes

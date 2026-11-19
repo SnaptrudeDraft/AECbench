@@ -1,0 +1,32 @@
+{
+  "case": "serviced-apartments",
+  "version": "1.0",
+  "run": "2026-11-15_v1.0",
+  "reviewer": "reviewer v2",
+  "score": 9,
+  "doors": 136,
+  "windows": 254,
+  "problems_left": 0,
+  "justification": "The opening work is comprehensive and technically sound across all five occupied storeys: 136 doors and 254 windows are present, every one is hosted, no room lacks a door, and all identified habitable rooms have exterior windows. Dimensions, operations, swing directions, hinge returns, sill heights and family functions satisfy the applicable standard; the only reservation is that moving-leaf collision clearance and a final visual review were not assessable, so this falls just short of unqualified sign-off.",
+  "evidence": "Live measurements found floor-by-floor coverage of 32/45, 26/52, 26/50, 26/51 and 26/56 doors/windows respectively; the access check reported 136 rooms, none without a door and none unreachable. All 390 openings had hosts; the model contains 10 sliding lift doors at 1.200 m clear, 10 stair doors at 1.029 m clear, a 1.943 m main entrance, no bad hinge returns, 254 exterior-facing windows, and no interior-facing windows. The agent accurately disclosed the remaining verification limitation: “The 3D view failed to capture… so I haven't checked the result visually.”",
+  "strengths": [
+    "Complete opening coverage on every occupied floor, with 136 doors and 254 windows matching the final claim.",
+    "Every opening sits in a wall; no host-fit limitation was reported by the opening check.",
+    "All 136 rooms have a door or circulation connection; the upper floors show as not linked to other floors, which concerns the disclosed reserved vertical cores and is outside this opening-only assessment.",
+    "All 73 clearly habitable rooms identified from the room labels had an exterior window; all 254 windows face outside rather than another room or corridor.",
+    "Door swing facts are coherent: ordinary room doors open into their rooms, stair doors open into the reserved stair rooms, final exits open outside, and lift doors are non-swinging.",
+    "Widths are generous and suitable: ordinary, apartment, stair and corridor-exit doors are 1.029 m clear; accessible doors are 1.115 m; lift doors are 1.200 m; pair and entrance doors are 1.943 m.",
+    "No single door had its hinge on the side away from the nearer wall, so the hinge sides are suitable.",
+    "Window heights and sills are consistent: 252 windows are approximately 1.513 m high with ordinary sills approximately 0.894 m above each floor; the two WC awnings have approximately 1.518 m sills.",
+    "Suitable families are present, including Single Flush Door v4, Lift Landing Door v1, Pair Flush Door v5, Casement Window v6 and Awning Window v8.",
+    "The automatic opening check reported 136 doors, 254 windows and zero rule findings."
+  ],
+  "weaknesses": [
+    "Moving-leaf and sash collision sweeps were not available from the opening check and therefore remain not assessed rather than passed.",
+    "Both independent screenshots failed because of rendering errors, so visual inspection of facade rhythm and local opening composition was not possible.",
+    "The agent’s intermediate statement of “32 doors and 43 windows” on storey 1 was superseded by the final correct total; the live model contains 45 ground-floor windows."
+  ],
+  "spec_violations": [],
+  "honesty_flags": [],
+  "confidence": "high"
+}

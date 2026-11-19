@@ -1,0 +1,1271 @@
+{
+  "slug": "theatre3",
+  "typology": "Performing arts venue without fly tower",
+  "provenance": "Deterministic AI-authored synthetic architectural program and coordinates; not a source-model replay, surveyed building, live-audited fixture or compliance design.",
+  "notes": [
+    "Metres; +X east, +Z north, Y vertical. Shared partition centre-line extents. Envelope 60 by 42 m, 3 m ring corridors with full-width south/north arms. Corner cores share full 8 m corridor edges. Floor elevations accumulate height_m from zero.",
+    "Ground auditorium [11,11,39,31] and stage [39,11,49,31] each have height_m 13.5, the sum of all floor heights. Their union [11,11,49,31] is exactly absent from floors 2 and 3. The consumer MUST omit both upper slabs there and roof above floor 3. No audience balcony or fly tower is modeled.",
+    "Both separated stairs and both lift zones are stacked reservations only, not physical stairs, landings, shafts, lift cars or working vertical circulation. No seating rake, scenery rigging, acoustic construction or structural span solution is supplied.",
+    "access_to specifies intended passages along shared positive-length edges, not placed openings or hidden counts/swings. Auditorium-stage access denotes performer passage through their shared stage interface, not an instruction to place a domestic door or partition across a proscenium.",
+    "Public approach is west/south and backstage context east. Cross-corridor thresholds require controlled access while preserving independent stair access. Sound locks were omitted rather than represented by overlapping boxes; acoustic entry vestibules remain an unmodeled design limitation, not an opening target.",
+    "Blackout auditorium/stage and blind costume, props or equipment stores can be intentional. Review audience door operation, assembly circulation, loading-to-stage access, backstage privacy, upper-level doors against voids, exterior glazing suitability and edge protection. No doors, windows or opening families are supplied. No capacity, acoustic, escape or code-compliance claim; not live-audited.",
+    "Corrected 2026-11-11: corner cores were 8 by 8 m reservations. Stairs are now 4 by 8 m (1.5 m flights for assembly use), the passenger lift 3 by 3 m and the goods lift 4 by 4 m; the rest of each corner is riser, plant or store rooms reached from the gallery."
+  ],
+  "floors": [
+    {
+      "number": 1,
+      "name": "Ground",
+      "height_m": 4.5,
+      "rooms": [
+        {
+          "label": "T1 South foyer corridor",
+          "box": [
+            0,
+            8,
+            60,
+            11
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "T1 West audience corridor",
+            "T1 East backstage corridor",
+            "T1 Southwest riser and cleaner store",
+            "T1 Southeast goods lift store"
+          ]
+        },
+        {
+          "label": "T1 North cross corridor",
+          "box": [
+            0,
+            31,
+            60,
+            34
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "T1 West audience corridor",
+            "T1 East backstage corridor",
+            "T1 Northeast cleaner and plant room",
+            "T1 Northwest building services room"
+          ]
+        },
+        {
+          "label": "T1 West audience corridor",
+          "box": [
+            8,
+            11,
+            11,
+            31
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "T1 South foyer corridor",
+            "T1 North cross corridor"
+          ]
+        },
+        {
+          "label": "T1 East backstage corridor",
+          "box": [
+            49,
+            11,
+            52,
+            31
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "T1 South foyer corridor",
+            "T1 North cross corridor"
+          ]
+        },
+        {
+          "label": "T1 Southwest stair reservation",
+          "box": [
+            0,
+            0,
+            4,
+            8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "T1 South foyer corridor"
+          ]
+        },
+        {
+          "label": "T1 Northeast stair reservation",
+          "box": [
+            56,
+            34,
+            60,
+            42
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "T1 North cross corridor"
+          ]
+        },
+        {
+          "label": "T1 Northwest passenger lift reservation",
+          "box": [
+            0,
+            34,
+            3,
+            37
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "T1 North cross corridor"
+          ]
+        },
+        {
+          "label": "T1 Southeast service lift reservation",
+          "box": [
+            52,
+            4,
+            56,
+            8
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "T1 South foyer corridor"
+          ]
+        },
+        {
+          "label": "T1 Ticketing and welcome foyer",
+          "box": [
+            8,
+            0,
+            19,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "T1 South foyer corridor"
+          ]
+        },
+        {
+          "label": "T1 Audience bar lounge",
+          "box": [
+            19,
+            0,
+            30,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "T1 South foyer corridor",
+            "T1 Bar preparation and store"
+          ]
+        },
+        {
+          "label": "T1 Bar preparation and store",
+          "box": [
+            30,
+            0,
+            41,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "T1 South foyer corridor",
+            "T1 Audience bar lounge"
+          ]
+        },
+        {
+          "label": "T1 Wardrobe workroom",
+          "box": [
+            41,
+            0,
+            52,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "T1 South foyer corridor"
+          ]
+        },
+        {
+          "label": "T1 Audience gathering room",
+          "box": [
+            8,
+            34,
+            19,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "T1 North cross corridor"
+          ]
+        },
+        {
+          "label": "T1 Green room",
+          "box": [
+            19,
+            34,
+            30,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "T1 North cross corridor"
+          ]
+        },
+        {
+          "label": "T1 Props and scene store",
+          "box": [
+            30,
+            34,
+            41,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "T1 North cross corridor"
+          ]
+        },
+        {
+          "label": "T1 Receiving and scenic workshop",
+          "box": [
+            41,
+            34,
+            52,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "T1 North cross corridor"
+          ]
+        },
+        {
+          "label": "T1 Cloakroom",
+          "box": [
+            0,
+            11,
+            8,
+            16
+          ],
+          "kind": "program",
+          "access_to": [
+            "T1 West audience corridor"
+          ]
+        },
+        {
+          "label": "T1 Audience toilet room south",
+          "box": [
+            0,
+            16,
+            8,
+            21
+          ],
+          "kind": "program",
+          "access_to": [
+            "T1 West audience corridor"
+          ]
+        },
+        {
+          "label": "T1 Audience toilet room north",
+          "box": [
+            0,
+            21,
+            8,
+            26
+          ],
+          "kind": "program",
+          "access_to": [
+            "T1 West audience corridor"
+          ]
+        },
+        {
+          "label": "T1 Front of house and first aid",
+          "box": [
+            0,
+            26,
+            8,
+            31
+          ],
+          "kind": "program",
+          "access_to": [
+            "T1 West audience corridor"
+          ]
+        },
+        {
+          "label": "T1 Stage door security",
+          "box": [
+            52,
+            11,
+            60,
+            16
+          ],
+          "kind": "program",
+          "access_to": [
+            "T1 East backstage corridor"
+          ]
+        },
+        {
+          "label": "T1 Principal dressing room",
+          "box": [
+            52,
+            16,
+            60,
+            21
+          ],
+          "kind": "program",
+          "access_to": [
+            "T1 East backstage corridor"
+          ]
+        },
+        {
+          "label": "T1 Ensemble dressing room",
+          "box": [
+            52,
+            21,
+            60,
+            26
+          ],
+          "kind": "program",
+          "access_to": [
+            "T1 East backstage corridor"
+          ]
+        },
+        {
+          "label": "T1 Performer changing and toilets",
+          "box": [
+            52,
+            26,
+            60,
+            31
+          ],
+          "kind": "program",
+          "access_to": [
+            "T1 East backstage corridor"
+          ]
+        },
+        {
+          "label": "T1 Auditorium",
+          "box": [
+            11,
+            11,
+            39,
+            31
+          ],
+          "kind": "program",
+          "access_to": [
+            "T1 West audience corridor",
+            "T1 South foyer corridor",
+            "T1 North cross corridor",
+            "T1 Stage"
+          ],
+          "height_m": 13.5
+        },
+        {
+          "label": "T1 Stage",
+          "box": [
+            39,
+            11,
+            49,
+            31
+          ],
+          "kind": "program",
+          "access_to": [
+            "T1 East backstage corridor",
+            "T1 Auditorium"
+          ],
+          "height_m": 13.5
+        },
+        {
+          "label": "T1 Southwest riser and cleaner store",
+          "box": [
+            4,
+            0,
+            8,
+            8
+          ],
+          "kind": "service",
+          "access_to": [
+            "T1 South foyer corridor"
+          ]
+        },
+        {
+          "label": "T1 Northeast cleaner and plant room",
+          "box": [
+            52,
+            34,
+            56,
+            42
+          ],
+          "kind": "service",
+          "access_to": [
+            "T1 North cross corridor"
+          ]
+        },
+        {
+          "label": "T1 Northwest building services room",
+          "box": [
+            3,
+            34,
+            8,
+            42
+          ],
+          "kind": "service",
+          "access_to": [
+            "T1 North cross corridor",
+            "T1 Northwest riser room"
+          ]
+        },
+        {
+          "label": "T1 Northwest riser room",
+          "box": [
+            0,
+            37,
+            3,
+            42
+          ],
+          "kind": "service",
+          "access_to": [
+            "T1 Northwest building services room"
+          ]
+        },
+        {
+          "label": "T1 Southeast goods lift store",
+          "box": [
+            56,
+            0,
+            60,
+            8
+          ],
+          "kind": "service",
+          "access_to": [
+            "T1 South foyer corridor",
+            "T1 Southeast lift machine and riser room"
+          ]
+        },
+        {
+          "label": "T1 Southeast lift machine and riser room",
+          "box": [
+            52,
+            0,
+            56,
+            4
+          ],
+          "kind": "service",
+          "access_to": [
+            "T1 Southeast goods lift store"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Rehearsal and performer support",
+      "height_m": 4.5,
+      "rooms": [
+        {
+          "label": "T2 South corridor",
+          "box": [
+            0,
+            8,
+            60,
+            11
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "T2 West corridor",
+            "T2 East corridor",
+            "T2 Southwest riser and cleaner store",
+            "T2 Southeast goods lift store"
+          ]
+        },
+        {
+          "label": "T2 North corridor",
+          "box": [
+            0,
+            31,
+            60,
+            34
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "T2 West corridor",
+            "T2 East corridor",
+            "T2 Northeast cleaner and plant room",
+            "T2 Northwest building services room"
+          ]
+        },
+        {
+          "label": "T2 West corridor",
+          "box": [
+            8,
+            11,
+            11,
+            31
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "T2 South corridor",
+            "T2 North corridor"
+          ]
+        },
+        {
+          "label": "T2 East corridor",
+          "box": [
+            49,
+            11,
+            52,
+            31
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "T2 South corridor",
+            "T2 North corridor"
+          ]
+        },
+        {
+          "label": "T2 Southwest stair reservation",
+          "box": [
+            0,
+            0,
+            4,
+            8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "T2 South corridor"
+          ]
+        },
+        {
+          "label": "T2 Northeast stair reservation",
+          "box": [
+            56,
+            34,
+            60,
+            42
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "T2 North corridor"
+          ]
+        },
+        {
+          "label": "T2 Northwest passenger lift reservation",
+          "box": [
+            0,
+            34,
+            3,
+            37
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "T2 North corridor"
+          ]
+        },
+        {
+          "label": "T2 Southeast service lift reservation",
+          "box": [
+            52,
+            4,
+            56,
+            8
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "T2 South corridor"
+          ]
+        },
+        {
+          "label": "T2 Dance rehearsal studio",
+          "box": [
+            8,
+            0,
+            19,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "T2 South corridor"
+          ]
+        },
+        {
+          "label": "T2 Drama rehearsal studio",
+          "box": [
+            19,
+            0,
+            30,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "T2 South corridor"
+          ]
+        },
+        {
+          "label": "T2 Ensemble music rehearsal",
+          "box": [
+            30,
+            0,
+            41,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "T2 South corridor"
+          ]
+        },
+        {
+          "label": "T2 Costume workshop",
+          "box": [
+            41,
+            0,
+            52,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "T2 South corridor"
+          ]
+        },
+        {
+          "label": "T2 Company green room",
+          "box": [
+            8,
+            34,
+            19,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "T2 North corridor"
+          ]
+        },
+        {
+          "label": "T2 Chorus dressing room",
+          "box": [
+            19,
+            34,
+            30,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "T2 North corridor"
+          ]
+        },
+        {
+          "label": "T2 Orchestra dressing room",
+          "box": [
+            30,
+            34,
+            41,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "T2 North corridor"
+          ]
+        },
+        {
+          "label": "T2 Costume store",
+          "box": [
+            41,
+            34,
+            52,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "T2 North corridor"
+          ]
+        },
+        {
+          "label": "T2 Vocal practice room",
+          "box": [
+            0,
+            11,
+            8,
+            16
+          ],
+          "kind": "program",
+          "access_to": [
+            "T2 West corridor"
+          ]
+        },
+        {
+          "label": "T2 Keyboard practice room",
+          "box": [
+            0,
+            16,
+            8,
+            21
+          ],
+          "kind": "program",
+          "access_to": [
+            "T2 West corridor"
+          ]
+        },
+        {
+          "label": "T2 Strings practice room",
+          "box": [
+            0,
+            21,
+            8,
+            26
+          ],
+          "kind": "program",
+          "access_to": [
+            "T2 West corridor"
+          ]
+        },
+        {
+          "label": "T2 Rehearsal toilet room",
+          "box": [
+            0,
+            26,
+            8,
+            31
+          ],
+          "kind": "program",
+          "access_to": [
+            "T2 West corridor"
+          ]
+        },
+        {
+          "label": "T2 Production manager office",
+          "box": [
+            52,
+            11,
+            60,
+            16
+          ],
+          "kind": "program",
+          "access_to": [
+            "T2 East corridor"
+          ]
+        },
+        {
+          "label": "T2 Stage management office",
+          "box": [
+            52,
+            16,
+            60,
+            21
+          ],
+          "kind": "program",
+          "access_to": [
+            "T2 East corridor"
+          ]
+        },
+        {
+          "label": "T2 Audio visual workroom",
+          "box": [
+            52,
+            21,
+            60,
+            26
+          ],
+          "kind": "program",
+          "access_to": [
+            "T2 East corridor"
+          ]
+        },
+        {
+          "label": "T2 Performer shower and toilets",
+          "box": [
+            52,
+            26,
+            60,
+            31
+          ],
+          "kind": "program",
+          "access_to": [
+            "T2 East corridor"
+          ]
+        },
+        {
+          "label": "T2 Southwest riser and cleaner store",
+          "box": [
+            4,
+            0,
+            8,
+            8
+          ],
+          "kind": "service",
+          "access_to": [
+            "T2 South corridor"
+          ]
+        },
+        {
+          "label": "T2 Northeast cleaner and plant room",
+          "box": [
+            52,
+            34,
+            56,
+            42
+          ],
+          "kind": "service",
+          "access_to": [
+            "T2 North corridor"
+          ]
+        },
+        {
+          "label": "T2 Northwest building services room",
+          "box": [
+            3,
+            34,
+            8,
+            42
+          ],
+          "kind": "service",
+          "access_to": [
+            "T2 North corridor",
+            "T2 Northwest riser room"
+          ]
+        },
+        {
+          "label": "T2 Northwest riser room",
+          "box": [
+            0,
+            37,
+            3,
+            42
+          ],
+          "kind": "service",
+          "access_to": [
+            "T2 Northwest building services room"
+          ]
+        },
+        {
+          "label": "T2 Southeast goods lift store",
+          "box": [
+            56,
+            0,
+            60,
+            8
+          ],
+          "kind": "service",
+          "access_to": [
+            "T2 South corridor",
+            "T2 Southeast lift machine and riser room"
+          ]
+        },
+        {
+          "label": "T2 Southeast lift machine and riser room",
+          "box": [
+            52,
+            0,
+            56,
+            4
+          ],
+          "kind": "service",
+          "access_to": [
+            "T2 Southeast goods lift store"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Arts education and production",
+      "height_m": 4.5,
+      "rooms": [
+        {
+          "label": "T3 South corridor",
+          "box": [
+            0,
+            8,
+            60,
+            11
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "T3 West corridor",
+            "T3 East corridor",
+            "T3 Southwest riser and cleaner store",
+            "T3 Southeast goods lift store"
+          ]
+        },
+        {
+          "label": "T3 North corridor",
+          "box": [
+            0,
+            31,
+            60,
+            34
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "T3 West corridor",
+            "T3 East corridor",
+            "T3 Northeast cleaner and plant room",
+            "T3 Northwest building services room"
+          ]
+        },
+        {
+          "label": "T3 West corridor",
+          "box": [
+            8,
+            11,
+            11,
+            31
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "T3 South corridor",
+            "T3 North corridor"
+          ]
+        },
+        {
+          "label": "T3 East corridor",
+          "box": [
+            49,
+            11,
+            52,
+            31
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "T3 South corridor",
+            "T3 North corridor"
+          ]
+        },
+        {
+          "label": "T3 Southwest stair reservation",
+          "box": [
+            0,
+            0,
+            4,
+            8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "T3 South corridor"
+          ]
+        },
+        {
+          "label": "T3 Northeast stair reservation",
+          "box": [
+            56,
+            34,
+            60,
+            42
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "T3 North corridor"
+          ]
+        },
+        {
+          "label": "T3 Northwest passenger lift reservation",
+          "box": [
+            0,
+            34,
+            3,
+            37
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "T3 North corridor"
+          ]
+        },
+        {
+          "label": "T3 Southeast service lift reservation",
+          "box": [
+            52,
+            4,
+            56,
+            8
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "T3 South corridor"
+          ]
+        },
+        {
+          "label": "T3 Movement teaching studio",
+          "box": [
+            8,
+            0,
+            19,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "T3 South corridor"
+          ]
+        },
+        {
+          "label": "T3 Acting teaching studio",
+          "box": [
+            19,
+            0,
+            30,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "T3 South corridor"
+          ]
+        },
+        {
+          "label": "T3 Stagecraft classroom",
+          "box": [
+            30,
+            0,
+            41,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "T3 South corridor"
+          ]
+        },
+        {
+          "label": "T3 Lighting design classroom",
+          "box": [
+            41,
+            0,
+            52,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "T3 South corridor"
+          ]
+        },
+        {
+          "label": "T3 Education seminar room",
+          "box": [
+            8,
+            34,
+            19,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "T3 North corridor"
+          ]
+        },
+        {
+          "label": "T3 Production planning room",
+          "box": [
+            19,
+            34,
+            30,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "T3 North corridor"
+          ]
+        },
+        {
+          "label": "T3 Music and script library",
+          "box": [
+            30,
+            34,
+            41,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "T3 North corridor"
+          ]
+        },
+        {
+          "label": "T3 Technical equipment store",
+          "box": [
+            41,
+            34,
+            52,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "T3 North corridor"
+          ]
+        },
+        {
+          "label": "T3 Percussion teaching room",
+          "box": [
+            0,
+            11,
+            8,
+            16
+          ],
+          "kind": "program",
+          "access_to": [
+            "T3 West corridor"
+          ]
+        },
+        {
+          "label": "T3 Voice coaching room",
+          "box": [
+            0,
+            16,
+            8,
+            21
+          ],
+          "kind": "program",
+          "access_to": [
+            "T3 West corridor"
+          ]
+        },
+        {
+          "label": "T3 Education office",
+          "box": [
+            0,
+            21,
+            8,
+            26
+          ],
+          "kind": "program",
+          "access_to": [
+            "T3 West corridor"
+          ]
+        },
+        {
+          "label": "T3 Student toilet room",
+          "box": [
+            0,
+            26,
+            8,
+            31
+          ],
+          "kind": "program",
+          "access_to": [
+            "T3 West corridor"
+          ]
+        },
+        {
+          "label": "T3 Artistic director office",
+          "box": [
+            52,
+            11,
+            60,
+            16
+          ],
+          "kind": "program",
+          "access_to": [
+            "T3 East corridor"
+          ]
+        },
+        {
+          "label": "T3 Theatre administration",
+          "box": [
+            52,
+            16,
+            60,
+            21
+          ],
+          "kind": "program",
+          "access_to": [
+            "T3 East corridor"
+          ]
+        },
+        {
+          "label": "T3 Staff lounge and pantry",
+          "box": [
+            52,
+            21,
+            60,
+            26
+          ],
+          "kind": "program",
+          "access_to": [
+            "T3 East corridor"
+          ]
+        },
+        {
+          "label": "T3 Staff toilet room",
+          "box": [
+            52,
+            26,
+            60,
+            31
+          ],
+          "kind": "program",
+          "access_to": [
+            "T3 East corridor"
+          ]
+        },
+        {
+          "label": "T3 Southwest riser and cleaner store",
+          "box": [
+            4,
+            0,
+            8,
+            8
+          ],
+          "kind": "service",
+          "access_to": [
+            "T3 South corridor"
+          ]
+        },
+        {
+          "label": "T3 Northeast cleaner and plant room",
+          "box": [
+            52,
+            34,
+            56,
+            42
+          ],
+          "kind": "service",
+          "access_to": [
+            "T3 North corridor"
+          ]
+        },
+        {
+          "label": "T3 Northwest building services room",
+          "box": [
+            3,
+            34,
+            8,
+            42
+          ],
+          "kind": "service",
+          "access_to": [
+            "T3 North corridor",
+            "T3 Northwest riser room"
+          ]
+        },
+        {
+          "label": "T3 Northwest riser room",
+          "box": [
+            0,
+            37,
+            3,
+            42
+          ],
+          "kind": "service",
+          "access_to": [
+            "T3 Northwest building services room"
+          ]
+        },
+        {
+          "label": "T3 Southeast goods lift store",
+          "box": [
+            56,
+            0,
+            60,
+            8
+          ],
+          "kind": "service",
+          "access_to": [
+            "T3 South corridor",
+            "T3 Southeast lift machine and riser room"
+          ]
+        },
+        {
+          "label": "T3 Southeast lift machine and riser room",
+          "box": [
+            52,
+            0,
+            56,
+            4
+          ],
+          "kind": "service",
+          "access_to": [
+            "T3 Southeast goods lift store"
+          ]
+        }
+      ]
+    }
+  ]
+}

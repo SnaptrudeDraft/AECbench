@@ -1,0 +1,1956 @@
+{
+  "slug": "student-residence",
+  "typology": "student-residence",
+  "provenance": "AI-authored synthetic recorded starting layout for a doors/windows benchmark; not a customer design or a certified design.",
+  "notes": [
+    "AI-authored synthetic recorded benchmark input only. Not a customer layout, certified design, construction document, or code-compliance claim.",
+    "Coordinates are metres in a local x/z plan. The rectangular footprint is 52 m by 13.8 m: 6 m deep room banks either side of a 1.8 m corridor. All geometry is axis-aligned space envelopes; walls and wall thickness are not modelled.",
+    "Two widely separated stair footprints and two lift footprints are explicitly RESERVED on every floor, with identical stacked coordinates. They are not physical stairs, lift cars, shafts, equipment, or verified vertical routes.",
+    "A continuous 1.8 m main corridor connects a central lift core (two 2.5 m lifts facing each other across the corridor, each opening into an open lobby with a floor store behind) and two 3 m by 6 m stair reservations 0 m in from the gables, so no corridor door is more than 30 m from a stair. Access edges are bidirectional same-floor intended adjacencies only, not installed or seeded doors, windows, or openings.",
+    "Every apartment, studio, guest room, lodge room, and residential suite marked envelope includes its internal living, sleeping, kitchenette where appropriate, and sanitary functions. Internal bathrooms and partitions are deliberately unresolved; no overlapping nested bathroom rectangles are used.",
+    "Public WC envelopes, where present, are disjoint rooms. No other sanitary fixtures, furniture, structure, facade openings, external paths, or site access geometry is supplied.",
+    "Floor 1 arrival and reception rooms connect to internal circulation; their outside entrance openings are intentionally unseeded. Ground-floor uses and upper residential, amenity, and service uses differ by floor.",
+    "Dimensions and programs are plausible benchmark assumptions, not checks of fire escape, accessibility, occupancy, daylight, ventilation, plumbing, acoustics, or statutory requirements. Same-floor access does not certify egress."
+  ],
+  "floors": [
+    {
+      "number": 1,
+      "name": "Arrival learning and welfare",
+      "height_m": 4,
+      "rooms": [
+        {
+          "label": "F01:student-residence:Main corridor",
+          "box": [
+            0,
+            6,
+            52,
+            7.8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01:student-residence:South reserved lift lobby",
+            "F01:student-residence:North reserved lift lobby",
+            "F01:student-residence:West stair RESERVED",
+            "F01:student-residence:East stair RESERVED",
+            "F01:student-residence:Student reception",
+            "F01:student-residence:Residence administration",
+            "F01:student-residence:Parcel collection",
+            "F01:student-residence:International welcome room",
+            "F01:student-residence:Public WC and accessible WC",
+            "F01:student-residence:Common dining room",
+            "F01:student-residence:Shared cooking laboratory",
+            "F01:student-residence:Student welfare office",
+            "F01:student-residence:Private advice room",
+            "F01:student-residence:Games lounge",
+            "F01:student-residence:Music practice room",
+            "F01:student-residence:Group study room",
+            "F01:student-residence:Quiet study room",
+            "F01:student-residence:Computer room",
+            "F01:student-residence:Cycle repair room",
+            "F01:student-residence:Laundry lounge",
+            "F01:student-residence:Accessible guest suite envelope",
+            "F01:student-residence:Resident mentor suite envelope",
+            "F01:student-residence:Cleaning store"
+          ]
+        },
+        {
+          "label": "F01:student-residence:West stair RESERVED",
+          "box": [
+            0,
+            0,
+            3,
+            6
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F01:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:student-residence:East stair RESERVED",
+          "box": [
+            49,
+            7.8,
+            52,
+            13.8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F01:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:student-residence:South lift RESERVED",
+          "box": [
+            23.5,
+            3.5,
+            26,
+            6
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F01:student-residence:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F01:student-residence:South reserved lift lobby",
+          "box": [
+            26,
+            3.5,
+            28.5,
+            6
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01:student-residence:Main corridor",
+            "F01:student-residence:South lift RESERVED",
+            "F01:student-residence:Waste sorting room"
+          ]
+        },
+        {
+          "label": "F01:student-residence:Waste sorting room",
+          "box": [
+            23.5,
+            0,
+            28.5,
+            3.5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01:student-residence:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F01:student-residence:North reserved lift lobby",
+          "box": [
+            23.5,
+            7.8,
+            26,
+            10.3
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01:student-residence:Main corridor",
+            "F01:student-residence:North lift RESERVED",
+            "F01:student-residence:Electrical intake room"
+          ]
+        },
+        {
+          "label": "F01:student-residence:North lift RESERVED",
+          "box": [
+            26,
+            7.8,
+            28.5,
+            10.3
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F01:student-residence:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F01:student-residence:Electrical intake room",
+          "box": [
+            23.5,
+            10.3,
+            28.5,
+            13.8
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01:student-residence:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F01:student-residence:Student reception",
+          "box": [
+            16.667,
+            0,
+            23.5,
+            6
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:student-residence:Residence administration",
+          "box": [
+            11.411,
+            0,
+            16.667,
+            6
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:student-residence:Parcel collection",
+          "box": [
+            7.206,
+            0,
+            11.411,
+            6
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:student-residence:International welcome room",
+          "box": [
+            3,
+            0,
+            7.206,
+            6
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:student-residence:Public WC and accessible WC",
+          "box": [
+            0,
+            7.8,
+            3.5,
+            13.8
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:student-residence:Common dining room",
+          "box": [
+            3.5,
+            7.8,
+            9.841,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:student-residence:Main corridor",
+            "F01:student-residence:Shared cooking laboratory"
+          ]
+        },
+        {
+          "label": "F01:student-residence:Shared cooking laboratory",
+          "box": [
+            9.841,
+            7.8,
+            14.719,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:student-residence:Main corridor",
+            "F01:student-residence:Common dining room"
+          ]
+        },
+        {
+          "label": "F01:student-residence:Student welfare office",
+          "box": [
+            14.719,
+            7.8,
+            19.597,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:student-residence:Private advice room",
+          "box": [
+            19.597,
+            7.8,
+            23.5,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:student-residence:Games lounge",
+          "box": [
+            28.5,
+            7.8,
+            35,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:student-residence:Music practice room",
+          "box": [
+            35,
+            7.8,
+            40,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:student-residence:Group study room",
+          "box": [
+            40,
+            7.8,
+            45,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:student-residence:Quiet study room",
+          "box": [
+            45,
+            7.8,
+            49,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:student-residence:Computer room",
+          "box": [
+            47.409,
+            0,
+            52,
+            6
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:student-residence:Cycle repair room",
+          "box": [
+            42.818,
+            0,
+            47.409,
+            6
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:student-residence:Laundry lounge",
+          "box": [
+            38.818,
+            0,
+            42.818,
+            6
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:student-residence:Accessible guest suite envelope",
+          "box": [
+            35.03,
+            0,
+            38.818,
+            6
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:student-residence:Resident mentor suite envelope",
+          "box": [
+            32,
+            0,
+            35.03,
+            6
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:student-residence:Cleaning store",
+          "box": [
+            28.5,
+            0,
+            32,
+            6
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01:student-residence:Main corridor"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "First year community",
+      "height_m": 3.2,
+      "rooms": [
+        {
+          "label": "F02:student-residence:Main corridor",
+          "box": [
+            0,
+            6,
+            52,
+            7.8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02:student-residence:South reserved lift lobby",
+            "F02:student-residence:North reserved lift lobby",
+            "F02:student-residence:West stair RESERVED",
+            "F02:student-residence:East stair RESERVED",
+            "F02:student-residence:First year dining",
+            "F02:student-residence:First year kitchen",
+            "F02:student-residence:Peer study room",
+            "F02:student-residence:Social games room",
+            "F02:student-residence:Wellbeing quiet room",
+            "F02:student-residence:Project workroom",
+            "F02:student-residence:Student laundry",
+            "F02:student-residence:East single study-bedroom envelope",
+            "F02:student-residence:West single study-bedroom envelope",
+            "F02:student-residence:North twin study-bedroom envelope",
+            "F02:student-residence:South twin study-bedroom envelope",
+            "F02:student-residence:Accessible student suite envelope",
+            "F02:student-residence:Quiet student suite envelope",
+            "F02:student-residence:Resident tutor suite envelope",
+            "F02:student-residence:Scholar studio envelope",
+            "F02:student-residence:Corner student suite envelope",
+            "F02:student-residence:Courtyard student suite envelope",
+            "F02:student-residence:Housekeeping store"
+          ]
+        },
+        {
+          "label": "F02:student-residence:West stair RESERVED",
+          "box": [
+            0,
+            0,
+            3,
+            6
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F02:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:student-residence:East stair RESERVED",
+          "box": [
+            49,
+            7.8,
+            52,
+            13.8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F02:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:student-residence:South lift RESERVED",
+          "box": [
+            23.5,
+            3.5,
+            26,
+            6
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F02:student-residence:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F02:student-residence:South reserved lift lobby",
+          "box": [
+            26,
+            3.5,
+            28.5,
+            6
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02:student-residence:Main corridor",
+            "F02:student-residence:South lift RESERVED",
+            "F02:student-residence:Recycling room"
+          ]
+        },
+        {
+          "label": "F02:student-residence:Recycling room",
+          "box": [
+            23.5,
+            0,
+            28.5,
+            3.5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F02:student-residence:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F02:student-residence:North reserved lift lobby",
+          "box": [
+            23.5,
+            7.8,
+            26,
+            10.3
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02:student-residence:Main corridor",
+            "F02:student-residence:North lift RESERVED",
+            "F02:student-residence:Data service room"
+          ]
+        },
+        {
+          "label": "F02:student-residence:North lift RESERVED",
+          "box": [
+            26,
+            7.8,
+            28.5,
+            10.3
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F02:student-residence:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F02:student-residence:Data service room",
+          "box": [
+            23.5,
+            10.3,
+            28.5,
+            13.8
+          ],
+          "kind": "service",
+          "access_to": [
+            "F02:student-residence:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F02:student-residence:First year dining",
+          "box": [
+            16.097,
+            0,
+            23.5,
+            6
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:student-residence:Main corridor",
+            "F02:student-residence:First year kitchen"
+          ]
+        },
+        {
+          "label": "F02:student-residence:First year kitchen",
+          "box": [
+            8.694,
+            0,
+            16.097,
+            6
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:student-residence:Main corridor",
+            "F02:student-residence:First year dining"
+          ]
+        },
+        {
+          "label": "F02:student-residence:Peer study room",
+          "box": [
+            3,
+            0,
+            8.694,
+            6
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:student-residence:Social games room",
+          "box": [
+            0,
+            7.8,
+            5.636,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:student-residence:Wellbeing quiet room",
+          "box": [
+            5.636,
+            7.8,
+            10.145,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:student-residence:Project workroom",
+          "box": [
+            10.145,
+            7.8,
+            15.781,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:student-residence:Student laundry",
+          "box": [
+            15.781,
+            7.8,
+            19.781,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:student-residence:East single study-bedroom envelope",
+          "box": [
+            19.781,
+            7.8,
+            23.5,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:student-residence:West single study-bedroom envelope",
+          "box": [
+            28.5,
+            7.8,
+            32.641,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:student-residence:North twin study-bedroom envelope",
+          "box": [
+            32.641,
+            7.8,
+            38.232,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:student-residence:South twin study-bedroom envelope",
+          "box": [
+            38.232,
+            7.8,
+            43.823,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:student-residence:Accessible student suite envelope",
+          "box": [
+            43.823,
+            7.8,
+            49,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:student-residence:Quiet student suite envelope",
+          "box": [
+            48.262,
+            0,
+            52,
+            6
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:student-residence:Resident tutor suite envelope",
+          "box": [
+            44.524,
+            0,
+            48.262,
+            6
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:student-residence:Scholar studio envelope",
+          "box": [
+            40.786,
+            0,
+            44.524,
+            6
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:student-residence:Corner student suite envelope",
+          "box": [
+            35.739,
+            0,
+            40.786,
+            6
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:student-residence:Courtyard student suite envelope",
+          "box": [
+            32.001,
+            0,
+            35.739,
+            6
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:student-residence:Housekeeping store",
+          "box": [
+            28.5,
+            0,
+            32.001,
+            6
+          ],
+          "kind": "service",
+          "access_to": [
+            "F02:student-residence:Main corridor"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Collaborative study cohort",
+      "height_m": 3.2,
+      "rooms": [
+        {
+          "label": "F03:student-residence:Main corridor",
+          "box": [
+            0,
+            6,
+            52,
+            7.8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03:student-residence:South reserved lift lobby",
+            "F03:student-residence:North reserved lift lobby",
+            "F03:student-residence:West stair RESERVED",
+            "F03:student-residence:East stair RESERVED",
+            "F03:student-residence:Shared dining room",
+            "F03:student-residence:Collaborative kitchen",
+            "F03:student-residence:Model-making studio",
+            "F03:student-residence:Team study room",
+            "F03:student-residence:Digital project room",
+            "F03:student-residence:Peer teaching room",
+            "F03:student-residence:Student laundry",
+            "F03:student-residence:Engineering student suite envelope",
+            "F03:student-residence:Arts student suite envelope",
+            "F03:student-residence:Science twin suite envelope",
+            "F03:student-residence:Design twin suite envelope",
+            "F03:student-residence:Accessible scholar suite envelope",
+            "F03:student-residence:Quiet scholar suite envelope",
+            "F03:student-residence:Resident adviser suite envelope",
+            "F03:student-residence:International student studio envelope",
+            "F03:student-residence:Corner study-bedroom envelope",
+            "F03:student-residence:South study-bedroom envelope",
+            "F03:student-residence:Cleaning store"
+          ]
+        },
+        {
+          "label": "F03:student-residence:West stair RESERVED",
+          "box": [
+            0,
+            0,
+            3,
+            6
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F03:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:student-residence:East stair RESERVED",
+          "box": [
+            49,
+            7.8,
+            52,
+            13.8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F03:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:student-residence:South lift RESERVED",
+          "box": [
+            23.5,
+            3.5,
+            26,
+            6
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F03:student-residence:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F03:student-residence:South reserved lift lobby",
+          "box": [
+            26,
+            3.5,
+            28.5,
+            6
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03:student-residence:Main corridor",
+            "F03:student-residence:South lift RESERVED",
+            "F03:student-residence:Waste holding room"
+          ]
+        },
+        {
+          "label": "F03:student-residence:Waste holding room",
+          "box": [
+            23.5,
+            0,
+            28.5,
+            3.5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F03:student-residence:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F03:student-residence:North reserved lift lobby",
+          "box": [
+            23.5,
+            7.8,
+            26,
+            10.3
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03:student-residence:Main corridor",
+            "F03:student-residence:North lift RESERVED",
+            "F03:student-residence:Mechanical service room"
+          ]
+        },
+        {
+          "label": "F03:student-residence:North lift RESERVED",
+          "box": [
+            26,
+            7.8,
+            28.5,
+            10.3
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F03:student-residence:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F03:student-residence:Mechanical service room",
+          "box": [
+            23.5,
+            10.3,
+            28.5,
+            13.8
+          ],
+          "kind": "service",
+          "access_to": [
+            "F03:student-residence:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F03:student-residence:Shared dining room",
+          "box": [
+            16.667,
+            0,
+            23.5,
+            6
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:student-residence:Main corridor",
+            "F03:student-residence:Collaborative kitchen"
+          ]
+        },
+        {
+          "label": "F03:student-residence:Collaborative kitchen",
+          "box": [
+            9.834,
+            0,
+            16.667,
+            6
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:student-residence:Main corridor",
+            "F03:student-residence:Shared dining room"
+          ]
+        },
+        {
+          "label": "F03:student-residence:Model-making studio",
+          "box": [
+            3,
+            0,
+            9.834,
+            6
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:student-residence:Team study room",
+          "box": [
+            0,
+            7.8,
+            4.785,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:student-residence:Digital project room",
+          "box": [
+            4.785,
+            7.8,
+            10.767,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:student-residence:Peer teaching room",
+          "box": [
+            10.767,
+            7.8,
+            15.552,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:student-residence:Student laundry",
+          "box": [
+            15.552,
+            7.8,
+            19.552,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:student-residence:Engineering student suite envelope",
+          "box": [
+            19.552,
+            7.8,
+            23.5,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:student-residence:Arts student suite envelope",
+          "box": [
+            28.5,
+            7.8,
+            32.641,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:student-residence:Science twin suite envelope",
+          "box": [
+            32.641,
+            7.8,
+            38.232,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:student-residence:Design twin suite envelope",
+          "box": [
+            38.232,
+            7.8,
+            43.823,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:student-residence:Accessible scholar suite envelope",
+          "box": [
+            43.823,
+            7.8,
+            49,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:student-residence:Quiet scholar suite envelope",
+          "box": [
+            48.262,
+            0,
+            52,
+            6
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:student-residence:Resident adviser suite envelope",
+          "box": [
+            44.524,
+            0,
+            48.262,
+            6
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:student-residence:International student studio envelope",
+          "box": [
+            40.786,
+            0,
+            44.524,
+            6
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:student-residence:Corner study-bedroom envelope",
+          "box": [
+            35.739,
+            0,
+            40.786,
+            6
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:student-residence:South study-bedroom envelope",
+          "box": [
+            32.001,
+            0,
+            35.739,
+            6
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:student-residence:Cleaning store",
+          "box": [
+            28.5,
+            0,
+            32.001,
+            6
+          ],
+          "kind": "service",
+          "access_to": [
+            "F03:student-residence:Main corridor"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "name": "Postgraduate quiet living",
+      "height_m": 3.2,
+      "rooms": [
+        {
+          "label": "F04:student-residence:Main corridor",
+          "box": [
+            0,
+            6,
+            52,
+            7.8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F04:student-residence:South reserved lift lobby",
+            "F04:student-residence:North reserved lift lobby",
+            "F04:student-residence:West stair RESERVED",
+            "F04:student-residence:East stair RESERVED",
+            "F04:student-residence:Communal dining room",
+            "F04:student-residence:Postgraduate kitchen",
+            "F04:student-residence:Silent reading room",
+            "F04:student-residence:Writing room",
+            "F04:student-residence:Seminar room",
+            "F04:student-residence:Remote interview room",
+            "F04:student-residence:Student laundry",
+            "F04:student-residence:Doctoral studio envelope",
+            "F04:student-residence:Masters studio envelope",
+            "F04:student-residence:Research couple studio envelope",
+            "F04:student-residence:Visiting scholar suite envelope",
+            "F04:student-residence:Accessible postgraduate envelope",
+            "F04:student-residence:Quiet postgraduate envelope",
+            "F04:student-residence:East research suite envelope",
+            "F04:student-residence:West research suite envelope",
+            "F04:student-residence:Corner scholar envelope",
+            "F04:student-residence:Courtyard scholar envelope",
+            "F04:student-residence:Housekeeping store"
+          ]
+        },
+        {
+          "label": "F04:student-residence:West stair RESERVED",
+          "box": [
+            0,
+            0,
+            3,
+            6
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F04:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:student-residence:East stair RESERVED",
+          "box": [
+            49,
+            7.8,
+            52,
+            13.8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F04:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:student-residence:South lift RESERVED",
+          "box": [
+            23.5,
+            3.5,
+            26,
+            6
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F04:student-residence:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F04:student-residence:South reserved lift lobby",
+          "box": [
+            26,
+            3.5,
+            28.5,
+            6
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F04:student-residence:Main corridor",
+            "F04:student-residence:South lift RESERVED",
+            "F04:student-residence:Recycling store"
+          ]
+        },
+        {
+          "label": "F04:student-residence:Recycling store",
+          "box": [
+            23.5,
+            0,
+            28.5,
+            3.5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F04:student-residence:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F04:student-residence:North reserved lift lobby",
+          "box": [
+            23.5,
+            7.8,
+            26,
+            10.3
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F04:student-residence:Main corridor",
+            "F04:student-residence:North lift RESERVED",
+            "F04:student-residence:Electrical service room"
+          ]
+        },
+        {
+          "label": "F04:student-residence:North lift RESERVED",
+          "box": [
+            26,
+            7.8,
+            28.5,
+            10.3
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F04:student-residence:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F04:student-residence:Electrical service room",
+          "box": [
+            23.5,
+            10.3,
+            28.5,
+            13.8
+          ],
+          "kind": "service",
+          "access_to": [
+            "F04:student-residence:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F04:student-residence:Communal dining room",
+          "box": [
+            16.097,
+            0,
+            23.5,
+            6
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:student-residence:Main corridor",
+            "F04:student-residence:Postgraduate kitchen"
+          ]
+        },
+        {
+          "label": "F04:student-residence:Postgraduate kitchen",
+          "box": [
+            8.694,
+            0,
+            16.097,
+            6
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:student-residence:Main corridor",
+            "F04:student-residence:Communal dining room"
+          ]
+        },
+        {
+          "label": "F04:student-residence:Silent reading room",
+          "box": [
+            3,
+            0,
+            8.694,
+            6
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:student-residence:Writing room",
+          "box": [
+            0,
+            7.8,
+            6.964,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:student-residence:Seminar room",
+          "box": [
+            6.964,
+            7.8,
+            13.928,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:student-residence:Remote interview room",
+          "box": [
+            13.928,
+            7.8,
+            19.499,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:student-residence:Student laundry",
+          "box": [
+            19.499,
+            7.8,
+            23.5,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:student-residence:Doctoral studio envelope",
+          "box": [
+            28.5,
+            7.8,
+            32.161,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:student-residence:Masters studio envelope",
+          "box": [
+            32.161,
+            7.8,
+            35.822,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:student-residence:Research couple studio envelope",
+          "box": [
+            35.822,
+            7.8,
+            40.764,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:student-residence:Visiting scholar suite envelope",
+          "box": [
+            40.764,
+            7.8,
+            44.425,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:student-residence:Accessible postgraduate envelope",
+          "box": [
+            44.425,
+            7.8,
+            49,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:student-residence:Quiet postgraduate envelope",
+          "box": [
+            48.262,
+            0,
+            52,
+            6
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:student-residence:East research suite envelope",
+          "box": [
+            44.524,
+            0,
+            48.262,
+            6
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:student-residence:West research suite envelope",
+          "box": [
+            40.786,
+            0,
+            44.524,
+            6
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:student-residence:Corner scholar envelope",
+          "box": [
+            35.739,
+            0,
+            40.786,
+            6
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:student-residence:Courtyard scholar envelope",
+          "box": [
+            32.001,
+            0,
+            35.739,
+            6
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:student-residence:Housekeeping store",
+          "box": [
+            28.5,
+            0,
+            32.001,
+            6
+          ],
+          "kind": "service",
+          "access_to": [
+            "F04:student-residence:Main corridor"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "name": "Senior students and shared projects",
+      "height_m": 3.4,
+      "rooms": [
+        {
+          "label": "F05:student-residence:Main corridor",
+          "box": [
+            0,
+            6,
+            52,
+            7.8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F05:student-residence:South reserved lift lobby",
+            "F05:student-residence:North reserved lift lobby",
+            "F05:student-residence:West stair RESERVED",
+            "F05:student-residence:East stair RESERVED",
+            "F05:student-residence:Shared supper room",
+            "F05:student-residence:Community kitchen",
+            "F05:student-residence:Capstone project studio",
+            "F05:student-residence:Presentation rehearsal room",
+            "F05:student-residence:Graduate careers room",
+            "F05:student-residence:Top-floor social lounge",
+            "F05:student-residence:Student laundry",
+            "F05:student-residence:Final year studio envelope",
+            "F05:student-residence:Student couple suite envelope",
+            "F05:student-residence:Accessible senior student envelope",
+            "F05:student-residence:Visiting fellow suite envelope",
+            "F05:student-residence:East capstone suite envelope",
+            "F05:student-residence:West capstone suite envelope",
+            "F05:student-residence:North quiet suite envelope",
+            "F05:student-residence:South quiet suite envelope",
+            "F05:student-residence:Corner mentor suite envelope",
+            "F05:student-residence:Courtyard student envelope",
+            "F05:student-residence:Maintenance store"
+          ]
+        },
+        {
+          "label": "F05:student-residence:West stair RESERVED",
+          "box": [
+            0,
+            0,
+            3,
+            6
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F05:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:student-residence:East stair RESERVED",
+          "box": [
+            49,
+            7.8,
+            52,
+            13.8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F05:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:student-residence:South lift RESERVED",
+          "box": [
+            23.5,
+            3.5,
+            26,
+            6
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F05:student-residence:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F05:student-residence:South reserved lift lobby",
+          "box": [
+            26,
+            3.5,
+            28.5,
+            6
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F05:student-residence:Main corridor",
+            "F05:student-residence:South lift RESERVED",
+            "F05:student-residence:Roof plant access room"
+          ]
+        },
+        {
+          "label": "F05:student-residence:Roof plant access room",
+          "box": [
+            23.5,
+            0,
+            28.5,
+            3.5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F05:student-residence:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F05:student-residence:North reserved lift lobby",
+          "box": [
+            23.5,
+            7.8,
+            26,
+            10.3
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F05:student-residence:Main corridor",
+            "F05:student-residence:North lift RESERVED",
+            "F05:student-residence:Waste holding room"
+          ]
+        },
+        {
+          "label": "F05:student-residence:North lift RESERVED",
+          "box": [
+            26,
+            7.8,
+            28.5,
+            10.3
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F05:student-residence:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F05:student-residence:Waste holding room",
+          "box": [
+            23.5,
+            10.3,
+            28.5,
+            13.8
+          ],
+          "kind": "service",
+          "access_to": [
+            "F05:student-residence:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F05:student-residence:Shared supper room",
+          "box": [
+            17.806,
+            0,
+            23.5,
+            6
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:student-residence:Main corridor",
+            "F05:student-residence:Community kitchen"
+          ]
+        },
+        {
+          "label": "F05:student-residence:Community kitchen",
+          "box": [
+            10.403,
+            0,
+            17.806,
+            6
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:student-residence:Main corridor",
+            "F05:student-residence:Shared supper room"
+          ]
+        },
+        {
+          "label": "F05:student-residence:Capstone project studio",
+          "box": [
+            3,
+            0,
+            10.403,
+            6
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:student-residence:Presentation rehearsal room",
+          "box": [
+            0,
+            7.8,
+            5.909,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:student-residence:Graduate careers room",
+          "box": [
+            5.909,
+            7.8,
+            11.818,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:student-residence:Top-floor social lounge",
+          "box": [
+            11.818,
+            7.8,
+            19.5,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:student-residence:Student laundry",
+          "box": [
+            19.5,
+            7.8,
+            23.5,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:student-residence:Final year studio envelope",
+          "box": [
+            28.5,
+            7.8,
+            32.161,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:student-residence:Student couple suite envelope",
+          "box": [
+            32.161,
+            7.8,
+            37.103,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:student-residence:Accessible senior student envelope",
+          "box": [
+            37.103,
+            7.8,
+            41.679,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:student-residence:Visiting fellow suite envelope",
+          "box": [
+            41.679,
+            7.8,
+            45.34,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:student-residence:East capstone suite envelope",
+          "box": [
+            45.34,
+            7.8,
+            49,
+            13.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:student-residence:West capstone suite envelope",
+          "box": [
+            48.262,
+            0,
+            52,
+            6
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:student-residence:North quiet suite envelope",
+          "box": [
+            44.524,
+            0,
+            48.262,
+            6
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:student-residence:South quiet suite envelope",
+          "box": [
+            40.786,
+            0,
+            44.524,
+            6
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:student-residence:Corner mentor suite envelope",
+          "box": [
+            35.739,
+            0,
+            40.786,
+            6
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:student-residence:Courtyard student envelope",
+          "box": [
+            32.001,
+            0,
+            35.739,
+            6
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:student-residence:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:student-residence:Maintenance store",
+          "box": [
+            28.5,
+            0,
+            32.001,
+            6
+          ],
+          "kind": "service",
+          "access_to": [
+            "F05:student-residence:Main corridor"
+          ]
+        }
+      ]
+    }
+  ]
+}
