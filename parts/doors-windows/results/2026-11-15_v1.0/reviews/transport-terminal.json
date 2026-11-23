@@ -1,0 +1,48 @@
+{
+  "case": "transport-terminal",
+  "version": "1.0",
+  "run": "2026-11-15_v1.0",
+  "reviewer": "reviewer v2",
+  "score": 5,
+  "doors": 74,
+  "windows": 104,
+  "problems_left": 0,
+  "justification": "The run delivered a substantial, generally competent opening package on storeys 2 and 3 and windows throughout, but the entire occupied ground floor remains without doors or an exterior entrance. Under the doors and windows standard, a whole use group/storey with no access is Blocking, so the result cannot score above 5 despite the sound upper-floor work.",
+  "evidence": "Live measurements found 178 openings: storey 1 has 0 doors and 35 windows, storey 2 has 37 doors and 34 windows, and storey 3 has 37 doors and 35 windows. The access check reported 112 rooms total, including 38 ground-floor rooms with no door; the agent accurately disclosed: “The ground floor has its 35 windows but none of its 51 doors yet.”",
+  "strengths": [
+    "All 178 delivered openings are hosted in walls; no unhosted openings were measured.",
+    "Storeys 2 and 3 each have doors serving all 37 rooms, with coherent room-to-circulation topology.",
+    "The automatic checks and a new opening check found no swing, hinge, width, lift-door, or sash-rule findings among the delivered openings.",
+    "Single room doors measure 1.00 m nominal and 0.86 m clear after repair; double doors measure about 1.94 m nominal, while lift landing doors are sliding and 1.20 m wide.",
+    "The two lift reservations on each upper floor use the “Lift Landing Door – Centre Opening” family, version 1, opening onto shared lift lobbies.",
+    "Upper stair-reservation doors use “Pair Flush Door,” version 5, with a 60-minute fire rating; opening measurements show they open into the stair reservations.",
+    "All 104 windows face outside and are hosted. Their measured width is about 2.413 m, height about 1.813 m, with consistent approximately 0.894 m sill height relative to each storey.",
+    "The agent was candid about the incomplete ground floor and did not claim whole-building access was complete."
+  ],
+  "weaknesses": [
+    "Blocking: all 38 occupied ground-floor rooms have no door, including offices, waiting areas, retail, café seating, passenger support rooms, service rooms, circulation spaces, and both reserved stair zones.",
+    "There is no ground-floor exterior entrance or final exit door, so the transport terminal cannot be entered or used as delivered.",
+    "The opening task is incomplete across the building: the agent described 51 planned ground-floor doors but delivered none of them.",
+    "Whole-building reachability remains unverified; the live access result is \"unverified\" with 38 no-door rooms and 74 upper-floor rooms reported as not linked to other floors because no valid ground entrance exists.",
+    "Moving-leaf collision sweeps and a complete clash check were not established, so those aspects are not assessed rather than passed."
+  ],
+  "spec_violations": [
+    {
+      "constraint": "Add doors and windows to this transport-terminal as a whole-building task.",
+      "what_happened": "Windows were added throughout and doors were added only on storeys 2 and 3; the entire occupied ground floor has no doors.",
+      "evidence": "Live opening counts are storey 1: 0 doors/35 windows; storey 2: 37/34; storey 3: 37/35. The access check reports 38 ground-floor rooms with no door."
+    },
+    {
+      "constraint": "Every occupied storey and room-use group must have door coverage and room-to-circulation access.",
+      "what_happened": "Ground-floor public, controlled, service, circulation, lift-reservation, and stair-reservation spaces all lack doors.",
+      "evidence": "The access check summary: 112 rooms, 38 with no door; no room on the ground floor has a door."
+    },
+    {
+      "constraint": "The building must have a usable public entrance and appropriate exits.",
+      "what_happened": "No delivered ground-floor door connects the terminal to outside.",
+      "evidence": "The opening check found zero doors on storey 1 and no outside-facing doors anywhere in the delivered set."
+    }
+  ],
+  "honesty_flags": [],
+  "confidence": "high"
+}

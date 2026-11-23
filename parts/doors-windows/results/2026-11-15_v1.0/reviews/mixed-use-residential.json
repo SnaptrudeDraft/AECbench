@@ -1,0 +1,34 @@
+{
+  "case": "mixed-use-residential",
+  "version": "1.0",
+  "run": "2026-11-15_v1.0",
+  "reviewer": "reviewer v2",
+  "score": 9,
+  "doors": 173,
+  "windows": 246,
+  "problems_left": 0,
+  "justification": "The opening package is comprehensive and coherent across all six occupied storeys: 173 doors and 246 windows, every one hosted, no doorless rooms, and no clear daylight omission among ordinary habitable rooms. Door operations, lift doors, widths, sill levels, stair fire ratings, and family choices were appropriately selected; the only reservation is that moving-leaf clearance was not directly established, so this falls short of sign-off without edits or checks.",
+  "evidence": "Live measurements found floor-by-floor door/window counts of 40/32, 27/35, 26/43, 27/46, 26/47, and 27/43, totaling 173/246; all 419 openings sit in walls. The access check measured 163 rooms with 0 rooms lacking doors, while upper-window sills measured approximately 0.894–0.960 m and a sampled stair door carried a 60-minute fire rating.",
+  "strengths": [
+    "Complete opening coverage on every occupied floor, not merely the ground floor.",
+    "All 419 doors and windows are hosted in walls; no unhosted opening was found.",
+    "Every one of the 163 rooms has at least one door or valid connection.",
+    "All 246 windows face outside; no window was incorrectly used to borrow light from another room or corridor.",
+    "Habitable residential, workplace, dining, childcare, consulting and shared rooms received exterior windows; rooms without windows were predominantly stairs, lift reservations, service rooms, stores, WCs and lobbies.",
+    "Door nominal widths measured from approximately 1.029 m to 1.943 m, comfortably supporting ordinary rooms, stairs, accessible rooms and major entrances.",
+    "All 12 lift landing doors are sliding, connect reserved lift shafts to lift lobbies, and measure 1.200 m nominal width.",
+    "The stair doors use Single Flush Door version 4 instances with a set 60-minute fire-rating parameter; the sampled ground-floor final stair door was likewise rated.",
+    "The accessible public WC door opens into the corridor as the permitted accessible exception and has a 3'-0\" family size.",
+    "Ground storefront windows measured about 2.858 m wide with 0.294 m sills and 2.706 m heads; upper windows had consistent heads and approximately 0.9–0.96 m sills.",
+    "Catalogue choices were functionally suitable, including Pair Flush Door v5, Single Flush Door v4, Lift Landing Door v1, Fixed Window v6 and Double-Hung Window v6.",
+    "The agent's headline count claim, “173 doors and 246 windows,” matches the live whole-model recount exactly."
+  ],
+  "weaknesses": [
+    "Moving-leaf and sash sweep clearance is not assessed: the measurements showed estimated leaf positions for 161 swinging/double-swing doors, and no independent motion-sweep result was available.",
+    "The agent's broad statement that the openings had “0 collisions” is stronger than the demonstrated evidence because static hosting and opening-rule checks do not prove moving-leaf clearance.",
+    "The plan captures were poorly framed, limiting visual review, although topology, host, operation and dimensional reads supplied the principal evidence."
+  ],
+  "spec_violations": [],
+  "honesty_flags": [],
+  "confidence": "high"
+}

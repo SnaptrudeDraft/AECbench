@@ -1,0 +1,44 @@
+{
+  "case": "senior-living",
+  "version": "1.0",
+  "run": "2026-11-15_v1.0",
+  "reviewer": "reviewer v2",
+  "score": 7,
+  "doors": 111,
+  "windows": 202,
+  "problems_left": 0,
+  "justification": "The opening task is substantially delivered across all occupied floors: 111 doors and 202 windows are present, all are wall-hosted, every room has at least one door, and the opening check reports no shared-rule findings. Real rework remains because most windows are outward-opening casements with 0.59 m sills—including upper-storey residential rooms—without evidence of restrictors or guarding, and the combined accessible/public WC entrance swings inward rather than providing the safer outward or sliding operation.",
+  "evidence": "Live measurements: storeys 1–4 contain 33/26/26/26 doors and 44/51/51/56 windows; all 313 openings have wall hosts, all 202 windows face outside and open toward \"outside,\" and access reports 109 rooms, none without a door. Window measurements show 176 of 202 at a 0.59 m sill; the WC door serves “F01:senior-living:Public WC and accessible WC” and opens into that room, with a 1.029 m nominal width. The agent explicitly claimed: “Suites, lounges, dining rooms and studios have … windows at a 600 mm sill.”",
+  "strengths": [
+    "Complete whole-building coverage was provided on all four occupied storeys rather than only at ground level.",
+    "The delivered counts agree with the agent’s account: 111 doors and 202 windows.",
+    "All measured doors and windows are hosted in walls; every door bottom is at its storey floor level.",
+    "The access check reports 109 rooms, with zero rooms lacking a door; ground-floor rooms are reachable and upper floors are only unverified because of the disclosed reserved-core starting-model limitation, which is not penalized here.",
+    "All 202 windows are exterior-facing casements that open outward; no interior-facing daylight windows were found.",
+    "Door dimensions are generous: measured nominal-width groups are approximately 1.03, 1.20, 1.84 and 1.94 m, with no undersized group found.",
+    "All eight lift landing openings are sliding and nominally 1.20 m wide; the inspected family is the “Lift Landing Door – Centre Opening” version 1.",
+    "Stair doors open into the stair, are nominally 1.029 m wide, and two inspected stair doors have a 60-minute fire rating.",
+    "Room doors generally open into their served rooms rather than obstructing the corridor; the electrical-room door is the identified outward-opening exception.",
+    "Plan captures of storeys 2–4 show consistent corridor-door and perimeter-window coverage throughout the long double-loaded floors."
+  ],
+  "weaknesses": [
+    "A widespread low-sill condition remains: 176 windows have measured sills of about 0.59 m. For upper-storey senior residential suites, outward-opening casements at that height need documented restrictors, guarding, or an alternate safe window configuration; none was established.",
+    "The WC door opens into the combined “Public WC and accessible WC.” For an accessible WC, an outward-opening or sliding entrance is preferable so a fallen occupant cannot block rescue access.",
+    "Moving-leaf and sash sweep clearance was not established. The opening measurements explicitly state that no moving leaf or sash was swept, so this is not assessed rather than passed.",
+    "The agent’s quoted 0.91 m and 1.83 m door sizes appear to describe authored leaf/type dimensions, while the measurements show nominal wall-opening widths around 1.03 m and 1.94 m. This is a convention difference, not fabrication, but the final report should have identified the reference used."
+  ],
+  "spec_violations": [
+    {
+      "constraint": "Windows must have sill heights and operation suitable and safe for the rooms they serve.",
+      "what_happened": "Most windows are outward-opening casements with approximately 0.59 m sills, including upper residential storeys, without verified restrictors or guarding.",
+      "evidence": "Measured sill distribution: 176 windows at 0.59 m and 26 at 0.89 m; all 202 have operation casement and open outward."
+    },
+    {
+      "constraint": "Accessible toilet thresholds should use a suitable rescue-safe door operation.",
+      "what_happened": "The combined public/accessible WC entrance swings inward into the WC room.",
+      "evidence": "Measurements for the WC door: sides are Main corridor and “F01:senior-living:Public WC and accessible WC”; it opens into the WC room; its nominal width is 1.029 m."
+    }
+  ],
+  "honesty_flags": [],
+  "confidence": "high"
+}

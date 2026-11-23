@@ -1,0 +1,2520 @@
+{
+  "slug": "university-building",
+  "typology": "university-building",
+  "provenance": "AI-authored synthetic recorded starting layout for a doors/windows benchmark; not customer data, not a certified design.",
+  "notes": [
+    "Supplemental synthetic benchmark coverage only, not selected production-run cases or evidence of a production result.",
+    "Metre coordinates describe disjoint clear-space boxes, not walls. No doors or windows are seeded. Empty areas are unassigned shell, exterior, courtyard, or the explicitly described void.",
+    "Exactly two stair footprints and two lift footprints are vertically stacked reservations on every floor. They are not physical stairs, lifts, shafts, or installed equipment.",
+    "Public, controlled and service labels and circulation zones express intended thresholds. Access edges are reciprocal same-floor adjacency intentions, not installed doors or an enforced security policy.",
+    "No structural, fire, accessibility, egress, acoustic, laboratory safety, sporting-body, or transport-operational compliance is asserted. Reservations do not model inter-floor travel or exit discharge.",
+    "Courtyard perimeter building: four connected cloisters serve outward-facing teaching and office wings. The central unassigned area is open courtyard on every floor, interrupted only by the listed core and service projections."
+  ],
+  "floors": [
+    {
+      "number": 1,
+      "name": "Student services and library",
+      "height_m": 3.9,
+      "rooms": [
+        {
+          "label": "F01-university-building: Public south cloister",
+          "box": [
+            8,
+            10,
+            56,
+            13
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01-university-building: Controlled west cloister",
+            "F01-university-building: Controlled east cloister",
+            "F01-university-building: Controlled shared lift lobby",
+            "F01-university-building: Service southwest stair reservation",
+            "F01-university-building: Public admissions reception",
+            "F01-university-building: Public student waiting",
+            "F01-university-building: Public outreach classroom",
+            "F01-university-building: Public campus exhibition",
+            "F01-university-building: Public student advice",
+            "F01-university-building: Public financial aid",
+            "F01-university-building: Public disability support",
+            "F01-university-building: Public interview room"
+          ]
+        },
+        {
+          "label": "F01-university-building: Controlled west cloister",
+          "box": [
+            8,
+            13,
+            11,
+            41
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01-university-building: Public south cloister",
+            "F01-university-building: Controlled north cloister",
+            "F01-university-building: Controlled shared lift lobby",
+            "F01-university-building: Service southwest stair reservation",
+            "F01-university-building: Public campus shop",
+            "F01-university-building: Public student resource room",
+            "F01-university-building: Public community classroom",
+            "F01-university-building: Public cafe seating",
+            "F01-university-building: Service west washrooms"
+          ]
+        },
+        {
+          "label": "F01-university-building: Controlled east cloister",
+          "box": [
+            53,
+            13,
+            56,
+            41
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01-university-building: Public south cloister",
+            "F01-university-building: Controlled north cloister",
+            "F01-university-building: Service northeast stair reservation",
+            "F01-university-building: Public registration room",
+            "F01-university-building: Public parent consultation",
+            "F01-university-building: Public welfare consultation",
+            "F01-university-building: Public orientation workshop",
+            "F01-university-building: Service east pantry and cleaning store"
+          ]
+        },
+        {
+          "label": "F01-university-building: Controlled north cloister",
+          "box": [
+            8,
+            41,
+            56,
+            44
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01-university-building: Controlled west cloister",
+            "F01-university-building: Controlled east cloister",
+            "F01-university-building: Public library orientation",
+            "F01-university-building: Public open reading",
+            "F01-university-building: Public group study",
+            "F01-university-building: Public quiet study",
+            "F01-university-building: Public careers workshop",
+            "F01-university-building: Public counselling",
+            "F01-university-building: Public first aid",
+            "F01-university-building: Public student association"
+          ]
+        },
+        {
+          "label": "F01-university-building: Controlled shared lift lobby",
+          "box": [
+            11,
+            13,
+            20,
+            16
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01-university-building: Public south cloister",
+            "F01-university-building: Controlled west cloister",
+            "F01-university-building: Controlled lift A reservation",
+            "F01-university-building: Controlled lift B reservation"
+          ]
+        },
+        {
+          "label": "F01-university-building: Service southwest stair reservation",
+          "box": [
+            4.8,
+            10,
+            8,
+            16
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F01-university-building: Public south cloister",
+            "F01-university-building: Controlled west cloister"
+          ]
+        },
+        {
+          "label": "F01-university-building: Service northeast stair reservation",
+          "box": [
+            56,
+            35,
+            59.2,
+            41
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F01-university-building: Controlled east cloister"
+          ]
+        },
+        {
+          "label": "F01-university-building: Controlled lift A reservation",
+          "box": [
+            14,
+            16,
+            17,
+            19
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F01-university-building: Controlled shared lift lobby"
+          ]
+        },
+        {
+          "label": "F01-university-building: Controlled lift B reservation",
+          "box": [
+            17,
+            16,
+            20,
+            19
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F01-university-building: Controlled shared lift lobby"
+          ]
+        },
+        {
+          "label": "F01-university-building: Public admissions reception",
+          "box": [
+            8,
+            0,
+            14.621,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-university-building: Public south cloister"
+          ]
+        },
+        {
+          "label": "F01-university-building: Public student waiting",
+          "box": [
+            14.621,
+            0,
+            19.586,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-university-building: Public south cloister"
+          ]
+        },
+        {
+          "label": "F01-university-building: Public outreach classroom",
+          "box": [
+            19.586,
+            0,
+            25.655,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-university-building: Public south cloister"
+          ]
+        },
+        {
+          "label": "F01-university-building: Public campus exhibition",
+          "box": [
+            25.655,
+            0,
+            32.828,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-university-building: Public south cloister"
+          ]
+        },
+        {
+          "label": "F01-university-building: Public student advice",
+          "box": [
+            32.828,
+            0,
+            38.345,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-university-building: Public south cloister"
+          ]
+        },
+        {
+          "label": "F01-university-building: Public financial aid",
+          "box": [
+            38.345,
+            0,
+            44.966,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-university-building: Public south cloister"
+          ]
+        },
+        {
+          "label": "F01-university-building: Public disability support",
+          "box": [
+            44.966,
+            0,
+            49.931,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-university-building: Public south cloister"
+          ]
+        },
+        {
+          "label": "F01-university-building: Public interview room",
+          "box": [
+            49.931,
+            0,
+            56,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-university-building: Public south cloister"
+          ]
+        },
+        {
+          "label": "F01-university-building: Public library orientation",
+          "box": [
+            8,
+            44,
+            12.909,
+            54
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-university-building: Controlled north cloister"
+          ]
+        },
+        {
+          "label": "F01-university-building: Public open reading",
+          "box": [
+            12.909,
+            44,
+            18.909,
+            54
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-university-building: Controlled north cloister"
+          ]
+        },
+        {
+          "label": "F01-university-building: Public group study",
+          "box": [
+            18.909,
+            44,
+            26,
+            54
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-university-building: Controlled north cloister"
+          ]
+        },
+        {
+          "label": "F01-university-building: Public quiet study",
+          "box": [
+            26,
+            44,
+            31.455,
+            54
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-university-building: Controlled north cloister"
+          ]
+        },
+        {
+          "label": "F01-university-building: Public careers workshop",
+          "box": [
+            31.455,
+            44,
+            38,
+            54
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-university-building: Controlled north cloister"
+          ]
+        },
+        {
+          "label": "F01-university-building: Public counselling",
+          "box": [
+            38,
+            44,
+            42.909,
+            54
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-university-building: Controlled north cloister"
+          ]
+        },
+        {
+          "label": "F01-university-building: Public first aid",
+          "box": [
+            42.909,
+            44,
+            48.909,
+            54
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-university-building: Controlled north cloister"
+          ]
+        },
+        {
+          "label": "F01-university-building: Public student association",
+          "box": [
+            48.909,
+            44,
+            56,
+            54
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-university-building: Controlled north cloister"
+          ]
+        },
+        {
+          "label": "F01-university-building: Public campus shop",
+          "box": [
+            0,
+            16,
+            8,
+            22.667
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-university-building: Controlled west cloister"
+          ]
+        },
+        {
+          "label": "F01-university-building: Public student resource room",
+          "box": [
+            0,
+            22.667,
+            8,
+            27.667
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-university-building: Controlled west cloister"
+          ]
+        },
+        {
+          "label": "F01-university-building: Public community classroom",
+          "box": [
+            0,
+            27.667,
+            8,
+            33.778
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-university-building: Controlled west cloister"
+          ]
+        },
+        {
+          "label": "F01-university-building: Public cafe seating",
+          "box": [
+            0,
+            33.778,
+            8,
+            41
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-university-building: Controlled west cloister"
+          ]
+        },
+        {
+          "label": "F01-university-building: Public registration room",
+          "box": [
+            56,
+            13,
+            64,
+            18.261
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-university-building: Controlled east cloister"
+          ]
+        },
+        {
+          "label": "F01-university-building: Public parent consultation",
+          "box": [
+            56,
+            18.261,
+            64,
+            24.478
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-university-building: Controlled east cloister"
+          ]
+        },
+        {
+          "label": "F01-university-building: Public welfare consultation",
+          "box": [
+            56,
+            24.478,
+            64,
+            29.261
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-university-building: Controlled east cloister"
+          ]
+        },
+        {
+          "label": "F01-university-building: Public orientation workshop",
+          "box": [
+            56,
+            29.261,
+            64,
+            35
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-university-building: Controlled east cloister"
+          ]
+        },
+        {
+          "label": "F01-university-building: Service west washrooms",
+          "box": [
+            11,
+            25,
+            17,
+            32
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01-university-building: Controlled west cloister"
+          ]
+        },
+        {
+          "label": "F01-university-building: Service east pantry and cleaning store",
+          "box": [
+            47,
+            28,
+            53,
+            35
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01-university-building: Controlled east cloister"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "General teaching",
+      "height_m": 3.9,
+      "rooms": [
+        {
+          "label": "F02-university-building: Controlled south teaching cloister",
+          "box": [
+            8,
+            10,
+            56,
+            13
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02-university-building: Controlled west cloister",
+            "F02-university-building: Controlled east cloister",
+            "F02-university-building: Controlled shared lift lobby",
+            "F02-university-building: Service southwest stair reservation",
+            "F02-university-building: Controlled teaching room 201",
+            "F02-university-building: Controlled teaching room 202",
+            "F02-university-building: Controlled teaching room 203",
+            "F02-university-building: Controlled teaching room 204",
+            "F02-university-building: Controlled seminar room 205",
+            "F02-university-building: Controlled seminar room 206",
+            "F02-university-building: Controlled tutorial room 207",
+            "F02-university-building: Controlled teaching preparation"
+          ]
+        },
+        {
+          "label": "F02-university-building: Controlled west cloister",
+          "box": [
+            8,
+            13,
+            11,
+            41
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02-university-building: Controlled south teaching cloister",
+            "F02-university-building: Controlled north cloister",
+            "F02-university-building: Controlled shared lift lobby",
+            "F02-university-building: Service southwest stair reservation",
+            "F02-university-building: Controlled tutorial suite A",
+            "F02-university-building: Controlled tutorial suite B",
+            "F02-university-building: Controlled tutorial suite C",
+            "F02-university-building: Controlled tutor workroom",
+            "F02-university-building: Service west washrooms"
+          ]
+        },
+        {
+          "label": "F02-university-building: Controlled east cloister",
+          "box": [
+            53,
+            13,
+            56,
+            41
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02-university-building: Controlled south teaching cloister",
+            "F02-university-building: Controlled north cloister",
+            "F02-university-building: Service northeast stair reservation",
+            "F02-university-building: Controlled small classroom A",
+            "F02-university-building: Controlled small classroom B",
+            "F02-university-building: Controlled small classroom C",
+            "F02-university-building: Controlled teaching fellows room",
+            "F02-university-building: Service east pantry and cleaning store"
+          ]
+        },
+        {
+          "label": "F02-university-building: Controlled north cloister",
+          "box": [
+            8,
+            41,
+            56,
+            44
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02-university-building: Controlled west cloister",
+            "F02-university-building: Controlled east cloister",
+            "F02-university-building: Controlled language classroom",
+            "F02-university-building: Controlled history classroom",
+            "F02-university-building: Controlled mathematics classroom",
+            "F02-university-building: Controlled writing studio",
+            "F02-university-building: Controlled debate room",
+            "F02-university-building: Controlled peer tutoring",
+            "F02-university-building: Controlled skills workshop",
+            "F02-university-building: Controlled learning support"
+          ]
+        },
+        {
+          "label": "F02-university-building: Controlled shared lift lobby",
+          "box": [
+            11,
+            13,
+            20,
+            16
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02-university-building: Controlled south teaching cloister",
+            "F02-university-building: Controlled west cloister",
+            "F02-university-building: Controlled lift A reservation",
+            "F02-university-building: Controlled lift B reservation"
+          ]
+        },
+        {
+          "label": "F02-university-building: Service southwest stair reservation",
+          "box": [
+            4.8,
+            10,
+            8,
+            16
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F02-university-building: Controlled south teaching cloister",
+            "F02-university-building: Controlled west cloister"
+          ]
+        },
+        {
+          "label": "F02-university-building: Service northeast stair reservation",
+          "box": [
+            56,
+            35,
+            59.2,
+            41
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F02-university-building: Controlled east cloister"
+          ]
+        },
+        {
+          "label": "F02-university-building: Controlled lift A reservation",
+          "box": [
+            14,
+            16,
+            17,
+            19
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F02-university-building: Controlled shared lift lobby"
+          ]
+        },
+        {
+          "label": "F02-university-building: Controlled lift B reservation",
+          "box": [
+            17,
+            16,
+            20,
+            19
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F02-university-building: Controlled shared lift lobby"
+          ]
+        },
+        {
+          "label": "F02-university-building: Controlled teaching room 201",
+          "box": [
+            8,
+            0,
+            12.909,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-university-building: Controlled south teaching cloister"
+          ]
+        },
+        {
+          "label": "F02-university-building: Controlled teaching room 202",
+          "box": [
+            12.909,
+            0,
+            18.909,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-university-building: Controlled south teaching cloister"
+          ]
+        },
+        {
+          "label": "F02-university-building: Controlled teaching room 203",
+          "box": [
+            18.909,
+            0,
+            26,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-university-building: Controlled south teaching cloister"
+          ]
+        },
+        {
+          "label": "F02-university-building: Controlled teaching room 204",
+          "box": [
+            26,
+            0,
+            31.455,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-university-building: Controlled south teaching cloister"
+          ]
+        },
+        {
+          "label": "F02-university-building: Controlled seminar room 205",
+          "box": [
+            31.455,
+            0,
+            38,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-university-building: Controlled south teaching cloister"
+          ]
+        },
+        {
+          "label": "F02-university-building: Controlled seminar room 206",
+          "box": [
+            38,
+            0,
+            42.909,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-university-building: Controlled south teaching cloister"
+          ]
+        },
+        {
+          "label": "F02-university-building: Controlled tutorial room 207",
+          "box": [
+            42.909,
+            0,
+            48.909,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-university-building: Controlled south teaching cloister"
+          ]
+        },
+        {
+          "label": "F02-university-building: Controlled teaching preparation",
+          "box": [
+            48.909,
+            0,
+            56,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-university-building: Controlled south teaching cloister"
+          ]
+        },
+        {
+          "label": "F02-university-building: Controlled language classroom",
+          "box": [
+            8,
+            44,
+            13.933,
+            54
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-university-building: Controlled north cloister"
+          ]
+        },
+        {
+          "label": "F02-university-building: Controlled history classroom",
+          "box": [
+            13.933,
+            44,
+            20.944,
+            54
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-university-building: Controlled north cloister"
+          ]
+        },
+        {
+          "label": "F02-university-building: Controlled mathematics classroom",
+          "box": [
+            20.944,
+            44,
+            26.337,
+            54
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-university-building: Controlled north cloister"
+          ]
+        },
+        {
+          "label": "F02-university-building: Controlled writing studio",
+          "box": [
+            26.337,
+            44,
+            32.809,
+            54
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-university-building: Controlled north cloister"
+          ]
+        },
+        {
+          "label": "F02-university-building: Controlled debate room",
+          "box": [
+            32.809,
+            44,
+            37.663,
+            54
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-university-building: Controlled north cloister"
+          ]
+        },
+        {
+          "label": "F02-university-building: Controlled peer tutoring",
+          "box": [
+            37.663,
+            44,
+            43.596,
+            54
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-university-building: Controlled north cloister"
+          ]
+        },
+        {
+          "label": "F02-university-building: Controlled skills workshop",
+          "box": [
+            43.596,
+            44,
+            50.607,
+            54
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-university-building: Controlled north cloister"
+          ]
+        },
+        {
+          "label": "F02-university-building: Controlled learning support",
+          "box": [
+            50.607,
+            44,
+            56,
+            54
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-university-building: Controlled north cloister"
+          ]
+        },
+        {
+          "label": "F02-university-building: Controlled tutorial suite A",
+          "box": [
+            0,
+            16,
+            8,
+            21.233
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-university-building: Controlled west cloister"
+          ]
+        },
+        {
+          "label": "F02-university-building: Controlled tutorial suite B",
+          "box": [
+            0,
+            21.233,
+            8,
+            27.628
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-university-building: Controlled west cloister"
+          ]
+        },
+        {
+          "label": "F02-university-building: Controlled tutorial suite C",
+          "box": [
+            0,
+            27.628,
+            8,
+            35.186
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-university-building: Controlled west cloister"
+          ]
+        },
+        {
+          "label": "F02-university-building: Controlled tutor workroom",
+          "box": [
+            0,
+            35.186,
+            8,
+            41
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-university-building: Controlled west cloister"
+          ]
+        },
+        {
+          "label": "F02-university-building: Controlled small classroom A",
+          "box": [
+            56,
+            13,
+            64,
+            19.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-university-building: Controlled east cloister"
+          ]
+        },
+        {
+          "label": "F02-university-building: Controlled small classroom B",
+          "box": [
+            56,
+            19.5,
+            64,
+            24.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-university-building: Controlled east cloister"
+          ]
+        },
+        {
+          "label": "F02-university-building: Controlled small classroom C",
+          "box": [
+            56,
+            24.5,
+            64,
+            30.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-university-building: Controlled east cloister"
+          ]
+        },
+        {
+          "label": "F02-university-building: Controlled teaching fellows room",
+          "box": [
+            56,
+            30.5,
+            64,
+            35
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-university-building: Controlled east cloister"
+          ]
+        },
+        {
+          "label": "F02-university-building: Service west washrooms",
+          "box": [
+            11,
+            25,
+            17,
+            32
+          ],
+          "kind": "service",
+          "access_to": [
+            "F02-university-building: Controlled west cloister"
+          ]
+        },
+        {
+          "label": "F02-university-building: Service east pantry and cleaning store",
+          "box": [
+            47,
+            28,
+            53,
+            35
+          ],
+          "kind": "service",
+          "access_to": [
+            "F02-university-building: Controlled east cloister"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Digital and technical teaching",
+      "height_m": 4.2,
+      "rooms": [
+        {
+          "label": "F03-university-building: Controlled south teaching cloister",
+          "box": [
+            8,
+            10,
+            56,
+            13
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03-university-building: Controlled west cloister",
+            "F03-university-building: Controlled east cloister",
+            "F03-university-building: Controlled shared lift lobby",
+            "F03-university-building: Service southwest stair reservation",
+            "F03-university-building: Controlled computing studio",
+            "F03-university-building: Controlled data classroom",
+            "F03-university-building: Controlled media studio",
+            "F03-university-building: Controlled visualization room",
+            "F03-university-building: Controlled project studio",
+            "F03-university-building: Controlled group review",
+            "F03-university-building: Controlled digital seminar",
+            "F03-university-building: Controlled student consultation"
+          ]
+        },
+        {
+          "label": "F03-university-building: Controlled west cloister",
+          "box": [
+            8,
+            13,
+            11,
+            41
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03-university-building: Controlled south teaching cloister",
+            "F03-university-building: Controlled north cloister",
+            "F03-university-building: Controlled shared lift lobby",
+            "F03-university-building: Service southwest stair reservation",
+            "F03-university-building: Controlled programming tutorial",
+            "F03-university-building: Controlled equipment induction",
+            "F03-university-building: Controlled project consultation",
+            "F03-university-building: Controlled technician office",
+            "F03-university-building: Service west washrooms"
+          ]
+        },
+        {
+          "label": "F03-university-building: Controlled east cloister",
+          "box": [
+            53,
+            13,
+            56,
+            41
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03-university-building: Controlled south teaching cloister",
+            "F03-university-building: Controlled north cloister",
+            "F03-university-building: Service northeast stair reservation",
+            "F03-university-building: Controlled audio teaching",
+            "F03-university-building: Controlled video teaching",
+            "F03-university-building: Controlled editing studio",
+            "F03-university-building: Controlled media consultation",
+            "F03-university-building: Service east pantry and cleaning store"
+          ]
+        },
+        {
+          "label": "F03-university-building: Controlled north cloister",
+          "box": [
+            8,
+            41,
+            56,
+            44
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03-university-building: Controlled west cloister",
+            "F03-university-building: Controlled east cloister",
+            "F03-university-building: Controlled robotics project",
+            "F03-university-building: Controlled electronics teaching",
+            "F03-university-building: Controlled instrumentation teaching",
+            "F03-university-building: Controlled fabrication teaching",
+            "F03-university-building: Controlled computer project",
+            "F03-university-building: Controlled simulation classroom",
+            "F03-university-building: Controlled technical seminar",
+            "F03-university-building: Controlled equipment training"
+          ]
+        },
+        {
+          "label": "F03-university-building: Controlled shared lift lobby",
+          "box": [
+            11,
+            13,
+            20,
+            16
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03-university-building: Controlled south teaching cloister",
+            "F03-university-building: Controlled west cloister",
+            "F03-university-building: Controlled lift A reservation",
+            "F03-university-building: Controlled lift B reservation"
+          ]
+        },
+        {
+          "label": "F03-university-building: Service southwest stair reservation",
+          "box": [
+            4.8,
+            10,
+            8,
+            16
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F03-university-building: Controlled south teaching cloister",
+            "F03-university-building: Controlled west cloister"
+          ]
+        },
+        {
+          "label": "F03-university-building: Service northeast stair reservation",
+          "box": [
+            56,
+            35,
+            59.2,
+            41
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F03-university-building: Controlled east cloister"
+          ]
+        },
+        {
+          "label": "F03-university-building: Controlled lift A reservation",
+          "box": [
+            14,
+            16,
+            17,
+            19
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F03-university-building: Controlled shared lift lobby"
+          ]
+        },
+        {
+          "label": "F03-university-building: Controlled lift B reservation",
+          "box": [
+            17,
+            16,
+            20,
+            19
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F03-university-building: Controlled shared lift lobby"
+          ]
+        },
+        {
+          "label": "F03-university-building: Controlled computing studio",
+          "box": [
+            8,
+            0,
+            13.933,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-university-building: Controlled south teaching cloister"
+          ]
+        },
+        {
+          "label": "F03-university-building: Controlled data classroom",
+          "box": [
+            13.933,
+            0,
+            20.944,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-university-building: Controlled south teaching cloister"
+          ]
+        },
+        {
+          "label": "F03-university-building: Controlled media studio",
+          "box": [
+            20.944,
+            0,
+            26.337,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-university-building: Controlled south teaching cloister"
+          ]
+        },
+        {
+          "label": "F03-university-building: Controlled visualization room",
+          "box": [
+            26.337,
+            0,
+            32.809,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-university-building: Controlled south teaching cloister"
+          ]
+        },
+        {
+          "label": "F03-university-building: Controlled project studio",
+          "box": [
+            32.809,
+            0,
+            37.663,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-university-building: Controlled south teaching cloister"
+          ]
+        },
+        {
+          "label": "F03-university-building: Controlled group review",
+          "box": [
+            37.663,
+            0,
+            43.596,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-university-building: Controlled south teaching cloister"
+          ]
+        },
+        {
+          "label": "F03-university-building: Controlled digital seminar",
+          "box": [
+            43.596,
+            0,
+            50.607,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-university-building: Controlled south teaching cloister"
+          ]
+        },
+        {
+          "label": "F03-university-building: Controlled student consultation",
+          "box": [
+            50.607,
+            0,
+            56,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-university-building: Controlled south teaching cloister"
+          ]
+        },
+        {
+          "label": "F03-university-building: Controlled robotics project",
+          "box": [
+            8,
+            44,
+            14.933,
+            54
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-university-building: Controlled north cloister"
+          ]
+        },
+        {
+          "label": "F03-university-building: Controlled electronics teaching",
+          "box": [
+            14.933,
+            44,
+            20.267,
+            54
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-university-building: Controlled north cloister"
+          ]
+        },
+        {
+          "label": "F03-university-building: Controlled instrumentation teaching",
+          "box": [
+            20.267,
+            44,
+            26.667,
+            54
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-university-building: Controlled north cloister"
+          ]
+        },
+        {
+          "label": "F03-university-building: Controlled fabrication teaching",
+          "box": [
+            26.667,
+            44,
+            31.467,
+            54
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-university-building: Controlled north cloister"
+          ]
+        },
+        {
+          "label": "F03-university-building: Controlled computer project",
+          "box": [
+            31.467,
+            44,
+            37.333,
+            54
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-university-building: Controlled north cloister"
+          ]
+        },
+        {
+          "label": "F03-university-building: Controlled simulation classroom",
+          "box": [
+            37.333,
+            44,
+            44.267,
+            54
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-university-building: Controlled north cloister"
+          ]
+        },
+        {
+          "label": "F03-university-building: Controlled technical seminar",
+          "box": [
+            44.267,
+            44,
+            49.6,
+            54
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-university-building: Controlled north cloister"
+          ]
+        },
+        {
+          "label": "F03-university-building: Controlled equipment training",
+          "box": [
+            49.6,
+            44,
+            56,
+            54
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-university-building: Controlled north cloister"
+          ]
+        },
+        {
+          "label": "F03-university-building: Controlled programming tutorial",
+          "box": [
+            0,
+            16,
+            8,
+            21.978
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-university-building: Controlled west cloister"
+          ]
+        },
+        {
+          "label": "F03-university-building: Controlled equipment induction",
+          "box": [
+            0,
+            21.978,
+            8,
+            29.043
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-university-building: Controlled west cloister"
+          ]
+        },
+        {
+          "label": "F03-university-building: Controlled project consultation",
+          "box": [
+            0,
+            29.043,
+            8,
+            34.478
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-university-building: Controlled west cloister"
+          ]
+        },
+        {
+          "label": "F03-university-building: Controlled technician office",
+          "box": [
+            0,
+            34.478,
+            8,
+            41
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-university-building: Controlled west cloister"
+          ]
+        },
+        {
+          "label": "F03-university-building: Controlled audio teaching",
+          "box": [
+            56,
+            13,
+            64,
+            18.238
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-university-building: Controlled east cloister"
+          ]
+        },
+        {
+          "label": "F03-university-building: Controlled video teaching",
+          "box": [
+            56,
+            18.238,
+            64,
+            24.524
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-university-building: Controlled east cloister"
+          ]
+        },
+        {
+          "label": "F03-university-building: Controlled editing studio",
+          "box": [
+            56,
+            24.524,
+            64,
+            29.238
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-university-building: Controlled east cloister"
+          ]
+        },
+        {
+          "label": "F03-university-building: Controlled media consultation",
+          "box": [
+            56,
+            29.238,
+            64,
+            35
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-university-building: Controlled east cloister"
+          ]
+        },
+        {
+          "label": "F03-university-building: Service west washrooms",
+          "box": [
+            11,
+            25,
+            17,
+            32
+          ],
+          "kind": "service",
+          "access_to": [
+            "F03-university-building: Controlled west cloister"
+          ]
+        },
+        {
+          "label": "F03-university-building: Service east pantry and cleaning store",
+          "box": [
+            47,
+            28,
+            53,
+            35
+          ],
+          "kind": "service",
+          "access_to": [
+            "F03-university-building: Controlled east cloister"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "name": "Research and postgraduate work",
+      "height_m": 3.9,
+      "rooms": [
+        {
+          "label": "F04-university-building: Controlled south teaching cloister",
+          "box": [
+            8,
+            10,
+            56,
+            13
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F04-university-building: Controlled west cloister",
+            "F04-university-building: Controlled east cloister",
+            "F04-university-building: Controlled shared lift lobby",
+            "F04-university-building: Service southwest stair reservation",
+            "F04-university-building: Controlled research seminar",
+            "F04-university-building: Controlled postgraduate studio",
+            "F04-university-building: Controlled doctoral workroom",
+            "F04-university-building: Controlled research methods room",
+            "F04-university-building: Controlled research interview",
+            "F04-university-building: Controlled grant workshop",
+            "F04-university-building: Controlled project meeting",
+            "F04-university-building: Controlled visiting scholar room"
+          ]
+        },
+        {
+          "label": "F04-university-building: Controlled west cloister",
+          "box": [
+            8,
+            13,
+            11,
+            41
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F04-university-building: Controlled south teaching cloister",
+            "F04-university-building: Controlled north cloister",
+            "F04-university-building: Controlled shared lift lobby",
+            "F04-university-building: Service southwest stair reservation",
+            "F04-university-building: Controlled research office A",
+            "F04-university-building: Controlled research office B",
+            "F04-university-building: Controlled research office C",
+            "F04-university-building: Controlled researcher lounge",
+            "F04-university-building: Service west washrooms"
+          ]
+        },
+        {
+          "label": "F04-university-building: Controlled east cloister",
+          "box": [
+            53,
+            13,
+            56,
+            41
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F04-university-building: Controlled south teaching cloister",
+            "F04-university-building: Controlled north cloister",
+            "F04-university-building: Service northeast stair reservation",
+            "F04-university-building: Controlled qualitative interview",
+            "F04-university-building: Controlled quantitative analysis",
+            "F04-university-building: Controlled ethics consultation",
+            "F04-university-building: Controlled research coordination",
+            "F04-university-building: Service east pantry and cleaning store"
+          ]
+        },
+        {
+          "label": "F04-university-building: Controlled north cloister",
+          "box": [
+            8,
+            41,
+            56,
+            44
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F04-university-building: Controlled west cloister",
+            "F04-university-building: Controlled east cloister",
+            "F04-university-building: Controlled archive reading",
+            "F04-university-building: Controlled humanities lab",
+            "F04-university-building: Controlled social research",
+            "F04-university-building: Controlled survey studio",
+            "F04-university-building: Controlled policy lab",
+            "F04-university-building: Controlled research discussion",
+            "F04-university-building: Controlled thesis review",
+            "F04-university-building: Controlled research support"
+          ]
+        },
+        {
+          "label": "F04-university-building: Controlled shared lift lobby",
+          "box": [
+            11,
+            13,
+            20,
+            16
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F04-university-building: Controlled south teaching cloister",
+            "F04-university-building: Controlled west cloister",
+            "F04-university-building: Controlled lift A reservation",
+            "F04-university-building: Controlled lift B reservation"
+          ]
+        },
+        {
+          "label": "F04-university-building: Service southwest stair reservation",
+          "box": [
+            4.8,
+            10,
+            8,
+            16
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F04-university-building: Controlled south teaching cloister",
+            "F04-university-building: Controlled west cloister"
+          ]
+        },
+        {
+          "label": "F04-university-building: Service northeast stair reservation",
+          "box": [
+            56,
+            35,
+            59.2,
+            41
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F04-university-building: Controlled east cloister"
+          ]
+        },
+        {
+          "label": "F04-university-building: Controlled lift A reservation",
+          "box": [
+            14,
+            16,
+            17,
+            19
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F04-university-building: Controlled shared lift lobby"
+          ]
+        },
+        {
+          "label": "F04-university-building: Controlled lift B reservation",
+          "box": [
+            17,
+            16,
+            20,
+            19
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F04-university-building: Controlled shared lift lobby"
+          ]
+        },
+        {
+          "label": "F04-university-building: Controlled research seminar",
+          "box": [
+            8,
+            0,
+            14.933,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-university-building: Controlled south teaching cloister"
+          ]
+        },
+        {
+          "label": "F04-university-building: Controlled postgraduate studio",
+          "box": [
+            14.933,
+            0,
+            20.267,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-university-building: Controlled south teaching cloister"
+          ]
+        },
+        {
+          "label": "F04-university-building: Controlled doctoral workroom",
+          "box": [
+            20.267,
+            0,
+            26.667,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-university-building: Controlled south teaching cloister"
+          ]
+        },
+        {
+          "label": "F04-university-building: Controlled research methods room",
+          "box": [
+            26.667,
+            0,
+            31.467,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-university-building: Controlled south teaching cloister"
+          ]
+        },
+        {
+          "label": "F04-university-building: Controlled research interview",
+          "box": [
+            31.467,
+            0,
+            37.333,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-university-building: Controlled south teaching cloister"
+          ]
+        },
+        {
+          "label": "F04-university-building: Controlled grant workshop",
+          "box": [
+            37.333,
+            0,
+            44.267,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-university-building: Controlled south teaching cloister"
+          ]
+        },
+        {
+          "label": "F04-university-building: Controlled project meeting",
+          "box": [
+            44.267,
+            0,
+            49.6,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-university-building: Controlled south teaching cloister"
+          ]
+        },
+        {
+          "label": "F04-university-building: Controlled visiting scholar room",
+          "box": [
+            49.6,
+            0,
+            56,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-university-building: Controlled south teaching cloister"
+          ]
+        },
+        {
+          "label": "F04-university-building: Controlled archive reading",
+          "box": [
+            8,
+            44,
+            13.581,
+            54
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-university-building: Controlled north cloister"
+          ]
+        },
+        {
+          "label": "F04-university-building: Controlled humanities lab",
+          "box": [
+            13.581,
+            44,
+            20.279,
+            54
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-university-building: Controlled north cloister"
+          ]
+        },
+        {
+          "label": "F04-university-building: Controlled social research",
+          "box": [
+            20.279,
+            44,
+            25.302,
+            54
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-university-building: Controlled north cloister"
+          ]
+        },
+        {
+          "label": "F04-university-building: Controlled survey studio",
+          "box": [
+            25.302,
+            44,
+            31.442,
+            54
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-university-building: Controlled north cloister"
+          ]
+        },
+        {
+          "label": "F04-university-building: Controlled policy lab",
+          "box": [
+            31.442,
+            44,
+            38.698,
+            54
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-university-building: Controlled north cloister"
+          ]
+        },
+        {
+          "label": "F04-university-building: Controlled research discussion",
+          "box": [
+            38.698,
+            44,
+            44.279,
+            54
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-university-building: Controlled north cloister"
+          ]
+        },
+        {
+          "label": "F04-university-building: Controlled thesis review",
+          "box": [
+            44.279,
+            44,
+            50.977,
+            54
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-university-building: Controlled north cloister"
+          ]
+        },
+        {
+          "label": "F04-university-building: Controlled research support",
+          "box": [
+            50.977,
+            44,
+            56,
+            54
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-university-building: Controlled north cloister"
+          ]
+        },
+        {
+          "label": "F04-university-building: Controlled research office A",
+          "box": [
+            0,
+            16,
+            8,
+            23.386
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-university-building: Controlled west cloister"
+          ]
+        },
+        {
+          "label": "F04-university-building: Controlled research office B",
+          "box": [
+            0,
+            23.386,
+            8,
+            29.068
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-university-building: Controlled west cloister"
+          ]
+        },
+        {
+          "label": "F04-university-building: Controlled research office C",
+          "box": [
+            0,
+            29.068,
+            8,
+            35.886
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-university-building: Controlled west cloister"
+          ]
+        },
+        {
+          "label": "F04-university-building: Controlled researcher lounge",
+          "box": [
+            0,
+            35.886,
+            8,
+            41
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-university-building: Controlled west cloister"
+          ]
+        },
+        {
+          "label": "F04-university-building: Controlled qualitative interview",
+          "box": [
+            56,
+            13,
+            64,
+            18.867
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-university-building: Controlled east cloister"
+          ]
+        },
+        {
+          "label": "F04-university-building: Controlled quantitative analysis",
+          "box": [
+            56,
+            18.867,
+            64,
+            23.267
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-university-building: Controlled east cloister"
+          ]
+        },
+        {
+          "label": "F04-university-building: Controlled ethics consultation",
+          "box": [
+            56,
+            23.267,
+            64,
+            28.644
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-university-building: Controlled east cloister"
+          ]
+        },
+        {
+          "label": "F04-university-building: Controlled research coordination",
+          "box": [
+            56,
+            28.644,
+            64,
+            35
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-university-building: Controlled east cloister"
+          ]
+        },
+        {
+          "label": "F04-university-building: Service west washrooms",
+          "box": [
+            11,
+            25,
+            17,
+            32
+          ],
+          "kind": "service",
+          "access_to": [
+            "F04-university-building: Controlled west cloister"
+          ]
+        },
+        {
+          "label": "F04-university-building: Service east pantry and cleaning store",
+          "box": [
+            47,
+            28,
+            53,
+            35
+          ],
+          "kind": "service",
+          "access_to": [
+            "F04-university-building: Controlled east cloister"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "name": "Faculty and administration",
+      "height_m": 3.9,
+      "rooms": [
+        {
+          "label": "F05-university-building: Controlled south teaching cloister",
+          "box": [
+            8,
+            10,
+            56,
+            13
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F05-university-building: Controlled west cloister",
+            "F05-university-building: Controlled east cloister",
+            "F05-university-building: Controlled shared lift lobby",
+            "F05-university-building: Service southwest stair reservation",
+            "F05-university-building: Controlled faculty meeting",
+            "F05-university-building: Controlled curriculum office",
+            "F05-university-building: Controlled dean office",
+            "F05-university-building: Controlled graduate director",
+            "F05-university-building: Controlled teaching quality office",
+            "F05-university-building: Controlled accreditation room",
+            "F05-university-building: Controlled staff development",
+            "F05-university-building: Controlled faculty lounge"
+          ]
+        },
+        {
+          "label": "F05-university-building: Controlled west cloister",
+          "box": [
+            8,
+            13,
+            11,
+            41
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F05-university-building: Controlled south teaching cloister",
+            "F05-university-building: Controlled north cloister",
+            "F05-university-building: Controlled shared lift lobby",
+            "F05-university-building: Service southwest stair reservation",
+            "F05-university-building: Controlled administrative office",
+            "F05-university-building: Controlled scheduling office",
+            "F05-university-building: Controlled faculty support",
+            "F05-university-building: Controlled staff common room",
+            "F05-university-building: Service west washrooms"
+          ]
+        },
+        {
+          "label": "F05-university-building: Controlled east cloister",
+          "box": [
+            53,
+            13,
+            56,
+            41
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F05-university-building: Controlled south teaching cloister",
+            "F05-university-building: Controlled north cloister",
+            "F05-university-building: Service northeast stair reservation",
+            "F05-university-building: Controlled departmental office",
+            "F05-university-building: Controlled examination office",
+            "F05-university-building: Controlled assessment review",
+            "F05-university-building: Controlled confidential meeting",
+            "F05-university-building: Service east pantry and cleaning store"
+          ]
+        },
+        {
+          "label": "F05-university-building: Controlled north cloister",
+          "box": [
+            8,
+            41,
+            56,
+            44
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F05-university-building: Controlled west cloister",
+            "F05-university-building: Controlled east cloister",
+            "F05-university-building: Controlled faculty office cluster A",
+            "F05-university-building: Controlled faculty office cluster B",
+            "F05-university-building: Controlled faculty office cluster C",
+            "F05-university-building: Controlled faculty office cluster D",
+            "F05-university-building: Controlled visiting faculty",
+            "F05-university-building: Controlled academic advising",
+            "F05-university-building: Controlled mentoring room",
+            "F05-university-building: Controlled committee room"
+          ]
+        },
+        {
+          "label": "F05-university-building: Controlled shared lift lobby",
+          "box": [
+            11,
+            13,
+            20,
+            16
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F05-university-building: Controlled south teaching cloister",
+            "F05-university-building: Controlled west cloister",
+            "F05-university-building: Controlled lift A reservation",
+            "F05-university-building: Controlled lift B reservation"
+          ]
+        },
+        {
+          "label": "F05-university-building: Service southwest stair reservation",
+          "box": [
+            4.8,
+            10,
+            8,
+            16
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F05-university-building: Controlled south teaching cloister",
+            "F05-university-building: Controlled west cloister"
+          ]
+        },
+        {
+          "label": "F05-university-building: Service northeast stair reservation",
+          "box": [
+            56,
+            35,
+            59.2,
+            41
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F05-university-building: Controlled east cloister"
+          ]
+        },
+        {
+          "label": "F05-university-building: Controlled lift A reservation",
+          "box": [
+            14,
+            16,
+            17,
+            19
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F05-university-building: Controlled shared lift lobby"
+          ]
+        },
+        {
+          "label": "F05-university-building: Controlled lift B reservation",
+          "box": [
+            17,
+            16,
+            20,
+            19
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F05-university-building: Controlled shared lift lobby"
+          ]
+        },
+        {
+          "label": "F05-university-building: Controlled faculty meeting",
+          "box": [
+            8,
+            0,
+            13.581,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05-university-building: Controlled south teaching cloister"
+          ]
+        },
+        {
+          "label": "F05-university-building: Controlled curriculum office",
+          "box": [
+            13.581,
+            0,
+            20.279,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05-university-building: Controlled south teaching cloister"
+          ]
+        },
+        {
+          "label": "F05-university-building: Controlled dean office",
+          "box": [
+            20.279,
+            0,
+            25.302,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05-university-building: Controlled south teaching cloister"
+          ]
+        },
+        {
+          "label": "F05-university-building: Controlled graduate director",
+          "box": [
+            25.302,
+            0,
+            31.442,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05-university-building: Controlled south teaching cloister"
+          ]
+        },
+        {
+          "label": "F05-university-building: Controlled teaching quality office",
+          "box": [
+            31.442,
+            0,
+            38.698,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05-university-building: Controlled south teaching cloister"
+          ]
+        },
+        {
+          "label": "F05-university-building: Controlled accreditation room",
+          "box": [
+            38.698,
+            0,
+            44.279,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05-university-building: Controlled south teaching cloister"
+          ]
+        },
+        {
+          "label": "F05-university-building: Controlled staff development",
+          "box": [
+            44.279,
+            0,
+            50.977,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05-university-building: Controlled south teaching cloister"
+          ]
+        },
+        {
+          "label": "F05-university-building: Controlled faculty lounge",
+          "box": [
+            50.977,
+            0,
+            56,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05-university-building: Controlled south teaching cloister"
+          ]
+        },
+        {
+          "label": "F05-university-building: Controlled faculty office cluster A",
+          "box": [
+            8,
+            44,
+            14.621,
+            54
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05-university-building: Controlled north cloister"
+          ]
+        },
+        {
+          "label": "F05-university-building: Controlled faculty office cluster B",
+          "box": [
+            14.621,
+            44,
+            19.586,
+            54
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05-university-building: Controlled north cloister"
+          ]
+        },
+        {
+          "label": "F05-university-building: Controlled faculty office cluster C",
+          "box": [
+            19.586,
+            44,
+            25.655,
+            54
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05-university-building: Controlled north cloister"
+          ]
+        },
+        {
+          "label": "F05-university-building: Controlled faculty office cluster D",
+          "box": [
+            25.655,
+            44,
+            32.828,
+            54
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05-university-building: Controlled north cloister"
+          ]
+        },
+        {
+          "label": "F05-university-building: Controlled visiting faculty",
+          "box": [
+            32.828,
+            44,
+            38.345,
+            54
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05-university-building: Controlled north cloister"
+          ]
+        },
+        {
+          "label": "F05-university-building: Controlled academic advising",
+          "box": [
+            38.345,
+            44,
+            44.966,
+            54
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05-university-building: Controlled north cloister"
+          ]
+        },
+        {
+          "label": "F05-university-building: Controlled mentoring room",
+          "box": [
+            44.966,
+            44,
+            49.931,
+            54
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05-university-building: Controlled north cloister"
+          ]
+        },
+        {
+          "label": "F05-university-building: Controlled committee room",
+          "box": [
+            49.931,
+            44,
+            56,
+            54
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05-university-building: Controlled north cloister"
+          ]
+        },
+        {
+          "label": "F05-university-building: Controlled administrative office",
+          "box": [
+            0,
+            16,
+            8,
+            21.952
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05-university-building: Controlled west cloister"
+          ]
+        },
+        {
+          "label": "F05-university-building: Controlled scheduling office",
+          "box": [
+            0,
+            21.952,
+            8,
+            29.095
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05-university-building: Controlled west cloister"
+          ]
+        },
+        {
+          "label": "F05-university-building: Controlled faculty support",
+          "box": [
+            0,
+            29.095,
+            8,
+            34.452
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05-university-building: Controlled west cloister"
+          ]
+        },
+        {
+          "label": "F05-university-building: Controlled staff common room",
+          "box": [
+            0,
+            34.452,
+            8,
+            41
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05-university-building: Controlled west cloister"
+          ]
+        },
+        {
+          "label": "F05-university-building: Controlled departmental office",
+          "box": [
+            56,
+            13,
+            64,
+            17.605
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05-university-building: Controlled east cloister"
+          ]
+        },
+        {
+          "label": "F05-university-building: Controlled examination office",
+          "box": [
+            56,
+            17.605,
+            64,
+            23.233
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05-university-building: Controlled east cloister"
+          ]
+        },
+        {
+          "label": "F05-university-building: Controlled assessment review",
+          "box": [
+            56,
+            23.233,
+            64,
+            29.884
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05-university-building: Controlled east cloister"
+          ]
+        },
+        {
+          "label": "F05-university-building: Controlled confidential meeting",
+          "box": [
+            56,
+            29.884,
+            64,
+            35
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05-university-building: Controlled east cloister"
+          ]
+        },
+        {
+          "label": "F05-university-building: Service west washrooms",
+          "box": [
+            11,
+            25,
+            17,
+            32
+          ],
+          "kind": "service",
+          "access_to": [
+            "F05-university-building: Controlled west cloister"
+          ]
+        },
+        {
+          "label": "F05-university-building: Service east pantry and cleaning store",
+          "box": [
+            47,
+            28,
+            53,
+            35
+          ],
+          "kind": "service",
+          "access_to": [
+            "F05-university-building: Controlled east cloister"
+          ]
+        }
+      ]
+    }
+  ]
+}

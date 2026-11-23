@@ -1,0 +1,32 @@
+{
+  "case": "school4",
+  "version": "1.0",
+  "run": "2026-11-15_v1.0",
+  "reviewer": "reviewer v2",
+  "score": 9,
+  "doors": 138,
+  "windows": 167,
+  "problems_left": 1,
+  "justification": "The opening task is comprehensively delivered across all four occupied storeys: the live model contains 138 doors and 167 windows, all 305 openings are hosted, all 125 rooms have doors, and no identified habitable room lacks an exterior window. The remaining concerns are minor quality issues—window-head heights vary within each storey, and moving-leaf clearance was not assessable—rather than functional defects.",
+  "evidence": "Measured opening coverage: storeys 1–4 contain respectively 41/40, 28/37, 35/46 and 34/44 doors/windows. The access check found 125 rooms with 0 rooms lacking doors; habitable-window checks found 0 missing across 12, 13, 12 and 9 habitable rooms by floor. Window heads vary by storey (S1: 2.39/2.69/2.99 m; S2: 2.39/2.59/2.69 m; S3–S4: 2.39/2.69 m).",
+  "strengths": [
+    "Complete whole-building coverage on every occupied storey, not merely the ground floor.",
+    "All 305 doors and windows return a wall host; no unhosted opening was found.",
+    "Every one of the 125 rooms has at least one door, with no doorless room on any floor.",
+    "No identified classroom, office, learning room, library, laboratory, studio, hall or similar habitable room lacks an exterior window.",
+    "No internal room-to-room windows were found; all 167 windows face outside.",
+    "Opening functions are suitable: room doors are generally swinging, lift landing doors are sliding and 1.20 m nominal, and exterior casement/awning windows open outward.",
+    "Door widths are generous: measured nominal widths are approximately 1.11, 1.20, 1.61 and 1.91 m depending on function.",
+    "The accessible changing-room door opens into the corridor, but this is a coherent outward-opening exception for an accessible changing use rather than a general swing error.",
+    "Agent-reported totals—“138 doors and 167 windows”—match the live model exactly."
+  ],
+  "weaknesses": [
+    "Window heads are not aligned to one consistent height per storey; two or three head levels occur on each occupied floor.",
+    "Moving leaf and sash sweeps against nearby fixtures or opposing leaves were not assessable from the opening measurements.",
+    "The prose describes ordinary doors as “1.0 m,” while the measurements show about 1.115 m nominal including the authored frame/trim convention; this is imprecise but not treated as fabrication.",
+    "The agent acknowledged that it had not visually reviewed the whole finished model: “I haven't seen the finished model as a whole.”"
+  ],
+  "spec_violations": [],
+  "honesty_flags": [],
+  "confidence": "high"
+}

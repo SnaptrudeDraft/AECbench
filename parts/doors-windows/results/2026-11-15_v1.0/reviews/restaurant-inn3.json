@@ -1,0 +1,36 @@
+{
+  "case": "restaurant-inn3",
+  "version": "1.0",
+  "run": "2026-11-15_v1.0",
+  "reviewer": "reviewer v2",
+  "score": 7,
+  "doors": 98,
+  "windows": 83,
+  "problems_left": 0,
+  "justification": "The opening task is comprehensively delivered across all three occupied storeys: the live model contains 98 doors and 83 windows, every one is hosted, all 87 rooms have a door, and the opening check reports no swing, width, or operation findings. However, the guest-floor window design needs systemic safety rework: 32 operable suite casements have sills at approximately 0.594 m, materially below the 0.9–1.0 m bedroom guidance, with no verified guarding.",
+  "evidence": "Live measurements found Ground 38 doors/21 windows, First 32/25, and Second 28/37; the access check measured 87/87 rooms with doors and 29/29 ground-floor rooms reachable. On storey 3, 32 casements serving the 16 named guest suites measured about 0.594 m sill height, despite the agent stating: “Each of the 16 suites has an entry door off the corridor and two full-height casements on its outside wall.”",
+  "strengths": [
+    "Complete occupied-storey coverage: 38/21, 32/25, and 28/37 doors/windows across storeys 1–3.",
+    "All 98 doors and 83 windows returned valid wall hosts; no unhosted openings were measured.",
+    "Every one of the 87 rooms has at least one door; all 29 ground-floor rooms are reachable from the main entrance.",
+    "Habitable uses receive exterior glazing throughout: restaurant and event rooms, offices, staff rooms, kitchens, and all 16 suites.",
+    "Opening measurements found no undersized doors, unread swinging doors, inward-opening exterior casements/awnings, or other shared-rule findings.",
+    "Lift doors are sliding and measured 1.20 m passenger and 1.40 m service nominal width, opening onto core lobbies.",
+    "Sampled stair and exit doors use the Single Flush Door family with a 60-minute fire rating; the ground exits open outside.",
+    "Window families and sill heights are use-sensitive on the lower floors: toilet awnings at about 1.518 m and office casements at about 0.894 m."
+  ],
+  "weaknesses": [
+    "All 32 operable suite casements measured approximately 0.594 m above the guest-room floors, below the standard’s 0.9–1.0 m bedroom range and potentially unsafe without guarding.",
+    "Moving-leaf and sash sweep clearance against fixtures or adjacent walls was not independently assessable; the opening measurements verify operation and jamb returns but not full motion sweeps.",
+    "The 4.8 m automatic sliding main entrance is functional and adequately wide but is an oversized catalogue-driven solution rather than a deliberately proportioned entrance assembly."
+  ],
+  "spec_violations": [
+    {
+      "constraint": "Bedroom windows should have suitable, safe sills, about 0.9–1.0 m.",
+      "what_happened": "The two operable casements in each of the 16 guest suites have approximately 0.594 m sills, with no verified guard or restricted-opening provision.",
+      "evidence": "Live bounding-box measurements relative to each suite floor found 32 suite casements at 0.59365 m sill height."
+    }
+  ],
+  "honesty_flags": [],
+  "confidence": "high"
+}

@@ -1,0 +1,1669 @@
+{
+  "slug": "transport-terminal",
+  "typology": "transport-terminal",
+  "provenance": "AI-authored synthetic recorded starting layout for a doors/windows benchmark; not customer data, not a certified design.",
+  "notes": [
+    "Supplemental synthetic benchmark coverage only, not selected production-run cases or evidence of a production result.",
+    "Metre coordinates describe disjoint clear-space boxes, not walls. No doors or windows are seeded. Empty areas are unassigned shell, exterior, courtyard, or the explicitly described void.",
+    "Exactly two stair footprints and two lift footprints are vertically stacked reservations on every floor. They are not physical stairs, lifts, shafts, or installed equipment.",
+    "Public, controlled and service labels and circulation zones express intended thresholds. Access edges are reciprocal same-floor adjacency intentions, not installed doors or an enforced security policy.",
+    "No structural, fire, accessibility, egress, acoustic, laboratory safety, sporting-body, or transport-operational compliance is asserted. Reservations do not model inter-floor travel or exit discharge.",
+    "Terminal landside building only: no track, platform, aircraft, bus bay or vehicle interface is modeled. Central ground concourse is 40 by 24 m and 15 m high, equal to the sum of three 5 m floors. Its entire footprint is omitted on both upper floors, including the 6 m deep north service strip boundary; upper amenity and operations galleries occupy perimeter wings only. The ground-floor entrance lift lobby on the south facade is the main passenger entrance; the east staff wing is 10 m deep."
+  ],
+  "floors": [
+    {
+      "number": 1,
+      "name": "Passenger arrival and ground concourse",
+      "height_m": 5,
+      "rooms": [
+        {
+          "label": "F01-transport-terminal: Public front passenger gallery",
+          "box": [
+            0,
+            14,
+            80,
+            18
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01-transport-terminal: Public west concourse-edge route",
+            "F01-transport-terminal: Controlled east staff route",
+            "F01-transport-terminal: Public lift lobby link",
+            "F01-transport-terminal: Controlled lift A reservation",
+            "F01-transport-terminal: Controlled lift B reservation",
+            "F01-transport-terminal: Public travel information",
+            "F01-transport-terminal: Public ticket assistance",
+            "F01-transport-terminal: Public ticket sales",
+            "F01-transport-terminal: Public booking consultation",
+            "F01-transport-terminal: Public accessible travel support",
+            "F01-transport-terminal: Public cafe seating",
+            "F01-transport-terminal: Public retail shop",
+            "F01-transport-terminal: Public travel essentials",
+            "F01-transport-terminal: Public baggage enquiry",
+            "F01-transport-terminal: Public lost property interview",
+            "F01-transport-terminal: Public arrivals waiting",
+            "F01-transport-terminal: Controlled ticket reconciliation",
+            "F01-transport-terminal: Public passenger concourse and departure waiting hall"
+          ]
+        },
+        {
+          "label": "F01-transport-terminal: Public west concourse-edge route",
+          "box": [
+            12,
+            18,
+            16,
+            48
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01-transport-terminal: Public front passenger gallery",
+            "F01-transport-terminal: Service rear staff transfer route",
+            "F01-transport-terminal: Service west stair reservation",
+            "F01-transport-terminal: Public arrivals waiting",
+            "F01-transport-terminal: Public passenger assistance",
+            "F01-transport-terminal: Public first aid room",
+            "F01-transport-terminal: Public family care room",
+            "F01-transport-terminal: Service passenger washrooms",
+            "F01-transport-terminal: Public passenger concourse and departure waiting hall"
+          ]
+        },
+        {
+          "label": "F01-transport-terminal: Controlled east staff route",
+          "box": [
+            56,
+            18,
+            60,
+            48
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01-transport-terminal: Public front passenger gallery",
+            "F01-transport-terminal: Service rear staff transfer route",
+            "F01-transport-terminal: Service east stair reservation",
+            "F01-transport-terminal: Controlled ticket reconciliation",
+            "F01-transport-terminal: Controlled baggage service office",
+            "F01-transport-terminal: Controlled passenger support",
+            "F01-transport-terminal: Controlled platform dispatch office",
+            "F01-transport-terminal: Service cleaning and consumables room",
+            "F01-transport-terminal: Public passenger concourse and departure waiting hall"
+          ]
+        },
+        {
+          "label": "F01-transport-terminal: Service rear staff transfer route",
+          "box": [
+            12,
+            48,
+            60,
+            52
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01-transport-terminal: Public west concourse-edge route",
+            "F01-transport-terminal: Controlled east staff route",
+            "F01-transport-terminal: Controlled driver sign-in",
+            "F01-transport-terminal: Controlled driver rest",
+            "F01-transport-terminal: Controlled crew briefing",
+            "F01-transport-terminal: Controlled supervisor office",
+            "F01-transport-terminal: Controlled service coordination",
+            "F01-transport-terminal: Controlled staff changing",
+            "F01-transport-terminal: Controlled training room",
+            "F01-transport-terminal: Service passenger washrooms",
+            "F01-transport-terminal: Service cleaning and consumables room"
+          ]
+        },
+        {
+          "label": "F01-transport-terminal: Public entrance lift lobby",
+          "box": [
+            34,
+            0,
+            46,
+            11
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01-transport-terminal: Public lift lobby link",
+            "F01-transport-terminal: Controlled lift A reservation",
+            "F01-transport-terminal: Controlled lift B reservation",
+            "F01-transport-terminal: Public accessible travel support",
+            "F01-transport-terminal: Public cafe seating"
+          ]
+        },
+        {
+          "label": "F01-transport-terminal: Public lift lobby link",
+          "box": [
+            40,
+            11,
+            46,
+            14
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01-transport-terminal: Public front passenger gallery",
+            "F01-transport-terminal: Public entrance lift lobby",
+            "F01-transport-terminal: Controlled lift B reservation",
+            "F01-transport-terminal: Public cafe seating"
+          ]
+        },
+        {
+          "label": "F01-transport-terminal: Service west stair reservation",
+          "box": [
+            7,
+            42,
+            12,
+            48
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F01-transport-terminal: Public west concourse-edge route"
+          ]
+        },
+        {
+          "label": "F01-transport-terminal: Service east stair reservation",
+          "box": [
+            60,
+            42,
+            65,
+            48
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F01-transport-terminal: Controlled east staff route"
+          ]
+        },
+        {
+          "label": "F01-transport-terminal: Controlled lift A reservation",
+          "box": [
+            34,
+            11,
+            37,
+            14
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F01-transport-terminal: Public front passenger gallery",
+            "F01-transport-terminal: Public entrance lift lobby"
+          ]
+        },
+        {
+          "label": "F01-transport-terminal: Controlled lift B reservation",
+          "box": [
+            37,
+            11,
+            40,
+            14
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F01-transport-terminal: Public front passenger gallery",
+            "F01-transport-terminal: Public entrance lift lobby",
+            "F01-transport-terminal: Public lift lobby link"
+          ]
+        },
+        {
+          "label": "F01-transport-terminal: Public travel information",
+          "box": [
+            0,
+            0,
+            7.418,
+            14
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-transport-terminal: Public front passenger gallery"
+          ]
+        },
+        {
+          "label": "F01-transport-terminal: Public ticket assistance",
+          "box": [
+            7.418,
+            0,
+            12.982,
+            14
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-transport-terminal: Public front passenger gallery"
+          ]
+        },
+        {
+          "label": "F01-transport-terminal: Public ticket sales",
+          "box": [
+            12.982,
+            0,
+            19.782,
+            14
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-transport-terminal: Public front passenger gallery"
+          ]
+        },
+        {
+          "label": "F01-transport-terminal: Public booking consultation",
+          "box": [
+            19.782,
+            0,
+            27.818,
+            14
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-transport-terminal: Public front passenger gallery"
+          ]
+        },
+        {
+          "label": "F01-transport-terminal: Public accessible travel support",
+          "box": [
+            27.818,
+            0,
+            34,
+            14
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-transport-terminal: Public front passenger gallery",
+            "F01-transport-terminal: Public entrance lift lobby"
+          ]
+        },
+        {
+          "label": "F01-transport-terminal: Public cafe seating",
+          "box": [
+            46,
+            0,
+            51.564,
+            14
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-transport-terminal: Public front passenger gallery",
+            "F01-transport-terminal: Public entrance lift lobby",
+            "F01-transport-terminal: Public lift lobby link"
+          ]
+        },
+        {
+          "label": "F01-transport-terminal: Public retail shop",
+          "box": [
+            51.564,
+            0,
+            58.364,
+            14
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-transport-terminal: Public front passenger gallery"
+          ]
+        },
+        {
+          "label": "F01-transport-terminal: Public travel essentials",
+          "box": [
+            58.364,
+            0,
+            66.4,
+            14
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-transport-terminal: Public front passenger gallery"
+          ]
+        },
+        {
+          "label": "F01-transport-terminal: Public baggage enquiry",
+          "box": [
+            66.4,
+            0,
+            72.582,
+            14
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-transport-terminal: Public front passenger gallery"
+          ]
+        },
+        {
+          "label": "F01-transport-terminal: Public lost property interview",
+          "box": [
+            72.582,
+            0,
+            80,
+            14
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-transport-terminal: Public front passenger gallery"
+          ]
+        },
+        {
+          "label": "F01-transport-terminal: Public arrivals waiting",
+          "box": [
+            0,
+            18,
+            12,
+            24.4
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-transport-terminal: Public front passenger gallery",
+            "F01-transport-terminal: Public west concourse-edge route"
+          ]
+        },
+        {
+          "label": "F01-transport-terminal: Public passenger assistance",
+          "box": [
+            0,
+            24.4,
+            12,
+            29.2
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-transport-terminal: Public west concourse-edge route"
+          ]
+        },
+        {
+          "label": "F01-transport-terminal: Public first aid room",
+          "box": [
+            0,
+            29.2,
+            12,
+            35.067
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-transport-terminal: Public west concourse-edge route"
+          ]
+        },
+        {
+          "label": "F01-transport-terminal: Public family care room",
+          "box": [
+            0,
+            35.067,
+            12,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-transport-terminal: Public west concourse-edge route"
+          ]
+        },
+        {
+          "label": "F01-transport-terminal: Controlled ticket reconciliation",
+          "box": [
+            60,
+            18,
+            70,
+            23.739
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-transport-terminal: Public front passenger gallery",
+            "F01-transport-terminal: Controlled east staff route"
+          ]
+        },
+        {
+          "label": "F01-transport-terminal: Controlled baggage service office",
+          "box": [
+            60,
+            23.739,
+            70,
+            30.522
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-transport-terminal: Controlled east staff route"
+          ]
+        },
+        {
+          "label": "F01-transport-terminal: Controlled passenger support",
+          "box": [
+            60,
+            30.522,
+            70,
+            35.739
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-transport-terminal: Controlled east staff route"
+          ]
+        },
+        {
+          "label": "F01-transport-terminal: Controlled platform dispatch office",
+          "box": [
+            60,
+            35.739,
+            70,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-transport-terminal: Controlled east staff route"
+          ]
+        },
+        {
+          "label": "F01-transport-terminal: Controlled driver sign-in",
+          "box": [
+            12,
+            52,
+            19.579,
+            62
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-transport-terminal: Service rear staff transfer route"
+          ]
+        },
+        {
+          "label": "F01-transport-terminal: Controlled driver rest",
+          "box": [
+            19.579,
+            52,
+            25.263,
+            62
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-transport-terminal: Service rear staff transfer route"
+          ]
+        },
+        {
+          "label": "F01-transport-terminal: Controlled crew briefing",
+          "box": [
+            25.263,
+            52,
+            32.211,
+            62
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-transport-terminal: Service rear staff transfer route"
+          ]
+        },
+        {
+          "label": "F01-transport-terminal: Controlled supervisor office",
+          "box": [
+            32.211,
+            52,
+            40.421,
+            62
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-transport-terminal: Service rear staff transfer route"
+          ]
+        },
+        {
+          "label": "F01-transport-terminal: Controlled service coordination",
+          "box": [
+            40.421,
+            52,
+            46.737,
+            62
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-transport-terminal: Service rear staff transfer route"
+          ]
+        },
+        {
+          "label": "F01-transport-terminal: Controlled staff changing",
+          "box": [
+            46.737,
+            52,
+            54.316,
+            62
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-transport-terminal: Service rear staff transfer route"
+          ]
+        },
+        {
+          "label": "F01-transport-terminal: Controlled training room",
+          "box": [
+            54.316,
+            52,
+            60,
+            62
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-transport-terminal: Service rear staff transfer route"
+          ]
+        },
+        {
+          "label": "F01-transport-terminal: Service passenger washrooms",
+          "box": [
+            16,
+            42,
+            28,
+            48
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01-transport-terminal: Public west concourse-edge route",
+            "F01-transport-terminal: Service rear staff transfer route"
+          ]
+        },
+        {
+          "label": "F01-transport-terminal: Service cleaning and consumables room",
+          "box": [
+            44,
+            42,
+            56,
+            48
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01-transport-terminal: Controlled east staff route",
+            "F01-transport-terminal: Service rear staff transfer route"
+          ]
+        },
+        {
+          "label": "F01-transport-terminal: Public passenger concourse and departure waiting hall",
+          "box": [
+            16,
+            18,
+            56,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-transport-terminal: Public front passenger gallery",
+            "F01-transport-terminal: Public west concourse-edge route",
+            "F01-transport-terminal: Controlled east staff route"
+          ],
+          "height_m": 15
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Passenger amenities and hospitality galleries",
+      "height_m": 5,
+      "rooms": [
+        {
+          "label": "F02-transport-terminal: Public front passenger gallery",
+          "box": [
+            0,
+            14,
+            80,
+            18
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02-transport-terminal: Public west concourse-edge route",
+            "F02-transport-terminal: Controlled east staff route",
+            "F02-transport-terminal: Public lift lobby link",
+            "F02-transport-terminal: Controlled lift A reservation",
+            "F02-transport-terminal: Controlled lift B reservation",
+            "F02-transport-terminal: Public passenger lounge",
+            "F02-transport-terminal: Public family waiting",
+            "F02-transport-terminal: Public quiet waiting",
+            "F02-transport-terminal: Public travel business room",
+            "F02-transport-terminal: Public accessible rest room",
+            "F02-transport-terminal: Public restaurant seating",
+            "F02-transport-terminal: Public cafe lounge",
+            "F02-transport-terminal: Public community exhibition",
+            "F02-transport-terminal: Public passenger workroom",
+            "F02-transport-terminal: Public travel meeting room",
+            "F02-transport-terminal: Public reading lounge",
+            "F02-transport-terminal: Controlled hospitality office"
+          ]
+        },
+        {
+          "label": "F02-transport-terminal: Public west concourse-edge route",
+          "box": [
+            12,
+            18,
+            16,
+            48
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02-transport-terminal: Public front passenger gallery",
+            "F02-transport-terminal: Service rear staff transfer route",
+            "F02-transport-terminal: Service west stair reservation",
+            "F02-transport-terminal: Public reading lounge",
+            "F02-transport-terminal: Public small group waiting",
+            "F02-transport-terminal: Public wellbeing room",
+            "F02-transport-terminal: Public travel consultation",
+            "F02-transport-terminal: Service passenger washrooms"
+          ]
+        },
+        {
+          "label": "F02-transport-terminal: Controlled east staff route",
+          "box": [
+            56,
+            18,
+            60,
+            48
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02-transport-terminal: Public front passenger gallery",
+            "F02-transport-terminal: Service rear staff transfer route",
+            "F02-transport-terminal: Service east stair reservation",
+            "F02-transport-terminal: Controlled hospitality office",
+            "F02-transport-terminal: Controlled catering planning",
+            "F02-transport-terminal: Controlled passenger services",
+            "F02-transport-terminal: Controlled event coordination",
+            "F02-transport-terminal: Service cleaning and consumables room"
+          ]
+        },
+        {
+          "label": "F02-transport-terminal: Service rear staff transfer route",
+          "box": [
+            12,
+            48,
+            60,
+            52
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02-transport-terminal: Public west concourse-edge route",
+            "F02-transport-terminal: Controlled east staff route",
+            "F02-transport-terminal: Controlled hospitality training",
+            "F02-transport-terminal: Controlled service meeting",
+            "F02-transport-terminal: Controlled cleaning supervisor",
+            "F02-transport-terminal: Controlled passenger support team",
+            "F02-transport-terminal: Controlled staff common room",
+            "F02-transport-terminal: Controlled staff quiet room",
+            "F02-transport-terminal: Controlled staff induction",
+            "F02-transport-terminal: Service passenger washrooms",
+            "F02-transport-terminal: Service cleaning and consumables room"
+          ]
+        },
+        {
+          "label": "F02-transport-terminal: Public shared lift lobby",
+          "box": [
+            34,
+            0,
+            46,
+            11
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02-transport-terminal: Public lift lobby link",
+            "F02-transport-terminal: Controlled lift A reservation",
+            "F02-transport-terminal: Controlled lift B reservation",
+            "F02-transport-terminal: Public accessible rest room",
+            "F02-transport-terminal: Public restaurant seating"
+          ]
+        },
+        {
+          "label": "F02-transport-terminal: Public lift lobby link",
+          "box": [
+            40,
+            11,
+            46,
+            14
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02-transport-terminal: Public front passenger gallery",
+            "F02-transport-terminal: Public shared lift lobby",
+            "F02-transport-terminal: Controlled lift B reservation",
+            "F02-transport-terminal: Public restaurant seating"
+          ]
+        },
+        {
+          "label": "F02-transport-terminal: Service west stair reservation",
+          "box": [
+            7,
+            42,
+            12,
+            48
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F02-transport-terminal: Public west concourse-edge route"
+          ]
+        },
+        {
+          "label": "F02-transport-terminal: Service east stair reservation",
+          "box": [
+            60,
+            42,
+            65,
+            48
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F02-transport-terminal: Controlled east staff route"
+          ]
+        },
+        {
+          "label": "F02-transport-terminal: Controlled lift A reservation",
+          "box": [
+            34,
+            11,
+            37,
+            14
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F02-transport-terminal: Public front passenger gallery",
+            "F02-transport-terminal: Public shared lift lobby"
+          ]
+        },
+        {
+          "label": "F02-transport-terminal: Controlled lift B reservation",
+          "box": [
+            37,
+            11,
+            40,
+            14
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F02-transport-terminal: Public front passenger gallery",
+            "F02-transport-terminal: Public shared lift lobby",
+            "F02-transport-terminal: Public lift lobby link"
+          ]
+        },
+        {
+          "label": "F02-transport-terminal: Public passenger lounge",
+          "box": [
+            0,
+            0,
+            5.564,
+            14
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-transport-terminal: Public front passenger gallery"
+          ]
+        },
+        {
+          "label": "F02-transport-terminal: Public family waiting",
+          "box": [
+            5.564,
+            0,
+            12.364,
+            14
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-transport-terminal: Public front passenger gallery"
+          ]
+        },
+        {
+          "label": "F02-transport-terminal: Public quiet waiting",
+          "box": [
+            12.364,
+            0,
+            20.4,
+            14
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-transport-terminal: Public front passenger gallery"
+          ]
+        },
+        {
+          "label": "F02-transport-terminal: Public travel business room",
+          "box": [
+            20.4,
+            0,
+            26.582,
+            14
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-transport-terminal: Public front passenger gallery"
+          ]
+        },
+        {
+          "label": "F02-transport-terminal: Public accessible rest room",
+          "box": [
+            26.582,
+            0,
+            34,
+            14
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-transport-terminal: Public front passenger gallery",
+            "F02-transport-terminal: Public shared lift lobby"
+          ]
+        },
+        {
+          "label": "F02-transport-terminal: Public restaurant seating",
+          "box": [
+            46,
+            0,
+            52.8,
+            14
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-transport-terminal: Public front passenger gallery",
+            "F02-transport-terminal: Public shared lift lobby",
+            "F02-transport-terminal: Public lift lobby link"
+          ]
+        },
+        {
+          "label": "F02-transport-terminal: Public cafe lounge",
+          "box": [
+            52.8,
+            0,
+            60.836,
+            14
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-transport-terminal: Public front passenger gallery"
+          ]
+        },
+        {
+          "label": "F02-transport-terminal: Public community exhibition",
+          "box": [
+            60.836,
+            0,
+            67.018,
+            14
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-transport-terminal: Public front passenger gallery"
+          ]
+        },
+        {
+          "label": "F02-transport-terminal: Public passenger workroom",
+          "box": [
+            67.018,
+            0,
+            74.436,
+            14
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-transport-terminal: Public front passenger gallery"
+          ]
+        },
+        {
+          "label": "F02-transport-terminal: Public travel meeting room",
+          "box": [
+            74.436,
+            0,
+            80,
+            14
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-transport-terminal: Public front passenger gallery"
+          ]
+        },
+        {
+          "label": "F02-transport-terminal: Public reading lounge",
+          "box": [
+            0,
+            18,
+            12,
+            23.023
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-transport-terminal: Public front passenger gallery",
+            "F02-transport-terminal: Public west concourse-edge route"
+          ]
+        },
+        {
+          "label": "F02-transport-terminal: Public small group waiting",
+          "box": [
+            0,
+            23.023,
+            12,
+            29.163
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-transport-terminal: Public west concourse-edge route"
+          ]
+        },
+        {
+          "label": "F02-transport-terminal: Public wellbeing room",
+          "box": [
+            0,
+            29.163,
+            12,
+            36.419
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-transport-terminal: Public west concourse-edge route"
+          ]
+        },
+        {
+          "label": "F02-transport-terminal: Public travel consultation",
+          "box": [
+            0,
+            36.419,
+            12,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-transport-terminal: Public west concourse-edge route"
+          ]
+        },
+        {
+          "label": "F02-transport-terminal: Controlled hospitality office",
+          "box": [
+            60,
+            18,
+            70,
+            25.091
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-transport-terminal: Public front passenger gallery",
+            "F02-transport-terminal: Controlled east staff route"
+          ]
+        },
+        {
+          "label": "F02-transport-terminal: Controlled catering planning",
+          "box": [
+            60,
+            25.091,
+            70,
+            30.545
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-transport-terminal: Controlled east staff route"
+          ]
+        },
+        {
+          "label": "F02-transport-terminal: Controlled passenger services",
+          "box": [
+            60,
+            30.545,
+            70,
+            37.091
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-transport-terminal: Controlled east staff route"
+          ]
+        },
+        {
+          "label": "F02-transport-terminal: Controlled event coordination",
+          "box": [
+            60,
+            37.091,
+            70,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-transport-terminal: Controlled east staff route"
+          ]
+        },
+        {
+          "label": "F02-transport-terminal: Controlled hospitality training",
+          "box": [
+            12,
+            52,
+            17.76,
+            62
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-transport-terminal: Service rear staff transfer route"
+          ]
+        },
+        {
+          "label": "F02-transport-terminal: Controlled service meeting",
+          "box": [
+            17.76,
+            52,
+            24.8,
+            62
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-transport-terminal: Service rear staff transfer route"
+          ]
+        },
+        {
+          "label": "F02-transport-terminal: Controlled cleaning supervisor",
+          "box": [
+            24.8,
+            52,
+            33.12,
+            62
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-transport-terminal: Service rear staff transfer route"
+          ]
+        },
+        {
+          "label": "F02-transport-terminal: Controlled passenger support team",
+          "box": [
+            33.12,
+            52,
+            39.52,
+            62
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-transport-terminal: Service rear staff transfer route"
+          ]
+        },
+        {
+          "label": "F02-transport-terminal: Controlled staff common room",
+          "box": [
+            39.52,
+            52,
+            47.2,
+            62
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-transport-terminal: Service rear staff transfer route"
+          ]
+        },
+        {
+          "label": "F02-transport-terminal: Controlled staff quiet room",
+          "box": [
+            47.2,
+            52,
+            52.96,
+            62
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-transport-terminal: Service rear staff transfer route"
+          ]
+        },
+        {
+          "label": "F02-transport-terminal: Controlled staff induction",
+          "box": [
+            52.96,
+            52,
+            60,
+            62
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-transport-terminal: Service rear staff transfer route"
+          ]
+        },
+        {
+          "label": "F02-transport-terminal: Service passenger washrooms",
+          "box": [
+            16,
+            42,
+            28,
+            48
+          ],
+          "kind": "service",
+          "access_to": [
+            "F02-transport-terminal: Public west concourse-edge route",
+            "F02-transport-terminal: Service rear staff transfer route"
+          ]
+        },
+        {
+          "label": "F02-transport-terminal: Service cleaning and consumables room",
+          "box": [
+            44,
+            42,
+            56,
+            48
+          ],
+          "kind": "service",
+          "access_to": [
+            "F02-transport-terminal: Controlled east staff route",
+            "F02-transport-terminal: Service rear staff transfer route"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Terminal operations and staff wings",
+      "height_m": 5,
+      "rooms": [
+        {
+          "label": "F03-transport-terminal: Controlled front operations gallery",
+          "box": [
+            0,
+            14,
+            80,
+            18
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03-transport-terminal: Controlled west operations route",
+            "F03-transport-terminal: Controlled east staff route",
+            "F03-transport-terminal: Controlled lift lobby link",
+            "F03-transport-terminal: Controlled lift A reservation",
+            "F03-transport-terminal: Controlled lift B reservation",
+            "F03-transport-terminal: Controlled station management",
+            "F03-transport-terminal: Controlled operations planning",
+            "F03-transport-terminal: Controlled service scheduling",
+            "F03-transport-terminal: Controlled incident briefing",
+            "F03-transport-terminal: Controlled transport liaison",
+            "F03-transport-terminal: Controlled operator administration",
+            "F03-transport-terminal: Controlled staff training",
+            "F03-transport-terminal: Controlled roster office",
+            "F03-transport-terminal: Controlled staff meeting",
+            "F03-transport-terminal: Controlled staff welfare",
+            "F03-transport-terminal: Controlled network liaison",
+            "F03-transport-terminal: Controlled operations control room"
+          ]
+        },
+        {
+          "label": "F03-transport-terminal: Controlled west operations route",
+          "box": [
+            12,
+            18,
+            16,
+            48
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03-transport-terminal: Controlled front operations gallery",
+            "F03-transport-terminal: Service rear staff transfer route",
+            "F03-transport-terminal: Service west stair reservation",
+            "F03-transport-terminal: Controlled network liaison",
+            "F03-transport-terminal: Controlled customer service office",
+            "F03-transport-terminal: Controlled passenger experience",
+            "F03-transport-terminal: Controlled station security office",
+            "F03-transport-terminal: Service passenger washrooms"
+          ]
+        },
+        {
+          "label": "F03-transport-terminal: Controlled east staff route",
+          "box": [
+            56,
+            18,
+            60,
+            48
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03-transport-terminal: Controlled front operations gallery",
+            "F03-transport-terminal: Service rear staff transfer route",
+            "F03-transport-terminal: Service east stair reservation",
+            "F03-transport-terminal: Controlled operations control room",
+            "F03-transport-terminal: Controlled service communications",
+            "F03-transport-terminal: Controlled dispatch coordination",
+            "F03-transport-terminal: Controlled equipment monitoring",
+            "F03-transport-terminal: Service cleaning and consumables room"
+          ]
+        },
+        {
+          "label": "F03-transport-terminal: Service rear staff transfer route",
+          "box": [
+            12,
+            48,
+            60,
+            52
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03-transport-terminal: Controlled west operations route",
+            "F03-transport-terminal: Controlled east staff route",
+            "F03-transport-terminal: Controlled timetable analysis",
+            "F03-transport-terminal: Controlled network planning",
+            "F03-transport-terminal: Controlled maintenance planning",
+            "F03-transport-terminal: Controlled asset management",
+            "F03-transport-terminal: Controlled safety review",
+            "F03-transport-terminal: Controlled emergency planning",
+            "F03-transport-terminal: Controlled operations meeting",
+            "F03-transport-terminal: Service passenger washrooms",
+            "F03-transport-terminal: Service cleaning and consumables room"
+          ]
+        },
+        {
+          "label": "F03-transport-terminal: Controlled shared lift lobby",
+          "box": [
+            34,
+            0,
+            46,
+            11
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03-transport-terminal: Controlled lift lobby link",
+            "F03-transport-terminal: Controlled lift A reservation",
+            "F03-transport-terminal: Controlled lift B reservation",
+            "F03-transport-terminal: Controlled transport liaison",
+            "F03-transport-terminal: Controlled operator administration"
+          ]
+        },
+        {
+          "label": "F03-transport-terminal: Controlled lift lobby link",
+          "box": [
+            40,
+            11,
+            46,
+            14
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03-transport-terminal: Controlled front operations gallery",
+            "F03-transport-terminal: Controlled shared lift lobby",
+            "F03-transport-terminal: Controlled lift B reservation",
+            "F03-transport-terminal: Controlled operator administration"
+          ]
+        },
+        {
+          "label": "F03-transport-terminal: Service west stair reservation",
+          "box": [
+            7,
+            42,
+            12,
+            48
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F03-transport-terminal: Controlled west operations route"
+          ]
+        },
+        {
+          "label": "F03-transport-terminal: Service east stair reservation",
+          "box": [
+            60,
+            42,
+            65,
+            48
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F03-transport-terminal: Controlled east staff route"
+          ]
+        },
+        {
+          "label": "F03-transport-terminal: Controlled lift A reservation",
+          "box": [
+            34,
+            11,
+            37,
+            14
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F03-transport-terminal: Controlled front operations gallery",
+            "F03-transport-terminal: Controlled shared lift lobby"
+          ]
+        },
+        {
+          "label": "F03-transport-terminal: Controlled lift B reservation",
+          "box": [
+            37,
+            11,
+            40,
+            14
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F03-transport-terminal: Controlled front operations gallery",
+            "F03-transport-terminal: Controlled shared lift lobby",
+            "F03-transport-terminal: Controlled lift lobby link"
+          ]
+        },
+        {
+          "label": "F03-transport-terminal: Controlled station management",
+          "box": [
+            0,
+            0,
+            6.8,
+            14
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-transport-terminal: Controlled front operations gallery"
+          ]
+        },
+        {
+          "label": "F03-transport-terminal: Controlled operations planning",
+          "box": [
+            6.8,
+            0,
+            14.836,
+            14
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-transport-terminal: Controlled front operations gallery"
+          ]
+        },
+        {
+          "label": "F03-transport-terminal: Controlled service scheduling",
+          "box": [
+            14.836,
+            0,
+            21.018,
+            14
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-transport-terminal: Controlled front operations gallery"
+          ]
+        },
+        {
+          "label": "F03-transport-terminal: Controlled incident briefing",
+          "box": [
+            21.018,
+            0,
+            28.436,
+            14
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-transport-terminal: Controlled front operations gallery"
+          ]
+        },
+        {
+          "label": "F03-transport-terminal: Controlled transport liaison",
+          "box": [
+            28.436,
+            0,
+            34,
+            14
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-transport-terminal: Controlled front operations gallery",
+            "F03-transport-terminal: Controlled shared lift lobby"
+          ]
+        },
+        {
+          "label": "F03-transport-terminal: Controlled operator administration",
+          "box": [
+            46,
+            0,
+            54.036,
+            14
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-transport-terminal: Controlled front operations gallery",
+            "F03-transport-terminal: Controlled shared lift lobby",
+            "F03-transport-terminal: Controlled lift lobby link"
+          ]
+        },
+        {
+          "label": "F03-transport-terminal: Controlled staff training",
+          "box": [
+            54.036,
+            0,
+            60.218,
+            14
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-transport-terminal: Controlled front operations gallery"
+          ]
+        },
+        {
+          "label": "F03-transport-terminal: Controlled roster office",
+          "box": [
+            60.218,
+            0,
+            67.636,
+            14
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-transport-terminal: Controlled front operations gallery"
+          ]
+        },
+        {
+          "label": "F03-transport-terminal: Controlled staff meeting",
+          "box": [
+            67.636,
+            0,
+            73.2,
+            14
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-transport-terminal: Controlled front operations gallery"
+          ]
+        },
+        {
+          "label": "F03-transport-terminal: Controlled staff welfare",
+          "box": [
+            73.2,
+            0,
+            80,
+            14
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-transport-terminal: Controlled front operations gallery"
+          ]
+        },
+        {
+          "label": "F03-transport-terminal: Controlled network liaison",
+          "box": [
+            0,
+            18,
+            12,
+            23.739
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-transport-terminal: Controlled front operations gallery",
+            "F03-transport-terminal: Controlled west operations route"
+          ]
+        },
+        {
+          "label": "F03-transport-terminal: Controlled customer service office",
+          "box": [
+            0,
+            23.739,
+            12,
+            30.522
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-transport-terminal: Controlled west operations route"
+          ]
+        },
+        {
+          "label": "F03-transport-terminal: Controlled passenger experience",
+          "box": [
+            0,
+            30.522,
+            12,
+            35.739
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-transport-terminal: Controlled west operations route"
+          ]
+        },
+        {
+          "label": "F03-transport-terminal: Controlled station security office",
+          "box": [
+            0,
+            35.739,
+            12,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-transport-terminal: Controlled west operations route"
+          ]
+        },
+        {
+          "label": "F03-transport-terminal: Controlled operations control room",
+          "box": [
+            60,
+            18,
+            70,
+            23.714
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-transport-terminal: Controlled front operations gallery",
+            "F03-transport-terminal: Controlled east staff route"
+          ]
+        },
+        {
+          "label": "F03-transport-terminal: Controlled service communications",
+          "box": [
+            60,
+            23.714,
+            70,
+            30.571
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-transport-terminal: Controlled east staff route"
+          ]
+        },
+        {
+          "label": "F03-transport-terminal: Controlled dispatch coordination",
+          "box": [
+            60,
+            30.571,
+            70,
+            35.714
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-transport-terminal: Controlled east staff route"
+          ]
+        },
+        {
+          "label": "F03-transport-terminal: Controlled equipment monitoring",
+          "box": [
+            60,
+            35.714,
+            70,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-transport-terminal: Controlled east staff route"
+          ]
+        },
+        {
+          "label": "F03-transport-terminal: Controlled timetable analysis",
+          "box": [
+            12,
+            52,
+            18.684,
+            62
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-transport-terminal: Service rear staff transfer route"
+          ]
+        },
+        {
+          "label": "F03-transport-terminal: Controlled network planning",
+          "box": [
+            18.684,
+            52,
+            26.582,
+            62
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-transport-terminal: Service rear staff transfer route"
+          ]
+        },
+        {
+          "label": "F03-transport-terminal: Controlled maintenance planning",
+          "box": [
+            26.582,
+            52,
+            32.658,
+            62
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-transport-terminal: Service rear staff transfer route"
+          ]
+        },
+        {
+          "label": "F03-transport-terminal: Controlled asset management",
+          "box": [
+            32.658,
+            52,
+            39.949,
+            62
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-transport-terminal: Service rear staff transfer route"
+          ]
+        },
+        {
+          "label": "F03-transport-terminal: Controlled safety review",
+          "box": [
+            39.949,
+            52,
+            45.418,
+            62
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-transport-terminal: Service rear staff transfer route"
+          ]
+        },
+        {
+          "label": "F03-transport-terminal: Controlled emergency planning",
+          "box": [
+            45.418,
+            52,
+            52.101,
+            62
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-transport-terminal: Service rear staff transfer route"
+          ]
+        },
+        {
+          "label": "F03-transport-terminal: Controlled operations meeting",
+          "box": [
+            52.101,
+            52,
+            60,
+            62
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-transport-terminal: Service rear staff transfer route"
+          ]
+        },
+        {
+          "label": "F03-transport-terminal: Service passenger washrooms",
+          "box": [
+            16,
+            42,
+            28,
+            48
+          ],
+          "kind": "service",
+          "access_to": [
+            "F03-transport-terminal: Controlled west operations route",
+            "F03-transport-terminal: Service rear staff transfer route"
+          ]
+        },
+        {
+          "label": "F03-transport-terminal: Service cleaning and consumables room",
+          "box": [
+            44,
+            42,
+            56,
+            48
+          ],
+          "kind": "service",
+          "access_to": [
+            "F03-transport-terminal: Controlled east staff route",
+            "F03-transport-terminal: Service rear staff transfer route"
+          ]
+        }
+      ]
+    }
+  ]
+}

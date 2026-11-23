@@ -1,0 +1,24 @@
+{
+  "id": "serviced-apartments",
+  "name": "Serviced apartments",
+  "typology": "serviced-apartments",
+  "provenance": "AI-authored synthetic recorded starting layout for a doors/windows benchmark; not a customer design or a certified design.",
+  "start_state": "Whole-building recorded BIM layout; zero starting openings; reserved vertical cores",
+  "storeys": 5,
+  "program_rooms": 85,
+  "labelled_zones": 136,
+  "required_standards": [
+    "doors and windows (review/standard.md)"
+  ],
+  "grading": "Scored by the reviewer. There is no exact answer key.",
+  "limitations": [
+    "AI-authored synthetic recorded benchmark input only. Not a customer layout, certified design, construction document, or code-compliance claim.",
+    "Coordinates are metres in a local x/z plan. The rectangular footprint is 73 m by 16.8 m: 7.5 m deep room banks either side of a 1.8 m corridor. All geometry is axis-aligned space envelopes; walls and wall thickness are not modelled.",
+    "Two widely separated stair footprints and two lift footprints are explicitly RESERVED on every floor, with identical stacked coordinates. They are not physical stairs, lift cars, shafts, equipment, or verified vertical routes.",
+    "A continuous 1.8 m main corridor connects a central lift core (two 2.5 m lifts facing each other across the corridor, each opening into an open lobby with a floor store behind) and two 3 m by 7.5 m stair reservations 5 m in from the gables, so no corridor door is more than 30 m from a stair. Access edges are bidirectional same-floor intended adjacencies only, not installed or seeded doors, windows, or openings.",
+    "Every apartment, studio, guest room, lodge room, and residential suite marked envelope includes its internal living, sleeping, kitchenette where appropriate, and sanitary functions. Internal bathrooms and partitions are deliberately unresolved; no overlapping nested bathroom rectangles are used.",
+    "Public WC envelopes, where present, are disjoint rooms. No other sanitary fixtures, furniture, structure, facade openings, external paths, or site access geometry is supplied.",
+    "Floor 1 arrival and reception rooms connect to internal circulation; their outside entrance openings are intentionally unseeded. Ground-floor uses and upper residential, amenity, and service uses differ by floor.",
+    "Dimensions and programs are plausible benchmark assumptions, not checks of fire escape, accessibility, occupancy, daylight, ventilation, plumbing, acoustics, or statutory requirements. Same-floor access does not certify egress."
+  ]
+}

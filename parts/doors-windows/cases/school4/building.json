@@ -1,0 +1,1695 @@
+{
+  "slug": "school4",
+  "typology": "Four-storey community school",
+  "provenance": "Deterministic AI-authored synthetic architectural program and coordinates; not a source-model replay, surveyed building, live-audited fixture or compliance design.",
+  "notes": [
+    "Metres; +X east, +Z north, Y vertical. Shared partition centre-line extents; footprint 72 by 23 m, 10 m room bands and a 3 m corridor. Floors start at cumulative height_m from zero.",
+    "S1 Multipurpose activity hall is a modest activity gym, not a full competition sports hall. Its box [24,13,48,23] is 8.4 m tall, the sum of floor 1 and floor 2 heights. That exact footprint is omitted from floor 2. The consumer MUST omit the floor-2 slab across this void; never generate a solid envelope slab. Floor 3 may resume over the hall roof at elevation 8.4 m.",
+    "Stair and lift reservations stack exactly but contain no physical stairs, landings, shafts or cars. Each 6 m end strip has explicit 2 m wide circulation lobbies beside 4 by 5 m reservations and 4 by 5 m service rooms. Toilets and stores reach the main corridor without crossing any reservation. Core fit and clear widths remain unverified; neither reservations nor lobbies count as program rooms.",
+    "access_to lists intended passages across actual shared edges, not doors or hidden opening targets. Every program room reaches the main corridor. Kitchen, laboratory preparation, counselling and staff rooms have controlled-access context. Arrival supervision and pupil/staff privacy remain review questions.",
+    "Classrooms are 6 by 10 m schematic envelopes. Music spaces are group teaching/rehearsal rooms rather than tiny individual practice booths. Ground catering is modest; dining capacity and equipment layouts are unspecified. Core toilets and large toilet program rooms are unpartitioned facilities, not individual cubicles.",
+    "Review classroom daylight, acoustic separation, kitchen service routes, laboratory/preparation connections, upper-hall edge protection and absence of doors into the void. No doors, windows or opening families are supplied. No code, capacity, structural or acoustic performance claim; not live-audited."
+  ],
+  "floors": [
+    {
+      "number": 1,
+      "name": "Ground",
+      "height_m": 4.2,
+      "rooms": [
+        {
+          "label": "S1 Main corridor",
+          "box": [
+            0,
+            10,
+            72,
+            13
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "S1 Southwest core lobby",
+            "S1 Southeast core lobby",
+            "S1 Northwest core lobby",
+            "S1 Northeast core lobby"
+          ]
+        },
+        {
+          "label": "S1 Southwest core lobby",
+          "box": [
+            4,
+            0,
+            6,
+            10
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "S1 Main corridor"
+          ]
+        },
+        {
+          "label": "S1 Southeast core lobby",
+          "box": [
+            66,
+            0,
+            68,
+            10
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "S1 Main corridor"
+          ]
+        },
+        {
+          "label": "S1 Northwest core lobby",
+          "box": [
+            4,
+            13,
+            6,
+            23
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "S1 Main corridor"
+          ]
+        },
+        {
+          "label": "S1 Northeast core lobby",
+          "box": [
+            66,
+            13,
+            68,
+            23
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "S1 Main corridor"
+          ]
+        },
+        {
+          "label": "S1 West stair reservation",
+          "box": [
+            0,
+            5,
+            4,
+            10
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "S1 Southwest core lobby"
+          ]
+        },
+        {
+          "label": "S1 East stair reservation",
+          "box": [
+            68,
+            5,
+            72,
+            10
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "S1 Southeast core lobby"
+          ]
+        },
+        {
+          "label": "S1 Passenger lift reservation",
+          "box": [
+            0,
+            13,
+            4,
+            18
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "S1 Northwest core lobby"
+          ]
+        },
+        {
+          "label": "S1 Service lift reservation",
+          "box": [
+            68,
+            13,
+            72,
+            18
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "S1 Northeast core lobby"
+          ]
+        },
+        {
+          "label": "S1 West core toilets",
+          "box": [
+            0,
+            0,
+            4,
+            5
+          ],
+          "kind": "service",
+          "access_to": [
+            "S1 Southwest core lobby"
+          ]
+        },
+        {
+          "label": "S1 East core toilets",
+          "box": [
+            68,
+            0,
+            72,
+            5
+          ],
+          "kind": "service",
+          "access_to": [
+            "S1 Southeast core lobby"
+          ]
+        },
+        {
+          "label": "S1 West services store",
+          "box": [
+            0,
+            18,
+            4,
+            23
+          ],
+          "kind": "service",
+          "access_to": [
+            "S1 Northwest core lobby"
+          ]
+        },
+        {
+          "label": "S1 East services store",
+          "box": [
+            68,
+            18,
+            72,
+            23
+          ],
+          "kind": "service",
+          "access_to": [
+            "S1 Northeast core lobby"
+          ]
+        },
+        {
+          "label": "S1 School reception",
+          "box": [
+            6,
+            0,
+            12,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "S1 Main corridor"
+          ]
+        },
+        {
+          "label": "S1 General office",
+          "box": [
+            12,
+            0,
+            18,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "S1 Main corridor"
+          ]
+        },
+        {
+          "label": "S1 Head teacher office",
+          "box": [
+            18,
+            0,
+            24,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "S1 Main corridor"
+          ]
+        },
+        {
+          "label": "S1 Parent meeting",
+          "box": [
+            24,
+            0,
+            30,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "S1 Main corridor"
+          ]
+        },
+        {
+          "label": "S1 Medical room",
+          "box": [
+            30,
+            0,
+            36,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "S1 Main corridor"
+          ]
+        },
+        {
+          "label": "S1 Counselling room",
+          "box": [
+            36,
+            0,
+            42,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "S1 Main corridor"
+          ]
+        },
+        {
+          "label": "S1 Learning support",
+          "box": [
+            42,
+            0,
+            48,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "S1 Main corridor"
+          ]
+        },
+        {
+          "label": "S1 School library",
+          "box": [
+            48,
+            0,
+            54,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "S1 Main corridor"
+          ]
+        },
+        {
+          "label": "S1 Early years classroom",
+          "box": [
+            54,
+            0,
+            60,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "S1 Main corridor"
+          ]
+        },
+        {
+          "label": "S1 Staff common room",
+          "box": [
+            60,
+            0,
+            66,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "S1 Main corridor"
+          ]
+        },
+        {
+          "label": "S1 Dining room",
+          "box": [
+            6,
+            13,
+            12,
+            23
+          ],
+          "kind": "program",
+          "access_to": [
+            "S1 Main corridor",
+            "S1 Servery"
+          ]
+        },
+        {
+          "label": "S1 Servery",
+          "box": [
+            12,
+            13,
+            18,
+            23
+          ],
+          "kind": "program",
+          "access_to": [
+            "S1 Main corridor",
+            "S1 Dining room",
+            "S1 Production kitchen"
+          ]
+        },
+        {
+          "label": "S1 Production kitchen",
+          "box": [
+            18,
+            13,
+            24,
+            23
+          ],
+          "kind": "program",
+          "access_to": [
+            "S1 Main corridor",
+            "S1 Servery"
+          ]
+        },
+        {
+          "label": "S1 Multipurpose activity hall",
+          "box": [
+            24,
+            13,
+            48,
+            23
+          ],
+          "kind": "program",
+          "access_to": [
+            "S1 Main corridor"
+          ],
+          "height_m": 8.4
+        },
+        {
+          "label": "S1 Activity equipment store",
+          "box": [
+            48,
+            13,
+            54,
+            23
+          ],
+          "kind": "program",
+          "access_to": [
+            "S1 Main corridor",
+            "S1 Multipurpose activity hall"
+          ]
+        },
+        {
+          "label": "S1 Accessible changing room",
+          "box": [
+            54,
+            13,
+            60,
+            23
+          ],
+          "kind": "program",
+          "access_to": [
+            "S1 Main corridor"
+          ]
+        },
+        {
+          "label": "S1 Family toilet room",
+          "box": [
+            60,
+            13,
+            66,
+            23
+          ],
+          "kind": "program",
+          "access_to": [
+            "S1 Main corridor"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Primary learning",
+      "height_m": 4.2,
+      "rooms": [
+        {
+          "label": "S2 Main corridor",
+          "box": [
+            0,
+            10,
+            72,
+            13
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "S2 Southwest core lobby",
+            "S2 Southeast core lobby",
+            "S2 Northwest core lobby",
+            "S2 Northeast core lobby"
+          ]
+        },
+        {
+          "label": "S2 Southwest core lobby",
+          "box": [
+            4,
+            0,
+            6,
+            10
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "S2 Main corridor"
+          ]
+        },
+        {
+          "label": "S2 Southeast core lobby",
+          "box": [
+            66,
+            0,
+            68,
+            10
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "S2 Main corridor"
+          ]
+        },
+        {
+          "label": "S2 Northwest core lobby",
+          "box": [
+            4,
+            13,
+            6,
+            23
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "S2 Main corridor"
+          ]
+        },
+        {
+          "label": "S2 Northeast core lobby",
+          "box": [
+            66,
+            13,
+            68,
+            23
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "S2 Main corridor"
+          ]
+        },
+        {
+          "label": "S2 West stair reservation",
+          "box": [
+            0,
+            5,
+            4,
+            10
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "S2 Southwest core lobby"
+          ]
+        },
+        {
+          "label": "S2 East stair reservation",
+          "box": [
+            68,
+            5,
+            72,
+            10
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "S2 Southeast core lobby"
+          ]
+        },
+        {
+          "label": "S2 Passenger lift reservation",
+          "box": [
+            0,
+            13,
+            4,
+            18
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "S2 Northwest core lobby"
+          ]
+        },
+        {
+          "label": "S2 Service lift reservation",
+          "box": [
+            68,
+            13,
+            72,
+            18
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "S2 Northeast core lobby"
+          ]
+        },
+        {
+          "label": "S2 West core toilets",
+          "box": [
+            0,
+            0,
+            4,
+            5
+          ],
+          "kind": "service",
+          "access_to": [
+            "S2 Southwest core lobby"
+          ]
+        },
+        {
+          "label": "S2 East core toilets",
+          "box": [
+            68,
+            0,
+            72,
+            5
+          ],
+          "kind": "service",
+          "access_to": [
+            "S2 Southeast core lobby"
+          ]
+        },
+        {
+          "label": "S2 West services store",
+          "box": [
+            0,
+            18,
+            4,
+            23
+          ],
+          "kind": "service",
+          "access_to": [
+            "S2 Northwest core lobby"
+          ]
+        },
+        {
+          "label": "S2 East services store",
+          "box": [
+            68,
+            18,
+            72,
+            23
+          ],
+          "kind": "service",
+          "access_to": [
+            "S2 Northeast core lobby"
+          ]
+        },
+        {
+          "label": "S2 Year one classroom A",
+          "box": [
+            6,
+            0,
+            12,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "S2 Main corridor"
+          ]
+        },
+        {
+          "label": "S2 Year one classroom B",
+          "box": [
+            12,
+            0,
+            18,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "S2 Main corridor"
+          ]
+        },
+        {
+          "label": "S2 Year two classroom A",
+          "box": [
+            18,
+            0,
+            24,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "S2 Main corridor"
+          ]
+        },
+        {
+          "label": "S2 Year two classroom B",
+          "box": [
+            24,
+            0,
+            30,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "S2 Main corridor"
+          ]
+        },
+        {
+          "label": "S2 Year three classroom A",
+          "box": [
+            30,
+            0,
+            36,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "S2 Main corridor"
+          ]
+        },
+        {
+          "label": "S2 Year three classroom B",
+          "box": [
+            36,
+            0,
+            42,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "S2 Main corridor"
+          ]
+        },
+        {
+          "label": "S2 Primary project studio",
+          "box": [
+            42,
+            0,
+            48,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "S2 Main corridor"
+          ]
+        },
+        {
+          "label": "S2 Primary reading room",
+          "box": [
+            48,
+            0,
+            54,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "S2 Main corridor"
+          ]
+        },
+        {
+          "label": "S2 Language support",
+          "box": [
+            54,
+            0,
+            60,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "S2 Main corridor"
+          ]
+        },
+        {
+          "label": "S2 Primary teacher workroom",
+          "box": [
+            60,
+            0,
+            66,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "S2 Main corridor"
+          ]
+        },
+        {
+          "label": "S2 Small group learning west",
+          "box": [
+            6,
+            13,
+            12,
+            23
+          ],
+          "kind": "program",
+          "access_to": [
+            "S2 Main corridor"
+          ]
+        },
+        {
+          "label": "S2 Quiet sensory room",
+          "box": [
+            12,
+            13,
+            18,
+            23
+          ],
+          "kind": "program",
+          "access_to": [
+            "S2 Main corridor"
+          ]
+        },
+        {
+          "label": "S2 Primary resource store",
+          "box": [
+            18,
+            13,
+            24,
+            23
+          ],
+          "kind": "program",
+          "access_to": [
+            "S2 Main corridor"
+          ]
+        },
+        {
+          "label": "S2 Small group learning east",
+          "box": [
+            48,
+            13,
+            54,
+            23
+          ],
+          "kind": "program",
+          "access_to": [
+            "S2 Main corridor"
+          ]
+        },
+        {
+          "label": "S2 Learning intervention room",
+          "box": [
+            54,
+            13,
+            60,
+            23
+          ],
+          "kind": "program",
+          "access_to": [
+            "S2 Main corridor"
+          ]
+        },
+        {
+          "label": "S2 Primary pupil toilet room",
+          "box": [
+            60,
+            13,
+            66,
+            23
+          ],
+          "kind": "program",
+          "access_to": [
+            "S2 Main corridor"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Science and technology",
+      "height_m": 4,
+      "rooms": [
+        {
+          "label": "S3 Main corridor",
+          "box": [
+            0,
+            10,
+            72,
+            13
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "S3 Southwest core lobby",
+            "S3 Southeast core lobby",
+            "S3 Northwest core lobby",
+            "S3 Northeast core lobby"
+          ]
+        },
+        {
+          "label": "S3 Southwest core lobby",
+          "box": [
+            4,
+            0,
+            6,
+            10
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "S3 Main corridor"
+          ]
+        },
+        {
+          "label": "S3 Southeast core lobby",
+          "box": [
+            66,
+            0,
+            68,
+            10
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "S3 Main corridor"
+          ]
+        },
+        {
+          "label": "S3 Northwest core lobby",
+          "box": [
+            4,
+            13,
+            6,
+            23
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "S3 Main corridor"
+          ]
+        },
+        {
+          "label": "S3 Northeast core lobby",
+          "box": [
+            66,
+            13,
+            68,
+            23
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "S3 Main corridor"
+          ]
+        },
+        {
+          "label": "S3 West stair reservation",
+          "box": [
+            0,
+            5,
+            4,
+            10
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "S3 Southwest core lobby"
+          ]
+        },
+        {
+          "label": "S3 East stair reservation",
+          "box": [
+            68,
+            5,
+            72,
+            10
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "S3 Southeast core lobby"
+          ]
+        },
+        {
+          "label": "S3 Passenger lift reservation",
+          "box": [
+            0,
+            13,
+            4,
+            18
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "S3 Northwest core lobby"
+          ]
+        },
+        {
+          "label": "S3 Service lift reservation",
+          "box": [
+            68,
+            13,
+            72,
+            18
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "S3 Northeast core lobby"
+          ]
+        },
+        {
+          "label": "S3 West core toilets",
+          "box": [
+            0,
+            0,
+            4,
+            5
+          ],
+          "kind": "service",
+          "access_to": [
+            "S3 Southwest core lobby"
+          ]
+        },
+        {
+          "label": "S3 East core toilets",
+          "box": [
+            68,
+            0,
+            72,
+            5
+          ],
+          "kind": "service",
+          "access_to": [
+            "S3 Southeast core lobby"
+          ]
+        },
+        {
+          "label": "S3 West services store",
+          "box": [
+            0,
+            18,
+            4,
+            23
+          ],
+          "kind": "service",
+          "access_to": [
+            "S3 Northwest core lobby"
+          ]
+        },
+        {
+          "label": "S3 East services store",
+          "box": [
+            68,
+            18,
+            72,
+            23
+          ],
+          "kind": "service",
+          "access_to": [
+            "S3 Northeast core lobby"
+          ]
+        },
+        {
+          "label": "S3 Mathematics classroom A",
+          "box": [
+            6,
+            0,
+            12,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "S3 Main corridor"
+          ]
+        },
+        {
+          "label": "S3 Mathematics classroom B",
+          "box": [
+            12,
+            0,
+            18,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "S3 Main corridor"
+          ]
+        },
+        {
+          "label": "S3 Geography classroom",
+          "box": [
+            18,
+            0,
+            24,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "S3 Main corridor"
+          ]
+        },
+        {
+          "label": "S3 History classroom",
+          "box": [
+            24,
+            0,
+            30,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "S3 Main corridor"
+          ]
+        },
+        {
+          "label": "S3 Computing laboratory",
+          "box": [
+            30,
+            0,
+            36,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "S3 Main corridor"
+          ]
+        },
+        {
+          "label": "S3 Robotics workshop",
+          "box": [
+            36,
+            0,
+            42,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "S3 Main corridor"
+          ]
+        },
+        {
+          "label": "S3 Maker studio",
+          "box": [
+            42,
+            0,
+            48,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "S3 Main corridor"
+          ]
+        },
+        {
+          "label": "S3 Digital fabrication room",
+          "box": [
+            48,
+            0,
+            54,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "S3 Main corridor"
+          ]
+        },
+        {
+          "label": "S3 Project presentation room",
+          "box": [
+            54,
+            0,
+            60,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "S3 Main corridor"
+          ]
+        },
+        {
+          "label": "S3 Technology teacher workroom",
+          "box": [
+            60,
+            0,
+            66,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "S3 Main corridor"
+          ]
+        },
+        {
+          "label": "S3 Biology laboratory",
+          "box": [
+            6,
+            13,
+            12,
+            23
+          ],
+          "kind": "program",
+          "access_to": [
+            "S3 Main corridor",
+            "S3 Biology preparation"
+          ]
+        },
+        {
+          "label": "S3 Biology preparation",
+          "box": [
+            12,
+            13,
+            18,
+            23
+          ],
+          "kind": "program",
+          "access_to": [
+            "S3 Main corridor",
+            "S3 Biology laboratory"
+          ]
+        },
+        {
+          "label": "S3 Chemistry laboratory",
+          "box": [
+            18,
+            13,
+            24,
+            23
+          ],
+          "kind": "program",
+          "access_to": [
+            "S3 Main corridor",
+            "S3 Chemistry preparation"
+          ]
+        },
+        {
+          "label": "S3 Chemistry preparation",
+          "box": [
+            24,
+            13,
+            30,
+            23
+          ],
+          "kind": "program",
+          "access_to": [
+            "S3 Main corridor",
+            "S3 Chemistry laboratory"
+          ]
+        },
+        {
+          "label": "S3 Physics laboratory",
+          "box": [
+            30,
+            13,
+            36,
+            23
+          ],
+          "kind": "program",
+          "access_to": [
+            "S3 Main corridor",
+            "S3 Physics preparation"
+          ]
+        },
+        {
+          "label": "S3 Physics preparation",
+          "box": [
+            36,
+            13,
+            42,
+            23
+          ],
+          "kind": "program",
+          "access_to": [
+            "S3 Main corridor",
+            "S3 Physics laboratory"
+          ]
+        },
+        {
+          "label": "S3 Science resource room",
+          "box": [
+            42,
+            13,
+            48,
+            23
+          ],
+          "kind": "program",
+          "access_to": [
+            "S3 Main corridor"
+          ]
+        },
+        {
+          "label": "S3 Technical equipment store",
+          "box": [
+            48,
+            13,
+            54,
+            23
+          ],
+          "kind": "program",
+          "access_to": [
+            "S3 Main corridor"
+          ]
+        },
+        {
+          "label": "S3 Learning consultation room",
+          "box": [
+            54,
+            13,
+            60,
+            23
+          ],
+          "kind": "program",
+          "access_to": [
+            "S3 Main corridor"
+          ]
+        },
+        {
+          "label": "S3 Science pupil toilet room",
+          "box": [
+            60,
+            13,
+            66,
+            23
+          ],
+          "kind": "program",
+          "access_to": [
+            "S3 Main corridor"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "name": "Arts and senior learning",
+      "height_m": 4,
+      "rooms": [
+        {
+          "label": "S4 Main corridor",
+          "box": [
+            0,
+            10,
+            72,
+            13
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "S4 Southwest core lobby",
+            "S4 Southeast core lobby",
+            "S4 Northwest core lobby",
+            "S4 Northeast core lobby"
+          ]
+        },
+        {
+          "label": "S4 Southwest core lobby",
+          "box": [
+            4,
+            0,
+            6,
+            10
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "S4 Main corridor"
+          ]
+        },
+        {
+          "label": "S4 Southeast core lobby",
+          "box": [
+            66,
+            0,
+            68,
+            10
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "S4 Main corridor"
+          ]
+        },
+        {
+          "label": "S4 Northwest core lobby",
+          "box": [
+            4,
+            13,
+            6,
+            23
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "S4 Main corridor"
+          ]
+        },
+        {
+          "label": "S4 Northeast core lobby",
+          "box": [
+            66,
+            13,
+            68,
+            23
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "S4 Main corridor"
+          ]
+        },
+        {
+          "label": "S4 West stair reservation",
+          "box": [
+            0,
+            5,
+            4,
+            10
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "S4 Southwest core lobby"
+          ]
+        },
+        {
+          "label": "S4 East stair reservation",
+          "box": [
+            68,
+            5,
+            72,
+            10
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "S4 Southeast core lobby"
+          ]
+        },
+        {
+          "label": "S4 Passenger lift reservation",
+          "box": [
+            0,
+            13,
+            4,
+            18
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "S4 Northwest core lobby"
+          ]
+        },
+        {
+          "label": "S4 Service lift reservation",
+          "box": [
+            68,
+            13,
+            72,
+            18
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "S4 Northeast core lobby"
+          ]
+        },
+        {
+          "label": "S4 West core toilets",
+          "box": [
+            0,
+            0,
+            4,
+            5
+          ],
+          "kind": "service",
+          "access_to": [
+            "S4 Southwest core lobby"
+          ]
+        },
+        {
+          "label": "S4 East core toilets",
+          "box": [
+            68,
+            0,
+            72,
+            5
+          ],
+          "kind": "service",
+          "access_to": [
+            "S4 Southeast core lobby"
+          ]
+        },
+        {
+          "label": "S4 West services store",
+          "box": [
+            0,
+            18,
+            4,
+            23
+          ],
+          "kind": "service",
+          "access_to": [
+            "S4 Northwest core lobby"
+          ]
+        },
+        {
+          "label": "S4 East services store",
+          "box": [
+            68,
+            18,
+            72,
+            23
+          ],
+          "kind": "service",
+          "access_to": [
+            "S4 Northeast core lobby"
+          ]
+        },
+        {
+          "label": "S4 Literature classroom",
+          "box": [
+            6,
+            0,
+            12,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "S4 Main corridor"
+          ]
+        },
+        {
+          "label": "S4 Languages classroom",
+          "box": [
+            12,
+            0,
+            18,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "S4 Main corridor"
+          ]
+        },
+        {
+          "label": "S4 Senior seminar A",
+          "box": [
+            18,
+            0,
+            24,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "S4 Main corridor"
+          ]
+        },
+        {
+          "label": "S4 Senior seminar B",
+          "box": [
+            24,
+            0,
+            30,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "S4 Main corridor"
+          ]
+        },
+        {
+          "label": "S4 Independent study room",
+          "box": [
+            30,
+            0,
+            36,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "S4 Main corridor"
+          ]
+        },
+        {
+          "label": "S4 Careers guidance",
+          "box": [
+            36,
+            0,
+            42,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "S4 Main corridor"
+          ]
+        },
+        {
+          "label": "S4 Media production studio",
+          "box": [
+            42,
+            0,
+            48,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "S4 Main corridor"
+          ]
+        },
+        {
+          "label": "S4 Photography classroom",
+          "box": [
+            48,
+            0,
+            54,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "S4 Main corridor"
+          ]
+        },
+        {
+          "label": "S4 Senior project room",
+          "box": [
+            54,
+            0,
+            60,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "S4 Main corridor"
+          ]
+        },
+        {
+          "label": "S4 Arts teacher workroom",
+          "box": [
+            60,
+            0,
+            66,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "S4 Main corridor"
+          ]
+        },
+        {
+          "label": "S4 Art studio",
+          "box": [
+            6,
+            13,
+            12,
+            23
+          ],
+          "kind": "program",
+          "access_to": [
+            "S4 Main corridor",
+            "S4 Art materials store"
+          ]
+        },
+        {
+          "label": "S4 Art materials store",
+          "box": [
+            12,
+            13,
+            18,
+            23
+          ],
+          "kind": "program",
+          "access_to": [
+            "S4 Main corridor",
+            "S4 Art studio"
+          ]
+        },
+        {
+          "label": "S4 Music classroom",
+          "box": [
+            18,
+            13,
+            24,
+            23
+          ],
+          "kind": "program",
+          "access_to": [
+            "S4 Main corridor"
+          ]
+        },
+        {
+          "label": "S4 Ensemble rehearsal",
+          "box": [
+            24,
+            13,
+            30,
+            23
+          ],
+          "kind": "program",
+          "access_to": [
+            "S4 Main corridor"
+          ]
+        },
+        {
+          "label": "S4 Percussion practice",
+          "box": [
+            30,
+            13,
+            36,
+            23
+          ],
+          "kind": "program",
+          "access_to": [
+            "S4 Main corridor"
+          ]
+        },
+        {
+          "label": "S4 Keyboard practice",
+          "box": [
+            36,
+            13,
+            42,
+            23
+          ],
+          "kind": "program",
+          "access_to": [
+            "S4 Main corridor"
+          ]
+        },
+        {
+          "label": "S4 Drama studio",
+          "box": [
+            42,
+            13,
+            48,
+            23
+          ],
+          "kind": "program",
+          "access_to": [
+            "S4 Main corridor"
+          ]
+        },
+        {
+          "label": "S4 Costume and props store",
+          "box": [
+            48,
+            13,
+            54,
+            23
+          ],
+          "kind": "program",
+          "access_to": [
+            "S4 Main corridor",
+            "S4 Drama studio"
+          ]
+        },
+        {
+          "label": "S4 Student common room",
+          "box": [
+            54,
+            13,
+            60,
+            23
+          ],
+          "kind": "program",
+          "access_to": [
+            "S4 Main corridor"
+          ]
+        },
+        {
+          "label": "S4 Senior pupil toilet room",
+          "box": [
+            60,
+            13,
+            66,
+            23
+          ],
+          "kind": "program",
+          "access_to": [
+            "S4 Main corridor"
+          ]
+        }
+      ]
+    }
+  ]
+}

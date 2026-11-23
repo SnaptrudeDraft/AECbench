@@ -1,0 +1,2750 @@
+{
+  "slug": "hospital6",
+  "typology": "Compact general hospital",
+  "provenance": "Deterministic AI-authored synthetic architectural program and coordinates; not a source-model replay, surveyed building, live-audited fixture or compliance design.",
+  "notes": [
+    "Metres; +X east, +Z north, Y vertical. Boxes are shared partition centre-line extents, not guaranteed clear dimensions. Footprint 72 by 19 m; clinical bands 8 m deep, central corridor 3 m wide. Reduced from the initial 23 m concept to avoid unnecessarily deep clinical rooms.",
+    "Floor elevations are cumulative height_m from zero. Ward floors are 4.2 m floor-to-floor for ceiling services. No double-height rooms or upper-floor voids. Two separated stair reservations and two lift reservations have identical boxes on every floor.",
+    "Stair and lift reservations are spatial allowances only: no physical flights, landings, lift shafts, cars or vertical connectivity are represented. Each 6 m end strip contains explicit 2 m wide circulation lobbies alongside 4 by 5 m reservations and 4 by 3 m service rooms. Every service room reaches the main corridor through its lobby without crossing a reservation. These centre-line dimensions are not certified clear widths or an engineered stair/lift fit.",
+    "access_to records directed intended access across a shared positive-length boundary, not placed doors, door counts, swing targets or an exhaustive adjacency list. Clinical rooms reach circulation directly except isolation rooms, which intentionally connect through an adjacent anteroom. Reservations and service rooms do not count toward program totals.",
+    "The corridor is an intentionally simplified shared clinical circulation spine, not a validated clean/dirty circulation system. Procedure-floor access is controlled; family, sterile, soiled and isolation labels provide review context, not verified infection-control performance.",
+    "Patient rooms are whole program envelopes: no internal ensuite or equipment partitions are modeled. Shared assisted washing and core WC provision is schematic. No bed capacity, radiological shielding, fire rating, engineering or regulatory compliance is claimed.",
+    "Imaging control, specimen work, sterile storage and utilities may intentionally be blind. Review patient-room daylight and privacy, bed/equipment routes, controlled thresholds, isolation sequence and independent access to both stair reservations. No doors, windows or opening families are supplied. Exterior entry/discharge and delivery openings remain authoring tasks. Not live-audited."
+  ],
+  "floors": [
+    {
+      "number": 1,
+      "name": "Ground",
+      "height_m": 4.5,
+      "rooms": [
+        {
+          "label": "H1 Main corridor",
+          "box": [
+            0,
+            8,
+            72,
+            11
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "H1 Southwest core lobby",
+            "H1 Southeast core lobby",
+            "H1 Northwest core lobby",
+            "H1 Northeast core lobby"
+          ]
+        },
+        {
+          "label": "H1 Southwest core lobby",
+          "box": [
+            4,
+            0,
+            6,
+            8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "H1 Main corridor"
+          ]
+        },
+        {
+          "label": "H1 Southeast core lobby",
+          "box": [
+            66,
+            0,
+            68,
+            8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "H1 Main corridor"
+          ]
+        },
+        {
+          "label": "H1 Northwest core lobby",
+          "box": [
+            4,
+            11,
+            6,
+            19
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "H1 Main corridor"
+          ]
+        },
+        {
+          "label": "H1 Northeast core lobby",
+          "box": [
+            66,
+            11,
+            68,
+            19
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "H1 Main corridor"
+          ]
+        },
+        {
+          "label": "H1 West stair reservation",
+          "box": [
+            0,
+            3,
+            4,
+            8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "H1 Southwest core lobby"
+          ]
+        },
+        {
+          "label": "H1 East stair reservation",
+          "box": [
+            68,
+            3,
+            72,
+            8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "H1 Southeast core lobby"
+          ]
+        },
+        {
+          "label": "H1 Passenger lift reservation",
+          "box": [
+            0,
+            11,
+            4,
+            16
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "H1 Northwest core lobby"
+          ]
+        },
+        {
+          "label": "H1 Bed and service lift reservation",
+          "box": [
+            68,
+            11,
+            72,
+            16
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "H1 Northeast core lobby"
+          ]
+        },
+        {
+          "label": "H1 West staff WC",
+          "box": [
+            0,
+            0,
+            4,
+            3
+          ],
+          "kind": "service",
+          "access_to": [
+            "H1 Southwest core lobby"
+          ]
+        },
+        {
+          "label": "H1 East staff WC",
+          "box": [
+            68,
+            0,
+            72,
+            3
+          ],
+          "kind": "service",
+          "access_to": [
+            "H1 Southeast core lobby"
+          ]
+        },
+        {
+          "label": "H1 West maintenance store",
+          "box": [
+            0,
+            16,
+            4,
+            19
+          ],
+          "kind": "service",
+          "access_to": [
+            "H1 Northwest core lobby"
+          ]
+        },
+        {
+          "label": "H1 East maintenance store",
+          "box": [
+            68,
+            16,
+            72,
+            19
+          ],
+          "kind": "service",
+          "access_to": [
+            "H1 Northeast core lobby"
+          ]
+        },
+        {
+          "label": "H1 Arrival reception",
+          "box": [
+            6,
+            0,
+            11,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H1 Main corridor"
+          ]
+        },
+        {
+          "label": "H1 Public waiting",
+          "box": [
+            11,
+            0,
+            21,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H1 Main corridor"
+          ]
+        },
+        {
+          "label": "H1 Triage",
+          "box": [
+            21,
+            0,
+            26,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H1 Main corridor"
+          ]
+        },
+        {
+          "label": "H1 Urgent examination A",
+          "box": [
+            26,
+            0,
+            31,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H1 Main corridor"
+          ]
+        },
+        {
+          "label": "H1 Urgent examination B",
+          "box": [
+            31,
+            0,
+            36,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H1 Main corridor"
+          ]
+        },
+        {
+          "label": "H1 Urgent examination C",
+          "box": [
+            36,
+            0,
+            41,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H1 Main corridor"
+          ]
+        },
+        {
+          "label": "H1 Treatment room",
+          "box": [
+            41,
+            0,
+            46,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H1 Main corridor"
+          ]
+        },
+        {
+          "label": "H1 Resuscitation",
+          "box": [
+            46,
+            0,
+            56,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H1 Main corridor"
+          ]
+        },
+        {
+          "label": "H1 Observation",
+          "box": [
+            56,
+            0,
+            66,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H1 Main corridor"
+          ]
+        },
+        {
+          "label": "H1 Pharmacy dispensing",
+          "box": [
+            6,
+            11,
+            11,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H1 Main corridor"
+          ]
+        },
+        {
+          "label": "H1 Phlebotomy",
+          "box": [
+            11,
+            11,
+            16,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H1 Main corridor"
+          ]
+        },
+        {
+          "label": "H1 X-ray examination",
+          "box": [
+            16,
+            11,
+            26,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H1 Main corridor",
+            "H1 Imaging control"
+          ]
+        },
+        {
+          "label": "H1 Imaging control",
+          "box": [
+            26,
+            11,
+            31,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H1 Main corridor",
+            "H1 X-ray examination"
+          ]
+        },
+        {
+          "label": "H1 Specimen processing",
+          "box": [
+            31,
+            11,
+            36,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H1 Main corridor"
+          ]
+        },
+        {
+          "label": "H1 Clinical staff base",
+          "box": [
+            36,
+            11,
+            41,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H1 Main corridor"
+          ]
+        },
+        {
+          "label": "H1 Family interview",
+          "box": [
+            41,
+            11,
+            46,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H1 Main corridor"
+          ]
+        },
+        {
+          "label": "H1 Public toilet room",
+          "box": [
+            46,
+            11,
+            51,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H1 Main corridor"
+          ]
+        },
+        {
+          "label": "H1 Clean utility",
+          "box": [
+            51,
+            11,
+            56,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H1 Main corridor"
+          ]
+        },
+        {
+          "label": "H1 Soiled utility",
+          "box": [
+            56,
+            11,
+            61,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H1 Main corridor"
+          ]
+        },
+        {
+          "label": "H1 Clinical receiving",
+          "box": [
+            61,
+            11,
+            66,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H1 Main corridor"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Outpatient diagnostics",
+      "height_m": 4.2,
+      "rooms": [
+        {
+          "label": "H2 Main corridor",
+          "box": [
+            0,
+            8,
+            72,
+            11
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "H2 Southwest core lobby",
+            "H2 Southeast core lobby",
+            "H2 Northwest core lobby",
+            "H2 Northeast core lobby"
+          ]
+        },
+        {
+          "label": "H2 Southwest core lobby",
+          "box": [
+            4,
+            0,
+            6,
+            8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "H2 Main corridor"
+          ]
+        },
+        {
+          "label": "H2 Southeast core lobby",
+          "box": [
+            66,
+            0,
+            68,
+            8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "H2 Main corridor"
+          ]
+        },
+        {
+          "label": "H2 Northwest core lobby",
+          "box": [
+            4,
+            11,
+            6,
+            19
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "H2 Main corridor"
+          ]
+        },
+        {
+          "label": "H2 Northeast core lobby",
+          "box": [
+            66,
+            11,
+            68,
+            19
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "H2 Main corridor"
+          ]
+        },
+        {
+          "label": "H2 West stair reservation",
+          "box": [
+            0,
+            3,
+            4,
+            8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "H2 Southwest core lobby"
+          ]
+        },
+        {
+          "label": "H2 East stair reservation",
+          "box": [
+            68,
+            3,
+            72,
+            8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "H2 Southeast core lobby"
+          ]
+        },
+        {
+          "label": "H2 Passenger lift reservation",
+          "box": [
+            0,
+            11,
+            4,
+            16
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "H2 Northwest core lobby"
+          ]
+        },
+        {
+          "label": "H2 Bed and service lift reservation",
+          "box": [
+            68,
+            11,
+            72,
+            16
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "H2 Northeast core lobby"
+          ]
+        },
+        {
+          "label": "H2 West staff WC",
+          "box": [
+            0,
+            0,
+            4,
+            3
+          ],
+          "kind": "service",
+          "access_to": [
+            "H2 Southwest core lobby"
+          ]
+        },
+        {
+          "label": "H2 East staff WC",
+          "box": [
+            68,
+            0,
+            72,
+            3
+          ],
+          "kind": "service",
+          "access_to": [
+            "H2 Southeast core lobby"
+          ]
+        },
+        {
+          "label": "H2 West maintenance store",
+          "box": [
+            0,
+            16,
+            4,
+            19
+          ],
+          "kind": "service",
+          "access_to": [
+            "H2 Northwest core lobby"
+          ]
+        },
+        {
+          "label": "H2 East maintenance store",
+          "box": [
+            68,
+            16,
+            72,
+            19
+          ],
+          "kind": "service",
+          "access_to": [
+            "H2 Northeast core lobby"
+          ]
+        },
+        {
+          "label": "H2 General medicine consultation",
+          "box": [
+            6,
+            0,
+            11,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H2 Main corridor"
+          ]
+        },
+        {
+          "label": "H2 Cardiology consultation",
+          "box": [
+            11,
+            0,
+            16,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H2 Main corridor"
+          ]
+        },
+        {
+          "label": "H2 Paediatric consultation",
+          "box": [
+            16,
+            0,
+            21,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H2 Main corridor"
+          ]
+        },
+        {
+          "label": "H2 Dermatology consultation",
+          "box": [
+            21,
+            0,
+            26,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H2 Main corridor"
+          ]
+        },
+        {
+          "label": "H2 Orthopaedic consultation",
+          "box": [
+            26,
+            0,
+            31,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H2 Main corridor"
+          ]
+        },
+        {
+          "label": "H2 Respiratory consultation",
+          "box": [
+            31,
+            0,
+            36,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H2 Main corridor"
+          ]
+        },
+        {
+          "label": "H2 Neurology consultation",
+          "box": [
+            36,
+            0,
+            41,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H2 Main corridor"
+          ]
+        },
+        {
+          "label": "H2 Family health consultation",
+          "box": [
+            41,
+            0,
+            46,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H2 Main corridor"
+          ]
+        },
+        {
+          "label": "H2 Minor procedure room",
+          "box": [
+            46,
+            0,
+            51,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H2 Main corridor"
+          ]
+        },
+        {
+          "label": "H2 Ultrasound",
+          "box": [
+            51,
+            0,
+            56,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H2 Main corridor"
+          ]
+        },
+        {
+          "label": "H2 ECG room",
+          "box": [
+            56,
+            0,
+            61,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H2 Main corridor"
+          ]
+        },
+        {
+          "label": "H2 Audiology assessment",
+          "box": [
+            61,
+            0,
+            66,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H2 Main corridor"
+          ]
+        },
+        {
+          "label": "H2 Outpatient waiting",
+          "box": [
+            6,
+            11,
+            16,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H2 Main corridor"
+          ]
+        },
+        {
+          "label": "H2 Diagnostic reporting",
+          "box": [
+            16,
+            11,
+            21,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H2 Main corridor"
+          ]
+        },
+        {
+          "label": "H2 Physiotherapy assessment",
+          "box": [
+            21,
+            11,
+            31,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H2 Main corridor"
+          ]
+        },
+        {
+          "label": "H2 Counselling",
+          "box": [
+            31,
+            11,
+            36,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H2 Main corridor"
+          ]
+        },
+        {
+          "label": "H2 Nurses workroom",
+          "box": [
+            36,
+            11,
+            41,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H2 Main corridor"
+          ]
+        },
+        {
+          "label": "H2 Patient toilet room",
+          "box": [
+            41,
+            11,
+            46,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H2 Main corridor"
+          ]
+        },
+        {
+          "label": "H2 Outpatient clean utility",
+          "box": [
+            46,
+            11,
+            51,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H2 Main corridor"
+          ]
+        },
+        {
+          "label": "H2 Outpatient soiled utility",
+          "box": [
+            51,
+            11,
+            56,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H2 Main corridor"
+          ]
+        },
+        {
+          "label": "H2 Mobility equipment store",
+          "box": [
+            56,
+            11,
+            61,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H2 Main corridor"
+          ]
+        },
+        {
+          "label": "H2 Clinic administration",
+          "box": [
+            61,
+            11,
+            66,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H2 Main corridor"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Procedures and critical care",
+      "height_m": 4.5,
+      "rooms": [
+        {
+          "label": "H3 Main corridor",
+          "box": [
+            0,
+            8,
+            72,
+            11
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "H3 Southwest core lobby",
+            "H3 Southeast core lobby",
+            "H3 Northwest core lobby",
+            "H3 Northeast core lobby"
+          ]
+        },
+        {
+          "label": "H3 Southwest core lobby",
+          "box": [
+            4,
+            0,
+            6,
+            8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "H3 Main corridor"
+          ]
+        },
+        {
+          "label": "H3 Southeast core lobby",
+          "box": [
+            66,
+            0,
+            68,
+            8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "H3 Main corridor"
+          ]
+        },
+        {
+          "label": "H3 Northwest core lobby",
+          "box": [
+            4,
+            11,
+            6,
+            19
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "H3 Main corridor"
+          ]
+        },
+        {
+          "label": "H3 Northeast core lobby",
+          "box": [
+            66,
+            11,
+            68,
+            19
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "H3 Main corridor"
+          ]
+        },
+        {
+          "label": "H3 West stair reservation",
+          "box": [
+            0,
+            3,
+            4,
+            8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "H3 Southwest core lobby"
+          ]
+        },
+        {
+          "label": "H3 East stair reservation",
+          "box": [
+            68,
+            3,
+            72,
+            8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "H3 Southeast core lobby"
+          ]
+        },
+        {
+          "label": "H3 Passenger lift reservation",
+          "box": [
+            0,
+            11,
+            4,
+            16
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "H3 Northwest core lobby"
+          ]
+        },
+        {
+          "label": "H3 Bed and service lift reservation",
+          "box": [
+            68,
+            11,
+            72,
+            16
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "H3 Northeast core lobby"
+          ]
+        },
+        {
+          "label": "H3 West staff WC",
+          "box": [
+            0,
+            0,
+            4,
+            3
+          ],
+          "kind": "service",
+          "access_to": [
+            "H3 Southwest core lobby"
+          ]
+        },
+        {
+          "label": "H3 East staff WC",
+          "box": [
+            68,
+            0,
+            72,
+            3
+          ],
+          "kind": "service",
+          "access_to": [
+            "H3 Southeast core lobby"
+          ]
+        },
+        {
+          "label": "H3 West maintenance store",
+          "box": [
+            0,
+            16,
+            4,
+            19
+          ],
+          "kind": "service",
+          "access_to": [
+            "H3 Northwest core lobby"
+          ]
+        },
+        {
+          "label": "H3 East maintenance store",
+          "box": [
+            68,
+            16,
+            72,
+            19
+          ],
+          "kind": "service",
+          "access_to": [
+            "H3 Northeast core lobby"
+          ]
+        },
+        {
+          "label": "H3 Controlled reception",
+          "box": [
+            6,
+            0,
+            11,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H3 Main corridor"
+          ]
+        },
+        {
+          "label": "H3 Family consultation",
+          "box": [
+            11,
+            0,
+            16,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H3 Main corridor"
+          ]
+        },
+        {
+          "label": "H3 Critical care A",
+          "box": [
+            16,
+            0,
+            21,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H3 Main corridor"
+          ]
+        },
+        {
+          "label": "H3 Critical care B",
+          "box": [
+            21,
+            0,
+            26,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H3 Main corridor"
+          ]
+        },
+        {
+          "label": "H3 Critical care C",
+          "box": [
+            26,
+            0,
+            31,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H3 Main corridor"
+          ]
+        },
+        {
+          "label": "H3 Critical care D",
+          "box": [
+            31,
+            0,
+            36,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H3 Main corridor"
+          ]
+        },
+        {
+          "label": "H3 Critical care staff base",
+          "box": [
+            36,
+            0,
+            41,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H3 Main corridor"
+          ]
+        },
+        {
+          "label": "H3 Recovery room",
+          "box": [
+            41,
+            0,
+            51,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H3 Main corridor"
+          ]
+        },
+        {
+          "label": "H3 Equipment store",
+          "box": [
+            51,
+            0,
+            56,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H3 Main corridor"
+          ]
+        },
+        {
+          "label": "H3 Staff changing",
+          "box": [
+            56,
+            0,
+            61,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H3 Main corridor"
+          ]
+        },
+        {
+          "label": "H3 Staff rest",
+          "box": [
+            61,
+            0,
+            66,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H3 Main corridor"
+          ]
+        },
+        {
+          "label": "H3 Procedure room A",
+          "box": [
+            6,
+            11,
+            16,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H3 Main corridor",
+            "H3 Scrub A"
+          ]
+        },
+        {
+          "label": "H3 Scrub A",
+          "box": [
+            16,
+            11,
+            21,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H3 Main corridor",
+            "H3 Procedure room A"
+          ]
+        },
+        {
+          "label": "H3 Procedure room B",
+          "box": [
+            21,
+            11,
+            31,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H3 Main corridor",
+            "H3 Scrub B"
+          ]
+        },
+        {
+          "label": "H3 Scrub B",
+          "box": [
+            31,
+            11,
+            36,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H3 Main corridor",
+            "H3 Procedure room B"
+          ]
+        },
+        {
+          "label": "H3 Induction room",
+          "box": [
+            36,
+            11,
+            41,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H3 Main corridor"
+          ]
+        },
+        {
+          "label": "H3 Sterile supply store",
+          "box": [
+            41,
+            11,
+            46,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H3 Main corridor"
+          ]
+        },
+        {
+          "label": "H3 Critical care clean utility",
+          "box": [
+            46,
+            11,
+            51,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H3 Main corridor"
+          ]
+        },
+        {
+          "label": "H3 Critical care soiled utility",
+          "box": [
+            51,
+            11,
+            56,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H3 Main corridor"
+          ]
+        },
+        {
+          "label": "H3 Isolation anteroom",
+          "box": [
+            56,
+            11,
+            61,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H3 Main corridor",
+            "H3 Isolation care room"
+          ]
+        },
+        {
+          "label": "H3 Isolation care room",
+          "box": [
+            61,
+            11,
+            66,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H3 Isolation anteroom"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "name": "Medical inpatient ward",
+      "height_m": 4.2,
+      "rooms": [
+        {
+          "label": "H4 Main corridor",
+          "box": [
+            0,
+            8,
+            72,
+            11
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "H4 Southwest core lobby",
+            "H4 Southeast core lobby",
+            "H4 Northwest core lobby",
+            "H4 Northeast core lobby"
+          ]
+        },
+        {
+          "label": "H4 Southwest core lobby",
+          "box": [
+            4,
+            0,
+            6,
+            8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "H4 Main corridor"
+          ]
+        },
+        {
+          "label": "H4 Southeast core lobby",
+          "box": [
+            66,
+            0,
+            68,
+            8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "H4 Main corridor"
+          ]
+        },
+        {
+          "label": "H4 Northwest core lobby",
+          "box": [
+            4,
+            11,
+            6,
+            19
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "H4 Main corridor"
+          ]
+        },
+        {
+          "label": "H4 Northeast core lobby",
+          "box": [
+            66,
+            11,
+            68,
+            19
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "H4 Main corridor"
+          ]
+        },
+        {
+          "label": "H4 West stair reservation",
+          "box": [
+            0,
+            3,
+            4,
+            8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "H4 Southwest core lobby"
+          ]
+        },
+        {
+          "label": "H4 East stair reservation",
+          "box": [
+            68,
+            3,
+            72,
+            8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "H4 Southeast core lobby"
+          ]
+        },
+        {
+          "label": "H4 Passenger lift reservation",
+          "box": [
+            0,
+            11,
+            4,
+            16
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "H4 Northwest core lobby"
+          ]
+        },
+        {
+          "label": "H4 Bed and service lift reservation",
+          "box": [
+            68,
+            11,
+            72,
+            16
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "H4 Northeast core lobby"
+          ]
+        },
+        {
+          "label": "H4 West staff WC",
+          "box": [
+            0,
+            0,
+            4,
+            3
+          ],
+          "kind": "service",
+          "access_to": [
+            "H4 Southwest core lobby"
+          ]
+        },
+        {
+          "label": "H4 East staff WC",
+          "box": [
+            68,
+            0,
+            72,
+            3
+          ],
+          "kind": "service",
+          "access_to": [
+            "H4 Southeast core lobby"
+          ]
+        },
+        {
+          "label": "H4 West maintenance store",
+          "box": [
+            0,
+            16,
+            4,
+            19
+          ],
+          "kind": "service",
+          "access_to": [
+            "H4 Northwest core lobby"
+          ]
+        },
+        {
+          "label": "H4 East maintenance store",
+          "box": [
+            68,
+            16,
+            72,
+            19
+          ],
+          "kind": "service",
+          "access_to": [
+            "H4 Northeast core lobby"
+          ]
+        },
+        {
+          "label": "H4 Medical patient room A",
+          "box": [
+            6,
+            0,
+            11,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H4 Main corridor"
+          ]
+        },
+        {
+          "label": "H4 Medical patient room B",
+          "box": [
+            11,
+            0,
+            16,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H4 Main corridor"
+          ]
+        },
+        {
+          "label": "H4 Medical patient room C",
+          "box": [
+            16,
+            0,
+            21,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H4 Main corridor"
+          ]
+        },
+        {
+          "label": "H4 Medical patient room D",
+          "box": [
+            21,
+            0,
+            26,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H4 Main corridor"
+          ]
+        },
+        {
+          "label": "H4 Medical patient room E",
+          "box": [
+            26,
+            0,
+            31,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H4 Main corridor"
+          ]
+        },
+        {
+          "label": "H4 Medical patient room F",
+          "box": [
+            31,
+            0,
+            36,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H4 Main corridor"
+          ]
+        },
+        {
+          "label": "H4 Medical patient room G",
+          "box": [
+            36,
+            0,
+            41,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H4 Main corridor"
+          ]
+        },
+        {
+          "label": "H4 Medical patient room H",
+          "box": [
+            41,
+            0,
+            46,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H4 Main corridor"
+          ]
+        },
+        {
+          "label": "H4 Medical patient room I",
+          "box": [
+            46,
+            0,
+            51,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H4 Main corridor"
+          ]
+        },
+        {
+          "label": "H4 Medical patient room J",
+          "box": [
+            51,
+            0,
+            56,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H4 Main corridor"
+          ]
+        },
+        {
+          "label": "H4 Medical patient room K",
+          "box": [
+            56,
+            0,
+            61,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H4 Main corridor"
+          ]
+        },
+        {
+          "label": "H4 Medical patient room L",
+          "box": [
+            61,
+            0,
+            66,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H4 Main corridor"
+          ]
+        },
+        {
+          "label": "H4 Ward reception",
+          "box": [
+            6,
+            11,
+            11,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H4 Main corridor"
+          ]
+        },
+        {
+          "label": "H4 Family lounge",
+          "box": [
+            11,
+            11,
+            21,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H4 Main corridor"
+          ]
+        },
+        {
+          "label": "H4 Ward office",
+          "box": [
+            21,
+            11,
+            26,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H4 Main corridor"
+          ]
+        },
+        {
+          "label": "H4 Nurses base",
+          "box": [
+            26,
+            11,
+            31,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H4 Main corridor"
+          ]
+        },
+        {
+          "label": "H4 Medication room",
+          "box": [
+            31,
+            11,
+            36,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H4 Main corridor"
+          ]
+        },
+        {
+          "label": "H4 Assisted bathing room",
+          "box": [
+            36,
+            11,
+            41,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H4 Main corridor"
+          ]
+        },
+        {
+          "label": "H4 Ward clean utility",
+          "box": [
+            41,
+            11,
+            46,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H4 Main corridor"
+          ]
+        },
+        {
+          "label": "H4 Ward soiled utility",
+          "box": [
+            46,
+            11,
+            51,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H4 Main corridor"
+          ]
+        },
+        {
+          "label": "H4 Ward equipment store",
+          "box": [
+            51,
+            11,
+            56,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H4 Main corridor"
+          ]
+        },
+        {
+          "label": "H4 Medical isolation anteroom",
+          "box": [
+            56,
+            11,
+            61,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H4 Main corridor",
+            "H4 Medical isolation room"
+          ]
+        },
+        {
+          "label": "H4 Medical isolation room",
+          "box": [
+            61,
+            11,
+            66,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H4 Medical isolation anteroom"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "name": "Postoperative inpatient ward",
+      "height_m": 4.2,
+      "rooms": [
+        {
+          "label": "H5 Main corridor",
+          "box": [
+            0,
+            8,
+            72,
+            11
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "H5 Southwest core lobby",
+            "H5 Southeast core lobby",
+            "H5 Northwest core lobby",
+            "H5 Northeast core lobby"
+          ]
+        },
+        {
+          "label": "H5 Southwest core lobby",
+          "box": [
+            4,
+            0,
+            6,
+            8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "H5 Main corridor"
+          ]
+        },
+        {
+          "label": "H5 Southeast core lobby",
+          "box": [
+            66,
+            0,
+            68,
+            8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "H5 Main corridor"
+          ]
+        },
+        {
+          "label": "H5 Northwest core lobby",
+          "box": [
+            4,
+            11,
+            6,
+            19
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "H5 Main corridor"
+          ]
+        },
+        {
+          "label": "H5 Northeast core lobby",
+          "box": [
+            66,
+            11,
+            68,
+            19
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "H5 Main corridor"
+          ]
+        },
+        {
+          "label": "H5 West stair reservation",
+          "box": [
+            0,
+            3,
+            4,
+            8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "H5 Southwest core lobby"
+          ]
+        },
+        {
+          "label": "H5 East stair reservation",
+          "box": [
+            68,
+            3,
+            72,
+            8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "H5 Southeast core lobby"
+          ]
+        },
+        {
+          "label": "H5 Passenger lift reservation",
+          "box": [
+            0,
+            11,
+            4,
+            16
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "H5 Northwest core lobby"
+          ]
+        },
+        {
+          "label": "H5 Bed and service lift reservation",
+          "box": [
+            68,
+            11,
+            72,
+            16
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "H5 Northeast core lobby"
+          ]
+        },
+        {
+          "label": "H5 West staff WC",
+          "box": [
+            0,
+            0,
+            4,
+            3
+          ],
+          "kind": "service",
+          "access_to": [
+            "H5 Southwest core lobby"
+          ]
+        },
+        {
+          "label": "H5 East staff WC",
+          "box": [
+            68,
+            0,
+            72,
+            3
+          ],
+          "kind": "service",
+          "access_to": [
+            "H5 Southeast core lobby"
+          ]
+        },
+        {
+          "label": "H5 West maintenance store",
+          "box": [
+            0,
+            16,
+            4,
+            19
+          ],
+          "kind": "service",
+          "access_to": [
+            "H5 Northwest core lobby"
+          ]
+        },
+        {
+          "label": "H5 East maintenance store",
+          "box": [
+            68,
+            16,
+            72,
+            19
+          ],
+          "kind": "service",
+          "access_to": [
+            "H5 Northeast core lobby"
+          ]
+        },
+        {
+          "label": "H5 Surgical patient room A",
+          "box": [
+            6,
+            0,
+            11,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H5 Main corridor"
+          ]
+        },
+        {
+          "label": "H5 Surgical patient room B",
+          "box": [
+            11,
+            0,
+            16,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H5 Main corridor"
+          ]
+        },
+        {
+          "label": "H5 Surgical patient room C",
+          "box": [
+            16,
+            0,
+            21,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H5 Main corridor"
+          ]
+        },
+        {
+          "label": "H5 Surgical patient room D",
+          "box": [
+            21,
+            0,
+            26,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H5 Main corridor"
+          ]
+        },
+        {
+          "label": "H5 Surgical patient room E",
+          "box": [
+            26,
+            0,
+            31,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H5 Main corridor"
+          ]
+        },
+        {
+          "label": "H5 Surgical patient room F",
+          "box": [
+            31,
+            0,
+            36,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H5 Main corridor"
+          ]
+        },
+        {
+          "label": "H5 Surgical patient room G",
+          "box": [
+            36,
+            0,
+            41,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H5 Main corridor"
+          ]
+        },
+        {
+          "label": "H5 Surgical patient room H",
+          "box": [
+            41,
+            0,
+            46,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H5 Main corridor"
+          ]
+        },
+        {
+          "label": "H5 High-dependency recovery A",
+          "box": [
+            46,
+            0,
+            56,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H5 Main corridor"
+          ]
+        },
+        {
+          "label": "H5 High-dependency recovery B",
+          "box": [
+            56,
+            0,
+            66,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H5 Main corridor"
+          ]
+        },
+        {
+          "label": "H5 Postoperative reception",
+          "box": [
+            6,
+            11,
+            11,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H5 Main corridor"
+          ]
+        },
+        {
+          "label": "H5 Discharge lounge",
+          "box": [
+            11,
+            11,
+            21,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H5 Main corridor"
+          ]
+        },
+        {
+          "label": "H5 Dressing and wound care",
+          "box": [
+            21,
+            11,
+            26,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H5 Main corridor"
+          ]
+        },
+        {
+          "label": "H5 Recovery nurses base",
+          "box": [
+            26,
+            11,
+            31,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H5 Main corridor"
+          ]
+        },
+        {
+          "label": "H5 Pain management consultation",
+          "box": [
+            31,
+            11,
+            36,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H5 Main corridor"
+          ]
+        },
+        {
+          "label": "H5 Assisted shower room",
+          "box": [
+            36,
+            11,
+            41,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H5 Main corridor"
+          ]
+        },
+        {
+          "label": "H5 Recovery clean utility",
+          "box": [
+            41,
+            11,
+            46,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H5 Main corridor"
+          ]
+        },
+        {
+          "label": "H5 Recovery soiled utility",
+          "box": [
+            46,
+            11,
+            51,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H5 Main corridor"
+          ]
+        },
+        {
+          "label": "H5 Walking aid store",
+          "box": [
+            51,
+            11,
+            56,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H5 Main corridor"
+          ]
+        },
+        {
+          "label": "H5 Surgical isolation anteroom",
+          "box": [
+            56,
+            11,
+            61,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H5 Main corridor",
+            "H5 Surgical isolation room"
+          ]
+        },
+        {
+          "label": "H5 Surgical isolation room",
+          "box": [
+            61,
+            11,
+            66,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H5 Surgical isolation anteroom"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "name": "Rehabilitation and administration",
+      "height_m": 4.2,
+      "rooms": [
+        {
+          "label": "H6 Main corridor",
+          "box": [
+            0,
+            8,
+            72,
+            11
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "H6 Southwest core lobby",
+            "H6 Southeast core lobby",
+            "H6 Northwest core lobby",
+            "H6 Northeast core lobby"
+          ]
+        },
+        {
+          "label": "H6 Southwest core lobby",
+          "box": [
+            4,
+            0,
+            6,
+            8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "H6 Main corridor"
+          ]
+        },
+        {
+          "label": "H6 Southeast core lobby",
+          "box": [
+            66,
+            0,
+            68,
+            8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "H6 Main corridor"
+          ]
+        },
+        {
+          "label": "H6 Northwest core lobby",
+          "box": [
+            4,
+            11,
+            6,
+            19
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "H6 Main corridor"
+          ]
+        },
+        {
+          "label": "H6 Northeast core lobby",
+          "box": [
+            66,
+            11,
+            68,
+            19
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "H6 Main corridor"
+          ]
+        },
+        {
+          "label": "H6 West stair reservation",
+          "box": [
+            0,
+            3,
+            4,
+            8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "H6 Southwest core lobby"
+          ]
+        },
+        {
+          "label": "H6 East stair reservation",
+          "box": [
+            68,
+            3,
+            72,
+            8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "H6 Southeast core lobby"
+          ]
+        },
+        {
+          "label": "H6 Passenger lift reservation",
+          "box": [
+            0,
+            11,
+            4,
+            16
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "H6 Northwest core lobby"
+          ]
+        },
+        {
+          "label": "H6 Bed and service lift reservation",
+          "box": [
+            68,
+            11,
+            72,
+            16
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "H6 Northeast core lobby"
+          ]
+        },
+        {
+          "label": "H6 West staff WC",
+          "box": [
+            0,
+            0,
+            4,
+            3
+          ],
+          "kind": "service",
+          "access_to": [
+            "H6 Southwest core lobby"
+          ]
+        },
+        {
+          "label": "H6 East staff WC",
+          "box": [
+            68,
+            0,
+            72,
+            3
+          ],
+          "kind": "service",
+          "access_to": [
+            "H6 Southeast core lobby"
+          ]
+        },
+        {
+          "label": "H6 West maintenance store",
+          "box": [
+            0,
+            16,
+            4,
+            19
+          ],
+          "kind": "service",
+          "access_to": [
+            "H6 Northwest core lobby"
+          ]
+        },
+        {
+          "label": "H6 East maintenance store",
+          "box": [
+            68,
+            16,
+            72,
+            19
+          ],
+          "kind": "service",
+          "access_to": [
+            "H6 Northeast core lobby"
+          ]
+        },
+        {
+          "label": "H6 Rehabilitation reception",
+          "box": [
+            6,
+            0,
+            11,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H6 Main corridor"
+          ]
+        },
+        {
+          "label": "H6 Rehabilitation waiting",
+          "box": [
+            11,
+            0,
+            16,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H6 Main corridor"
+          ]
+        },
+        {
+          "label": "H6 Physical therapy",
+          "box": [
+            16,
+            0,
+            21,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H6 Main corridor"
+          ]
+        },
+        {
+          "label": "H6 Occupational therapy",
+          "box": [
+            21,
+            0,
+            26,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H6 Main corridor"
+          ]
+        },
+        {
+          "label": "H6 Speech therapy",
+          "box": [
+            26,
+            0,
+            31,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H6 Main corridor"
+          ]
+        },
+        {
+          "label": "H6 Cognitive rehabilitation",
+          "box": [
+            31,
+            0,
+            36,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H6 Main corridor"
+          ]
+        },
+        {
+          "label": "H6 Rehabilitation gym",
+          "box": [
+            36,
+            0,
+            51,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H6 Main corridor"
+          ]
+        },
+        {
+          "label": "H6 Daily living skills studio",
+          "box": [
+            51,
+            0,
+            61,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H6 Main corridor"
+          ]
+        },
+        {
+          "label": "H6 Therapy equipment store",
+          "box": [
+            61,
+            0,
+            66,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "H6 Main corridor"
+          ]
+        },
+        {
+          "label": "H6 Patient counselling",
+          "box": [
+            6,
+            11,
+            11,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H6 Main corridor"
+          ]
+        },
+        {
+          "label": "H6 Medical director office",
+          "box": [
+            11,
+            11,
+            16,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H6 Main corridor"
+          ]
+        },
+        {
+          "label": "H6 Nursing administration",
+          "box": [
+            16,
+            11,
+            21,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H6 Main corridor"
+          ]
+        },
+        {
+          "label": "H6 Finance office",
+          "box": [
+            21,
+            11,
+            26,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H6 Main corridor"
+          ]
+        },
+        {
+          "label": "H6 Clinical records office",
+          "box": [
+            26,
+            11,
+            31,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H6 Main corridor"
+          ]
+        },
+        {
+          "label": "H6 Staff training room",
+          "box": [
+            31,
+            11,
+            41,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H6 Main corridor"
+          ]
+        },
+        {
+          "label": "H6 Multidisciplinary meeting",
+          "box": [
+            41,
+            11,
+            46,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H6 Main corridor"
+          ]
+        },
+        {
+          "label": "H6 Staff lounge",
+          "box": [
+            46,
+            11,
+            51,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H6 Main corridor"
+          ]
+        },
+        {
+          "label": "H6 Staff pantry",
+          "box": [
+            51,
+            11,
+            56,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H6 Main corridor"
+          ]
+        },
+        {
+          "label": "H6 Patient toilet room",
+          "box": [
+            56,
+            11,
+            61,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H6 Main corridor"
+          ]
+        },
+        {
+          "label": "H6 Assisted changing room",
+          "box": [
+            61,
+            11,
+            66,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "H6 Main corridor"
+          ]
+        }
+      ]
+    }
+  ]
+}

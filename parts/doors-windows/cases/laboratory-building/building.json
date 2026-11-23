@@ -1,0 +1,2403 @@
+{
+  "slug": "laboratory-building",
+  "typology": "laboratory-building",
+  "provenance": "AI-authored synthetic recorded starting layout for a doors/windows benchmark; not customer data, not a certified design.",
+  "notes": [
+    "Supplemental synthetic benchmark coverage only, not selected production-run cases or evidence of a production result.",
+    "Metre coordinates describe disjoint clear-space boxes, not walls. No doors or windows are seeded. Empty areas are unassigned shell, exterior, courtyard, or the explicitly described void.",
+    "Exactly two stair footprints and two lift footprints are vertically stacked reservations on every floor. They are not physical stairs, lifts, shafts, or installed equipment.",
+    "Public, controlled and service labels and circulation zones express intended thresholds. Access edges are reciprocal same-floor adjacency intentions, not installed doors or an enforced security policy.",
+    "No structural, fire, accessibility, egress, acoustic, laboratory safety, sporting-body, or transport-operational compliance is asserted. Reservations do not model inter-floor travel or exit discharge.",
+    "Comb plan separates front visitor/office frontage, controlled laboratory spines and a rear service gallery. Wet-lab labels express program only; containment, ventilation, hazardous material classification, clean-room grading and equipment are not modeled. Laboratory rooms are single-storey. Each laboratory wing is one 12 m deep row of labs off its access spine, facing an open light court instead of a second corridor."
+  ],
+  "floors": [
+    {
+      "number": 1,
+      "name": "Public science and teaching labs",
+      "height_m": 4.5,
+      "rooms": [
+        {
+          "label": "F01-laboratory-building: Public front arrival gallery",
+          "box": [
+            0,
+            10,
+            72,
+            13
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01-laboratory-building: Controlled west lab access spine",
+            "F01-laboratory-building: Controlled central lab access spine",
+            "F01-laboratory-building: Controlled east lab access spine",
+            "F01-laboratory-building: Controlled shared lift lobby",
+            "F01-laboratory-building: Public science reception",
+            "F01-laboratory-building: Public demonstration room",
+            "F01-laboratory-building: Public seminar room",
+            "F01-laboratory-building: Public outreach workshop",
+            "F01-laboratory-building: Controlled visitor briefing",
+            "F01-laboratory-building: Controlled research induction",
+            "F01-laboratory-building: Controlled safety training",
+            "F01-laboratory-building: Controlled research administration",
+            "F01-laboratory-building: Controlled teaching wet laboratory",
+            "F01-laboratory-building: Controlled lab manager",
+            "F01-laboratory-building: Controlled staff changing"
+          ]
+        },
+        {
+          "label": "F01-laboratory-building: Controlled west lab access spine",
+          "box": [
+            8,
+            13,
+            11,
+            45
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01-laboratory-building: Public front arrival gallery",
+            "F01-laboratory-building: Service rear logistics gallery",
+            "F01-laboratory-building: Service west stair reservation",
+            "F01-laboratory-building: Controlled teaching wet laboratory",
+            "F01-laboratory-building: Controlled demonstration laboratory",
+            "F01-laboratory-building: Controlled sample preparation",
+            "F01-laboratory-building: Controlled basic instrumentation",
+            "F01-laboratory-building: Controlled supervised project laboratory",
+            "F01-laboratory-building: Controlled lab manager",
+            "F01-laboratory-building: Controlled technician workroom",
+            "F01-laboratory-building: Controlled safety office",
+            "F01-laboratory-building: Controlled first aid room"
+          ]
+        },
+        {
+          "label": "F01-laboratory-building: Controlled central lab access spine",
+          "box": [
+            34,
+            13,
+            37,
+            45
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01-laboratory-building: Public front arrival gallery",
+            "F01-laboratory-building: Service rear logistics gallery",
+            "F01-laboratory-building: Controlled shared lift lobby",
+            "F01-laboratory-building: Controlled lift A reservation",
+            "F01-laboratory-building: Controlled shared equipment laboratory",
+            "F01-laboratory-building: Controlled teaching instrument lab",
+            "F01-laboratory-building: Controlled outreach preparation",
+            "F01-laboratory-building: Controlled technical training lab"
+          ]
+        },
+        {
+          "label": "F01-laboratory-building: Controlled east lab access spine",
+          "box": [
+            61,
+            13,
+            64,
+            45
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01-laboratory-building: Public front arrival gallery",
+            "F01-laboratory-building: Service rear logistics gallery",
+            "F01-laboratory-building: Service east stair reservation",
+            "F01-laboratory-building: Controlled staff changing",
+            "F01-laboratory-building: Controlled laboratory briefing",
+            "F01-laboratory-building: Controlled teaching support",
+            "F01-laboratory-building: Controlled staff rest room"
+          ]
+        },
+        {
+          "label": "F01-laboratory-building: Service rear logistics gallery",
+          "box": [
+            8,
+            45,
+            64,
+            48
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01-laboratory-building: Controlled west lab access spine",
+            "F01-laboratory-building: Controlled central lab access spine",
+            "F01-laboratory-building: Controlled east lab access spine",
+            "F01-laboratory-building: Controlled supervised project laboratory",
+            "F01-laboratory-building: Controlled technical training lab",
+            "F01-laboratory-building: Service receiving and consumables",
+            "F01-laboratory-building: Service equipment store",
+            "F01-laboratory-building: Service wash and preparation",
+            "F01-laboratory-building: Service segregated waste holding",
+            "F01-laboratory-building: Service washrooms",
+            "F01-laboratory-building: Service building support"
+          ]
+        },
+        {
+          "label": "F01-laboratory-building: Controlled shared lift lobby",
+          "box": [
+            37,
+            13,
+            45,
+            16
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01-laboratory-building: Public front arrival gallery",
+            "F01-laboratory-building: Controlled central lab access spine",
+            "F01-laboratory-building: Controlled lift A reservation",
+            "F01-laboratory-building: Controlled lift B reservation"
+          ]
+        },
+        {
+          "label": "F01-laboratory-building: Service west stair reservation",
+          "box": [
+            4.8,
+            39,
+            8,
+            45
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F01-laboratory-building: Controlled west lab access spine"
+          ]
+        },
+        {
+          "label": "F01-laboratory-building: Service east stair reservation",
+          "box": [
+            64,
+            39,
+            67.2,
+            45
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F01-laboratory-building: Controlled east lab access spine"
+          ]
+        },
+        {
+          "label": "F01-laboratory-building: Controlled lift A reservation",
+          "box": [
+            37,
+            16,
+            40,
+            19
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F01-laboratory-building: Controlled central lab access spine",
+            "F01-laboratory-building: Controlled shared lift lobby"
+          ]
+        },
+        {
+          "label": "F01-laboratory-building: Controlled lift B reservation",
+          "box": [
+            40,
+            16,
+            43,
+            19
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F01-laboratory-building: Controlled shared lift lobby"
+          ]
+        },
+        {
+          "label": "F01-laboratory-building: Public science reception",
+          "box": [
+            0,
+            0,
+            9.931,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-laboratory-building: Public front arrival gallery"
+          ]
+        },
+        {
+          "label": "F01-laboratory-building: Public demonstration room",
+          "box": [
+            9.931,
+            0,
+            17.379,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-laboratory-building: Public front arrival gallery"
+          ]
+        },
+        {
+          "label": "F01-laboratory-building: Public seminar room",
+          "box": [
+            17.379,
+            0,
+            26.483,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-laboratory-building: Public front arrival gallery"
+          ]
+        },
+        {
+          "label": "F01-laboratory-building: Public outreach workshop",
+          "box": [
+            26.483,
+            0,
+            37.241,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-laboratory-building: Public front arrival gallery"
+          ]
+        },
+        {
+          "label": "F01-laboratory-building: Controlled visitor briefing",
+          "box": [
+            37.241,
+            0,
+            45.517,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-laboratory-building: Public front arrival gallery"
+          ]
+        },
+        {
+          "label": "F01-laboratory-building: Controlled research induction",
+          "box": [
+            45.517,
+            0,
+            55.448,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-laboratory-building: Public front arrival gallery"
+          ]
+        },
+        {
+          "label": "F01-laboratory-building: Controlled safety training",
+          "box": [
+            55.448,
+            0,
+            62.897,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-laboratory-building: Public front arrival gallery"
+          ]
+        },
+        {
+          "label": "F01-laboratory-building: Controlled research administration",
+          "box": [
+            62.897,
+            0,
+            72,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-laboratory-building: Public front arrival gallery"
+          ]
+        },
+        {
+          "label": "F01-laboratory-building: Controlled teaching wet laboratory",
+          "box": [
+            11,
+            13,
+            23,
+            19.982
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-laboratory-building: Public front arrival gallery",
+            "F01-laboratory-building: Controlled west lab access spine"
+          ]
+        },
+        {
+          "label": "F01-laboratory-building: Controlled demonstration laboratory",
+          "box": [
+            11,
+            19.982,
+            23,
+            25.218
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-laboratory-building: Controlled west lab access spine"
+          ]
+        },
+        {
+          "label": "F01-laboratory-building: Controlled sample preparation",
+          "box": [
+            11,
+            25.218,
+            23,
+            31.618
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-laboratory-building: Controlled west lab access spine"
+          ]
+        },
+        {
+          "label": "F01-laboratory-building: Controlled basic instrumentation",
+          "box": [
+            11,
+            31.618,
+            23,
+            39.182
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-laboratory-building: Controlled west lab access spine"
+          ]
+        },
+        {
+          "label": "F01-laboratory-building: Controlled supervised project laboratory",
+          "box": [
+            11,
+            39.182,
+            23,
+            45
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-laboratory-building: Controlled west lab access spine",
+            "F01-laboratory-building: Service rear logistics gallery"
+          ]
+        },
+        {
+          "label": "F01-laboratory-building: Controlled shared equipment laboratory",
+          "box": [
+            37,
+            21,
+            49,
+            26.023
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-laboratory-building: Controlled central lab access spine"
+          ]
+        },
+        {
+          "label": "F01-laboratory-building: Controlled teaching instrument lab",
+          "box": [
+            37,
+            26.023,
+            49,
+            32.163
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-laboratory-building: Controlled central lab access spine"
+          ]
+        },
+        {
+          "label": "F01-laboratory-building: Controlled outreach preparation",
+          "box": [
+            37,
+            32.163,
+            49,
+            39.419
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-laboratory-building: Controlled central lab access spine"
+          ]
+        },
+        {
+          "label": "F01-laboratory-building: Controlled technical training lab",
+          "box": [
+            37,
+            39.419,
+            49,
+            45
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-laboratory-building: Controlled central lab access spine",
+            "F01-laboratory-building: Service rear logistics gallery"
+          ]
+        },
+        {
+          "label": "F01-laboratory-building: Controlled lab manager",
+          "box": [
+            0,
+            13,
+            8,
+            19.933
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-laboratory-building: Public front arrival gallery",
+            "F01-laboratory-building: Controlled west lab access spine"
+          ]
+        },
+        {
+          "label": "F01-laboratory-building: Controlled technician workroom",
+          "box": [
+            0,
+            19.933,
+            8,
+            25.133
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-laboratory-building: Controlled west lab access spine"
+          ]
+        },
+        {
+          "label": "F01-laboratory-building: Controlled safety office",
+          "box": [
+            0,
+            25.133,
+            8,
+            31.489
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-laboratory-building: Controlled west lab access spine"
+          ]
+        },
+        {
+          "label": "F01-laboratory-building: Controlled first aid room",
+          "box": [
+            0,
+            31.489,
+            8,
+            39
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-laboratory-building: Controlled west lab access spine"
+          ]
+        },
+        {
+          "label": "F01-laboratory-building: Controlled staff changing",
+          "box": [
+            64,
+            13,
+            72,
+            19.217
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-laboratory-building: Public front arrival gallery",
+            "F01-laboratory-building: Controlled east lab access spine"
+          ]
+        },
+        {
+          "label": "F01-laboratory-building: Controlled laboratory briefing",
+          "box": [
+            64,
+            19.217,
+            72,
+            26.565
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-laboratory-building: Controlled east lab access spine"
+          ]
+        },
+        {
+          "label": "F01-laboratory-building: Controlled teaching support",
+          "box": [
+            64,
+            26.565,
+            72,
+            32.217
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-laboratory-building: Controlled east lab access spine"
+          ]
+        },
+        {
+          "label": "F01-laboratory-building: Controlled staff rest room",
+          "box": [
+            64,
+            32.217,
+            72,
+            39
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01-laboratory-building: Controlled east lab access spine"
+          ]
+        },
+        {
+          "label": "F01-laboratory-building: Service receiving and consumables",
+          "box": [
+            8,
+            48,
+            18.03,
+            56
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01-laboratory-building: Service rear logistics gallery"
+          ]
+        },
+        {
+          "label": "F01-laboratory-building: Service equipment store",
+          "box": [
+            18.03,
+            48,
+            25.552,
+            56
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01-laboratory-building: Service rear logistics gallery"
+          ]
+        },
+        {
+          "label": "F01-laboratory-building: Service wash and preparation",
+          "box": [
+            25.552,
+            48,
+            34.746,
+            56
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01-laboratory-building: Service rear logistics gallery"
+          ]
+        },
+        {
+          "label": "F01-laboratory-building: Service segregated waste holding",
+          "box": [
+            34.746,
+            48,
+            45.612,
+            56
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01-laboratory-building: Service rear logistics gallery"
+          ]
+        },
+        {
+          "label": "F01-laboratory-building: Service washrooms",
+          "box": [
+            45.612,
+            48,
+            53.97,
+            56
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01-laboratory-building: Service rear logistics gallery"
+          ]
+        },
+        {
+          "label": "F01-laboratory-building: Service building support",
+          "box": [
+            53.97,
+            48,
+            64,
+            56
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01-laboratory-building: Service rear logistics gallery"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Analytical research",
+      "height_m": 4.5,
+      "rooms": [
+        {
+          "label": "F02-laboratory-building: Controlled front office gallery",
+          "box": [
+            0,
+            10,
+            72,
+            13
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02-laboratory-building: Controlled west lab access spine",
+            "F02-laboratory-building: Controlled central lab access spine",
+            "F02-laboratory-building: Controlled east lab access spine",
+            "F02-laboratory-building: Controlled shared lift lobby",
+            "F02-laboratory-building: Controlled analytical team office",
+            "F02-laboratory-building: Controlled spectroscopy office",
+            "F02-laboratory-building: Controlled methods seminar",
+            "F02-laboratory-building: Controlled data interpretation",
+            "F02-laboratory-building: Controlled instrument booking",
+            "F02-laboratory-building: Controlled sample consultation",
+            "F02-laboratory-building: Controlled quality review",
+            "F02-laboratory-building: Controlled research meeting",
+            "F02-laboratory-building: Controlled chromatography laboratory",
+            "F02-laboratory-building: Controlled analytical lead",
+            "F02-laboratory-building: Controlled data review"
+          ]
+        },
+        {
+          "label": "F02-laboratory-building: Controlled west lab access spine",
+          "box": [
+            8,
+            13,
+            11,
+            45
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02-laboratory-building: Controlled front office gallery",
+            "F02-laboratory-building: Service rear logistics gallery",
+            "F02-laboratory-building: Service west stair reservation",
+            "F02-laboratory-building: Controlled chromatography laboratory",
+            "F02-laboratory-building: Controlled spectroscopy laboratory",
+            "F02-laboratory-building: Controlled environmental analysis",
+            "F02-laboratory-building: Controlled analytical preparation",
+            "F02-laboratory-building: Controlled method development laboratory",
+            "F02-laboratory-building: Controlled analytical lead",
+            "F02-laboratory-building: Controlled analyst workroom",
+            "F02-laboratory-building: Controlled assurance office",
+            "F02-laboratory-building: Controlled technical library"
+          ]
+        },
+        {
+          "label": "F02-laboratory-building: Controlled central lab access spine",
+          "box": [
+            34,
+            13,
+            37,
+            45
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02-laboratory-building: Controlled front office gallery",
+            "F02-laboratory-building: Service rear logistics gallery",
+            "F02-laboratory-building: Controlled shared lift lobby",
+            "F02-laboratory-building: Controlled lift A reservation",
+            "F02-laboratory-building: Controlled mass spectrometry lab",
+            "F02-laboratory-building: Controlled chemical analysis lab",
+            "F02-laboratory-building: Controlled stability testing lab",
+            "F02-laboratory-building: Controlled instrument validation lab"
+          ]
+        },
+        {
+          "label": "F02-laboratory-building: Controlled east lab access spine",
+          "box": [
+            61,
+            13,
+            64,
+            45
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02-laboratory-building: Controlled front office gallery",
+            "F02-laboratory-building: Service rear logistics gallery",
+            "F02-laboratory-building: Service east stair reservation",
+            "F02-laboratory-building: Controlled data review",
+            "F02-laboratory-building: Controlled instrument support",
+            "F02-laboratory-building: Controlled analytical meeting",
+            "F02-laboratory-building: Controlled staff welfare"
+          ]
+        },
+        {
+          "label": "F02-laboratory-building: Service rear logistics gallery",
+          "box": [
+            8,
+            45,
+            64,
+            48
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02-laboratory-building: Controlled west lab access spine",
+            "F02-laboratory-building: Controlled central lab access spine",
+            "F02-laboratory-building: Controlled east lab access spine",
+            "F02-laboratory-building: Controlled method development laboratory",
+            "F02-laboratory-building: Controlled instrument validation lab",
+            "F02-laboratory-building: Service receiving and consumables",
+            "F02-laboratory-building: Service equipment store",
+            "F02-laboratory-building: Service wash and preparation",
+            "F02-laboratory-building: Service segregated waste holding",
+            "F02-laboratory-building: Service washrooms",
+            "F02-laboratory-building: Service building support"
+          ]
+        },
+        {
+          "label": "F02-laboratory-building: Controlled shared lift lobby",
+          "box": [
+            37,
+            13,
+            45,
+            16
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02-laboratory-building: Controlled front office gallery",
+            "F02-laboratory-building: Controlled central lab access spine",
+            "F02-laboratory-building: Controlled lift A reservation",
+            "F02-laboratory-building: Controlled lift B reservation"
+          ]
+        },
+        {
+          "label": "F02-laboratory-building: Service west stair reservation",
+          "box": [
+            4.8,
+            39,
+            8,
+            45
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F02-laboratory-building: Controlled west lab access spine"
+          ]
+        },
+        {
+          "label": "F02-laboratory-building: Service east stair reservation",
+          "box": [
+            64,
+            39,
+            67.2,
+            45
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F02-laboratory-building: Controlled east lab access spine"
+          ]
+        },
+        {
+          "label": "F02-laboratory-building: Controlled lift A reservation",
+          "box": [
+            37,
+            16,
+            40,
+            19
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F02-laboratory-building: Controlled central lab access spine",
+            "F02-laboratory-building: Controlled shared lift lobby"
+          ]
+        },
+        {
+          "label": "F02-laboratory-building: Controlled lift B reservation",
+          "box": [
+            40,
+            16,
+            43,
+            19
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F02-laboratory-building: Controlled shared lift lobby"
+          ]
+        },
+        {
+          "label": "F02-laboratory-building: Controlled analytical team office",
+          "box": [
+            0,
+            0,
+            7.364,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-laboratory-building: Controlled front office gallery"
+          ]
+        },
+        {
+          "label": "F02-laboratory-building: Controlled spectroscopy office",
+          "box": [
+            7.364,
+            0,
+            16.364,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-laboratory-building: Controlled front office gallery"
+          ]
+        },
+        {
+          "label": "F02-laboratory-building: Controlled methods seminar",
+          "box": [
+            16.364,
+            0,
+            27,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-laboratory-building: Controlled front office gallery"
+          ]
+        },
+        {
+          "label": "F02-laboratory-building: Controlled data interpretation",
+          "box": [
+            27,
+            0,
+            35.182,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-laboratory-building: Controlled front office gallery"
+          ]
+        },
+        {
+          "label": "F02-laboratory-building: Controlled instrument booking",
+          "box": [
+            35.182,
+            0,
+            45,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-laboratory-building: Controlled front office gallery"
+          ]
+        },
+        {
+          "label": "F02-laboratory-building: Controlled sample consultation",
+          "box": [
+            45,
+            0,
+            52.364,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-laboratory-building: Controlled front office gallery"
+          ]
+        },
+        {
+          "label": "F02-laboratory-building: Controlled quality review",
+          "box": [
+            52.364,
+            0,
+            61.364,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-laboratory-building: Controlled front office gallery"
+          ]
+        },
+        {
+          "label": "F02-laboratory-building: Controlled research meeting",
+          "box": [
+            61.364,
+            0,
+            72,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-laboratory-building: Controlled front office gallery"
+          ]
+        },
+        {
+          "label": "F02-laboratory-building: Controlled chromatography laboratory",
+          "box": [
+            11,
+            13,
+            23,
+            18.236
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-laboratory-building: Controlled front office gallery",
+            "F02-laboratory-building: Controlled west lab access spine"
+          ]
+        },
+        {
+          "label": "F02-laboratory-building: Controlled spectroscopy laboratory",
+          "box": [
+            11,
+            18.236,
+            23,
+            24.636
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-laboratory-building: Controlled west lab access spine"
+          ]
+        },
+        {
+          "label": "F02-laboratory-building: Controlled environmental analysis",
+          "box": [
+            11,
+            24.636,
+            23,
+            32.2
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-laboratory-building: Controlled west lab access spine"
+          ]
+        },
+        {
+          "label": "F02-laboratory-building: Controlled analytical preparation",
+          "box": [
+            11,
+            32.2,
+            23,
+            38.018
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-laboratory-building: Controlled west lab access spine"
+          ]
+        },
+        {
+          "label": "F02-laboratory-building: Controlled method development laboratory",
+          "box": [
+            11,
+            38.018,
+            23,
+            45
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-laboratory-building: Controlled west lab access spine",
+            "F02-laboratory-building: Service rear logistics gallery"
+          ]
+        },
+        {
+          "label": "F02-laboratory-building: Controlled mass spectrometry lab",
+          "box": [
+            37,
+            21,
+            49,
+            26.739
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-laboratory-building: Controlled central lab access spine"
+          ]
+        },
+        {
+          "label": "F02-laboratory-building: Controlled chemical analysis lab",
+          "box": [
+            37,
+            26.739,
+            49,
+            33.522
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-laboratory-building: Controlled central lab access spine"
+          ]
+        },
+        {
+          "label": "F02-laboratory-building: Controlled stability testing lab",
+          "box": [
+            37,
+            33.522,
+            49,
+            38.739
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-laboratory-building: Controlled central lab access spine"
+          ]
+        },
+        {
+          "label": "F02-laboratory-building: Controlled instrument validation lab",
+          "box": [
+            37,
+            38.739,
+            49,
+            45
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-laboratory-building: Controlled central lab access spine",
+            "F02-laboratory-building: Service rear logistics gallery"
+          ]
+        },
+        {
+          "label": "F02-laboratory-building: Controlled analytical lead",
+          "box": [
+            0,
+            13,
+            8,
+            18.442
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-laboratory-building: Controlled front office gallery",
+            "F02-laboratory-building: Controlled west lab access spine"
+          ]
+        },
+        {
+          "label": "F02-laboratory-building: Controlled analyst workroom",
+          "box": [
+            0,
+            18.442,
+            8,
+            25.093
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-laboratory-building: Controlled west lab access spine"
+          ]
+        },
+        {
+          "label": "F02-laboratory-building: Controlled assurance office",
+          "box": [
+            0,
+            25.093,
+            8,
+            32.953
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-laboratory-building: Controlled west lab access spine"
+          ]
+        },
+        {
+          "label": "F02-laboratory-building: Controlled technical library",
+          "box": [
+            0,
+            32.953,
+            8,
+            39
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-laboratory-building: Controlled west lab access spine"
+          ]
+        },
+        {
+          "label": "F02-laboratory-building: Controlled data review",
+          "box": [
+            64,
+            13,
+            72,
+            20.682
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-laboratory-building: Controlled front office gallery",
+            "F02-laboratory-building: Controlled east lab access spine"
+          ]
+        },
+        {
+          "label": "F02-laboratory-building: Controlled instrument support",
+          "box": [
+            64,
+            20.682,
+            72,
+            26.591
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-laboratory-building: Controlled east lab access spine"
+          ]
+        },
+        {
+          "label": "F02-laboratory-building: Controlled analytical meeting",
+          "box": [
+            64,
+            26.591,
+            72,
+            33.682
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-laboratory-building: Controlled east lab access spine"
+          ]
+        },
+        {
+          "label": "F02-laboratory-building: Controlled staff welfare",
+          "box": [
+            64,
+            33.682,
+            72,
+            39
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02-laboratory-building: Controlled east lab access spine"
+          ]
+        },
+        {
+          "label": "F02-laboratory-building: Service receiving and consumables",
+          "box": [
+            8,
+            48,
+            15.875,
+            56
+          ],
+          "kind": "service",
+          "access_to": [
+            "F02-laboratory-building: Service rear logistics gallery"
+          ]
+        },
+        {
+          "label": "F02-laboratory-building: Service equipment store",
+          "box": [
+            15.875,
+            48,
+            25.5,
+            56
+          ],
+          "kind": "service",
+          "access_to": [
+            "F02-laboratory-building: Service rear logistics gallery"
+          ]
+        },
+        {
+          "label": "F02-laboratory-building: Service wash and preparation",
+          "box": [
+            25.5,
+            48,
+            36.875,
+            56
+          ],
+          "kind": "service",
+          "access_to": [
+            "F02-laboratory-building: Service rear logistics gallery"
+          ]
+        },
+        {
+          "label": "F02-laboratory-building: Service segregated waste holding",
+          "box": [
+            36.875,
+            48,
+            45.625,
+            56
+          ],
+          "kind": "service",
+          "access_to": [
+            "F02-laboratory-building: Service rear logistics gallery"
+          ]
+        },
+        {
+          "label": "F02-laboratory-building: Service washrooms",
+          "box": [
+            45.625,
+            48,
+            56.125,
+            56
+          ],
+          "kind": "service",
+          "access_to": [
+            "F02-laboratory-building: Service rear logistics gallery"
+          ]
+        },
+        {
+          "label": "F02-laboratory-building: Service building support",
+          "box": [
+            56.125,
+            48,
+            64,
+            56
+          ],
+          "kind": "service",
+          "access_to": [
+            "F02-laboratory-building: Service rear logistics gallery"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Materials and fabrication research",
+      "height_m": 4.5,
+      "rooms": [
+        {
+          "label": "F03-laboratory-building: Controlled front office gallery",
+          "box": [
+            0,
+            10,
+            72,
+            13
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03-laboratory-building: Controlled west lab access spine",
+            "F03-laboratory-building: Controlled central lab access spine",
+            "F03-laboratory-building: Controlled east lab access spine",
+            "F03-laboratory-building: Controlled shared lift lobby",
+            "F03-laboratory-building: Controlled materials team office",
+            "F03-laboratory-building: Controlled fabrication planning",
+            "F03-laboratory-building: Controlled microscopy review",
+            "F03-laboratory-building: Controlled modelling studio",
+            "F03-laboratory-building: Controlled research seminar",
+            "F03-laboratory-building: Controlled prototype review",
+            "F03-laboratory-building: Controlled process planning",
+            "F03-laboratory-building: Controlled staff meeting",
+            "F03-laboratory-building: Controlled materials characterization",
+            "F03-laboratory-building: Controlled materials lead",
+            "F03-laboratory-building: Controlled design review"
+          ]
+        },
+        {
+          "label": "F03-laboratory-building: Controlled west lab access spine",
+          "box": [
+            8,
+            13,
+            11,
+            45
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03-laboratory-building: Controlled front office gallery",
+            "F03-laboratory-building: Service rear logistics gallery",
+            "F03-laboratory-building: Service west stair reservation",
+            "F03-laboratory-building: Controlled materials characterization",
+            "F03-laboratory-building: Controlled mechanical test laboratory",
+            "F03-laboratory-building: Controlled microscopy laboratory",
+            "F03-laboratory-building: Controlled specimen preparation",
+            "F03-laboratory-building: Controlled polymer research laboratory",
+            "F03-laboratory-building: Controlled materials lead",
+            "F03-laboratory-building: Controlled fabrication support",
+            "F03-laboratory-building: Controlled technician briefing",
+            "F03-laboratory-building: Controlled metrology office"
+          ]
+        },
+        {
+          "label": "F03-laboratory-building: Controlled central lab access spine",
+          "box": [
+            34,
+            13,
+            37,
+            45
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03-laboratory-building: Controlled front office gallery",
+            "F03-laboratory-building: Service rear logistics gallery",
+            "F03-laboratory-building: Controlled shared lift lobby",
+            "F03-laboratory-building: Controlled lift A reservation",
+            "F03-laboratory-building: Controlled additive manufacturing lab",
+            "F03-laboratory-building: Controlled composite research lab",
+            "F03-laboratory-building: Controlled surface analysis lab",
+            "F03-laboratory-building: Controlled thermal testing lab"
+          ]
+        },
+        {
+          "label": "F03-laboratory-building: Controlled east lab access spine",
+          "box": [
+            61,
+            13,
+            64,
+            45
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03-laboratory-building: Controlled front office gallery",
+            "F03-laboratory-building: Service rear logistics gallery",
+            "F03-laboratory-building: Service east stair reservation",
+            "F03-laboratory-building: Controlled design review",
+            "F03-laboratory-building: Controlled equipment support",
+            "F03-laboratory-building: Controlled research meeting",
+            "F03-laboratory-building: Controlled staff common room"
+          ]
+        },
+        {
+          "label": "F03-laboratory-building: Service rear logistics gallery",
+          "box": [
+            8,
+            45,
+            64,
+            48
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03-laboratory-building: Controlled west lab access spine",
+            "F03-laboratory-building: Controlled central lab access spine",
+            "F03-laboratory-building: Controlled east lab access spine",
+            "F03-laboratory-building: Controlled polymer research laboratory",
+            "F03-laboratory-building: Controlled thermal testing lab",
+            "F03-laboratory-building: Service receiving and consumables",
+            "F03-laboratory-building: Service equipment store",
+            "F03-laboratory-building: Service wash and preparation",
+            "F03-laboratory-building: Service segregated waste holding",
+            "F03-laboratory-building: Service washrooms",
+            "F03-laboratory-building: Service building support"
+          ]
+        },
+        {
+          "label": "F03-laboratory-building: Controlled shared lift lobby",
+          "box": [
+            37,
+            13,
+            45,
+            16
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03-laboratory-building: Controlled front office gallery",
+            "F03-laboratory-building: Controlled central lab access spine",
+            "F03-laboratory-building: Controlled lift A reservation",
+            "F03-laboratory-building: Controlled lift B reservation"
+          ]
+        },
+        {
+          "label": "F03-laboratory-building: Service west stair reservation",
+          "box": [
+            4.8,
+            39,
+            8,
+            45
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F03-laboratory-building: Controlled west lab access spine"
+          ]
+        },
+        {
+          "label": "F03-laboratory-building: Service east stair reservation",
+          "box": [
+            64,
+            39,
+            67.2,
+            45
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F03-laboratory-building: Controlled east lab access spine"
+          ]
+        },
+        {
+          "label": "F03-laboratory-building: Controlled lift A reservation",
+          "box": [
+            37,
+            16,
+            40,
+            19
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F03-laboratory-building: Controlled central lab access spine",
+            "F03-laboratory-building: Controlled shared lift lobby"
+          ]
+        },
+        {
+          "label": "F03-laboratory-building: Controlled lift B reservation",
+          "box": [
+            40,
+            16,
+            43,
+            19
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F03-laboratory-building: Controlled shared lift lobby"
+          ]
+        },
+        {
+          "label": "F03-laboratory-building: Controlled materials team office",
+          "box": [
+            0,
+            0,
+            8.899,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-laboratory-building: Controlled front office gallery"
+          ]
+        },
+        {
+          "label": "F03-laboratory-building: Controlled fabrication planning",
+          "box": [
+            8.899,
+            0,
+            19.416,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-laboratory-building: Controlled front office gallery"
+          ]
+        },
+        {
+          "label": "F03-laboratory-building: Controlled microscopy review",
+          "box": [
+            19.416,
+            0,
+            27.506,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-laboratory-building: Controlled front office gallery"
+          ]
+        },
+        {
+          "label": "F03-laboratory-building: Controlled modelling studio",
+          "box": [
+            27.506,
+            0,
+            37.213,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-laboratory-building: Controlled front office gallery"
+          ]
+        },
+        {
+          "label": "F03-laboratory-building: Controlled research seminar",
+          "box": [
+            37.213,
+            0,
+            44.494,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-laboratory-building: Controlled front office gallery"
+          ]
+        },
+        {
+          "label": "F03-laboratory-building: Controlled prototype review",
+          "box": [
+            44.494,
+            0,
+            53.393,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-laboratory-building: Controlled front office gallery"
+          ]
+        },
+        {
+          "label": "F03-laboratory-building: Controlled process planning",
+          "box": [
+            53.393,
+            0,
+            63.91,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-laboratory-building: Controlled front office gallery"
+          ]
+        },
+        {
+          "label": "F03-laboratory-building: Controlled staff meeting",
+          "box": [
+            63.91,
+            0,
+            72,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-laboratory-building: Controlled front office gallery"
+          ]
+        },
+        {
+          "label": "F03-laboratory-building: Controlled materials characterization",
+          "box": [
+            11,
+            13,
+            23,
+            19.4
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-laboratory-building: Controlled front office gallery",
+            "F03-laboratory-building: Controlled west lab access spine"
+          ]
+        },
+        {
+          "label": "F03-laboratory-building: Controlled mechanical test laboratory",
+          "box": [
+            11,
+            19.4,
+            23,
+            26.964
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-laboratory-building: Controlled west lab access spine"
+          ]
+        },
+        {
+          "label": "F03-laboratory-building: Controlled microscopy laboratory",
+          "box": [
+            11,
+            26.964,
+            23,
+            32.782
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-laboratory-building: Controlled west lab access spine"
+          ]
+        },
+        {
+          "label": "F03-laboratory-building: Controlled specimen preparation",
+          "box": [
+            11,
+            32.782,
+            23,
+            39.764
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-laboratory-building: Controlled west lab access spine"
+          ]
+        },
+        {
+          "label": "F03-laboratory-building: Controlled polymer research laboratory",
+          "box": [
+            11,
+            39.764,
+            23,
+            45
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-laboratory-building: Controlled west lab access spine",
+            "F03-laboratory-building: Service rear logistics gallery"
+          ]
+        },
+        {
+          "label": "F03-laboratory-building: Controlled additive manufacturing lab",
+          "box": [
+            37,
+            21,
+            49,
+            28.091
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-laboratory-building: Controlled central lab access spine"
+          ]
+        },
+        {
+          "label": "F03-laboratory-building: Controlled composite research lab",
+          "box": [
+            37,
+            28.091,
+            49,
+            33.545
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-laboratory-building: Controlled central lab access spine"
+          ]
+        },
+        {
+          "label": "F03-laboratory-building: Controlled surface analysis lab",
+          "box": [
+            37,
+            33.545,
+            49,
+            40.091
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-laboratory-building: Controlled central lab access spine"
+          ]
+        },
+        {
+          "label": "F03-laboratory-building: Controlled thermal testing lab",
+          "box": [
+            37,
+            40.091,
+            49,
+            45
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-laboratory-building: Controlled central lab access spine",
+            "F03-laboratory-building: Service rear logistics gallery"
+          ]
+        },
+        {
+          "label": "F03-laboratory-building: Controlled materials lead",
+          "box": [
+            0,
+            13,
+            8,
+            19.217
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-laboratory-building: Controlled front office gallery",
+            "F03-laboratory-building: Controlled west lab access spine"
+          ]
+        },
+        {
+          "label": "F03-laboratory-building: Controlled fabrication support",
+          "box": [
+            0,
+            19.217,
+            8,
+            26.565
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-laboratory-building: Controlled west lab access spine"
+          ]
+        },
+        {
+          "label": "F03-laboratory-building: Controlled technician briefing",
+          "box": [
+            0,
+            26.565,
+            8,
+            32.217
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-laboratory-building: Controlled west lab access spine"
+          ]
+        },
+        {
+          "label": "F03-laboratory-building: Controlled metrology office",
+          "box": [
+            0,
+            32.217,
+            8,
+            39
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-laboratory-building: Controlled west lab access spine"
+          ]
+        },
+        {
+          "label": "F03-laboratory-building: Controlled design review",
+          "box": [
+            64,
+            13,
+            72,
+            19.19
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-laboratory-building: Controlled front office gallery",
+            "F03-laboratory-building: Controlled east lab access spine"
+          ]
+        },
+        {
+          "label": "F03-laboratory-building: Controlled equipment support",
+          "box": [
+            64,
+            19.19,
+            72,
+            26.619
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-laboratory-building: Controlled east lab access spine"
+          ]
+        },
+        {
+          "label": "F03-laboratory-building: Controlled research meeting",
+          "box": [
+            64,
+            26.619,
+            72,
+            32.19
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-laboratory-building: Controlled east lab access spine"
+          ]
+        },
+        {
+          "label": "F03-laboratory-building: Controlled staff common room",
+          "box": [
+            64,
+            32.19,
+            72,
+            39
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03-laboratory-building: Controlled east lab access spine"
+          ]
+        },
+        {
+          "label": "F03-laboratory-building: Service receiving and consumables",
+          "box": [
+            8,
+            48,
+            17.333,
+            56
+          ],
+          "kind": "service",
+          "access_to": [
+            "F03-laboratory-building: Service rear logistics gallery"
+          ]
+        },
+        {
+          "label": "F03-laboratory-building: Service equipment store",
+          "box": [
+            17.333,
+            48,
+            28.364,
+            56
+          ],
+          "kind": "service",
+          "access_to": [
+            "F03-laboratory-building: Service rear logistics gallery"
+          ]
+        },
+        {
+          "label": "F03-laboratory-building: Service wash and preparation",
+          "box": [
+            28.364,
+            48,
+            36.848,
+            56
+          ],
+          "kind": "service",
+          "access_to": [
+            "F03-laboratory-building: Service rear logistics gallery"
+          ]
+        },
+        {
+          "label": "F03-laboratory-building: Service segregated waste holding",
+          "box": [
+            36.848,
+            48,
+            47.03,
+            56
+          ],
+          "kind": "service",
+          "access_to": [
+            "F03-laboratory-building: Service rear logistics gallery"
+          ]
+        },
+        {
+          "label": "F03-laboratory-building: Service washrooms",
+          "box": [
+            47.03,
+            48,
+            54.667,
+            56
+          ],
+          "kind": "service",
+          "access_to": [
+            "F03-laboratory-building: Service rear logistics gallery"
+          ]
+        },
+        {
+          "label": "F03-laboratory-building: Service building support",
+          "box": [
+            54.667,
+            48,
+            64,
+            56
+          ],
+          "kind": "service",
+          "access_to": [
+            "F03-laboratory-building: Service rear logistics gallery"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "name": "Dry labs and computational research",
+      "height_m": 4.5,
+      "rooms": [
+        {
+          "label": "F04-laboratory-building: Controlled front office gallery",
+          "box": [
+            0,
+            10,
+            72,
+            13
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F04-laboratory-building: Controlled west lab access spine",
+            "F04-laboratory-building: Controlled central lab access spine",
+            "F04-laboratory-building: Controlled east lab access spine",
+            "F04-laboratory-building: Controlled shared lift lobby",
+            "F04-laboratory-building: Controlled computational research",
+            "F04-laboratory-building: Controlled data science studio",
+            "F04-laboratory-building: Controlled simulation room",
+            "F04-laboratory-building: Controlled bioinformatics office",
+            "F04-laboratory-building: Controlled grant planning",
+            "F04-laboratory-building: Controlled research governance",
+            "F04-laboratory-building: Controlled conference room",
+            "F04-laboratory-building: Controlled researcher lounge",
+            "F04-laboratory-building: Controlled dry instrumentation lab",
+            "F04-laboratory-building: Controlled computing lead",
+            "F04-laboratory-building: Controlled project collaboration"
+          ]
+        },
+        {
+          "label": "F04-laboratory-building: Controlled west lab access spine",
+          "box": [
+            8,
+            13,
+            11,
+            45
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F04-laboratory-building: Controlled front office gallery",
+            "F04-laboratory-building: Service rear logistics gallery",
+            "F04-laboratory-building: Service west stair reservation",
+            "F04-laboratory-building: Controlled dry instrumentation lab",
+            "F04-laboratory-building: Controlled sensor development",
+            "F04-laboratory-building: Controlled electronics laboratory",
+            "F04-laboratory-building: Controlled bench computing lab",
+            "F04-laboratory-building: Controlled research project laboratory",
+            "F04-laboratory-building: Controlled computing lead",
+            "F04-laboratory-building: Controlled research support",
+            "F04-laboratory-building: Controlled staff mentoring",
+            "F04-laboratory-building: Controlled quiet workroom"
+          ]
+        },
+        {
+          "label": "F04-laboratory-building: Controlled central lab access spine",
+          "box": [
+            34,
+            13,
+            37,
+            45
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F04-laboratory-building: Controlled front office gallery",
+            "F04-laboratory-building: Service rear logistics gallery",
+            "F04-laboratory-building: Controlled shared lift lobby",
+            "F04-laboratory-building: Controlled lift A reservation",
+            "F04-laboratory-building: Controlled visualization laboratory",
+            "F04-laboratory-building: Controlled robotics bench lab",
+            "F04-laboratory-building: Controlled embedded systems lab",
+            "F04-laboratory-building: Controlled instrument integration lab"
+          ]
+        },
+        {
+          "label": "F04-laboratory-building: Controlled east lab access spine",
+          "box": [
+            61,
+            13,
+            64,
+            45
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F04-laboratory-building: Controlled front office gallery",
+            "F04-laboratory-building: Service rear logistics gallery",
+            "F04-laboratory-building: Service east stair reservation",
+            "F04-laboratory-building: Controlled project collaboration",
+            "F04-laboratory-building: Controlled systems review",
+            "F04-laboratory-building: Controlled researcher meeting",
+            "F04-laboratory-building: Controlled visiting researcher"
+          ]
+        },
+        {
+          "label": "F04-laboratory-building: Service rear logistics gallery",
+          "box": [
+            8,
+            45,
+            64,
+            48
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F04-laboratory-building: Controlled west lab access spine",
+            "F04-laboratory-building: Controlled central lab access spine",
+            "F04-laboratory-building: Controlled east lab access spine",
+            "F04-laboratory-building: Controlled research project laboratory",
+            "F04-laboratory-building: Controlled instrument integration lab",
+            "F04-laboratory-building: Service receiving and consumables",
+            "F04-laboratory-building: Service equipment store",
+            "F04-laboratory-building: Service wash and preparation",
+            "F04-laboratory-building: Service segregated waste holding",
+            "F04-laboratory-building: Service washrooms",
+            "F04-laboratory-building: Service building support"
+          ]
+        },
+        {
+          "label": "F04-laboratory-building: Controlled shared lift lobby",
+          "box": [
+            37,
+            13,
+            45,
+            16
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F04-laboratory-building: Controlled front office gallery",
+            "F04-laboratory-building: Controlled central lab access spine",
+            "F04-laboratory-building: Controlled lift A reservation",
+            "F04-laboratory-building: Controlled lift B reservation"
+          ]
+        },
+        {
+          "label": "F04-laboratory-building: Service west stair reservation",
+          "box": [
+            4.8,
+            39,
+            8,
+            45
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F04-laboratory-building: Controlled west lab access spine"
+          ]
+        },
+        {
+          "label": "F04-laboratory-building: Service east stair reservation",
+          "box": [
+            64,
+            39,
+            67.2,
+            45
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F04-laboratory-building: Controlled east lab access spine"
+          ]
+        },
+        {
+          "label": "F04-laboratory-building: Controlled lift A reservation",
+          "box": [
+            37,
+            16,
+            40,
+            19
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F04-laboratory-building: Controlled central lab access spine",
+            "F04-laboratory-building: Controlled shared lift lobby"
+          ]
+        },
+        {
+          "label": "F04-laboratory-building: Controlled lift B reservation",
+          "box": [
+            40,
+            16,
+            43,
+            19
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F04-laboratory-building: Controlled shared lift lobby"
+          ]
+        },
+        {
+          "label": "F04-laboratory-building: Controlled computational research",
+          "box": [
+            0,
+            0,
+            10.4,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-laboratory-building: Controlled front office gallery"
+          ]
+        },
+        {
+          "label": "F04-laboratory-building: Controlled data science studio",
+          "box": [
+            10.4,
+            0,
+            18.4,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-laboratory-building: Controlled front office gallery"
+          ]
+        },
+        {
+          "label": "F04-laboratory-building: Controlled simulation room",
+          "box": [
+            18.4,
+            0,
+            28,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-laboratory-building: Controlled front office gallery"
+          ]
+        },
+        {
+          "label": "F04-laboratory-building: Controlled bioinformatics office",
+          "box": [
+            28,
+            0,
+            35.2,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-laboratory-building: Controlled front office gallery"
+          ]
+        },
+        {
+          "label": "F04-laboratory-building: Controlled grant planning",
+          "box": [
+            35.2,
+            0,
+            44,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-laboratory-building: Controlled front office gallery"
+          ]
+        },
+        {
+          "label": "F04-laboratory-building: Controlled research governance",
+          "box": [
+            44,
+            0,
+            54.4,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-laboratory-building: Controlled front office gallery"
+          ]
+        },
+        {
+          "label": "F04-laboratory-building: Controlled conference room",
+          "box": [
+            54.4,
+            0,
+            62.4,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-laboratory-building: Controlled front office gallery"
+          ]
+        },
+        {
+          "label": "F04-laboratory-building: Controlled researcher lounge",
+          "box": [
+            62.4,
+            0,
+            72,
+            10
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-laboratory-building: Controlled front office gallery"
+          ]
+        },
+        {
+          "label": "F04-laboratory-building: Controlled dry instrumentation lab",
+          "box": [
+            11,
+            13,
+            23,
+            20.564
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-laboratory-building: Controlled front office gallery",
+            "F04-laboratory-building: Controlled west lab access spine"
+          ]
+        },
+        {
+          "label": "F04-laboratory-building: Controlled sensor development",
+          "box": [
+            11,
+            20.564,
+            23,
+            26.382
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-laboratory-building: Controlled west lab access spine"
+          ]
+        },
+        {
+          "label": "F04-laboratory-building: Controlled electronics laboratory",
+          "box": [
+            11,
+            26.382,
+            23,
+            33.364
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-laboratory-building: Controlled west lab access spine"
+          ]
+        },
+        {
+          "label": "F04-laboratory-building: Controlled bench computing lab",
+          "box": [
+            11,
+            33.364,
+            23,
+            38.6
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-laboratory-building: Controlled west lab access spine"
+          ]
+        },
+        {
+          "label": "F04-laboratory-building: Controlled research project laboratory",
+          "box": [
+            11,
+            38.6,
+            23,
+            45
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-laboratory-building: Controlled west lab access spine",
+            "F04-laboratory-building: Service rear logistics gallery"
+          ]
+        },
+        {
+          "label": "F04-laboratory-building: Controlled visualization laboratory",
+          "box": [
+            37,
+            21,
+            49,
+            26.714
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-laboratory-building: Controlled central lab access spine"
+          ]
+        },
+        {
+          "label": "F04-laboratory-building: Controlled robotics bench lab",
+          "box": [
+            37,
+            26.714,
+            49,
+            33.571
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-laboratory-building: Controlled central lab access spine"
+          ]
+        },
+        {
+          "label": "F04-laboratory-building: Controlled embedded systems lab",
+          "box": [
+            37,
+            33.571,
+            49,
+            38.714
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-laboratory-building: Controlled central lab access spine"
+          ]
+        },
+        {
+          "label": "F04-laboratory-building: Controlled instrument integration lab",
+          "box": [
+            37,
+            38.714,
+            49,
+            45
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-laboratory-building: Controlled central lab access spine",
+            "F04-laboratory-building: Service rear logistics gallery"
+          ]
+        },
+        {
+          "label": "F04-laboratory-building: Controlled computing lead",
+          "box": [
+            0,
+            13,
+            8,
+            20.682
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-laboratory-building: Controlled front office gallery",
+            "F04-laboratory-building: Controlled west lab access spine"
+          ]
+        },
+        {
+          "label": "F04-laboratory-building: Controlled research support",
+          "box": [
+            0,
+            20.682,
+            8,
+            26.591
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-laboratory-building: Controlled west lab access spine"
+          ]
+        },
+        {
+          "label": "F04-laboratory-building: Controlled staff mentoring",
+          "box": [
+            0,
+            26.591,
+            8,
+            33.682
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-laboratory-building: Controlled west lab access spine"
+          ]
+        },
+        {
+          "label": "F04-laboratory-building: Controlled quiet workroom",
+          "box": [
+            0,
+            33.682,
+            8,
+            39
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-laboratory-building: Controlled west lab access spine"
+          ]
+        },
+        {
+          "label": "F04-laboratory-building: Controlled project collaboration",
+          "box": [
+            64,
+            13,
+            72,
+            19.933
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-laboratory-building: Controlled front office gallery",
+            "F04-laboratory-building: Controlled east lab access spine"
+          ]
+        },
+        {
+          "label": "F04-laboratory-building: Controlled systems review",
+          "box": [
+            64,
+            19.933,
+            72,
+            25.133
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-laboratory-building: Controlled east lab access spine"
+          ]
+        },
+        {
+          "label": "F04-laboratory-building: Controlled researcher meeting",
+          "box": [
+            64,
+            25.133,
+            72,
+            31.489
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-laboratory-building: Controlled east lab access spine"
+          ]
+        },
+        {
+          "label": "F04-laboratory-building: Controlled visiting researcher",
+          "box": [
+            64,
+            31.489,
+            72,
+            39
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04-laboratory-building: Controlled east lab access spine"
+          ]
+        },
+        {
+          "label": "F04-laboratory-building: Service receiving and consumables",
+          "box": [
+            8,
+            48,
+            18.706,
+            56
+          ],
+          "kind": "service",
+          "access_to": [
+            "F04-laboratory-building: Service rear logistics gallery"
+          ]
+        },
+        {
+          "label": "F04-laboratory-building: Service equipment store",
+          "box": [
+            18.706,
+            48,
+            26.941,
+            56
+          ],
+          "kind": "service",
+          "access_to": [
+            "F04-laboratory-building: Service rear logistics gallery"
+          ]
+        },
+        {
+          "label": "F04-laboratory-building: Service wash and preparation",
+          "box": [
+            26.941,
+            48,
+            36.824,
+            56
+          ],
+          "kind": "service",
+          "access_to": [
+            "F04-laboratory-building: Service rear logistics gallery"
+          ]
+        },
+        {
+          "label": "F04-laboratory-building: Service segregated waste holding",
+          "box": [
+            36.824,
+            48,
+            44.235,
+            56
+          ],
+          "kind": "service",
+          "access_to": [
+            "F04-laboratory-building: Service rear logistics gallery"
+          ]
+        },
+        {
+          "label": "F04-laboratory-building: Service washrooms",
+          "box": [
+            44.235,
+            48,
+            53.294,
+            56
+          ],
+          "kind": "service",
+          "access_to": [
+            "F04-laboratory-building: Service rear logistics gallery"
+          ]
+        },
+        {
+          "label": "F04-laboratory-building: Service building support",
+          "box": [
+            53.294,
+            48,
+            64,
+            56
+          ],
+          "kind": "service",
+          "access_to": [
+            "F04-laboratory-building: Service rear logistics gallery"
+          ]
+        }
+      ]
+    }
+  ]
+}

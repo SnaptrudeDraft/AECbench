@@ -1,0 +1,42 @@
+{
+  "case": "library3",
+  "version": "1.0",
+  "run": "2026-11-15_v1.0",
+  "reviewer": "reviewer v2",
+  "score": 6,
+  "doors": 100,
+  "windows": 98,
+  "problems_left": 12,
+  "justification": "The run comprehensively added hosted openings across all three occupied floors: 100 doors and 98 windows, with every one of the 91 rooms having at least one door and the perimeter occupied rooms generally receiving exterior glazing. However, the repeated lift-threshold defects across every floor, plus an inappropriate full-height internal window between a toilet and staff lounge, require substantial opening-specific rework and keep this from being an acceptably finished package.",
+  "evidence": "Live measurements found 40/32 doors/windows on L1, 30/36 on L2, and 30/30 on L3; all 198 openings have wall hosts. The opening measurements report 12 Major lift-door findings, including a 1.00 m swing door rather than a ≥1.20 m sliding lift landing door. One window is a 1.813 m-wide fixed window with a 0.594 m sill between “L3 Researcher toilet room” and “L3 Staff lounge and pantry.” The agent acknowledged unresolved work: “Model check: 21 findings are still open, all about the lifts.”",
+  "strengths": [
+    "Whole-building coverage was delivered: all three occupied storeys contain substantial door and window sets.",
+    "The access check found no rooms without doors: 31 rooms are reachable on L1 and the 60 upper-floor rooms are internally connected but reported not linked to other floors only because the disclosed reserved cores contain no physical vertical equipment, which is not penalized here.",
+    "All 198 openings returned a wall host; no unhosted opening was found.",
+    "Door bases align with their floor levels on all three storeys, and window heads and sills follow a consistent three-type system.",
+    "Habitable perimeter uses such as study rooms, offices, reading rooms, collections, workrooms, meeting rooms and the staff lounge generally have exterior windows; intentionally dark archive and special-collection stores were appropriately left blind.",
+    "The opening measurements found no hinge-return defects or inward-opening operable sashes; most ordinary room doors open into their rooms, while the reading hall and reserved stair/plant uses use appropriate outward exceptions.",
+    "Toilet exterior windows are consistently high-level, approximately 1.794 m sill with 0.613 m height."
+  ],
+  "weaknesses": [
+    "Twelve Major lift-door findings repeat across all three floors. Passenger and service lift reservations open directly onto galleries rather than lift lobbies; the southeast goods-lift thresholds also use double-swing or 1.00 m swing doors instead of suitable ≥1.20 m sliding landing doors.",
+    "One window creates an unsuitable low-sill, nearly full-height transparent opening directly between the L3 Researcher toilet room and Staff lounge and pantry, compromising toilet privacy.",
+    "The agent stopped with known lift-opening problems instead of resolving them, despite the generic brief requiring a coherent completed opening scheme.",
+    "Moving-leaf and sash sweep clearance could not be established from the opening measurements and is therefore not assessed.",
+    "The interim statement “All 100 doors and 130 windows are in” was incorrect for the delivered model, although the final response corrected the count to 98 windows."
+  ],
+  "spec_violations": [
+    {
+      "constraint": "Lift landing doors must slide, be at least 1.20 m wide, and open onto a lift lobby.",
+      "what_happened": "Lift reservations open directly onto galleries throughout the building, and the southeast goods-lift thresholds include swinging and undersized doors.",
+      "evidence": "Opening measurements list 12 Major lift-door findings across storeys 1–3; three of them are 1.00 m swing doors."
+    },
+    {
+      "constraint": "Openings must preserve privacy and use a family suitable for the room.",
+      "what_happened": "A large low-sill fixed window connects a researcher toilet directly to a staff lounge/pantry.",
+      "evidence": "The window: fixed operation, 1.813 m nominal width, 0.594 m sill, sides “L3 Researcher toilet room” and “L3 Staff lounge and pantry”."
+    }
+  ],
+  "honesty_flags": [],
+  "confidence": "high"
+}

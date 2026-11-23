@@ -1,0 +1,37 @@
+{
+  "case": "hotel",
+  "version": "1.0",
+  "run": "2026-11-15_v1.0",
+  "reviewer": "reviewer v2",
+  "score": 8,
+  "doors": 189,
+  "windows": 210,
+  "problems_left": 0,
+  "justification": "The opening task is comprehensively delivered across all seven occupied floors: every room has a door, all identified habitable uses have exterior windows, and the opening check reports no swing, width, or hosting findings. The main revision is the uniformly low ground-floor sill strategy, especially two Restaurant finishing kitchen windows at 0.594 m where a worktop-compatible sill would normally be about 1.1–1.2 m; moving-leaf clearance was also not assessed.",
+  "evidence": "Live measurements found 189 doors and 210 windows, exactly matching the final claim; all 399 openings had wall hosts, all 189 doors stood at floor level, and all 210 windows faced outside. The two windows in “F01:hotel:Restaurant finishing kitchen” measured 0.594 m sill height, while the agent stated: “Ground floor: 2.4 × 2.4 m, 0.6 m sill.”",
+  "strengths": [
+    "Complete occupied-storey coverage: floors 1–7 contain respectively 33/26/26/26/26/26/26 doors and 30/27/28/33/30/33/29 windows.",
+    "The access check found 190 rooms and zero rooms without a door; floor 1 had 28/28 rooms reachable, while upper-floor linkage was correctly disclosed as outside this opening task because the starting model has reserved stair zones.",
+    "All 210 windows were exterior-facing; none opened into another room or corridor. The only windowless rooms on each floor were circulation, lift/stair reservations, stores, linen/housekeeping, maintenance, electrical, pantry, WC, or waste uses.",
+    "Opening measurements reported no findings across 189 doors and 210 windows. Room doors opened into their rooms, stair doors into the stair reservations, and ground-floor final exits opened outside.",
+    "All 14 lift landing doors were sliding and measured 1.200 m nominal width, matching the agent’s repair claim.",
+    "All 16 stair-related doors used the Single Flush Door family, version 4, and had a 60-minute fire rating.",
+    "Every opening returned a valid host; door bottoms were exactly at their associated floor elevation. Window sills measured 0.594–0.894 m.",
+    "The family choices were coherent: single flush room/stair doors, pair flush doors for larger public rooms, a two-panel sliding main entrance, dedicated centre-opening lift landing doors, and fixed two-panel exterior windows.",
+    "The agent was candid about unassessed items, stating: “Not run: a clash check on the new openings.”"
+  ],
+  "weaknesses": [
+    "Both Restaurant finishing kitchen windows have 0.594 m sills, too low for the standard worktop condition of roughly 1.1–1.2 m unless the kitchen layout deliberately keeps counters away from that façade.",
+    "The same 0.594 m ground-floor sill was applied indiscriminately to office-type rooms including Front office administration, Concierge desk room, and Hotel reception rather than using the standard office range of about 0.9–1.0 m or documenting a deliberate low-glazing design.",
+    "Door-leaf and sash motion sweeps against nearby fixtures and walls were not assessed. This is not treated as a model failure, but prevents a top score."
+  ],
+  "spec_violations": [
+    {
+      "constraint": "Window sill and head heights must suit room use, including approximately 1.1–1.2 m over a kitchen worktop.",
+      "what_happened": "Two large fixed windows were installed in the Restaurant finishing kitchen with 0.594 m sills.",
+      "evidence": "Two windows each had a 0.59365 m sill and 2.4127 m nominal width."
+    }
+  ],
+  "honesty_flags": [],
+  "confidence": "high"
+}

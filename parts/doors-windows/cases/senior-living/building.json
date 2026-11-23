@@ -1,0 +1,1569 @@
+{
+  "slug": "senior-living",
+  "typology": "senior-living",
+  "provenance": "AI-authored synthetic recorded starting layout for a doors/windows benchmark; not a customer design or a certified design.",
+  "notes": [
+    "AI-authored synthetic recorded benchmark input only. Not a customer layout, certified design, construction document, or code-compliance claim.",
+    "Coordinates are metres in a local x/z plan. The rectangular footprint is 73 m by 17.4 m: 7.5 m deep room banks either side of a 2.4 m corridor. All geometry is axis-aligned space envelopes; walls and wall thickness are not modelled.",
+    "Two widely separated stair footprints and two lift footprints are explicitly RESERVED on every floor, with identical stacked coordinates. They are not physical stairs, lift cars, shafts, equipment, or verified vertical routes.",
+    "A continuous 2.4 m main corridor connects a central lift core (two 2.5 m lifts facing each other across the corridor, each opening into an open lobby with a floor store behind) and two 3 m by 7.5 m stair reservations 5 m in from the gables, so no corridor door is more than 30 m from a stair. Access edges are bidirectional same-floor intended adjacencies only, not installed or seeded doors, windows, or openings.",
+    "Every apartment, studio, guest room, lodge room, and residential suite marked envelope includes its internal living, sleeping, kitchenette where appropriate, and sanitary functions. Internal bathrooms and partitions are deliberately unresolved; no overlapping nested bathroom rectangles are used.",
+    "Public WC envelopes, where present, are disjoint rooms. No other sanitary fixtures, furniture, structure, facade openings, external paths, or site access geometry is supplied.",
+    "Floor 1 arrival and reception rooms connect to internal circulation; their outside entrance openings are intentionally unseeded. Ground-floor uses and upper residential, amenity, and service uses differ by floor.",
+    "Dimensions and programs are plausible benchmark assumptions, not checks of fire escape, accessibility, occupancy, daylight, ventilation, plumbing, acoustics, or statutory requirements. Same-floor access does not certify egress."
+  ],
+  "floors": [
+    {
+      "number": 1,
+      "name": "Welcome health and community",
+      "height_m": 4,
+      "rooms": [
+        {
+          "label": "F01:senior-living:Main corridor",
+          "box": [
+            0,
+            7.5,
+            73,
+            9.9
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01:senior-living:South reserved lift lobby",
+            "F01:senior-living:North reserved lift lobby",
+            "F01:senior-living:West stair RESERVED",
+            "F01:senior-living:East stair RESERVED",
+            "F01:senior-living:Resident welcome room",
+            "F01:senior-living:Family reception lounge",
+            "F01:senior-living:Community administration",
+            "F01:senior-living:Public WC and accessible WC",
+            "F01:senior-living:Communal dining room",
+            "F01:senior-living:Resident demonstration kitchen",
+            "F01:senior-living:Private care consultation",
+            "F01:senior-living:Nurse assessment room",
+            "F01:senior-living:Physiotherapy studio",
+            "F01:senior-living:Gentle exercise room",
+            "F01:senior-living:Activities studio",
+            "F01:senior-living:Reading lounge",
+            "F01:senior-living:Family visiting room",
+            "F01:senior-living:Mobility equipment fitting",
+            "F01:senior-living:Resident laundry",
+            "F01:senior-living:Garden social lounge",
+            "F01:senior-living:Accessible respite suite envelope",
+            "F01:senior-living:Companion respite suite envelope",
+            "F01:senior-living:Electrical intake room"
+          ]
+        },
+        {
+          "label": "F01:senior-living:West stair RESERVED",
+          "box": [
+            5,
+            0,
+            8,
+            7.5
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F01:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:senior-living:East stair RESERVED",
+          "box": [
+            65,
+            9.9,
+            68,
+            17.4
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F01:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:senior-living:South lift RESERVED",
+          "box": [
+            34,
+            5,
+            36.5,
+            7.5
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F01:senior-living:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F01:senior-living:South reserved lift lobby",
+          "box": [
+            36.5,
+            5,
+            39,
+            7.5
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01:senior-living:Main corridor",
+            "F01:senior-living:South lift RESERVED",
+            "F01:senior-living:Clinical supplies store"
+          ]
+        },
+        {
+          "label": "F01:senior-living:Clinical supplies store",
+          "box": [
+            34,
+            0,
+            39,
+            5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01:senior-living:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F01:senior-living:North reserved lift lobby",
+          "box": [
+            34,
+            9.9,
+            36.5,
+            12.4
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01:senior-living:Main corridor",
+            "F01:senior-living:North lift RESERVED",
+            "F01:senior-living:Waste holding room"
+          ]
+        },
+        {
+          "label": "F01:senior-living:North lift RESERVED",
+          "box": [
+            36.5,
+            9.9,
+            39,
+            12.4
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F01:senior-living:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F01:senior-living:Waste holding room",
+          "box": [
+            34,
+            12.4,
+            39,
+            17.4
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01:senior-living:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F01:senior-living:Resident welcome room",
+          "box": [
+            28.271,
+            0,
+            34,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:senior-living:Family reception lounge",
+          "box": [
+            16.813,
+            0,
+            28.271,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:senior-living:Community administration",
+          "box": [
+            8,
+            0,
+            16.813,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:senior-living:Public WC and accessible WC",
+          "box": [
+            0,
+            0,
+            5,
+            7.5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:senior-living:Communal dining room",
+          "box": [
+            0,
+            9.9,
+            7.129,
+            17.4
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:senior-living:Main corridor",
+            "F01:senior-living:Resident demonstration kitchen"
+          ]
+        },
+        {
+          "label": "F01:senior-living:Resident demonstration kitchen",
+          "box": [
+            7.129,
+            9.9,
+            14.258,
+            17.4
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:senior-living:Main corridor",
+            "F01:senior-living:Communal dining room"
+          ]
+        },
+        {
+          "label": "F01:senior-living:Private care consultation",
+          "box": [
+            14.258,
+            9.9,
+            17.823,
+            17.4
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:senior-living:Nurse assessment room",
+          "box": [
+            17.823,
+            9.9,
+            21.388,
+            17.4
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:senior-living:Physiotherapy studio",
+          "box": [
+            21.388,
+            9.9,
+            28.517,
+            17.4
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:senior-living:Gentle exercise room",
+          "box": [
+            28.517,
+            9.9,
+            34,
+            17.4
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:senior-living:Activities studio",
+          "box": [
+            39,
+            9.9,
+            46.348,
+            17.4
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:senior-living:Reading lounge",
+          "box": [
+            46.348,
+            9.9,
+            53.696,
+            17.4
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:senior-living:Family visiting room",
+          "box": [
+            53.696,
+            9.9,
+            59.348,
+            17.4
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:senior-living:Mobility equipment fitting",
+          "box": [
+            59.348,
+            9.9,
+            65,
+            17.4
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:senior-living:Resident laundry",
+          "box": [
+            68,
+            9.9,
+            73,
+            17.4
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:senior-living:Garden social lounge",
+          "box": [
+            62.339,
+            0,
+            73,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:senior-living:Accessible respite suite envelope",
+          "box": [
+            52.561,
+            0,
+            62.339,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:senior-living:Companion respite suite envelope",
+          "box": [
+            42.001,
+            0,
+            52.561,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:senior-living:Electrical intake room",
+          "box": [
+            39,
+            0,
+            42.001,
+            7.5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01:senior-living:Main corridor"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Independent living neighbourhood",
+      "height_m": 3.3,
+      "rooms": [
+        {
+          "label": "F02:senior-living:Main corridor",
+          "box": [
+            0,
+            7.5,
+            73,
+            9.9
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02:senior-living:South reserved lift lobby",
+            "F02:senior-living:North reserved lift lobby",
+            "F02:senior-living:West stair RESERVED",
+            "F02:senior-living:East stair RESERVED",
+            "F02:senior-living:Shared dining room",
+            "F02:senior-living:Resident kitchen",
+            "F02:senior-living:Neighbourhood lounge",
+            "F02:senior-living:Hobbies room",
+            "F02:senior-living:Resident laundry",
+            "F02:senior-living:East independent suite envelope",
+            "F02:senior-living:West independent suite envelope",
+            "F02:senior-living:North couple suite envelope",
+            "F02:senior-living:South couple suite envelope",
+            "F02:senior-living:Accessible independent envelope",
+            "F02:senior-living:Corner resident suite envelope",
+            "F02:senior-living:Courtyard resident envelope",
+            "F02:senior-living:Quiet resident envelope",
+            "F02:senior-living:Companion living envelope",
+            "F02:senior-living:Carer visiting suite envelope",
+            "F02:senior-living:Garden outlook suite envelope",
+            "F02:senior-living:Flexible resident suite envelope",
+            "F02:senior-living:Floor recycling room"
+          ]
+        },
+        {
+          "label": "F02:senior-living:West stair RESERVED",
+          "box": [
+            5,
+            0,
+            8,
+            7.5
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F02:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:senior-living:East stair RESERVED",
+          "box": [
+            65,
+            9.9,
+            68,
+            17.4
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F02:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:senior-living:South lift RESERVED",
+          "box": [
+            34,
+            5,
+            36.5,
+            7.5
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F02:senior-living:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F02:senior-living:South reserved lift lobby",
+          "box": [
+            36.5,
+            5,
+            39,
+            7.5
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02:senior-living:Main corridor",
+            "F02:senior-living:South lift RESERVED",
+            "F02:senior-living:Linen service room"
+          ]
+        },
+        {
+          "label": "F02:senior-living:Linen service room",
+          "box": [
+            34,
+            0,
+            39,
+            5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F02:senior-living:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F02:senior-living:North reserved lift lobby",
+          "box": [
+            34,
+            9.9,
+            36.5,
+            12.4
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02:senior-living:Main corridor",
+            "F02:senior-living:North lift RESERVED",
+            "F02:senior-living:Cleaning store"
+          ]
+        },
+        {
+          "label": "F02:senior-living:North lift RESERVED",
+          "box": [
+            36.5,
+            9.9,
+            39,
+            12.4
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F02:senior-living:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F02:senior-living:Cleaning store",
+          "box": [
+            34,
+            12.4,
+            39,
+            17.4
+          ],
+          "kind": "service",
+          "access_to": [
+            "F02:senior-living:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F02:senior-living:Shared dining room",
+          "box": [
+            27.102,
+            0,
+            34,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:senior-living:Main corridor",
+            "F02:senior-living:Resident kitchen"
+          ]
+        },
+        {
+          "label": "F02:senior-living:Resident kitchen",
+          "box": [
+            20.204,
+            0,
+            27.102,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:senior-living:Main corridor",
+            "F02:senior-living:Shared dining room"
+          ]
+        },
+        {
+          "label": "F02:senior-living:Neighbourhood lounge",
+          "box": [
+            13.306,
+            0,
+            20.204,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:senior-living:Hobbies room",
+          "box": [
+            8,
+            0,
+            13.306,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:senior-living:Resident laundry",
+          "box": [
+            0,
+            0,
+            5,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:senior-living:East independent suite envelope",
+          "box": [
+            0,
+            9.9,
+            7.234,
+            17.4
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:senior-living:West independent suite envelope",
+          "box": [
+            7.234,
+            9.9,
+            14.468,
+            17.4
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:senior-living:North couple suite envelope",
+          "box": [
+            14.468,
+            9.9,
+            24.234,
+            17.4
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:senior-living:South couple suite envelope",
+          "box": [
+            24.234,
+            9.9,
+            34,
+            17.4
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:senior-living:Accessible independent envelope",
+          "box": [
+            39,
+            9.9,
+            48.028,
+            17.4
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:senior-living:Corner resident suite envelope",
+          "box": [
+            48.028,
+            9.9,
+            57.778,
+            17.4
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:senior-living:Courtyard resident envelope",
+          "box": [
+            57.778,
+            9.9,
+            65,
+            17.4
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:senior-living:Quiet resident envelope",
+          "box": [
+            68,
+            9.9,
+            73,
+            17.4
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:senior-living:Companion living envelope",
+          "box": [
+            63.534,
+            0,
+            73,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:senior-living:Carer visiting suite envelope",
+          "box": [
+            56.523,
+            0,
+            63.534,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:senior-living:Garden outlook suite envelope",
+          "box": [
+            49.512,
+            0,
+            56.523,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:senior-living:Flexible resident suite envelope",
+          "box": [
+            42.501,
+            0,
+            49.512,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:senior-living:Floor recycling room",
+          "box": [
+            39,
+            0,
+            42.501,
+            7.5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F02:senior-living:Main corridor"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Supported living neighbourhood",
+      "height_m": 3.3,
+      "rooms": [
+        {
+          "label": "F03:senior-living:Main corridor",
+          "box": [
+            0,
+            7.5,
+            73,
+            9.9
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03:senior-living:South reserved lift lobby",
+            "F03:senior-living:North reserved lift lobby",
+            "F03:senior-living:West stair RESERVED",
+            "F03:senior-living:East stair RESERVED",
+            "F03:senior-living:Supervised dining room",
+            "F03:senior-living:Staff care base",
+            "F03:senior-living:Supported activity room",
+            "F03:senior-living:Family visiting lounge",
+            "F03:senior-living:Assisted laundry room",
+            "F03:senior-living:East supported suite envelope",
+            "F03:senior-living:West supported suite envelope",
+            "F03:senior-living:North supported couple envelope",
+            "F03:senior-living:South supported couple envelope",
+            "F03:senior-living:Accessible assisted suite envelope",
+            "F03:senior-living:Corner assisted suite envelope",
+            "F03:senior-living:Courtyard assisted envelope",
+            "F03:senior-living:Quiet assisted envelope",
+            "F03:senior-living:Companion assisted envelope",
+            "F03:senior-living:Visiting carer suite envelope",
+            "F03:senior-living:Short respite suite envelope",
+            "F03:senior-living:Flexible care suite envelope",
+            "F03:senior-living:Cleaning service room"
+          ]
+        },
+        {
+          "label": "F03:senior-living:West stair RESERVED",
+          "box": [
+            5,
+            0,
+            8,
+            7.5
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F03:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:senior-living:East stair RESERVED",
+          "box": [
+            65,
+            9.9,
+            68,
+            17.4
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F03:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:senior-living:South lift RESERVED",
+          "box": [
+            34,
+            5,
+            36.5,
+            7.5
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F03:senior-living:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F03:senior-living:South reserved lift lobby",
+          "box": [
+            36.5,
+            5,
+            39,
+            7.5
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03:senior-living:Main corridor",
+            "F03:senior-living:South lift RESERVED",
+            "F03:senior-living:Care supplies room"
+          ]
+        },
+        {
+          "label": "F03:senior-living:Care supplies room",
+          "box": [
+            34,
+            0,
+            39,
+            5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F03:senior-living:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F03:senior-living:North reserved lift lobby",
+          "box": [
+            34,
+            9.9,
+            36.5,
+            12.4
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03:senior-living:Main corridor",
+            "F03:senior-living:North lift RESERVED",
+            "F03:senior-living:Soiled linen room"
+          ]
+        },
+        {
+          "label": "F03:senior-living:North lift RESERVED",
+          "box": [
+            36.5,
+            9.9,
+            39,
+            12.4
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F03:senior-living:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F03:senior-living:Soiled linen room",
+          "box": [
+            34,
+            12.4,
+            39,
+            17.4
+          ],
+          "kind": "service",
+          "access_to": [
+            "F03:senior-living:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F03:senior-living:Supervised dining room",
+          "box": [
+            27.102,
+            0,
+            34,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:senior-living:Staff care base",
+          "box": [
+            21.796,
+            0,
+            27.102,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:senior-living:Supported activity room",
+          "box": [
+            14.898,
+            0,
+            21.796,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:senior-living:Family visiting lounge",
+          "box": [
+            8,
+            0,
+            14.898,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:senior-living:Assisted laundry room",
+          "box": [
+            0,
+            0,
+            5,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:senior-living:East supported suite envelope",
+          "box": [
+            0,
+            9.9,
+            7.234,
+            17.4
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:senior-living:West supported suite envelope",
+          "box": [
+            7.234,
+            9.9,
+            14.468,
+            17.4
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:senior-living:North supported couple envelope",
+          "box": [
+            14.468,
+            9.9,
+            24.234,
+            17.4
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:senior-living:South supported couple envelope",
+          "box": [
+            24.234,
+            9.9,
+            34,
+            17.4
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:senior-living:Accessible assisted suite envelope",
+          "box": [
+            39,
+            9.9,
+            48.028,
+            17.4
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:senior-living:Corner assisted suite envelope",
+          "box": [
+            48.028,
+            9.9,
+            57.778,
+            17.4
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:senior-living:Courtyard assisted envelope",
+          "box": [
+            57.778,
+            9.9,
+            65,
+            17.4
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:senior-living:Quiet assisted envelope",
+          "box": [
+            68,
+            9.9,
+            73,
+            17.4
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:senior-living:Companion assisted envelope",
+          "box": [
+            63.534,
+            0,
+            73,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:senior-living:Visiting carer suite envelope",
+          "box": [
+            56.523,
+            0,
+            63.534,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:senior-living:Short respite suite envelope",
+          "box": [
+            49.512,
+            0,
+            56.523,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:senior-living:Flexible care suite envelope",
+          "box": [
+            42.501,
+            0,
+            49.512,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:senior-living:Cleaning service room",
+          "box": [
+            39,
+            0,
+            42.501,
+            7.5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F03:senior-living:Main corridor"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "name": "Active ageing and guest stays",
+      "height_m": 3.4,
+      "rooms": [
+        {
+          "label": "F04:senior-living:Main corridor",
+          "box": [
+            0,
+            7.5,
+            73,
+            9.9
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F04:senior-living:South reserved lift lobby",
+            "F04:senior-living:North reserved lift lobby",
+            "F04:senior-living:West stair RESERVED",
+            "F04:senior-living:East stair RESERVED",
+            "F04:senior-living:Top-floor dining room",
+            "F04:senior-living:Shared tea kitchen",
+            "F04:senior-living:Resident craft studio",
+            "F04:senior-living:Community music room",
+            "F04:senior-living:Quiet wellness lounge",
+            "F04:senior-living:Resident laundry",
+            "F04:senior-living:East active living envelope",
+            "F04:senior-living:West active living envelope",
+            "F04:senior-living:North resident couple envelope",
+            "F04:senior-living:South resident couple envelope",
+            "F04:senior-living:Accessible resident suite envelope",
+            "F04:senior-living:Corner resident home envelope",
+            "F04:senior-living:Quiet resident home envelope",
+            "F04:senior-living:Courtyard resident home envelope",
+            "F04:senior-living:Family guest suite envelope",
+            "F04:senior-living:Companion guest suite envelope",
+            "F04:senior-living:Visiting carer envelope",
+            "F04:senior-living:Roof maintenance room"
+          ]
+        },
+        {
+          "label": "F04:senior-living:West stair RESERVED",
+          "box": [
+            5,
+            0,
+            8,
+            7.5
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F04:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:senior-living:East stair RESERVED",
+          "box": [
+            65,
+            9.9,
+            68,
+            17.4
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F04:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:senior-living:South lift RESERVED",
+          "box": [
+            34,
+            5,
+            36.5,
+            7.5
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F04:senior-living:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F04:senior-living:South reserved lift lobby",
+          "box": [
+            36.5,
+            5,
+            39,
+            7.5
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F04:senior-living:Main corridor",
+            "F04:senior-living:South lift RESERVED",
+            "F04:senior-living:Linen store"
+          ]
+        },
+        {
+          "label": "F04:senior-living:Linen store",
+          "box": [
+            34,
+            0,
+            39,
+            5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F04:senior-living:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F04:senior-living:North reserved lift lobby",
+          "box": [
+            34,
+            9.9,
+            36.5,
+            12.4
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F04:senior-living:Main corridor",
+            "F04:senior-living:North lift RESERVED",
+            "F04:senior-living:Floor waste room"
+          ]
+        },
+        {
+          "label": "F04:senior-living:North lift RESERVED",
+          "box": [
+            36.5,
+            9.9,
+            39,
+            12.4
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F04:senior-living:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F04:senior-living:Floor waste room",
+          "box": [
+            34,
+            12.4,
+            39,
+            17.4
+          ],
+          "kind": "service",
+          "access_to": [
+            "F04:senior-living:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F04:senior-living:Top-floor dining room",
+          "box": [
+            25.333,
+            0,
+            34,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:senior-living:Main corridor",
+            "F04:senior-living:Shared tea kitchen"
+          ]
+        },
+        {
+          "label": "F04:senior-living:Shared tea kitchen",
+          "box": [
+            16.666,
+            0,
+            25.333,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:senior-living:Main corridor",
+            "F04:senior-living:Top-floor dining room"
+          ]
+        },
+        {
+          "label": "F04:senior-living:Resident craft studio",
+          "box": [
+            8,
+            0,
+            16.666,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:senior-living:Community music room",
+          "box": [
+            0,
+            0,
+            5,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:senior-living:Quiet wellness lounge",
+          "box": [
+            0,
+            9.9,
+            8.329,
+            17.4
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:senior-living:Resident laundry",
+          "box": [
+            8.329,
+            9.9,
+            13.529,
+            17.4
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:senior-living:East active living envelope",
+          "box": [
+            13.529,
+            9.9,
+            19.64,
+            17.4
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:senior-living:West active living envelope",
+          "box": [
+            19.64,
+            9.9,
+            25.751,
+            17.4
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:senior-living:North resident couple envelope",
+          "box": [
+            25.751,
+            9.9,
+            34,
+            17.4
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:senior-living:South resident couple envelope",
+          "box": [
+            39,
+            9.9,
+            47.886,
+            17.4
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:senior-living:Accessible resident suite envelope",
+          "box": [
+            47.886,
+            9.9,
+            56.114,
+            17.4
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:senior-living:Corner resident home envelope",
+          "box": [
+            56.114,
+            9.9,
+            65,
+            17.4
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:senior-living:Quiet resident home envelope",
+          "box": [
+            68,
+            9.9,
+            73,
+            17.4
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:senior-living:Courtyard resident home envelope",
+          "box": [
+            66.404,
+            0,
+            73,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:senior-living:Family guest suite envelope",
+          "box": [
+            57.5,
+            0,
+            66.404,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:senior-living:Companion guest suite envelope",
+          "box": [
+            48.596,
+            0,
+            57.5,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:senior-living:Visiting carer envelope",
+          "box": [
+            42,
+            0,
+            48.596,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:senior-living:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:senior-living:Roof maintenance room",
+          "box": [
+            39,
+            0,
+            42,
+            7.5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F04:senior-living:Main corridor"
+          ]
+        }
+      ]
+    }
+  ]
+}

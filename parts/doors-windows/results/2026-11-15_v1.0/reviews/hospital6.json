@@ -1,0 +1,45 @@
+{
+  "case": "hospital6",
+  "version": "1.0",
+  "run": "2026-11-15_v1.0",
+  "reviewer": "reviewer v2",
+  "score": 8,
+  "doors": 208,
+  "windows": 146,
+  "problems_left": 0,
+  "justification": "The opening package is comprehensive and technically coherent across all six occupied storeys: every room has a door, all 354 openings are wall-hosted, and no host-containment or opening-overlap defects were measured. Acceptance-level revisions remain because two occupied ground-floor rooms have no window elements and the standard fixed windows use a 0.75 m sill rather than the standard’s approximately 0.9–1.0 m office/bedroom range.",
+  "evidence": "Live measurements found 208 doors and 146 windows, distributed across storeys 1–6 as 39/20, 34/25, 35/24, 35/25, 33/25 and 32/27 respectively. All 354 openings had hosts, with 0 fit issues and 0 opening overlaps; however, H1 Arrival reception and H1 Clinical receiving had no window, contradicting the agent's claim: “No outward-facing occupied room is without a window.”",
+  "strengths": [
+    "Whole-building coverage was delivered on every occupied storey, rather than only on the ground floor.",
+    "The access check found 205 rooms and no room without a door; the only indirect rooms were the three appropriately dependent isolation rooms reached through their anterooms.",
+    "All 354 openings were hosted in walls, with no measured endpoint/height containment failures and no overlapping openings on shared hosts.",
+    "Door operations and widths are well selected: lift doors are sliding and measure 1.2 m or 1.4 m; stair doors open into the stair reservations and carry 60-minute fire ratings; main entrances are wide sliding doors.",
+    "The opening measurements reported no rule findings. Room doors generally open into their rooms, toilet doors open into the toilet rooms, and exterior awning windows open outward.",
+    "Window coverage is strong throughout the clinical, ward, therapy and office programme. Toilet/WC windows consistently use outward-opening awning families at 1.5 m sill, while general windows are fixed 2.4 × 1.8 m units.",
+    "The families include Single Flush Door v4, Lift Landing Door v1, Fixed Window v6 and Awning Window v8."
+  ],
+  "weaknesses": [
+    "H1 Arrival reception and H1 Clinical receiving have exterior entrance doors but no window elements. The glazed sliding entrances may provide daylight, but they do not substantiate the agent’s universal window claim.",
+    "General fixed windows use a 0.75 m sill throughout, below the doors and windows standard’s approximately 0.9–1.0 m guidance for bedrooms and offices. Because the windows are fixed, this is primarily a quality/safety-detail revision rather than a functional failure.",
+    "Moving-leaf and sash sweep clearance was not assessed. The agent itself stated, “Clash check, not verified,” and the opening measurements carried limitations for 194 openings, so collision-free motion cannot be credited."
+  ],
+  "spec_violations": [
+    {
+      "constraint": "Every habitable occupied room on an outside wall should receive daylight through a window.",
+      "what_happened": "Two occupied ground-floor rooms have no window element.",
+      "evidence": "Measured no-window rooms include H1 Arrival reception and H1 Clinical receiving; all other identified reception, consultation, patient, office, waiting, therapy and training uses had windows."
+    },
+    {
+      "constraint": "Bedroom and office window sills should be approximately 0.9–1.0 m.",
+      "what_happened": "The general fixed-window family was consistently placed at a 0.75 m sill.",
+      "evidence": "The window settings on all six storeys showed general-window sill range 0.75–1.5 m; the 2.4 × 1.8 m Fixed Window – 2 Panel units serving patient rooms and offices were at 0.75 m."
+    }
+  ],
+  "honesty_flags": [
+    {
+      "claim": "“No outward-facing occupied room is without a window.”",
+      "contradicted_by": "Fresh whole-model window-to-room mapping found no window serving H1 Arrival reception or H1 Clinical receiving."
+    }
+  ],
+  "confidence": "high"
+}

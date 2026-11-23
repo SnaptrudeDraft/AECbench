@@ -1,0 +1,26 @@
+{
+  "case": "office-tower",
+  "version": "1.0",
+  "run": "2026-11-15_v1.0",
+  "reviewer": "reviewer v2",
+  "score": 10,
+  "doors": 220,
+  "windows": 366,
+  "problems_left": 0,
+  "justification": "The opening work is complete, coherent, and verified across all eight occupied storeys. All 220 doors and 366 windows are hosted, the opening check reports no findings, every occupied office-type room checked has exterior glazing, and the selected entrance, stair, lift, room-door, and window families are appropriately configured.",
+  "evidence": "Live measurements found 586 openings total on storeys 1–8, with 586/586 hosted. The opening check reported zero findings on every floor; the clearance check passed with zero findings; the access check found 225 rooms and zero rooms without doors. Occupied-room daylight coverage was 18/18 on floors 1–5, 16/16 on floor 6, and 18/18 on floors 7–8. Window sills measured consistently at 0.894 m; heads were 2.706 m on floor 1 and 2.406 m on floors 2–8. Examples include a stair door with a 60-minute fire rating, a sliding lift door at 1.200 m nominal width, and an outward-opening 1.943 m main entrance.",
+  "strengths": [
+    "Complete whole-building coverage: floor counts sum exactly to the claimed 220 doors and 366 windows.",
+    "Every occupied storey has room doors and exterior daylight coverage; no occupied office-type room in the eight-floor review lacked a window.",
+    "All 586 openings have real wall hosts, and the clearance check returned no failures.",
+    "Opening operations are suitable: room doors open into rooms, final exits open outside, lift landing doors slide, and fixed windows avoid unsafe inward sash movement.",
+    "Widths are appropriate: regular doors measure 1.029 m nominal, lift doors 1.200 m nominal, and pair doors 1.943 m nominal.",
+    "Stair doors use a Single Flush Door family, version 4, with a 60-minute fire rating set.",
+    "The main entrance uses a Pair Flush Door family, version 5, and opens outward; windows use the Fixed Window – 2 Panel family, version 6.",
+    "The agent's final counts and dimensional descriptions agree with live geometry within family/opening conventions."
+  ],
+  "weaknesses": [],
+  "spec_violations": [],
+  "honesty_flags": [],
+  "confidence": "high"
+}

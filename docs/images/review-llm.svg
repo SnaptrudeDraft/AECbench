@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 380" width="960" height="380" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif">
+  <rect width="960" height="380" rx="16" fill="#ffffff"/>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0a57fe"/></marker>
+    <marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#9a9a9a"/></marker>
+  </defs>
+  <g font-size="11" letter-spacing="1.2" fill="#6b6b6b">
+    <text x="40" y="44">1 · ARCHITECTS REVIEW</text><text x="268" y="44">2 · SPLIT INTO POINTS</text><text x="496" y="44">3 · POINTS BECOME CRITERIA</text><text x="724" y="44">4 · REVIEW LLM</text>
+  </g>
+  <!-- 1 -->
+  <rect x="40" y="56" width="196" height="164" rx="12" fill="#f6f6f6" stroke="#e4e4e4"/>
+  <text x="58" y="84" font-size="13" fill="#131313" font-style="italic">“Classrooms get good</text>
+  <text x="58" y="102" font-size="13" fill="#131313" font-style="italic">daylight. But the toilets</text>
+  <text x="58" y="120" font-size="13" fill="#131313" font-style="italic">are only reached through</text>
+  <text x="58" y="138" font-size="13" fill="#131313" font-style="italic">classroom 3.”</text>
+  <path d="M58 156H218" stroke="#e4e4e4"/>
+  <text x="58" y="180" font-size="13" fill="#6b6b6b">Open text, and a score</text>
+  <text x="58" y="198" font-size="13" fill="#6b6b6b">for each design aspect</text>
+  <!-- 2 -->
+  <rect x="268" y="56" width="196" height="164" rx="12" fill="#f6f6f6" stroke="#e4e4e4"/>
+  <rect x="284" y="74" width="164" height="54" rx="8" fill="#e7f6ee"/>
+  <text x="296" y="96" font-size="15" font-weight="700" fill="#1f9d55">+</text><text x="314" y="96" font-size="13" fill="#131313">Classrooms get</text><text x="314" y="114" font-size="13" fill="#131313">good daylight</text>
+  <rect x="284" y="138" width="164" height="54" rx="8" fill="#fdecec"/>
+  <text x="296" y="160" font-size="15" font-weight="700" fill="#e5484d">−</text><text x="314" y="160" font-size="13" fill="#131313">Toilets reached only</text><text x="314" y="178" font-size="13" fill="#131313">via a classroom</text>
+  <!-- 3 -->
+  <rect x="496" y="56" width="196" height="164" rx="12" fill="#f6f6f6" stroke="#e4e4e4"/>
+  <text x="514" y="82" font-size="11" letter-spacing="1" fill="#0a57fe">SHARED</text>
+  <text x="514" y="102" font-size="13" fill="#131313">Shared rooms open</text>
+  <text x="514" y="120" font-size="13" fill="#131313">off a corridor, not</text>
+  <text x="514" y="138" font-size="13" fill="#131313">off another room</text>
+  <path d="M514 152H674" stroke="#e4e4e4"/>
+  <text x="514" y="172" font-size="11" letter-spacing="1" fill="#0a57fe">ONE TASK</text>
+  <text x="514" y="192" font-size="13" fill="#131313">Youngest children sit</text>
+  <text x="514" y="210" font-size="13" fill="#131313">nearest to outdoor play</text>
+  <!-- 4 -->
+  <rect x="724" y="56" width="196" height="164" rx="12" fill="#e8effe" stroke="#9ab6fb"/>
+  <text x="742" y="84" font-size="13" fill="#131313">Reviews every new run</text>
+  <text x="742" y="102" font-size="13" fill="#131313">in the same form:</text>
+  <text x="742" y="130" font-size="13" fill="#1f9d55">+ what works</text>
+  <text x="742" y="150" font-size="13" fill="#e5484d">− what does not</text>
+  <rect x="742" y="168" width="96" height="30" rx="8" fill="#0a57fe"/>
+  <text x="790" y="188" font-size="14" font-weight="600" text-anchor="middle" fill="#fff">Score</text>
+  <g stroke="#0a57fe" stroke-width="2" marker-end="url(#ar)"><path d="M238 138H264"/><path d="M466 138H492"/><path d="M694 138H720"/></g>
+  <!-- validation -->
+  <text x="40" y="262" font-size="11" letter-spacing="1.2" fill="#6b6b6b">HOW WE CHECK IT</text>
+  <rect x="40" y="274" width="560" height="22" rx="6" fill="#e4e4e4"/>
+  <rect x="40" y="274" width="364" height="22" rx="6" fill="#131313"/>
+  <text x="54" y="290" font-size="12" fill="#fff">Build set: 60–70% of tasks</text>
+  <text x="416" y="290" font-size="12" fill="#131313">Held out: 30–40%, never seen</text>
+  <text x="40" y="324" font-size="13" fill="#6b6b6b">Reviews are split by task before anything is built.</text>
+  <text x="40" y="344" font-size="13" fill="#6b6b6b">The held-out tasks only measure agreement with the architects.</text>
+  <path d="M606 285H640" stroke="#9a9a9a" stroke-width="2" marker-end="url(#ag)"/>
+  <rect x="648" y="258" width="272" height="96" rx="12" fill="#ffffff" stroke="#0a57fe" stroke-width="1.5"/>
+  <text x="666" y="282" font-size="13" font-weight="600" fill="#131313">Agreement with architects</text>
+  <g font-size="12" fill="#6b6b6b">
+    <text x="666" y="304">Problems it finds that they found</text>
+    <text x="666" y="322">Problems it raises that are real</text>
+    <text x="666" y="340">Same scores · same preferred design</text>
+  </g>
+</svg>

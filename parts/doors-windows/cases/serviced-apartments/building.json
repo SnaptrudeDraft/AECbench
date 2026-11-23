@@ -1,0 +1,1954 @@
+{
+  "slug": "serviced-apartments",
+  "typology": "serviced-apartments",
+  "provenance": "AI-authored synthetic recorded starting layout for a doors/windows benchmark; not a customer design or a certified design.",
+  "notes": [
+    "AI-authored synthetic recorded benchmark input only. Not a customer layout, certified design, construction document, or code-compliance claim.",
+    "Coordinates are metres in a local x/z plan. The rectangular footprint is 73 m by 16.8 m: 7.5 m deep room banks either side of a 1.8 m corridor. All geometry is axis-aligned space envelopes; walls and wall thickness are not modelled.",
+    "Two widely separated stair footprints and two lift footprints are explicitly RESERVED on every floor, with identical stacked coordinates. They are not physical stairs, lift cars, shafts, equipment, or verified vertical routes.",
+    "A continuous 1.8 m main corridor connects a central lift core (two 2.5 m lifts facing each other across the corridor, each opening into an open lobby with a floor store behind) and two 3 m by 7.5 m stair reservations 5 m in from the gables, so no corridor door is more than 30 m from a stair. Access edges are bidirectional same-floor intended adjacencies only, not installed or seeded doors, windows, or openings.",
+    "Every apartment, studio, guest room, lodge room, and residential suite marked envelope includes its internal living, sleeping, kitchenette where appropriate, and sanitary functions. Internal bathrooms and partitions are deliberately unresolved; no overlapping nested bathroom rectangles are used.",
+    "Public WC envelopes, where present, are disjoint rooms. No other sanitary fixtures, furniture, structure, facade openings, external paths, or site access geometry is supplied.",
+    "Floor 1 arrival and reception rooms connect to internal circulation; their outside entrance openings are intentionally unseeded. Ground-floor uses and upper residential, amenity, and service uses differ by floor.",
+    "Dimensions and programs are plausible benchmark assumptions, not checks of fire escape, accessibility, occupancy, daylight, ventilation, plumbing, acoustics, or statutory requirements. Same-floor access does not certify egress."
+  ],
+  "floors": [
+    {
+      "number": 1,
+      "name": "Extended-stay arrival and support",
+      "height_m": 4.2,
+      "rooms": [
+        {
+          "label": "F01:serviced-apartments:Main corridor",
+          "box": [
+            0,
+            7.5,
+            73,
+            9.3
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01:serviced-apartments:South reserved lift lobby",
+            "F01:serviced-apartments:North reserved lift lobby",
+            "F01:serviced-apartments:West stair RESERVED",
+            "F01:serviced-apartments:East stair RESERVED",
+            "F01:serviced-apartments:Guest residence reception",
+            "F01:serviced-apartments:Concierge and travel room",
+            "F01:serviced-apartments:Parcel collection",
+            "F01:serviced-apartments:Residence management office",
+            "F01:serviced-apartments:Arrival lounge",
+            "F01:serviced-apartments:Long-stay luggage room",
+            "F01:serviced-apartments:Public WC and accessible WC",
+            "F01:serviced-apartments:Breakfast dining room",
+            "F01:serviced-apartments:Breakfast preparation kitchen",
+            "F01:serviced-apartments:Shared co-working room",
+            "F01:serviced-apartments:Private meeting room",
+            "F01:serviced-apartments:Guest fitness studio",
+            "F01:serviced-apartments:Family playroom",
+            "F01:serviced-apartments:Guest interview room",
+            "F01:serviced-apartments:Residents convenience room",
+            "F01:serviced-apartments:Guest laundry lounge",
+            "F01:serviced-apartments:Accessible short-stay apartment envelope",
+            "F01:serviced-apartments:Relocation family apartment envelope",
+            "F01:serviced-apartments:Electrical intake room"
+          ]
+        },
+        {
+          "label": "F01:serviced-apartments:West stair RESERVED",
+          "box": [
+            5,
+            0,
+            8,
+            7.5
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F01:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:serviced-apartments:East stair RESERVED",
+          "box": [
+            65,
+            9.3,
+            68,
+            16.8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F01:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:serviced-apartments:South lift RESERVED",
+          "box": [
+            34,
+            5,
+            36.5,
+            7.5
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F01:serviced-apartments:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F01:serviced-apartments:South reserved lift lobby",
+          "box": [
+            36.5,
+            5,
+            39,
+            7.5
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01:serviced-apartments:Main corridor",
+            "F01:serviced-apartments:South lift RESERVED",
+            "F01:serviced-apartments:Goods receiving store"
+          ]
+        },
+        {
+          "label": "F01:serviced-apartments:Goods receiving store",
+          "box": [
+            34,
+            0,
+            39,
+            5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01:serviced-apartments:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F01:serviced-apartments:North reserved lift lobby",
+          "box": [
+            34,
+            9.3,
+            36.5,
+            11.8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F01:serviced-apartments:Main corridor",
+            "F01:serviced-apartments:North lift RESERVED",
+            "F01:serviced-apartments:Waste sorting room"
+          ]
+        },
+        {
+          "label": "F01:serviced-apartments:North lift RESERVED",
+          "box": [
+            36.5,
+            9.3,
+            39,
+            11.8
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F01:serviced-apartments:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F01:serviced-apartments:Waste sorting room",
+          "box": [
+            34,
+            11.8,
+            39,
+            16.8
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01:serviced-apartments:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F01:serviced-apartments:Guest residence reception",
+          "box": [
+            27.582,
+            0,
+            34,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:serviced-apartments:Concierge and travel room",
+          "box": [
+            22.645,
+            0,
+            27.582,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:serviced-apartments:Parcel collection",
+          "box": [
+            19.354,
+            0,
+            22.645,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:serviced-apartments:Residence management office",
+          "box": [
+            14.417,
+            0,
+            19.354,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:serviced-apartments:Arrival lounge",
+          "box": [
+            8,
+            0,
+            14.417,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:serviced-apartments:Long-stay luggage room",
+          "box": [
+            0,
+            0,
+            5,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:serviced-apartments:Public WC and accessible WC",
+          "box": [
+            0,
+            9.3,
+            3.5,
+            16.8
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:serviced-apartments:Breakfast dining room",
+          "box": [
+            3.5,
+            9.3,
+            13.667,
+            16.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:serviced-apartments:Main corridor",
+            "F01:serviced-apartments:Breakfast preparation kitchen"
+          ]
+        },
+        {
+          "label": "F01:serviced-apartments:Breakfast preparation kitchen",
+          "box": [
+            13.667,
+            9.3,
+            23.834,
+            16.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:serviced-apartments:Main corridor",
+            "F01:serviced-apartments:Breakfast dining room"
+          ]
+        },
+        {
+          "label": "F01:serviced-apartments:Shared co-working room",
+          "box": [
+            23.834,
+            9.3,
+            34,
+            16.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:serviced-apartments:Private meeting room",
+          "box": [
+            39,
+            9.3,
+            44.306,
+            16.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:serviced-apartments:Guest fitness studio",
+          "box": [
+            44.306,
+            9.3,
+            54.653,
+            16.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:serviced-apartments:Family playroom",
+          "box": [
+            54.653,
+            9.3,
+            65,
+            16.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:serviced-apartments:Guest interview room",
+          "box": [
+            68,
+            9.3,
+            73,
+            16.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:serviced-apartments:Residents convenience room",
+          "box": [
+            65.722,
+            0,
+            73,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:serviced-apartments:Guest laundry lounge",
+          "box": [
+            60.922,
+            0,
+            65.722,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:serviced-apartments:Accessible short-stay apartment envelope",
+          "box": [
+            51.825,
+            0,
+            60.922,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:serviced-apartments:Relocation family apartment envelope",
+          "box": [
+            42,
+            0,
+            51.825,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F01:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F01:serviced-apartments:Electrical intake room",
+          "box": [
+            39,
+            0,
+            42,
+            7.5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F01:serviced-apartments:Main corridor"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Corporate extended stays",
+      "height_m": 3.3,
+      "rooms": [
+        {
+          "label": "F02:serviced-apartments:Main corridor",
+          "box": [
+            0,
+            7.5,
+            73,
+            9.3
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02:serviced-apartments:South reserved lift lobby",
+            "F02:serviced-apartments:North reserved lift lobby",
+            "F02:serviced-apartments:West stair RESERVED",
+            "F02:serviced-apartments:East stair RESERVED",
+            "F02:serviced-apartments:Shared supper room",
+            "F02:serviced-apartments:Guest pantry",
+            "F02:serviced-apartments:Business residents lounge",
+            "F02:serviced-apartments:Remote meeting room",
+            "F02:serviced-apartments:Guest laundry",
+            "F02:serviced-apartments:East corporate apartment envelope",
+            "F02:serviced-apartments:West corporate apartment envelope",
+            "F02:serviced-apartments:North business studio envelope",
+            "F02:serviced-apartments:South business studio envelope",
+            "F02:serviced-apartments:Accessible business apartment envelope",
+            "F02:serviced-apartments:Corner executive apartment envelope",
+            "F02:serviced-apartments:Courtyard work-live envelope",
+            "F02:serviced-apartments:Quiet work-live envelope",
+            "F02:serviced-apartments:Solo consultant apartment envelope",
+            "F02:serviced-apartments:Project team apartment envelope",
+            "F02:serviced-apartments:Couple extended-stay envelope",
+            "F02:serviced-apartments:Flexible business apartment envelope",
+            "F02:serviced-apartments:Housekeeping store"
+          ]
+        },
+        {
+          "label": "F02:serviced-apartments:West stair RESERVED",
+          "box": [
+            5,
+            0,
+            8,
+            7.5
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F02:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:serviced-apartments:East stair RESERVED",
+          "box": [
+            65,
+            9.3,
+            68,
+            16.8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F02:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:serviced-apartments:South lift RESERVED",
+          "box": [
+            34,
+            5,
+            36.5,
+            7.5
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F02:serviced-apartments:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F02:serviced-apartments:South reserved lift lobby",
+          "box": [
+            36.5,
+            5,
+            39,
+            7.5
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02:serviced-apartments:Main corridor",
+            "F02:serviced-apartments:South lift RESERVED",
+            "F02:serviced-apartments:Clean linen room"
+          ]
+        },
+        {
+          "label": "F02:serviced-apartments:Clean linen room",
+          "box": [
+            34,
+            0,
+            39,
+            5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F02:serviced-apartments:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F02:serviced-apartments:North reserved lift lobby",
+          "box": [
+            34,
+            9.3,
+            36.5,
+            11.8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F02:serviced-apartments:Main corridor",
+            "F02:serviced-apartments:North lift RESERVED",
+            "F02:serviced-apartments:Soiled linen room"
+          ]
+        },
+        {
+          "label": "F02:serviced-apartments:North lift RESERVED",
+          "box": [
+            36.5,
+            9.3,
+            39,
+            11.8
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F02:serviced-apartments:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F02:serviced-apartments:Soiled linen room",
+          "box": [
+            34,
+            11.8,
+            39,
+            16.8
+          ],
+          "kind": "service",
+          "access_to": [
+            "F02:serviced-apartments:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F02:serviced-apartments:Shared supper room",
+          "box": [
+            26.844,
+            0,
+            34,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:serviced-apartments:Main corridor",
+            "F02:serviced-apartments:Guest pantry"
+          ]
+        },
+        {
+          "label": "F02:serviced-apartments:Guest pantry",
+          "box": [
+            22.073,
+            0,
+            26.844,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:serviced-apartments:Main corridor",
+            "F02:serviced-apartments:Shared supper room"
+          ]
+        },
+        {
+          "label": "F02:serviced-apartments:Business residents lounge",
+          "box": [
+            12.77,
+            0,
+            22.073,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:serviced-apartments:Remote meeting room",
+          "box": [
+            8,
+            0,
+            12.77,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:serviced-apartments:Guest laundry",
+          "box": [
+            0,
+            0,
+            5,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:serviced-apartments:East corporate apartment envelope",
+          "box": [
+            0,
+            9.3,
+            8.5,
+            16.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:serviced-apartments:West corporate apartment envelope",
+          "box": [
+            8.5,
+            9.3,
+            17,
+            16.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:serviced-apartments:North business studio envelope",
+          "box": [
+            17,
+            9.3,
+            25.5,
+            16.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:serviced-apartments:South business studio envelope",
+          "box": [
+            25.5,
+            9.3,
+            34,
+            16.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:serviced-apartments:Accessible business apartment envelope",
+          "box": [
+            39,
+            9.3,
+            48.028,
+            16.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:serviced-apartments:Corner executive apartment envelope",
+          "box": [
+            48.028,
+            9.3,
+            57.778,
+            16.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:serviced-apartments:Courtyard work-live envelope",
+          "box": [
+            57.778,
+            9.3,
+            65,
+            16.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:serviced-apartments:Quiet work-live envelope",
+          "box": [
+            68,
+            9.3,
+            73,
+            16.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:serviced-apartments:Solo consultant apartment envelope",
+          "box": [
+            65.989,
+            0,
+            73,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:serviced-apartments:Project team apartment envelope",
+          "box": [
+            58.978,
+            0,
+            65.989,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:serviced-apartments:Couple extended-stay envelope",
+          "box": [
+            49.512,
+            0,
+            58.978,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:serviced-apartments:Flexible business apartment envelope",
+          "box": [
+            42.501,
+            0,
+            49.512,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F02:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F02:serviced-apartments:Housekeeping store",
+          "box": [
+            39,
+            0,
+            42.501,
+            7.5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F02:serviced-apartments:Main corridor"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Relocation families",
+      "height_m": 3.3,
+      "rooms": [
+        {
+          "label": "F03:serviced-apartments:Main corridor",
+          "box": [
+            0,
+            7.5,
+            73,
+            9.3
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03:serviced-apartments:South reserved lift lobby",
+            "F03:serviced-apartments:North reserved lift lobby",
+            "F03:serviced-apartments:West stair RESERVED",
+            "F03:serviced-apartments:East stair RESERVED",
+            "F03:serviced-apartments:Shared family dining",
+            "F03:serviced-apartments:Family pantry",
+            "F03:serviced-apartments:Family residents lounge",
+            "F03:serviced-apartments:Childrens homework room",
+            "F03:serviced-apartments:Guest laundry",
+            "F03:serviced-apartments:East relocation apartment envelope",
+            "F03:serviced-apartments:West relocation apartment envelope",
+            "F03:serviced-apartments:North family apartment envelope",
+            "F03:serviced-apartments:South family apartment envelope",
+            "F03:serviced-apartments:Accessible family apartment envelope",
+            "F03:serviced-apartments:Corner family apartment envelope",
+            "F03:serviced-apartments:Courtyard family envelope",
+            "F03:serviced-apartments:Quiet family envelope",
+            "F03:serviced-apartments:Parent and child apartment envelope",
+            "F03:serviced-apartments:Multigeneration apartment envelope",
+            "F03:serviced-apartments:Companion family envelope",
+            "F03:serviced-apartments:Flexible relocation envelope",
+            "F03:serviced-apartments:Cleaning supply room"
+          ]
+        },
+        {
+          "label": "F03:serviced-apartments:West stair RESERVED",
+          "box": [
+            5,
+            0,
+            8,
+            7.5
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F03:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:serviced-apartments:East stair RESERVED",
+          "box": [
+            65,
+            9.3,
+            68,
+            16.8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F03:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:serviced-apartments:South lift RESERVED",
+          "box": [
+            34,
+            5,
+            36.5,
+            7.5
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F03:serviced-apartments:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F03:serviced-apartments:South reserved lift lobby",
+          "box": [
+            36.5,
+            5,
+            39,
+            7.5
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03:serviced-apartments:Main corridor",
+            "F03:serviced-apartments:South lift RESERVED",
+            "F03:serviced-apartments:Clean linen store"
+          ]
+        },
+        {
+          "label": "F03:serviced-apartments:Clean linen store",
+          "box": [
+            34,
+            0,
+            39,
+            5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F03:serviced-apartments:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F03:serviced-apartments:North reserved lift lobby",
+          "box": [
+            34,
+            9.3,
+            36.5,
+            11.8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F03:serviced-apartments:Main corridor",
+            "F03:serviced-apartments:North lift RESERVED",
+            "F03:serviced-apartments:Soiled linen store"
+          ]
+        },
+        {
+          "label": "F03:serviced-apartments:North lift RESERVED",
+          "box": [
+            36.5,
+            9.3,
+            39,
+            11.8
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F03:serviced-apartments:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F03:serviced-apartments:Soiled linen store",
+          "box": [
+            34,
+            11.8,
+            39,
+            16.8
+          ],
+          "kind": "service",
+          "access_to": [
+            "F03:serviced-apartments:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F03:serviced-apartments:Shared family dining",
+          "box": [
+            26.078,
+            0,
+            34,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:serviced-apartments:Main corridor",
+            "F03:serviced-apartments:Family pantry"
+          ]
+        },
+        {
+          "label": "F03:serviced-apartments:Family pantry",
+          "box": [
+            22.015,
+            0,
+            26.078,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:serviced-apartments:Main corridor",
+            "F03:serviced-apartments:Shared family dining"
+          ]
+        },
+        {
+          "label": "F03:serviced-apartments:Family residents lounge",
+          "box": [
+            14.093,
+            0,
+            22.015,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:serviced-apartments:Childrens homework room",
+          "box": [
+            8,
+            0,
+            14.093,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:serviced-apartments:Guest laundry",
+          "box": [
+            0,
+            0,
+            5,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:serviced-apartments:East relocation apartment envelope",
+          "box": [
+            0,
+            9.3,
+            7.234,
+            16.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:serviced-apartments:West relocation apartment envelope",
+          "box": [
+            7.234,
+            9.3,
+            14.468,
+            16.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:serviced-apartments:North family apartment envelope",
+          "box": [
+            14.468,
+            9.3,
+            24.234,
+            16.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:serviced-apartments:South family apartment envelope",
+          "box": [
+            24.234,
+            9.3,
+            34,
+            16.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:serviced-apartments:Accessible family apartment envelope",
+          "box": [
+            39,
+            9.3,
+            45.132,
+            16.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:serviced-apartments:Corner family apartment envelope",
+          "box": [
+            45.132,
+            9.3,
+            51.755,
+            16.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:serviced-apartments:Courtyard family envelope",
+          "box": [
+            51.755,
+            9.3,
+            58.378,
+            16.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:serviced-apartments:Quiet family envelope",
+          "box": [
+            58.378,
+            9.3,
+            65,
+            16.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:serviced-apartments:Parent and child apartment envelope",
+          "box": [
+            68,
+            9.3,
+            73,
+            16.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:serviced-apartments:Multigeneration apartment envelope",
+          "box": [
+            61.872,
+            0,
+            73,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:serviced-apartments:Companion family envelope",
+          "box": [
+            50.744,
+            0,
+            61.872,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:serviced-apartments:Flexible relocation envelope",
+          "box": [
+            42.501,
+            0,
+            50.744,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F03:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F03:serviced-apartments:Cleaning supply room",
+          "box": [
+            39,
+            0,
+            42.501,
+            7.5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F03:serviced-apartments:Main corridor"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "name": "Medical and academic visitors",
+      "height_m": 3.3,
+      "rooms": [
+        {
+          "label": "F04:serviced-apartments:Main corridor",
+          "box": [
+            0,
+            7.5,
+            73,
+            9.3
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F04:serviced-apartments:South reserved lift lobby",
+            "F04:serviced-apartments:North reserved lift lobby",
+            "F04:serviced-apartments:West stair RESERVED",
+            "F04:serviced-apartments:East stair RESERVED",
+            "F04:serviced-apartments:Shared tea kitchen",
+            "F04:serviced-apartments:Quiet residents lounge",
+            "F04:serviced-apartments:Visiting professional study",
+            "F04:serviced-apartments:Private consultation room",
+            "F04:serviced-apartments:Guest laundry",
+            "F04:serviced-apartments:East visiting scholar envelope",
+            "F04:serviced-apartments:West visiting scholar envelope",
+            "F04:serviced-apartments:North recuperation apartment envelope",
+            "F04:serviced-apartments:South recuperation apartment envelope",
+            "F04:serviced-apartments:Accessible recovery apartment envelope",
+            "F04:serviced-apartments:Corner companion apartment envelope",
+            "F04:serviced-apartments:Courtyard quiet apartment envelope",
+            "F04:serviced-apartments:Quiet research apartment envelope",
+            "F04:serviced-apartments:Visiting lecturer apartment envelope",
+            "F04:serviced-apartments:Patient companion apartment envelope",
+            "F04:serviced-apartments:Research couple apartment envelope",
+            "F04:serviced-apartments:Flexible visitor apartment envelope",
+            "F04:serviced-apartments:Housekeeping store"
+          ]
+        },
+        {
+          "label": "F04:serviced-apartments:West stair RESERVED",
+          "box": [
+            5,
+            0,
+            8,
+            7.5
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F04:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:serviced-apartments:East stair RESERVED",
+          "box": [
+            65,
+            9.3,
+            68,
+            16.8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F04:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:serviced-apartments:South lift RESERVED",
+          "box": [
+            34,
+            5,
+            36.5,
+            7.5
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F04:serviced-apartments:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F04:serviced-apartments:South reserved lift lobby",
+          "box": [
+            36.5,
+            5,
+            39,
+            7.5
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F04:serviced-apartments:Main corridor",
+            "F04:serviced-apartments:South lift RESERVED",
+            "F04:serviced-apartments:Clean linen room"
+          ]
+        },
+        {
+          "label": "F04:serviced-apartments:Clean linen room",
+          "box": [
+            34,
+            0,
+            39,
+            5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F04:serviced-apartments:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F04:serviced-apartments:North reserved lift lobby",
+          "box": [
+            34,
+            9.3,
+            36.5,
+            11.8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F04:serviced-apartments:Main corridor",
+            "F04:serviced-apartments:North lift RESERVED",
+            "F04:serviced-apartments:Soiled linen room"
+          ]
+        },
+        {
+          "label": "F04:serviced-apartments:North lift RESERVED",
+          "box": [
+            36.5,
+            9.3,
+            39,
+            11.8
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F04:serviced-apartments:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F04:serviced-apartments:Soiled linen room",
+          "box": [
+            34,
+            11.8,
+            39,
+            16.8
+          ],
+          "kind": "service",
+          "access_to": [
+            "F04:serviced-apartments:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F04:serviced-apartments:Shared tea kitchen",
+          "box": [
+            24.611,
+            0,
+            34,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:serviced-apartments:Quiet residents lounge",
+          "box": [
+            15.222,
+            0,
+            24.611,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:serviced-apartments:Visiting professional study",
+          "box": [
+            8,
+            0,
+            15.222,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:serviced-apartments:Private consultation room",
+          "box": [
+            0,
+            0,
+            5,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:serviced-apartments:Guest laundry",
+          "box": [
+            0,
+            9.3,
+            4.8,
+            16.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:serviced-apartments:East visiting scholar envelope",
+          "box": [
+            4.8,
+            9.3,
+            12.1,
+            16.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:serviced-apartments:West visiting scholar envelope",
+          "box": [
+            12.1,
+            9.3,
+            19.4,
+            16.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:serviced-apartments:North recuperation apartment envelope",
+          "box": [
+            19.4,
+            9.3,
+            26.7,
+            16.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:serviced-apartments:South recuperation apartment envelope",
+          "box": [
+            26.7,
+            9.3,
+            34,
+            16.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:serviced-apartments:Accessible recovery apartment envelope",
+          "box": [
+            39,
+            9.3,
+            48.028,
+            16.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:serviced-apartments:Corner companion apartment envelope",
+          "box": [
+            48.028,
+            9.3,
+            57.778,
+            16.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:serviced-apartments:Courtyard quiet apartment envelope",
+          "box": [
+            57.778,
+            9.3,
+            65,
+            16.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:serviced-apartments:Quiet research apartment envelope",
+          "box": [
+            68,
+            9.3,
+            73,
+            16.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:serviced-apartments:Visiting lecturer apartment envelope",
+          "box": [
+            66.511,
+            0,
+            73,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:serviced-apartments:Patient companion apartment envelope",
+          "box": [
+            57.75,
+            0,
+            66.511,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:serviced-apartments:Research couple apartment envelope",
+          "box": [
+            48.989,
+            0,
+            57.75,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:serviced-apartments:Flexible visitor apartment envelope",
+          "box": [
+            42.5,
+            0,
+            48.989,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F04:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F04:serviced-apartments:Housekeeping store",
+          "box": [
+            39,
+            0,
+            42.5,
+            7.5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F04:serviced-apartments:Main corridor"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "name": "Premium long-stay homes",
+      "height_m": 3.5,
+      "rooms": [
+        {
+          "label": "F05:serviced-apartments:Main corridor",
+          "box": [
+            0,
+            7.5,
+            73,
+            9.3
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F05:serviced-apartments:South reserved lift lobby",
+            "F05:serviced-apartments:North reserved lift lobby",
+            "F05:serviced-apartments:West stair RESERVED",
+            "F05:serviced-apartments:East stair RESERVED",
+            "F05:serviced-apartments:Private dining room",
+            "F05:serviced-apartments:Club preparation kitchen",
+            "F05:serviced-apartments:Club residents lounge",
+            "F05:serviced-apartments:Quiet work library",
+            "F05:serviced-apartments:Guest laundry",
+            "F05:serviced-apartments:East premium apartment envelope",
+            "F05:serviced-apartments:West premium apartment envelope",
+            "F05:serviced-apartments:North premium family envelope",
+            "F05:serviced-apartments:South premium couple envelope",
+            "F05:serviced-apartments:Accessible premium apartment envelope",
+            "F05:serviced-apartments:Corner long-stay apartment envelope",
+            "F05:serviced-apartments:Courtyard premium envelope",
+            "F05:serviced-apartments:Quiet premium envelope",
+            "F05:serviced-apartments:Executive family apartment envelope",
+            "F05:serviced-apartments:Visiting director apartment envelope",
+            "F05:serviced-apartments:Flexible premium home envelope",
+            "F05:serviced-apartments:Companion premium envelope",
+            "F05:serviced-apartments:Roof maintenance room"
+          ]
+        },
+        {
+          "label": "F05:serviced-apartments:West stair RESERVED",
+          "box": [
+            5,
+            0,
+            8,
+            7.5
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F05:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:serviced-apartments:East stair RESERVED",
+          "box": [
+            65,
+            9.3,
+            68,
+            16.8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "F05:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:serviced-apartments:South lift RESERVED",
+          "box": [
+            34,
+            5,
+            36.5,
+            7.5
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F05:serviced-apartments:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F05:serviced-apartments:South reserved lift lobby",
+          "box": [
+            36.5,
+            5,
+            39,
+            7.5
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F05:serviced-apartments:Main corridor",
+            "F05:serviced-apartments:South lift RESERVED",
+            "F05:serviced-apartments:Clean linen store"
+          ]
+        },
+        {
+          "label": "F05:serviced-apartments:Clean linen store",
+          "box": [
+            34,
+            0,
+            39,
+            5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F05:serviced-apartments:South reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F05:serviced-apartments:North reserved lift lobby",
+          "box": [
+            34,
+            9.3,
+            36.5,
+            11.8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "F05:serviced-apartments:Main corridor",
+            "F05:serviced-apartments:North lift RESERVED",
+            "F05:serviced-apartments:Soiled linen store"
+          ]
+        },
+        {
+          "label": "F05:serviced-apartments:North lift RESERVED",
+          "box": [
+            36.5,
+            9.3,
+            39,
+            11.8
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "F05:serviced-apartments:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F05:serviced-apartments:Soiled linen store",
+          "box": [
+            34,
+            11.8,
+            39,
+            16.8
+          ],
+          "kind": "service",
+          "access_to": [
+            "F05:serviced-apartments:North reserved lift lobby"
+          ]
+        },
+        {
+          "label": "F05:serviced-apartments:Private dining room",
+          "box": [
+            25.333,
+            0,
+            34,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:serviced-apartments:Main corridor",
+            "F05:serviced-apartments:Club preparation kitchen"
+          ]
+        },
+        {
+          "label": "F05:serviced-apartments:Club preparation kitchen",
+          "box": [
+            16.666,
+            0,
+            25.333,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:serviced-apartments:Main corridor",
+            "F05:serviced-apartments:Private dining room"
+          ]
+        },
+        {
+          "label": "F05:serviced-apartments:Club residents lounge",
+          "box": [
+            8,
+            0,
+            16.666,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:serviced-apartments:Quiet work library",
+          "box": [
+            0,
+            0,
+            5,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:serviced-apartments:Guest laundry",
+          "box": [
+            0,
+            9.3,
+            4.8,
+            16.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:serviced-apartments:East premium apartment envelope",
+          "box": [
+            4.8,
+            9.3,
+            19.4,
+            16.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:serviced-apartments:West premium apartment envelope",
+          "box": [
+            19.4,
+            9.3,
+            34,
+            16.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:serviced-apartments:North premium family envelope",
+          "box": [
+            39,
+            9.3,
+            47.886,
+            16.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:serviced-apartments:South premium couple envelope",
+          "box": [
+            47.886,
+            9.3,
+            56.772,
+            16.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:serviced-apartments:Accessible premium apartment envelope",
+          "box": [
+            56.772,
+            9.3,
+            65,
+            16.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:serviced-apartments:Corner long-stay apartment envelope",
+          "box": [
+            68,
+            9.3,
+            73,
+            16.8
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:serviced-apartments:Courtyard premium envelope",
+          "box": [
+            67.6,
+            0,
+            73,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:serviced-apartments:Quiet premium envelope",
+          "box": [
+            62.2,
+            0,
+            67.6,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:serviced-apartments:Executive family apartment envelope",
+          "box": [
+            56.8,
+            0,
+            62.2,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:serviced-apartments:Visiting director apartment envelope",
+          "box": [
+            52.8,
+            0,
+            56.8,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:serviced-apartments:Flexible premium home envelope",
+          "box": [
+            47.4,
+            0,
+            52.8,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:serviced-apartments:Companion premium envelope",
+          "box": [
+            42,
+            0,
+            47.4,
+            7.5
+          ],
+          "kind": "program",
+          "access_to": [
+            "F05:serviced-apartments:Main corridor"
+          ]
+        },
+        {
+          "label": "F05:serviced-apartments:Roof maintenance room",
+          "box": [
+            39,
+            0,
+            42,
+            7.5
+          ],
+          "kind": "service",
+          "access_to": [
+            "F05:serviced-apartments:Main corridor"
+          ]
+        }
+      ]
+    }
+  ]
+}

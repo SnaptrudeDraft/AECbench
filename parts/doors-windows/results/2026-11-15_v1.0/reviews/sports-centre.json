@@ -1,0 +1,45 @@
+{
+  "case": "sports-centre",
+  "version": "1.0",
+  "run": "2026-11-15_v1.0",
+  "reviewer": "reviewer v2",
+  "score": 6,
+  "doors": 101,
+  "windows": 120,
+  "problems_left": 0,
+  "justification": "The run delivered a substantial, functional opening package: 101 doors and 120 windows across three occupied storeys, with every opening hosted, every one of 94 rooms having a door, compliant measured door widths, suitable lift doors, and no swing-rule findings. However, daylight coverage remains materially incomplete across all floors: four ground-floor studios have only borrowed internal glazing, and eight upper-floor studios have no windows, requiring significant rework before the whole-building opening task is acceptable.",
+  "evidence": "Live measurements found 41/30/30 doors and 37/46/37 windows on storeys 1/2/3; the access check reported 94 rooms, 0 without doors, 32 reachable and 62 not linked to other floors. The window review found no exterior window for the ground-floor Movement Studio, Team Briefing, Warmup Studio and sports hall, while Dance, Martial Arts, Pilates and Yoga on floor 3 and Conditioning, Free Weights, Functional Training and Resistance Training on floor 2 had no window at all. The agent acknowledged part of this incompleteness: “Not met: eight studios on floors 2 and 3 have no window.”",
+  "strengths": [
+    "Exact final count claim verified: 101 doors and 120 windows.",
+    "Whole-building coverage was attempted on all three occupied storeys rather than only the ground floor.",
+    "All 221 openings returned a valid wall host.",
+    "Every one of the 94 rooms has at least one door; ground-floor access reports all 32 rooms reachable.",
+    "Opening measurements showed no undersized doors or incorrect room-to-circulation swings under the applicable rules.",
+    "Single room doors measure 1.00 m nominal and 0.86 m clear; double doors measure about 1.94 m nominal.",
+    "All six lift landing doors are sliding and approximately 1.20 m nominal, opening between lift reservations and shared lift lobbies.",
+    "Window sill geometry is generally consistent: standard windows sit about 0.91 m above their storey floor, while the sports-hall clerestories are high level.",
+    "The agent openly disclosed the eight unwindowed upper-floor studios instead of claiming complete daylight coverage."
+  ],
+  "weaknesses": [
+    "Four occupied ground-floor rooms—Movement Studio, Team Briefing, Warmup Studio and Equipment Induction—received fixed glazing into the sports hall rather than exterior daylight; borrowed internal glazing does not satisfy the daylight principle.",
+    "Eight occupied studios across floors 2 and 3 have no window: Conditioning, Free Weights, Functional Training, Resistance Training, Dance, Yoga, Pilates and Martial Arts.",
+    "The sports hall's four room-facing windows are internal borrowed-light openings; its exterior clerestories are recorded on storey 2 because they occupy the tall hall wall, making floor-by-floor verification less clear.",
+    "Upper-storey access remains unverified because all 62 upper rooms report not linked to other floors. This is contextual rather than penalized as missing stairs, but it prevents full end-to-end access verification.",
+    "Moving-leaf and sash collision clearance was not assessed beyond the opening measurements; double-door leaf locations are explicitly estimated.",
+    "Family-definition and instance fire-rating details could not be fully read, so the claimed 60-minute stair-door rating is not independently assessed."
+  ],
+  "spec_violations": [
+    {
+      "constraint": "Inspect and provide suitable doors and windows throughout every occupied storey.",
+      "what_happened": "Door coverage is complete, but window coverage is incomplete on every occupied floor.",
+      "evidence": "Four ground-floor occupied rooms have only internal borrowed glazing, while four studios on floor 2 and four studios on floor 3 have no windows."
+    },
+    {
+      "constraint": "Habitable rooms should receive daylight through a window in an outside wall.",
+      "what_happened": "Twelve occupied rooms lack an exterior window; four use internal glazing into the sports hall and eight have no window.",
+      "evidence": "Measured exterior-window room associations exclude the ground-floor Movement Studio, Team Briefing and Warmup Studio; access/window topology also lists eight named upper studios with no window."
+    }
+  ],
+  "honesty_flags": [],
+  "confidence": "high"
+}

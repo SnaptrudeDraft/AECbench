@@ -1,0 +1,23 @@
+{
+  "id": "library3",
+  "name": "Civic library with central reading atrium",
+  "typology": "Civic library with central reading atrium",
+  "provenance": "Deterministic AI-authored synthetic architectural program and coordinates; not a source-model replay, surveyed building, live-audited fixture or compliance design.",
+  "start_state": "Whole-building recorded BIM layout; zero starting openings; reserved vertical cores",
+  "storeys": 3,
+  "program_rooms": 49,
+  "labelled_zones": 91,
+  "required_standards": [
+    "doors and windows (review/standard.md)"
+  ],
+  "grading": "Scored by the reviewer. There is no exact answer key.",
+  "limitations": [
+    "Metres; +X east, +Z north, Y vertical. Shared partition centre-line extents. Envelope 60 by 42 m. South/north rooms are 11 by 8 m; side rooms 8 by 5 m. Full-width south/north galleries meet side galleries along 3 m edges, not just corners, and directly reach corner core reservations.",
+    "Floor elevations are cumulative height_m from zero. Central reading hall [11,11,49,31] is 12.9 m tall, the sum of all three floor heights. The exact central footprint is absent on floors 2 and 3. The consumer MUST omit upper slabs there and roof the hall above floor 3; do not fill the envelope with an upper slab.",
+    "Two separated stair reservations and two lift/service reservations stack exactly. These are allowances, not physical stairs, landings, shafts, cars or a vertical access solution. Lift reservations must later include service/lobby subdivision; no dimensions of actual lift equipment are implied.",
+    "access_to contains exact-label intended passages only across shared positive-length boundaries. The tall hall is a single actual zone, not artificial partition labels. Cafe preparation reaches seating via the east and south galleries; the two rooms do not share a boundary and have no direct access edge.",
+    "Archives, special collections, conservation, digitisation and receiving are controlled-access contexts. Blind archives may be intentional. Reading-room glare, privacy, atrium-facing versus exterior glazing, quiet/noisy separation and upper atrium edge protection need opening review.",
+    "Toilets and pantry are whole facility envelopes with no internal cubicles or fixtures. No doors, windows or opening families are supplied. No daylight, smoke-control, acoustic, structural or regulatory performance is claimed; not live-audited.",
+    "Corrected 2026-11-11: corner cores were 8 by 8 m reservations. Stairs are now 4 by 8 m (1.5 m flights for assembly use), the passenger lift 3 by 3 m and the goods lift 4 by 4 m; the rest of each corner is riser, plant or store rooms reached from the gallery."
+  ]
+}

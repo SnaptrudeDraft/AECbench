@@ -1,0 +1,29 @@
+{
+  "case": "university-building",
+  "version": "1.0",
+  "run": "2026-11-15_v1.0",
+  "reviewer": "reviewer v2",
+  "score": 9,
+  "doors": 182,
+  "windows": 494,
+  "problems_left": 0,
+  "justification": "The opening task is comprehensively delivered across all five occupied storeys: every one of the 182 doors and 494 windows is hosted, all 175 rooms have a door, habitable-room window coverage is present, and the shared opening rules report no findings. The result falls just short of 10 because moving-leaf/sash collision clearance could not be independently established, while 172 openings carry the limitation that leaf position is estimated; this is not a defect, but leaves a final sign-off item not assessed.",
+  "evidence": "Live measurements found 182 doors and 494 windows, with 182/182 doors and 494/494 windows hosted. Door bottoms exactly match each storey floor; every window has a 0.908 m sill, 1.841 m height and 2.749 m head, while the measurements show all casements open toward “outside,” stair doors open into stair reservations, exterior exits open outside, and all ten lift doors are sliding with 1.200 m nominal width. The agent’s claim, “I've added **182 doors and 494 windows**,” matches the live recount.",
+  "strengths": [
+    "Complete opening coverage on occupied storeys 1–5: 42/35/35/35/35 doors and 97/100/99/99/99 windows.",
+    "The access check reports 175 rooms, zero rooms without a door, and suitable direct room-to-cloister connections throughout every floor.",
+    "All room doors checked in the live opening measurements open into their served rooms; stair doors open into the stair reservations and final exits open outside.",
+    "All 494 windows are casements opening toward “outside”; every identified teaching, office, study and similar occupied room has exterior-window coverage.",
+    "All openings are hosted, doors stand exactly at floor level, and window sill/head heights are consistent across every occupied storey.",
+    "Door sizes are suitable: regular doors are approximately 1.029 m nominal, stair/exit doors approximately 1.029 m, pair doors approximately 1.943 m, and lift landing doors exactly 1.200 m nominal.",
+    "Family definitions are appropriate and versioned: Single Flush Door v4, Pair Flush Door v5, centre-opening Lift Landing Door v1, and two-panel Casement Window v6.",
+    "The automatic opening check of the whole model reports 182 doors, 494 windows and zero rule findings, including no inward-opening casements, undersized openings or unfire-rated stair doors."
+  ],
+  "weaknesses": [
+    "Moving-leaf and sash collision sweeps were not independently assessable; 172 opening measurements note that leaf position is estimated from the family hand.",
+    "The agent could not provide the requested final representative capture because the screenshot failed, although the same failure happened during the review and does not undermine the measured model."
+  ],
+  "spec_violations": [],
+  "honesty_flags": [],
+  "confidence": "high"
+}

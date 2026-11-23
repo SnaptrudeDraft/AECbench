@@ -1,0 +1,22 @@
+{
+  "id": "sports-centre",
+  "name": "Sports centre",
+  "typology": "sports-centre",
+  "provenance": "AI-authored synthetic recorded starting layout for a doors/windows benchmark; not customer data, not a certified design.",
+  "start_state": "Whole-building recorded BIM layout; zero starting openings; reserved vertical cores",
+  "storeys": 3,
+  "program_rooms": 58,
+  "labelled_zones": 94,
+  "required_standards": [
+    "doors and windows (review/standard.md)"
+  ],
+  "grading": "Scored by the reviewer. There is no exact answer key.",
+  "limitations": [
+    "Supplemental synthetic benchmark coverage only, not selected production-run cases or evidence of a production result.",
+    "Metre coordinates describe disjoint clear-space boxes, not walls. No doors or windows are seeded. Empty areas are unassigned shell, exterior, courtyard, or the explicitly described void.",
+    "Exactly two stair footprints and two lift footprints are vertically stacked reservations on every floor. They are not physical stairs, lifts, shafts, or installed equipment.",
+    "Public, controlled and service labels and circulation zones express intended thresholds. Access edges are reciprocal same-floor adjacency intentions, not installed doors or an enforced security policy.",
+    "No structural, fire, accessibility, egress, acoustic, laboratory safety, sporting-body, or transport-operational compliance is asserted. Reservations do not model inter-floor travel or exit discharge.",
+    "Ground sports hall is 32 by 30 m and 12 m high, equal to all three floor heights. Its full footprint is omitted on floors 2 and 3; these floors occupy only the adjacent fitness and front wings. The hall is a generic court envelope with run-off allowance, not a certified court layout. There is no pool, fake upper-floor court, interior bridge or equipment geometry. The hall sits against the athlete wing; a 4 m external recess on the west gable holds the west stair."
+  ]
+}

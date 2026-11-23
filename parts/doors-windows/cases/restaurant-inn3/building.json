@@ -1,0 +1,1192 @@
+{
+  "slug": "restaurant-inn3",
+  "typology": "Restaurant-led boutique inn",
+  "provenance": "Deterministic AI-authored synthetic architectural program and coordinates; not a source-model replay, surveyed building, live-audited fixture or compliance design.",
+  "notes": [
+    "Metres; +X east, +Z north, Y vertical. Shared partition centre-line extents. Footprint 60 by 19 m, 8 m room bands and a 3 m corridor. Floor elevations accumulate height_m from zero; no high bays or upper-floor voids.",
+    "Two separated stair reservations, passenger lift and service lift stack exactly. Reservations are not physical flights, landings, lift shafts, cars or working vertical access. Each 6 m end strip includes explicit 2 m wide circulation lobbies beside 4 by 5 m reservations and 4 by 3 m service rooms. WC, linen, housekeeping and maintenance access reaches the main corridor without entering any reservation; equipment fit and clear widths remain unverified.",
+    "Guest floor has sixteen 6 by 8 m whole-suite envelopes. Each represents sleeping/living and an internal bathroom allowance together; internal bathroom partitions, wet fixtures and bathroom doors are deliberately NOT modeled, labeled or counted separately. There are no nested or overlapping bathroom rectangles. This start cannot assess ensuite-door placement until a later disjoint subdivision is authored.",
+    "Suite names indicate synthetic facade orientation only, not modeled landscaping or a real site. Guest-floor access requires privacy/control distinct from public restaurant and event levels. Shared corridor service routes are schematic, not a validated clean/dirty catering circulation system.",
+    "Dry/cold storage and staff changing/rest are honestly combined operational rooms, not multiple labels on one box. Toilets are facility envelopes without cubicle partitions. Large reception and event lounge rooms are purposeful guest zones rather than circulation counted as program.",
+    "access_to records intended passages across shared positive-length boundaries, not placed doors or exact opening/swing targets. Review guest daylight/privacy, bedroom corridor thresholds, accessible approach, kitchen/waste access and delivery clearances. Stores may be blind; ventilation-only openings are not daylight glazing.",
+    "No doors, windows or opening families supplied. Exterior arrival and receiving access remain authoring tasks. No capacity, equipment, fire, acoustic or regulatory performance claim; not live-audited.",
+    "Corrected 2026-11-11: on floors 1 and 2 each kitchen is on the dining bank and shares a wall with the dining rooms it serves (hot kitchen beside the 12 by 8 m main dining room; finishing kitchen and service pantry between the celebration and business dining rooms). Toilets, stores and staff rooms are across the corridor."
+  ],
+  "floors": [
+    {
+      "number": 1,
+      "name": "Ground",
+      "height_m": 4.2,
+      "rooms": [
+        {
+          "label": "R1 Main corridor",
+          "box": [
+            0,
+            8,
+            60,
+            11
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "R1 Southwest core lobby",
+            "R1 Southeast core lobby",
+            "R1 Northwest core lobby",
+            "R1 Northeast core lobby"
+          ]
+        },
+        {
+          "label": "R1 Southwest core lobby",
+          "box": [
+            4,
+            0,
+            6,
+            8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "R1 Main corridor"
+          ]
+        },
+        {
+          "label": "R1 Southeast core lobby",
+          "box": [
+            54,
+            0,
+            56,
+            8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "R1 Main corridor"
+          ]
+        },
+        {
+          "label": "R1 Northwest core lobby",
+          "box": [
+            4,
+            11,
+            6,
+            19
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "R1 Main corridor"
+          ]
+        },
+        {
+          "label": "R1 Northeast core lobby",
+          "box": [
+            54,
+            11,
+            56,
+            19
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "R1 Main corridor"
+          ]
+        },
+        {
+          "label": "R1 West stair reservation",
+          "box": [
+            0,
+            3,
+            4,
+            8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "R1 Southwest core lobby"
+          ]
+        },
+        {
+          "label": "R1 East stair reservation",
+          "box": [
+            56,
+            3,
+            60,
+            8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "R1 Southeast core lobby"
+          ]
+        },
+        {
+          "label": "R1 Passenger lift reservation",
+          "box": [
+            0,
+            11,
+            4,
+            16
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "R1 Northwest core lobby"
+          ]
+        },
+        {
+          "label": "R1 Service lift reservation",
+          "box": [
+            56,
+            11,
+            60,
+            16
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "R1 Northeast core lobby"
+          ]
+        },
+        {
+          "label": "R1 West core WC",
+          "box": [
+            0,
+            0,
+            4,
+            3
+          ],
+          "kind": "service",
+          "access_to": [
+            "R1 Southwest core lobby"
+          ]
+        },
+        {
+          "label": "R1 East core WC",
+          "box": [
+            56,
+            0,
+            60,
+            3
+          ],
+          "kind": "service",
+          "access_to": [
+            "R1 Southeast core lobby"
+          ]
+        },
+        {
+          "label": "R1 West maintenance store",
+          "box": [
+            0,
+            16,
+            4,
+            19
+          ],
+          "kind": "service",
+          "access_to": [
+            "R1 Northwest core lobby"
+          ]
+        },
+        {
+          "label": "R1 East maintenance store",
+          "box": [
+            56,
+            16,
+            60,
+            19
+          ],
+          "kind": "service",
+          "access_to": [
+            "R1 Northeast core lobby"
+          ]
+        },
+        {
+          "label": "R1 Restaurant reception and lounge",
+          "box": [
+            6,
+            0,
+            13,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "R1 Main corridor"
+          ]
+        },
+        {
+          "label": "R1 Main dining room",
+          "box": [
+            18,
+            0,
+            30,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "R1 Main corridor",
+            "R1 Hot kitchen"
+          ]
+        },
+        {
+          "label": "R1 Bar seating",
+          "box": [
+            13,
+            0,
+            18,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "R1 Main corridor"
+          ]
+        },
+        {
+          "label": "R1 Private dining west",
+          "box": [
+            6,
+            11,
+            12,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "R1 Main corridor"
+          ]
+        },
+        {
+          "label": "R1 Private dining east",
+          "box": [
+            12,
+            11,
+            18,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "R1 Main corridor"
+          ]
+        },
+        {
+          "label": "R1 Public toilet room west",
+          "box": [
+            18,
+            11,
+            22,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "R1 Main corridor"
+          ]
+        },
+        {
+          "label": "R1 Public toilet room east",
+          "box": [
+            22,
+            11,
+            26,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "R1 Main corridor"
+          ]
+        },
+        {
+          "label": "R1 Accessible family toilet room",
+          "box": [
+            26,
+            11,
+            30,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "R1 Main corridor"
+          ]
+        },
+        {
+          "label": "R1 Hot kitchen",
+          "box": [
+            30,
+            0,
+            38,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "R1 Main corridor",
+            "R1 Main dining room",
+            "R1 Cold preparation"
+          ]
+        },
+        {
+          "label": "R1 Cold preparation",
+          "box": [
+            38,
+            0,
+            44,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "R1 Main corridor",
+            "R1 Hot kitchen",
+            "R1 Pastry kitchen"
+          ]
+        },
+        {
+          "label": "R1 Pastry kitchen",
+          "box": [
+            44,
+            0,
+            49,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "R1 Main corridor",
+            "R1 Cold preparation",
+            "R1 Wash-up"
+          ]
+        },
+        {
+          "label": "R1 Wash-up",
+          "box": [
+            49,
+            0,
+            54,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "R1 Main corridor",
+            "R1 Pastry kitchen"
+          ]
+        },
+        {
+          "label": "R1 Dry and cold storage",
+          "box": [
+            30,
+            11,
+            36,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "R1 Main corridor"
+          ]
+        },
+        {
+          "label": "R1 Receiving",
+          "box": [
+            36,
+            11,
+            42,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "R1 Main corridor"
+          ]
+        },
+        {
+          "label": "R1 Waste holding",
+          "box": [
+            42,
+            11,
+            46,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "R1 Main corridor"
+          ]
+        },
+        {
+          "label": "R1 Staff changing and rest",
+          "box": [
+            46,
+            11,
+            54,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "R1 Main corridor"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Private dining and events",
+      "height_m": 4.2,
+      "rooms": [
+        {
+          "label": "R2 Main corridor",
+          "box": [
+            0,
+            8,
+            60,
+            11
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "R2 Southwest core lobby",
+            "R2 Southeast core lobby",
+            "R2 Northwest core lobby",
+            "R2 Northeast core lobby"
+          ]
+        },
+        {
+          "label": "R2 Southwest core lobby",
+          "box": [
+            4,
+            0,
+            6,
+            8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "R2 Main corridor"
+          ]
+        },
+        {
+          "label": "R2 Southeast core lobby",
+          "box": [
+            54,
+            0,
+            56,
+            8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "R2 Main corridor"
+          ]
+        },
+        {
+          "label": "R2 Northwest core lobby",
+          "box": [
+            4,
+            11,
+            6,
+            19
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "R2 Main corridor"
+          ]
+        },
+        {
+          "label": "R2 Northeast core lobby",
+          "box": [
+            54,
+            11,
+            56,
+            19
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "R2 Main corridor"
+          ]
+        },
+        {
+          "label": "R2 West stair reservation",
+          "box": [
+            0,
+            3,
+            4,
+            8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "R2 Southwest core lobby"
+          ]
+        },
+        {
+          "label": "R2 East stair reservation",
+          "box": [
+            56,
+            3,
+            60,
+            8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "R2 Southeast core lobby"
+          ]
+        },
+        {
+          "label": "R2 Passenger lift reservation",
+          "box": [
+            0,
+            11,
+            4,
+            16
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "R2 Northwest core lobby"
+          ]
+        },
+        {
+          "label": "R2 Service lift reservation",
+          "box": [
+            56,
+            11,
+            60,
+            16
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "R2 Northeast core lobby"
+          ]
+        },
+        {
+          "label": "R2 West core WC",
+          "box": [
+            0,
+            0,
+            4,
+            3
+          ],
+          "kind": "service",
+          "access_to": [
+            "R2 Southwest core lobby"
+          ]
+        },
+        {
+          "label": "R2 East core WC",
+          "box": [
+            56,
+            0,
+            60,
+            3
+          ],
+          "kind": "service",
+          "access_to": [
+            "R2 Southeast core lobby"
+          ]
+        },
+        {
+          "label": "R2 West maintenance store",
+          "box": [
+            0,
+            16,
+            4,
+            19
+          ],
+          "kind": "service",
+          "access_to": [
+            "R2 Northwest core lobby"
+          ]
+        },
+        {
+          "label": "R2 East maintenance store",
+          "box": [
+            56,
+            16,
+            60,
+            19
+          ],
+          "kind": "service",
+          "access_to": [
+            "R2 Northeast core lobby"
+          ]
+        },
+        {
+          "label": "R2 Event reception and cloakroom",
+          "box": [
+            6,
+            0,
+            14,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "R2 Main corridor"
+          ]
+        },
+        {
+          "label": "R2 Celebration dining room",
+          "box": [
+            14,
+            0,
+            26,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "R2 Main corridor",
+            "R2 Finishing kitchen"
+          ]
+        },
+        {
+          "label": "R2 Business dining room",
+          "box": [
+            38,
+            0,
+            44,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "R2 Main corridor",
+            "R2 Service pantry"
+          ]
+        },
+        {
+          "label": "R2 Family private dining",
+          "box": [
+            44,
+            0,
+            50,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "R2 Main corridor"
+          ]
+        },
+        {
+          "label": "R2 Tasting room",
+          "box": [
+            50,
+            0,
+            54,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "R2 Main corridor"
+          ]
+        },
+        {
+          "label": "R2 Event toilet room west",
+          "box": [
+            16,
+            11,
+            20,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "R2 Main corridor"
+          ]
+        },
+        {
+          "label": "R2 Event toilet room east",
+          "box": [
+            20,
+            11,
+            24,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "R2 Main corridor"
+          ]
+        },
+        {
+          "label": "R2 Event accessible toilet room",
+          "box": [
+            24,
+            11,
+            28,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "R2 Main corridor"
+          ]
+        },
+        {
+          "label": "R2 Event lounge",
+          "box": [
+            6,
+            11,
+            16,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "R2 Main corridor"
+          ]
+        },
+        {
+          "label": "R2 Finishing kitchen",
+          "box": [
+            26,
+            0,
+            33,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "R2 Main corridor",
+            "R2 Celebration dining room",
+            "R2 Service pantry"
+          ]
+        },
+        {
+          "label": "R2 Service pantry",
+          "box": [
+            33,
+            0,
+            38,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "R2 Main corridor",
+            "R2 Finishing kitchen",
+            "R2 Business dining room"
+          ]
+        },
+        {
+          "label": "R2 Event wash-up",
+          "box": [
+            28,
+            11,
+            34,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "R2 Main corridor"
+          ]
+        },
+        {
+          "label": "R2 Furniture store",
+          "box": [
+            34,
+            11,
+            40,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "R2 Main corridor"
+          ]
+        },
+        {
+          "label": "R2 Table linen store",
+          "box": [
+            40,
+            11,
+            44,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "R2 Main corridor"
+          ]
+        },
+        {
+          "label": "R2 Event manager office",
+          "box": [
+            44,
+            11,
+            48,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "R2 Main corridor"
+          ]
+        },
+        {
+          "label": "R2 Catering staff room",
+          "box": [
+            48,
+            11,
+            54,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "R2 Main corridor"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Boutique guest accommodation",
+      "height_m": 3.6,
+      "rooms": [
+        {
+          "label": "R3 Main corridor",
+          "box": [
+            0,
+            8,
+            60,
+            11
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "R3 Southwest core lobby",
+            "R3 Southeast core lobby",
+            "R3 Northwest core lobby",
+            "R3 Northeast core lobby"
+          ]
+        },
+        {
+          "label": "R3 Southwest core lobby",
+          "box": [
+            4,
+            0,
+            6,
+            8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "R3 Main corridor"
+          ]
+        },
+        {
+          "label": "R3 Southeast core lobby",
+          "box": [
+            54,
+            0,
+            56,
+            8
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "R3 Main corridor"
+          ]
+        },
+        {
+          "label": "R3 Northwest core lobby",
+          "box": [
+            4,
+            11,
+            6,
+            19
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "R3 Main corridor"
+          ]
+        },
+        {
+          "label": "R3 Northeast core lobby",
+          "box": [
+            54,
+            11,
+            56,
+            19
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "R3 Main corridor"
+          ]
+        },
+        {
+          "label": "R3 West stair reservation",
+          "box": [
+            0,
+            3,
+            4,
+            8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "R3 Southwest core lobby"
+          ]
+        },
+        {
+          "label": "R3 East stair reservation",
+          "box": [
+            56,
+            3,
+            60,
+            8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "R3 Southeast core lobby"
+          ]
+        },
+        {
+          "label": "R3 Passenger lift reservation",
+          "box": [
+            0,
+            11,
+            4,
+            16
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "R3 Northwest core lobby"
+          ]
+        },
+        {
+          "label": "R3 Service lift reservation",
+          "box": [
+            56,
+            11,
+            60,
+            16
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "R3 Northeast core lobby"
+          ]
+        },
+        {
+          "label": "R3 West staff WC",
+          "box": [
+            0,
+            0,
+            4,
+            3
+          ],
+          "kind": "service",
+          "access_to": [
+            "R3 Southwest core lobby"
+          ]
+        },
+        {
+          "label": "R3 East staff WC",
+          "box": [
+            56,
+            0,
+            60,
+            3
+          ],
+          "kind": "service",
+          "access_to": [
+            "R3 Southeast core lobby"
+          ]
+        },
+        {
+          "label": "R3 Clean linen store",
+          "box": [
+            0,
+            16,
+            4,
+            19
+          ],
+          "kind": "service",
+          "access_to": [
+            "R3 Northwest core lobby"
+          ]
+        },
+        {
+          "label": "R3 Housekeeping room",
+          "box": [
+            56,
+            16,
+            60,
+            19
+          ],
+          "kind": "service",
+          "access_to": [
+            "R3 Northeast core lobby"
+          ]
+        },
+        {
+          "label": "R3 South garden suite A",
+          "box": [
+            6,
+            0,
+            12,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "R3 Main corridor"
+          ]
+        },
+        {
+          "label": "R3 South garden suite B",
+          "box": [
+            12,
+            0,
+            18,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "R3 Main corridor"
+          ]
+        },
+        {
+          "label": "R3 South garden suite C",
+          "box": [
+            18,
+            0,
+            24,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "R3 Main corridor"
+          ]
+        },
+        {
+          "label": "R3 South garden suite D",
+          "box": [
+            24,
+            0,
+            30,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "R3 Main corridor"
+          ]
+        },
+        {
+          "label": "R3 South garden suite E",
+          "box": [
+            30,
+            0,
+            36,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "R3 Main corridor"
+          ]
+        },
+        {
+          "label": "R3 South garden suite F",
+          "box": [
+            36,
+            0,
+            42,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "R3 Main corridor"
+          ]
+        },
+        {
+          "label": "R3 South garden suite G",
+          "box": [
+            42,
+            0,
+            48,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "R3 Main corridor"
+          ]
+        },
+        {
+          "label": "R3 South garden suite H",
+          "box": [
+            48,
+            0,
+            54,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "R3 Main corridor"
+          ]
+        },
+        {
+          "label": "R3 North courtyard suite A",
+          "box": [
+            6,
+            11,
+            12,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "R3 Main corridor"
+          ]
+        },
+        {
+          "label": "R3 North courtyard suite B",
+          "box": [
+            12,
+            11,
+            18,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "R3 Main corridor"
+          ]
+        },
+        {
+          "label": "R3 North courtyard suite C",
+          "box": [
+            18,
+            11,
+            24,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "R3 Main corridor"
+          ]
+        },
+        {
+          "label": "R3 North courtyard suite D",
+          "box": [
+            24,
+            11,
+            30,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "R3 Main corridor"
+          ]
+        },
+        {
+          "label": "R3 North courtyard suite E",
+          "box": [
+            30,
+            11,
+            36,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "R3 Main corridor"
+          ]
+        },
+        {
+          "label": "R3 North courtyard suite F",
+          "box": [
+            36,
+            11,
+            42,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "R3 Main corridor"
+          ]
+        },
+        {
+          "label": "R3 North courtyard suite G",
+          "box": [
+            42,
+            11,
+            48,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "R3 Main corridor"
+          ]
+        },
+        {
+          "label": "R3 North courtyard suite H",
+          "box": [
+            48,
+            11,
+            54,
+            19
+          ],
+          "kind": "program",
+          "access_to": [
+            "R3 Main corridor"
+          ]
+        }
+      ]
+    }
+  ]
+}

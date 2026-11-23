@@ -1,0 +1,1254 @@
+{
+  "slug": "library3",
+  "typology": "Civic library with central reading atrium",
+  "provenance": "Deterministic AI-authored synthetic architectural program and coordinates; not a source-model replay, surveyed building, live-audited fixture or compliance design.",
+  "notes": [
+    "Metres; +X east, +Z north, Y vertical. Shared partition centre-line extents. Envelope 60 by 42 m. South/north rooms are 11 by 8 m; side rooms 8 by 5 m. Full-width south/north galleries meet side galleries along 3 m edges, not just corners, and directly reach corner core reservations.",
+    "Floor elevations are cumulative height_m from zero. Central reading hall [11,11,49,31] is 12.9 m tall, the sum of all three floor heights. The exact central footprint is absent on floors 2 and 3. The consumer MUST omit upper slabs there and roof the hall above floor 3; do not fill the envelope with an upper slab.",
+    "Two separated stair reservations and two lift/service reservations stack exactly. These are allowances, not physical stairs, landings, shafts, cars or a vertical access solution. Lift reservations must later include service/lobby subdivision; no dimensions of actual lift equipment are implied.",
+    "access_to contains exact-label intended passages only across shared positive-length boundaries. The tall hall is a single actual zone, not artificial partition labels. Cafe preparation reaches seating via the east and south galleries; the two rooms do not share a boundary and have no direct access edge.",
+    "Archives, special collections, conservation, digitisation and receiving are controlled-access contexts. Blind archives may be intentional. Reading-room glare, privacy, atrium-facing versus exterior glazing, quiet/noisy separation and upper atrium edge protection need opening review.",
+    "Toilets and pantry are whole facility envelopes with no internal cubicles or fixtures. No doors, windows or opening families are supplied. No daylight, smoke-control, acoustic, structural or regulatory performance is claimed; not live-audited.",
+    "Corrected 2026-11-11: corner cores were 8 by 8 m reservations. Stairs are now 4 by 8 m (1.5 m flights for assembly use), the passenger lift 3 by 3 m and the goods lift 4 by 4 m; the rest of each corner is riser, plant or store rooms reached from the gallery."
+  ],
+  "floors": [
+    {
+      "number": 1,
+      "name": "Ground",
+      "height_m": 4.5,
+      "rooms": [
+        {
+          "label": "L1 South gallery",
+          "box": [
+            0,
+            8,
+            60,
+            11
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "L1 West gallery",
+            "L1 East gallery",
+            "L1 Southwest riser and cleaner store",
+            "L1 Southeast goods lift store"
+          ]
+        },
+        {
+          "label": "L1 North gallery",
+          "box": [
+            0,
+            31,
+            60,
+            34
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "L1 West gallery",
+            "L1 East gallery",
+            "L1 Northeast cleaner and plant room",
+            "L1 Northwest building services room"
+          ]
+        },
+        {
+          "label": "L1 West gallery",
+          "box": [
+            8,
+            11,
+            11,
+            31
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "L1 South gallery",
+            "L1 North gallery"
+          ]
+        },
+        {
+          "label": "L1 East gallery",
+          "box": [
+            49,
+            11,
+            52,
+            31
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "L1 South gallery",
+            "L1 North gallery"
+          ]
+        },
+        {
+          "label": "L1 Southwest stair reservation",
+          "box": [
+            0,
+            0,
+            4,
+            8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "L1 South gallery"
+          ]
+        },
+        {
+          "label": "L1 Northeast stair reservation",
+          "box": [
+            56,
+            34,
+            60,
+            42
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "L1 North gallery"
+          ]
+        },
+        {
+          "label": "L1 Northwest passenger lift reservation",
+          "box": [
+            0,
+            34,
+            3,
+            37
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "L1 North gallery"
+          ]
+        },
+        {
+          "label": "L1 Southeast service lift reservation",
+          "box": [
+            52,
+            4,
+            56,
+            8
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "L1 South gallery"
+          ]
+        },
+        {
+          "label": "L1 Welcome and lending",
+          "box": [
+            8,
+            0,
+            19,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "L1 South gallery"
+          ]
+        },
+        {
+          "label": "L1 Children collection",
+          "box": [
+            19,
+            0,
+            30,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "L1 South gallery"
+          ]
+        },
+        {
+          "label": "L1 Teen collection",
+          "box": [
+            30,
+            0,
+            41,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "L1 South gallery"
+          ]
+        },
+        {
+          "label": "L1 Cafe seating",
+          "box": [
+            41,
+            0,
+            52,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "L1 South gallery"
+          ]
+        },
+        {
+          "label": "L1 Community meeting room",
+          "box": [
+            8,
+            34,
+            19,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "L1 North gallery"
+          ]
+        },
+        {
+          "label": "L1 Exhibition room",
+          "box": [
+            19,
+            34,
+            30,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "L1 North gallery"
+          ]
+        },
+        {
+          "label": "L1 Digital learning laboratory",
+          "box": [
+            30,
+            34,
+            41,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "L1 North gallery"
+          ]
+        },
+        {
+          "label": "L1 Receiving and sorting",
+          "box": [
+            41,
+            34,
+            52,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "L1 North gallery"
+          ]
+        },
+        {
+          "label": "L1 Storytelling room",
+          "box": [
+            0,
+            11,
+            8,
+            16
+          ],
+          "kind": "program",
+          "access_to": [
+            "L1 West gallery"
+          ]
+        },
+        {
+          "label": "L1 Family quiet room",
+          "box": [
+            0,
+            16,
+            8,
+            21
+          ],
+          "kind": "program",
+          "access_to": [
+            "L1 West gallery"
+          ]
+        },
+        {
+          "label": "L1 Public toilet room west",
+          "box": [
+            0,
+            21,
+            8,
+            26
+          ],
+          "kind": "program",
+          "access_to": [
+            "L1 West gallery"
+          ]
+        },
+        {
+          "label": "L1 Security office",
+          "box": [
+            0,
+            26,
+            8,
+            31
+          ],
+          "kind": "program",
+          "access_to": [
+            "L1 West gallery"
+          ]
+        },
+        {
+          "label": "L1 Cafe preparation",
+          "box": [
+            52,
+            11,
+            60,
+            16
+          ],
+          "kind": "program",
+          "access_to": [
+            "L1 East gallery"
+          ]
+        },
+        {
+          "label": "L1 Staff processing room",
+          "box": [
+            52,
+            16,
+            60,
+            21
+          ],
+          "kind": "program",
+          "access_to": [
+            "L1 East gallery"
+          ]
+        },
+        {
+          "label": "L1 Returns holding room",
+          "box": [
+            52,
+            21,
+            60,
+            26
+          ],
+          "kind": "program",
+          "access_to": [
+            "L1 East gallery"
+          ]
+        },
+        {
+          "label": "L1 Public toilet room east",
+          "box": [
+            52,
+            26,
+            60,
+            31
+          ],
+          "kind": "program",
+          "access_to": [
+            "L1 East gallery"
+          ]
+        },
+        {
+          "label": "L1 Central reading hall",
+          "box": [
+            11,
+            11,
+            49,
+            31
+          ],
+          "kind": "program",
+          "access_to": [
+            "L1 South gallery",
+            "L1 North gallery",
+            "L1 West gallery",
+            "L1 East gallery"
+          ],
+          "height_m": 12.9
+        },
+        {
+          "label": "L1 Southwest riser and cleaner store",
+          "box": [
+            4,
+            0,
+            8,
+            8
+          ],
+          "kind": "service",
+          "access_to": [
+            "L1 South gallery"
+          ]
+        },
+        {
+          "label": "L1 Northeast cleaner and plant room",
+          "box": [
+            52,
+            34,
+            56,
+            42
+          ],
+          "kind": "service",
+          "access_to": [
+            "L1 North gallery"
+          ]
+        },
+        {
+          "label": "L1 Northwest building services room",
+          "box": [
+            3,
+            34,
+            8,
+            42
+          ],
+          "kind": "service",
+          "access_to": [
+            "L1 North gallery",
+            "L1 Northwest riser room"
+          ]
+        },
+        {
+          "label": "L1 Northwest riser room",
+          "box": [
+            0,
+            37,
+            3,
+            42
+          ],
+          "kind": "service",
+          "access_to": [
+            "L1 Northwest building services room"
+          ]
+        },
+        {
+          "label": "L1 Southeast goods lift store",
+          "box": [
+            56,
+            0,
+            60,
+            8
+          ],
+          "kind": "service",
+          "access_to": [
+            "L1 South gallery",
+            "L1 Southeast lift machine and riser room"
+          ]
+        },
+        {
+          "label": "L1 Southeast lift machine and riser room",
+          "box": [
+            52,
+            0,
+            56,
+            4
+          ],
+          "kind": "service",
+          "access_to": [
+            "L1 Southeast goods lift store"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "General collections and study",
+      "height_m": 4.2,
+      "rooms": [
+        {
+          "label": "L2 South gallery",
+          "box": [
+            0,
+            8,
+            60,
+            11
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "L2 West gallery",
+            "L2 East gallery",
+            "L2 Southwest riser and cleaner store",
+            "L2 Southeast goods lift store"
+          ]
+        },
+        {
+          "label": "L2 North gallery",
+          "box": [
+            0,
+            31,
+            60,
+            34
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "L2 West gallery",
+            "L2 East gallery",
+            "L2 Northeast cleaner and plant room",
+            "L2 Northwest building services room"
+          ]
+        },
+        {
+          "label": "L2 West gallery",
+          "box": [
+            8,
+            11,
+            11,
+            31
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "L2 South gallery",
+            "L2 North gallery"
+          ]
+        },
+        {
+          "label": "L2 East gallery",
+          "box": [
+            49,
+            11,
+            52,
+            31
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "L2 South gallery",
+            "L2 North gallery"
+          ]
+        },
+        {
+          "label": "L2 Southwest stair reservation",
+          "box": [
+            0,
+            0,
+            4,
+            8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "L2 South gallery"
+          ]
+        },
+        {
+          "label": "L2 Northeast stair reservation",
+          "box": [
+            56,
+            34,
+            60,
+            42
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "L2 North gallery"
+          ]
+        },
+        {
+          "label": "L2 Northwest passenger lift reservation",
+          "box": [
+            0,
+            34,
+            3,
+            37
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "L2 North gallery"
+          ]
+        },
+        {
+          "label": "L2 Southeast service lift reservation",
+          "box": [
+            52,
+            4,
+            56,
+            8
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "L2 South gallery"
+          ]
+        },
+        {
+          "label": "L2 Fiction collection",
+          "box": [
+            8,
+            0,
+            19,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "L2 South gallery"
+          ]
+        },
+        {
+          "label": "L2 History collection",
+          "box": [
+            19,
+            0,
+            30,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "L2 South gallery"
+          ]
+        },
+        {
+          "label": "L2 Science collection",
+          "box": [
+            30,
+            0,
+            41,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "L2 South gallery"
+          ]
+        },
+        {
+          "label": "L2 Arts collection",
+          "box": [
+            41,
+            0,
+            52,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "L2 South gallery"
+          ]
+        },
+        {
+          "label": "L2 Quiet reading room",
+          "box": [
+            8,
+            34,
+            19,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "L2 North gallery"
+          ]
+        },
+        {
+          "label": "L2 Periodicals reading room",
+          "box": [
+            19,
+            34,
+            30,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "L2 North gallery"
+          ]
+        },
+        {
+          "label": "L2 Language learning room",
+          "box": [
+            30,
+            34,
+            41,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "L2 North gallery"
+          ]
+        },
+        {
+          "label": "L2 Seminar room",
+          "box": [
+            41,
+            34,
+            52,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "L2 North gallery"
+          ]
+        },
+        {
+          "label": "L2 Group study A",
+          "box": [
+            0,
+            11,
+            8,
+            16
+          ],
+          "kind": "program",
+          "access_to": [
+            "L2 West gallery"
+          ]
+        },
+        {
+          "label": "L2 Group study B",
+          "box": [
+            0,
+            16,
+            8,
+            21
+          ],
+          "kind": "program",
+          "access_to": [
+            "L2 West gallery"
+          ]
+        },
+        {
+          "label": "L2 Group study C",
+          "box": [
+            0,
+            21,
+            8,
+            26
+          ],
+          "kind": "program",
+          "access_to": [
+            "L2 West gallery"
+          ]
+        },
+        {
+          "label": "L2 Reader toilet room west",
+          "box": [
+            0,
+            26,
+            8,
+            31
+          ],
+          "kind": "program",
+          "access_to": [
+            "L2 West gallery"
+          ]
+        },
+        {
+          "label": "L2 Group study D",
+          "box": [
+            52,
+            11,
+            60,
+            16
+          ],
+          "kind": "program",
+          "access_to": [
+            "L2 East gallery"
+          ]
+        },
+        {
+          "label": "L2 Librarian workroom",
+          "box": [
+            52,
+            16,
+            60,
+            21
+          ],
+          "kind": "program",
+          "access_to": [
+            "L2 East gallery"
+          ]
+        },
+        {
+          "label": "L2 Printing and copying",
+          "box": [
+            52,
+            21,
+            60,
+            26
+          ],
+          "kind": "program",
+          "access_to": [
+            "L2 East gallery"
+          ]
+        },
+        {
+          "label": "L2 Reader toilet room east",
+          "box": [
+            52,
+            26,
+            60,
+            31
+          ],
+          "kind": "program",
+          "access_to": [
+            "L2 East gallery"
+          ]
+        },
+        {
+          "label": "L2 Southwest riser and cleaner store",
+          "box": [
+            4,
+            0,
+            8,
+            8
+          ],
+          "kind": "service",
+          "access_to": [
+            "L2 South gallery"
+          ]
+        },
+        {
+          "label": "L2 Northeast cleaner and plant room",
+          "box": [
+            52,
+            34,
+            56,
+            42
+          ],
+          "kind": "service",
+          "access_to": [
+            "L2 North gallery"
+          ]
+        },
+        {
+          "label": "L2 Northwest building services room",
+          "box": [
+            3,
+            34,
+            8,
+            42
+          ],
+          "kind": "service",
+          "access_to": [
+            "L2 North gallery",
+            "L2 Northwest riser room"
+          ]
+        },
+        {
+          "label": "L2 Northwest riser room",
+          "box": [
+            0,
+            37,
+            3,
+            42
+          ],
+          "kind": "service",
+          "access_to": [
+            "L2 Northwest building services room"
+          ]
+        },
+        {
+          "label": "L2 Southeast goods lift store",
+          "box": [
+            56,
+            0,
+            60,
+            8
+          ],
+          "kind": "service",
+          "access_to": [
+            "L2 South gallery",
+            "L2 Southeast lift machine and riser room"
+          ]
+        },
+        {
+          "label": "L2 Southeast lift machine and riser room",
+          "box": [
+            52,
+            0,
+            56,
+            4
+          ],
+          "kind": "service",
+          "access_to": [
+            "L2 Southeast goods lift store"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Research archives and staff",
+      "height_m": 4.2,
+      "rooms": [
+        {
+          "label": "L3 South gallery",
+          "box": [
+            0,
+            8,
+            60,
+            11
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "L3 West gallery",
+            "L3 East gallery",
+            "L3 Southwest riser and cleaner store",
+            "L3 Southeast goods lift store"
+          ]
+        },
+        {
+          "label": "L3 North gallery",
+          "box": [
+            0,
+            31,
+            60,
+            34
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "L3 West gallery",
+            "L3 East gallery",
+            "L3 Northeast cleaner and plant room",
+            "L3 Northwest building services room"
+          ]
+        },
+        {
+          "label": "L3 West gallery",
+          "box": [
+            8,
+            11,
+            11,
+            31
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "L3 South gallery",
+            "L3 North gallery"
+          ]
+        },
+        {
+          "label": "L3 East gallery",
+          "box": [
+            49,
+            11,
+            52,
+            31
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "L3 South gallery",
+            "L3 North gallery"
+          ]
+        },
+        {
+          "label": "L3 Southwest stair reservation",
+          "box": [
+            0,
+            0,
+            4,
+            8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "L3 South gallery"
+          ]
+        },
+        {
+          "label": "L3 Northeast stair reservation",
+          "box": [
+            56,
+            34,
+            60,
+            42
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "L3 North gallery"
+          ]
+        },
+        {
+          "label": "L3 Northwest passenger lift reservation",
+          "box": [
+            0,
+            34,
+            3,
+            37
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "L3 North gallery"
+          ]
+        },
+        {
+          "label": "L3 Southeast service lift reservation",
+          "box": [
+            52,
+            4,
+            56,
+            8
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "L3 South gallery"
+          ]
+        },
+        {
+          "label": "L3 Research reading room",
+          "box": [
+            8,
+            0,
+            19,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "L3 South gallery"
+          ]
+        },
+        {
+          "label": "L3 Reference collection",
+          "box": [
+            19,
+            0,
+            30,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "L3 South gallery"
+          ]
+        },
+        {
+          "label": "L3 Local history collection",
+          "box": [
+            30,
+            0,
+            41,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "L3 South gallery"
+          ]
+        },
+        {
+          "label": "L3 Supervised rare book consultation",
+          "box": [
+            41,
+            0,
+            52,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "L3 South gallery"
+          ]
+        },
+        {
+          "label": "L3 Archive store",
+          "box": [
+            8,
+            34,
+            19,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "L3 North gallery"
+          ]
+        },
+        {
+          "label": "L3 Special collections store",
+          "box": [
+            19,
+            34,
+            30,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "L3 North gallery"
+          ]
+        },
+        {
+          "label": "L3 Digitisation studio",
+          "box": [
+            30,
+            34,
+            41,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "L3 North gallery"
+          ]
+        },
+        {
+          "label": "L3 Conservation workroom",
+          "box": [
+            41,
+            34,
+            52,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "L3 North gallery"
+          ]
+        },
+        {
+          "label": "L3 Research study west",
+          "box": [
+            0,
+            11,
+            8,
+            16
+          ],
+          "kind": "program",
+          "access_to": [
+            "L3 West gallery"
+          ]
+        },
+        {
+          "label": "L3 Research study east",
+          "box": [
+            0,
+            16,
+            8,
+            21
+          ],
+          "kind": "program",
+          "access_to": [
+            "L3 West gallery"
+          ]
+        },
+        {
+          "label": "L3 Library director office",
+          "box": [
+            0,
+            21,
+            8,
+            26
+          ],
+          "kind": "program",
+          "access_to": [
+            "L3 West gallery"
+          ]
+        },
+        {
+          "label": "L3 Staff meeting room",
+          "box": [
+            0,
+            26,
+            8,
+            31
+          ],
+          "kind": "program",
+          "access_to": [
+            "L3 West gallery"
+          ]
+        },
+        {
+          "label": "L3 Archive administration",
+          "box": [
+            52,
+            11,
+            60,
+            16
+          ],
+          "kind": "program",
+          "access_to": [
+            "L3 East gallery"
+          ]
+        },
+        {
+          "label": "L3 Staff lounge and pantry",
+          "box": [
+            52,
+            16,
+            60,
+            21
+          ],
+          "kind": "program",
+          "access_to": [
+            "L3 East gallery"
+          ]
+        },
+        {
+          "label": "L3 Researcher toilet room",
+          "box": [
+            52,
+            21,
+            60,
+            26
+          ],
+          "kind": "program",
+          "access_to": [
+            "L3 East gallery"
+          ]
+        },
+        {
+          "label": "L3 Staff toilet room",
+          "box": [
+            52,
+            26,
+            60,
+            31
+          ],
+          "kind": "program",
+          "access_to": [
+            "L3 East gallery"
+          ]
+        },
+        {
+          "label": "L3 Southwest riser and cleaner store",
+          "box": [
+            4,
+            0,
+            8,
+            8
+          ],
+          "kind": "service",
+          "access_to": [
+            "L3 South gallery"
+          ]
+        },
+        {
+          "label": "L3 Northeast cleaner and plant room",
+          "box": [
+            52,
+            34,
+            56,
+            42
+          ],
+          "kind": "service",
+          "access_to": [
+            "L3 North gallery"
+          ]
+        },
+        {
+          "label": "L3 Northwest building services room",
+          "box": [
+            3,
+            34,
+            8,
+            42
+          ],
+          "kind": "service",
+          "access_to": [
+            "L3 North gallery",
+            "L3 Northwest riser room"
+          ]
+        },
+        {
+          "label": "L3 Northwest riser room",
+          "box": [
+            0,
+            37,
+            3,
+            42
+          ],
+          "kind": "service",
+          "access_to": [
+            "L3 Northwest building services room"
+          ]
+        },
+        {
+          "label": "L3 Southeast goods lift store",
+          "box": [
+            56,
+            0,
+            60,
+            8
+          ],
+          "kind": "service",
+          "access_to": [
+            "L3 South gallery",
+            "L3 Southeast lift machine and riser room"
+          ]
+        },
+        {
+          "label": "L3 Southeast lift machine and riser room",
+          "box": [
+            52,
+            0,
+            56,
+            4
+          ],
+          "kind": "service",
+          "access_to": [
+            "L3 Southeast goods lift store"
+          ]
+        }
+      ]
+    }
+  ]
+}

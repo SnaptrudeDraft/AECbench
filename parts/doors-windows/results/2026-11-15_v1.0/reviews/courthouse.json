@@ -1,0 +1,31 @@
+{
+  "case": "courthouse",
+  "version": "1.0",
+  "run": "2026-11-15_v1.0",
+  "reviewer": "reviewer v2",
+  "score": 7,
+  "doors": 162,
+  "windows": 244,
+  "problems_left": 16,
+  "justification": "The whole-building opening task is substantially delivered: all 136 rooms have at least one door, all 162 doors and 244 windows are hosted, and coverage is consistent across all four occupied storeys. Rework remains around opening specification and verification: toilet windows are fixed rather than suitable obscured/awning units, moving-leaf clearance was not established, 16 courtroom doors project into galleries, and the stated door dimensions do not match sampled live-model nominal widths.",
+  "evidence": "Live measurements found 45/39/39/39 doors and 47/65/66/66 windows on storeys 1–4, zero unhosted openings, zero rooms without doors, office-window sills at 0.908 m, toilet-window sills at 1.975 m, and eight 1.200 m sliding lift doors. Representative ordinary room doors measure 1.029 m nominal rather than the agent's claimed “3'-0\" door,” while courtroom double doors measure 1.943 m nominal; the agent also admits, “Clash: not run, so overlaps between doors and windows are not verified.”",
+  "strengths": [
+    "Complete door coverage on every occupied floor: 34 rooms per storey and no room without a door.",
+    "All 406 openings are associated with wall hosts.",
+    "Lift landing doors are sliding, 1.200 m nominal, and connect lift reservations to the shared lift lobby on each storey.",
+    "No measured door was below 0.8 m; ordinary sampled doors were 1.029 m nominal and courtroom pairs were 1.943 m nominal.",
+    "Doors stand at each storey floor, while window levels are consistent: approximately 0.908 m sills for normal rooms and 1.975 m for washrooms.",
+    "The 16 outward-opening courtroom pairs are consistently arranged and were explicitly disclosed rather than hidden."
+  ],
+  "weaknesses": [
+    "All 244 windows use a fixed operation; high washroom windows therefore lack the awning/obscured function preferred for toilets.",
+    "The 16 courtroom public pairs open into public galleries. Their assembly-egress rationale is plausible, but leaf-sweep effects on gallery circulation were not measured.",
+    "Moving-leaf and sash clearance was not assessed; the opening check reports estimated leaf positions for the hinged families.",
+    "The access graph confirms ground-floor reachability but reports 102 upper-floor rooms as not linked to other floors. Each has a door, so floor-level coverage is present, but complete building access remained unverified.",
+    "The agent's repeated 3'-0\" and 6'-0\" door claims differ by more than 5% from sampled nominal widths of 1.029 m and 1.943 m respectively; this was not independently reconciled with a clear-width convention.",
+    "The global duplicate check found zero clashes and zero probable duplicates but remained unverified for 353 geometry pairs, so it does not conclusively establish opening overlap or motion clearance."
+  ],
+  "spec_violations": [],
+  "honesty_flags": [],
+  "confidence": "high"
+}

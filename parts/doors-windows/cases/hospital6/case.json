@@ -1,0 +1,23 @@
+{
+  "id": "hospital6",
+  "name": "Compact general hospital",
+  "typology": "Compact general hospital",
+  "provenance": "Deterministic AI-authored synthetic architectural program and coordinates; not a source-model replay, surveyed building, live-audited fixture or compliance design.",
+  "start_state": "Whole-building recorded BIM layout; zero starting openings; reserved vertical cores",
+  "storeys": 6,
+  "program_rooms": 127,
+  "labelled_zones": 205,
+  "required_standards": [
+    "doors and windows (review/standard.md)"
+  ],
+  "grading": "Scored by the reviewer. There is no exact answer key.",
+  "limitations": [
+    "Metres; +X east, +Z north, Y vertical. Boxes are shared partition centre-line extents, not guaranteed clear dimensions. Footprint 72 by 19 m; clinical bands 8 m deep, central corridor 3 m wide. Reduced from the initial 23 m concept to avoid unnecessarily deep clinical rooms.",
+    "Floor elevations are cumulative height_m from zero. Ward floors are 4.2 m floor-to-floor for ceiling services. No double-height rooms or upper-floor voids. Two separated stair reservations and two lift reservations have identical boxes on every floor.",
+    "Stair and lift reservations are spatial allowances only: no physical flights, landings, lift shafts, cars or vertical connectivity are represented. Each 6 m end strip contains explicit 2 m wide circulation lobbies alongside 4 by 5 m reservations and 4 by 3 m service rooms. Every service room reaches the main corridor through its lobby without crossing a reservation. These centre-line dimensions are not certified clear widths or an engineered stair/lift fit.",
+    "access_to records directed intended access across a shared positive-length boundary, not placed doors, door counts, swing targets or an exhaustive adjacency list. Clinical rooms reach circulation directly except isolation rooms, which intentionally connect through an adjacent anteroom. Reservations and service rooms do not count toward program totals.",
+    "The corridor is an intentionally simplified shared clinical circulation spine, not a validated clean/dirty circulation system. Procedure-floor access is controlled; family, sterile, soiled and isolation labels provide review context, not verified infection-control performance.",
+    "Patient rooms are whole program envelopes: no internal ensuite or equipment partitions are modeled. Shared assisted washing and core WC provision is schematic. No bed capacity, radiological shielding, fire rating, engineering or regulatory compliance is claimed.",
+    "Imaging control, specimen work, sterile storage and utilities may intentionally be blind. Review patient-room daylight and privacy, bed/equipment routes, controlled thresholds, isolation sequence and independent access to both stair reservations. No doors, windows or opening families are supplied. Exterior entry/discharge and delivery openings remain authoring tasks. Not live-audited."
+  ]
+}

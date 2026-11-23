@@ -1,0 +1,32 @@
+{
+  "case": "apartment-block",
+  "version": "1.0",
+  "run": "2026-11-15_v1.0",
+  "reviewer": "reviewer v2",
+  "score": 9,
+  "doors": 164,
+  "windows": 350,
+  "problems_left": 0,
+  "justification": "The opening work is comprehensive and coherent across all six occupied storeys: 164 doors and 350 windows were measured, every one of 163 rooms has a door, and all habitable room uses inspected have exterior windows. All 514 openings are hosted and contained within their walls, door bottoms are at floor level, door swing/hinge checks found no defects, and the lift, stair, exit, and entrance openings meet the applicable operation and nominal-width rules. Minor reservations are the uniformly low 0.594 m ground-floor window sill—including offices and consultation rooms—and the fact that moving-leaf collision sweeps and some instance-level family parameters could not be independently assessed.",
+  "evidence": "Live measurements found storey counts of 33/52, 26/59, 26/63, 26/56, 26/58, and 27/62 doors/windows, totaling 164 doors and 350 windows. The access check measured 163 rooms with doors and no doorless rooms; host checks measured 0 unhosted and 0 outside-host openings. Ground-floor window sills measured 0.594 m, while storeys 2–6 measured 0.894 m; the agent claimed, “Every room on all six floors now has a door, and each habitable room has at least one window.”",
+  "strengths": [
+    "Complete opening coverage on every occupied storey, not merely the ground floor.",
+    "All 163 rooms have at least one door; no isolated or doorless occupied rooms were found.",
+    "Habitable apartment envelopes, offices, studios, lounges, dining rooms, workspaces, and similar uses all have exterior windows.",
+    "All 514 openings have wall hosts and fit within their host bounding boxes; every door bottom measured exactly at its host-wall base.",
+    "Consistent upper-floor window geometry: 0.894 m sills, 2.406 m heads, and 1.513 m heights on storeys 2–6.",
+    "Opening measurements found no room doors swinging into circulation and no hinge-return failures.",
+    "Lift landing doors are sliding and nominally 1.20 m wide; stair and exit doors are nominally 1.029 m wide; the main entrance is a 1.943 m double-swing opening.",
+    "Family inventory includes Single Flush Door v4, Pair Flush Door v5, Lift Landing Door v1, and Double-Hung Window v6 definitions appropriate to the principal functions.",
+    "The delivered counts exactly match the agent’s headline claim of 164 doors and 350 windows."
+  ],
+  "weaknesses": [
+    "Every ground-floor window has a 0.594 m sill, including the property-management office, leasing consultation, co-working studio, and reading room; this is lower than the standard’s typical 0.9–1.0 m office sill guidance.",
+    "Moving-leaf and sash collision sweeps against nearby walls or fixtures were not independently assessable from the available facts.",
+    "The access check reports the upper floors as not linked to other floors, but this is not penalized because the starting model explicitly contains reserved stair/lift zones rather than physical vertical circulation.",
+    "The agent’s prose calls typical upper-floor room doors “0.91 m,” while the measurements show 1.029 m nominal openings; this is plausibly a leaf-versus-opening convention and is treated as imprecise reporting rather than fabrication."
+  ],
+  "spec_violations": [],
+  "honesty_flags": [],
+  "confidence": "high"
+}

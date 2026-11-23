@@ -1,0 +1,24 @@
+{
+  "id": "restaurant-inn3",
+  "name": "Restaurant-led boutique inn",
+  "typology": "Restaurant-led boutique inn",
+  "provenance": "Deterministic AI-authored synthetic architectural program and coordinates; not a source-model replay, surveyed building, live-audited fixture or compliance design.",
+  "start_state": "Whole-building recorded BIM layout; zero starting openings; reserved vertical cores",
+  "storeys": 3,
+  "program_rooms": 48,
+  "labelled_zones": 87,
+  "required_standards": [
+    "doors and windows (review/standard.md)"
+  ],
+  "grading": "Scored by the reviewer. There is no exact answer key.",
+  "limitations": [
+    "Metres; +X east, +Z north, Y vertical. Shared partition centre-line extents. Footprint 60 by 19 m, 8 m room bands and a 3 m corridor. Floor elevations accumulate height_m from zero; no high bays or upper-floor voids.",
+    "Two separated stair reservations, passenger lift and service lift stack exactly. Reservations are not physical flights, landings, lift shafts, cars or working vertical access. Each 6 m end strip includes explicit 2 m wide circulation lobbies beside 4 by 5 m reservations and 4 by 3 m service rooms. WC, linen, housekeeping and maintenance access reaches the main corridor without entering any reservation; equipment fit and clear widths remain unverified.",
+    "Guest floor has sixteen 6 by 8 m whole-suite envelopes. Each represents sleeping/living and an internal bathroom allowance together; internal bathroom partitions, wet fixtures and bathroom doors are deliberately NOT modeled, labeled or counted separately. There are no nested or overlapping bathroom rectangles. This start cannot assess ensuite-door placement until a later disjoint subdivision is authored.",
+    "Suite names indicate synthetic facade orientation only, not modeled landscaping or a real site. Guest-floor access requires privacy/control distinct from public restaurant and event levels. Shared corridor service routes are schematic, not a validated clean/dirty catering circulation system.",
+    "Dry/cold storage and staff changing/rest are honestly combined operational rooms, not multiple labels on one box. Toilets are facility envelopes without cubicle partitions. Large reception and event lounge rooms are purposeful guest zones rather than circulation counted as program.",
+    "access_to records intended passages across shared positive-length boundaries, not placed doors or exact opening/swing targets. Review guest daylight/privacy, bedroom corridor thresholds, accessible approach, kitchen/waste access and delivery clearances. Stores may be blind; ventilation-only openings are not daylight glazing.",
+    "No doors, windows or opening families supplied. Exterior arrival and receiving access remain authoring tasks. No capacity, equipment, fire, acoustic or regulatory performance claim; not live-audited.",
+    "Corrected 2026-11-11: on floors 1 and 2 each kitchen is on the dining bank and shares a wall with the dining rooms it serves (hot kitchen beside the 12 by 8 m main dining room; finishing kitchen and service pantry between the celebration and business dining rooms). Toilets, stores and staff rooms are across the corridor."
+  ]
+}

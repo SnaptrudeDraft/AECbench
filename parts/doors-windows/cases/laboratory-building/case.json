@@ -1,0 +1,22 @@
+{
+  "id": "laboratory-building",
+  "name": "Laboratory",
+  "typology": "laboratory-building",
+  "provenance": "AI-authored synthetic recorded starting layout for a doors/windows benchmark; not customer data, not a certified design.",
+  "start_state": "Whole-building recorded BIM layout; zero starting openings; reserved vertical cores",
+  "storeys": 4,
+  "program_rooms": 100,
+  "labelled_zones": 164,
+  "required_standards": [
+    "doors and windows (review/standard.md)"
+  ],
+  "grading": "Scored by the reviewer. There is no exact answer key.",
+  "limitations": [
+    "Supplemental synthetic benchmark coverage only, not selected production-run cases or evidence of a production result.",
+    "Metre coordinates describe disjoint clear-space boxes, not walls. No doors or windows are seeded. Empty areas are unassigned shell, exterior, courtyard, or the explicitly described void.",
+    "Exactly two stair footprints and two lift footprints are vertically stacked reservations on every floor. They are not physical stairs, lifts, shafts, or installed equipment.",
+    "Public, controlled and service labels and circulation zones express intended thresholds. Access edges are reciprocal same-floor adjacency intentions, not installed doors or an enforced security policy.",
+    "No structural, fire, accessibility, egress, acoustic, laboratory safety, sporting-body, or transport-operational compliance is asserted. Reservations do not model inter-floor travel or exit discharge.",
+    "Comb plan separates front visitor/office frontage, controlled laboratory spines and a rear service gallery. Wet-lab labels express program only; containment, ventilation, hazardous material classification, clean-room grading and equipment are not modeled. Laboratory rooms are single-storey. Each laboratory wing is one 12 m deep row of labs off its access spine, facing an open light court instead of a second corridor."
+  ]
+}

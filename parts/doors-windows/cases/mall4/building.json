@@ -1,0 +1,1662 @@
+{
+  "slug": "mall4",
+  "typology": "Four-level neighbourhood retail and leisure centre",
+  "provenance": "Deterministic AI-authored synthetic architectural program and coordinates; not a source-model replay, surveyed building, live-audited fixture or compliance design.",
+  "notes": [
+    "Metres; +X east, +Z north, Y vertical. Shared partition centre-line extents. Envelope 60 by 42 m. Full-width 3 m south/north galleries connect side galleries and corner cores along real edges. Tenant units are whole operational envelopes, not sales/stock subdivisions padded into room counts.",
+    "Floor elevations accumulate height_m from zero. Central event court [11,11,49,31] is 18.6 m tall, the sum of all four floor heights. The exact footprint is omitted from floors 2, 3 and 4. The consumer MUST omit all three upper slabs across it and roof above floor 4; never fill the outer envelope with an upper slab.",
+    "Two separated stairs, a passenger lift and a freight/service lift stack exactly as reservations only. They contain no physical stairs, landings, shafts or cars and do not establish vertical access. No escalators are modeled or implied.",
+    "access_to lists intended access across actual shared positive-length boundaries only. There is no hidden opening count, storefront family or swing target. Shop, food and leisure labels differ meaningfully by level; program totals exclude circulation and core reservations.",
+    "This compact centre uses shared galleries for service movement: no independent back-of-house service ring is modeled. Receiving, stock, waste, food preparation and security need controlled thresholds and time-separated delivery management; service segregation is a disclosed limitation, not verified performance.",
+    "Restaurant envelopes include unpartitioned cooking/seating allowances, with shared catering support separately labeled. Food queues and seating must remain within program zones, not the 3 m circulation backbone. Shops may intentionally have blind external walls; atrium shopfronts are not exterior daylight windows.",
+    "Review customer access versus service/privacy, storefront host cuts, delivery routes without crossing unrelated tenants, food-court queue clearance, atrium edge protection and no doors into voids. No doors, windows or opening families supplied. No capacity, smoke-control, structural or regulatory claim; not live-audited.",
+    "Corrected 2026-11-11: corner cores were 8 by 8 m reservations. Stairs are now 4 by 8 m (1.5 m flights for assembly use), the passenger lift 3 by 3 m and the goods lift 4 by 4 m; the rest of each corner is riser, plant or store rooms reached from the gallery."
+  ],
+  "floors": [
+    {
+      "number": 1,
+      "name": "Ground",
+      "height_m": 4.8,
+      "rooms": [
+        {
+          "label": "M1 South mall gallery",
+          "box": [
+            0,
+            8,
+            60,
+            11
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "M1 West mall gallery",
+            "M1 East mall gallery",
+            "M1 Southwest riser and cleaner store",
+            "M1 Southeast goods lift store"
+          ]
+        },
+        {
+          "label": "M1 North mall gallery",
+          "box": [
+            0,
+            31,
+            60,
+            34
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "M1 West mall gallery",
+            "M1 East mall gallery",
+            "M1 Northeast cleaner and plant room",
+            "M1 Northwest building services room"
+          ]
+        },
+        {
+          "label": "M1 West mall gallery",
+          "box": [
+            8,
+            11,
+            11,
+            31
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "M1 South mall gallery",
+            "M1 North mall gallery"
+          ]
+        },
+        {
+          "label": "M1 East mall gallery",
+          "box": [
+            49,
+            11,
+            52,
+            31
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "M1 South mall gallery",
+            "M1 North mall gallery"
+          ]
+        },
+        {
+          "label": "M1 Southwest stair reservation",
+          "box": [
+            0,
+            0,
+            4,
+            8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "M1 South mall gallery"
+          ]
+        },
+        {
+          "label": "M1 Northeast stair reservation",
+          "box": [
+            56,
+            34,
+            60,
+            42
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "M1 North mall gallery"
+          ]
+        },
+        {
+          "label": "M1 Northwest passenger lift reservation",
+          "box": [
+            0,
+            34,
+            3,
+            37
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "M1 North mall gallery"
+          ]
+        },
+        {
+          "label": "M1 Southeast freight lift reservation",
+          "box": [
+            52,
+            4,
+            56,
+            8
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "M1 South mall gallery"
+          ]
+        },
+        {
+          "label": "M1 Grocery shop",
+          "box": [
+            8,
+            0,
+            19,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "M1 South mall gallery"
+          ]
+        },
+        {
+          "label": "M1 Pharmacy shop",
+          "box": [
+            19,
+            0,
+            30,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "M1 South mall gallery"
+          ]
+        },
+        {
+          "label": "M1 Bakery shop",
+          "box": [
+            30,
+            0,
+            41,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "M1 South mall gallery"
+          ]
+        },
+        {
+          "label": "M1 Florist shop",
+          "box": [
+            41,
+            0,
+            52,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "M1 South mall gallery"
+          ]
+        },
+        {
+          "label": "M1 Convenience household shop",
+          "box": [
+            8,
+            34,
+            19,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "M1 North mall gallery"
+          ]
+        },
+        {
+          "label": "M1 Health and beauty shop",
+          "box": [
+            19,
+            34,
+            30,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "M1 North mall gallery"
+          ]
+        },
+        {
+          "label": "M1 Stationery shop",
+          "box": [
+            30,
+            34,
+            41,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "M1 North mall gallery"
+          ]
+        },
+        {
+          "label": "M1 Delivery receiving and holding",
+          "box": [
+            41,
+            34,
+            52,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "M1 North mall gallery"
+          ]
+        },
+        {
+          "label": "M1 Visitor information",
+          "box": [
+            0,
+            11,
+            8,
+            16
+          ],
+          "kind": "program",
+          "access_to": [
+            "M1 West mall gallery"
+          ]
+        },
+        {
+          "label": "M1 Coffee kiosk lounge",
+          "box": [
+            0,
+            16,
+            8,
+            21
+          ],
+          "kind": "program",
+          "access_to": [
+            "M1 West mall gallery"
+          ]
+        },
+        {
+          "label": "M1 Public toilet room west",
+          "box": [
+            0,
+            21,
+            8,
+            26
+          ],
+          "kind": "program",
+          "access_to": [
+            "M1 West mall gallery"
+          ]
+        },
+        {
+          "label": "M1 Family care room",
+          "box": [
+            0,
+            26,
+            8,
+            31
+          ],
+          "kind": "program",
+          "access_to": [
+            "M1 West mall gallery"
+          ]
+        },
+        {
+          "label": "M1 Security control",
+          "box": [
+            52,
+            11,
+            60,
+            16
+          ],
+          "kind": "program",
+          "access_to": [
+            "M1 East mall gallery"
+          ]
+        },
+        {
+          "label": "M1 Centre management",
+          "box": [
+            52,
+            16,
+            60,
+            21
+          ],
+          "kind": "program",
+          "access_to": [
+            "M1 East mall gallery"
+          ]
+        },
+        {
+          "label": "M1 Public toilet room east",
+          "box": [
+            52,
+            21,
+            60,
+            26
+          ],
+          "kind": "program",
+          "access_to": [
+            "M1 East mall gallery"
+          ]
+        },
+        {
+          "label": "M1 Cleaning equipment room",
+          "box": [
+            52,
+            26,
+            60,
+            31
+          ],
+          "kind": "program",
+          "access_to": [
+            "M1 East mall gallery"
+          ]
+        },
+        {
+          "label": "M1 Central event court",
+          "box": [
+            11,
+            11,
+            49,
+            31
+          ],
+          "kind": "program",
+          "access_to": [
+            "M1 South mall gallery",
+            "M1 North mall gallery",
+            "M1 West mall gallery",
+            "M1 East mall gallery"
+          ],
+          "height_m": 18.6
+        },
+        {
+          "label": "M1 Southwest riser and cleaner store",
+          "box": [
+            4,
+            0,
+            8,
+            8
+          ],
+          "kind": "service",
+          "access_to": [
+            "M1 South mall gallery"
+          ]
+        },
+        {
+          "label": "M1 Northeast cleaner and plant room",
+          "box": [
+            52,
+            34,
+            56,
+            42
+          ],
+          "kind": "service",
+          "access_to": [
+            "M1 North mall gallery"
+          ]
+        },
+        {
+          "label": "M1 Northwest building services room",
+          "box": [
+            3,
+            34,
+            8,
+            42
+          ],
+          "kind": "service",
+          "access_to": [
+            "M1 North mall gallery",
+            "M1 Northwest riser room"
+          ]
+        },
+        {
+          "label": "M1 Northwest riser room",
+          "box": [
+            0,
+            37,
+            3,
+            42
+          ],
+          "kind": "service",
+          "access_to": [
+            "M1 Northwest building services room"
+          ]
+        },
+        {
+          "label": "M1 Southeast goods lift store",
+          "box": [
+            56,
+            0,
+            60,
+            8
+          ],
+          "kind": "service",
+          "access_to": [
+            "M1 South mall gallery",
+            "M1 Southeast lift machine and riser room"
+          ]
+        },
+        {
+          "label": "M1 Southeast lift machine and riser room",
+          "box": [
+            52,
+            0,
+            56,
+            4
+          ],
+          "kind": "service",
+          "access_to": [
+            "M1 Southeast goods lift store"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Fashion and accessories",
+      "height_m": 4.5,
+      "rooms": [
+        {
+          "label": "M2 South mall gallery",
+          "box": [
+            0,
+            8,
+            60,
+            11
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "M2 West mall gallery",
+            "M2 East mall gallery",
+            "M2 Southwest riser and cleaner store",
+            "M2 Southeast goods lift store"
+          ]
+        },
+        {
+          "label": "M2 North mall gallery",
+          "box": [
+            0,
+            31,
+            60,
+            34
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "M2 West mall gallery",
+            "M2 East mall gallery",
+            "M2 Northeast cleaner and plant room",
+            "M2 Northwest building services room"
+          ]
+        },
+        {
+          "label": "M2 West mall gallery",
+          "box": [
+            8,
+            11,
+            11,
+            31
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "M2 South mall gallery",
+            "M2 North mall gallery"
+          ]
+        },
+        {
+          "label": "M2 East mall gallery",
+          "box": [
+            49,
+            11,
+            52,
+            31
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "M2 South mall gallery",
+            "M2 North mall gallery"
+          ]
+        },
+        {
+          "label": "M2 Southwest stair reservation",
+          "box": [
+            0,
+            0,
+            4,
+            8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "M2 South mall gallery"
+          ]
+        },
+        {
+          "label": "M2 Northeast stair reservation",
+          "box": [
+            56,
+            34,
+            60,
+            42
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "M2 North mall gallery"
+          ]
+        },
+        {
+          "label": "M2 Northwest passenger lift reservation",
+          "box": [
+            0,
+            34,
+            3,
+            37
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "M2 North mall gallery"
+          ]
+        },
+        {
+          "label": "M2 Southeast freight lift reservation",
+          "box": [
+            52,
+            4,
+            56,
+            8
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "M2 South mall gallery"
+          ]
+        },
+        {
+          "label": "M2 Womenswear shop",
+          "box": [
+            8,
+            0,
+            19,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "M2 South mall gallery"
+          ]
+        },
+        {
+          "label": "M2 Menswear shop",
+          "box": [
+            19,
+            0,
+            30,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "M2 South mall gallery"
+          ]
+        },
+        {
+          "label": "M2 Children clothing shop",
+          "box": [
+            30,
+            0,
+            41,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "M2 South mall gallery"
+          ]
+        },
+        {
+          "label": "M2 Sportswear shop",
+          "box": [
+            41,
+            0,
+            52,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "M2 South mall gallery"
+          ]
+        },
+        {
+          "label": "M2 Footwear shop",
+          "box": [
+            8,
+            34,
+            19,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "M2 North mall gallery"
+          ]
+        },
+        {
+          "label": "M2 Outdoor clothing shop",
+          "box": [
+            19,
+            34,
+            30,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "M2 North mall gallery"
+          ]
+        },
+        {
+          "label": "M2 Luggage shop",
+          "box": [
+            30,
+            34,
+            41,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "M2 North mall gallery"
+          ]
+        },
+        {
+          "label": "M2 Home textiles shop",
+          "box": [
+            41,
+            34,
+            52,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "M2 North mall gallery"
+          ]
+        },
+        {
+          "label": "M2 Jewellery boutique",
+          "box": [
+            0,
+            11,
+            8,
+            16
+          ],
+          "kind": "program",
+          "access_to": [
+            "M2 West mall gallery"
+          ]
+        },
+        {
+          "label": "M2 Eyewear shop",
+          "box": [
+            0,
+            16,
+            8,
+            21
+          ],
+          "kind": "program",
+          "access_to": [
+            "M2 West mall gallery"
+          ]
+        },
+        {
+          "label": "M2 Fashion accessories shop",
+          "box": [
+            0,
+            21,
+            8,
+            26
+          ],
+          "kind": "program",
+          "access_to": [
+            "M2 West mall gallery"
+          ]
+        },
+        {
+          "label": "M2 Public toilet room west",
+          "box": [
+            0,
+            26,
+            8,
+            31
+          ],
+          "kind": "program",
+          "access_to": [
+            "M2 West mall gallery"
+          ]
+        },
+        {
+          "label": "M2 Alterations workshop",
+          "box": [
+            52,
+            11,
+            60,
+            16
+          ],
+          "kind": "program",
+          "access_to": [
+            "M2 East mall gallery"
+          ]
+        },
+        {
+          "label": "M2 Customer collection point",
+          "box": [
+            52,
+            16,
+            60,
+            21
+          ],
+          "kind": "program",
+          "access_to": [
+            "M2 East mall gallery"
+          ]
+        },
+        {
+          "label": "M2 Tenant stock holding",
+          "box": [
+            52,
+            21,
+            60,
+            26
+          ],
+          "kind": "program",
+          "access_to": [
+            "M2 East mall gallery"
+          ]
+        },
+        {
+          "label": "M2 Public toilet room east",
+          "box": [
+            52,
+            26,
+            60,
+            31
+          ],
+          "kind": "program",
+          "access_to": [
+            "M2 East mall gallery"
+          ]
+        },
+        {
+          "label": "M2 Southwest riser and cleaner store",
+          "box": [
+            4,
+            0,
+            8,
+            8
+          ],
+          "kind": "service",
+          "access_to": [
+            "M2 South mall gallery"
+          ]
+        },
+        {
+          "label": "M2 Northeast cleaner and plant room",
+          "box": [
+            52,
+            34,
+            56,
+            42
+          ],
+          "kind": "service",
+          "access_to": [
+            "M2 North mall gallery"
+          ]
+        },
+        {
+          "label": "M2 Northwest building services room",
+          "box": [
+            3,
+            34,
+            8,
+            42
+          ],
+          "kind": "service",
+          "access_to": [
+            "M2 North mall gallery",
+            "M2 Northwest riser room"
+          ]
+        },
+        {
+          "label": "M2 Northwest riser room",
+          "box": [
+            0,
+            37,
+            3,
+            42
+          ],
+          "kind": "service",
+          "access_to": [
+            "M2 Northwest building services room"
+          ]
+        },
+        {
+          "label": "M2 Southeast goods lift store",
+          "box": [
+            56,
+            0,
+            60,
+            8
+          ],
+          "kind": "service",
+          "access_to": [
+            "M2 South mall gallery",
+            "M2 Southeast lift machine and riser room"
+          ]
+        },
+        {
+          "label": "M2 Southeast lift machine and riser room",
+          "box": [
+            52,
+            0,
+            56,
+            4
+          ],
+          "kind": "service",
+          "access_to": [
+            "M2 Southeast goods lift store"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Home technology and leisure",
+      "height_m": 4.5,
+      "rooms": [
+        {
+          "label": "M3 South mall gallery",
+          "box": [
+            0,
+            8,
+            60,
+            11
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "M3 West mall gallery",
+            "M3 East mall gallery",
+            "M3 Southwest riser and cleaner store",
+            "M3 Southeast goods lift store"
+          ]
+        },
+        {
+          "label": "M3 North mall gallery",
+          "box": [
+            0,
+            31,
+            60,
+            34
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "M3 West mall gallery",
+            "M3 East mall gallery",
+            "M3 Northeast cleaner and plant room",
+            "M3 Northwest building services room"
+          ]
+        },
+        {
+          "label": "M3 West mall gallery",
+          "box": [
+            8,
+            11,
+            11,
+            31
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "M3 South mall gallery",
+            "M3 North mall gallery"
+          ]
+        },
+        {
+          "label": "M3 East mall gallery",
+          "box": [
+            49,
+            11,
+            52,
+            31
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "M3 South mall gallery",
+            "M3 North mall gallery"
+          ]
+        },
+        {
+          "label": "M3 Southwest stair reservation",
+          "box": [
+            0,
+            0,
+            4,
+            8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "M3 South mall gallery"
+          ]
+        },
+        {
+          "label": "M3 Northeast stair reservation",
+          "box": [
+            56,
+            34,
+            60,
+            42
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "M3 North mall gallery"
+          ]
+        },
+        {
+          "label": "M3 Northwest passenger lift reservation",
+          "box": [
+            0,
+            34,
+            3,
+            37
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "M3 North mall gallery"
+          ]
+        },
+        {
+          "label": "M3 Southeast freight lift reservation",
+          "box": [
+            52,
+            4,
+            56,
+            8
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "M3 South mall gallery"
+          ]
+        },
+        {
+          "label": "M3 Book shop",
+          "box": [
+            8,
+            0,
+            19,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "M3 South mall gallery"
+          ]
+        },
+        {
+          "label": "M3 Consumer electronics shop",
+          "box": [
+            19,
+            0,
+            30,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "M3 South mall gallery"
+          ]
+        },
+        {
+          "label": "M3 Kitchenware shop",
+          "box": [
+            30,
+            0,
+            41,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "M3 South mall gallery"
+          ]
+        },
+        {
+          "label": "M3 Lighting showroom",
+          "box": [
+            41,
+            0,
+            52,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "M3 South mall gallery"
+          ]
+        },
+        {
+          "label": "M3 Small furniture showroom",
+          "box": [
+            8,
+            34,
+            19,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "M3 North mall gallery"
+          ]
+        },
+        {
+          "label": "M3 Toys and games shop",
+          "box": [
+            19,
+            34,
+            30,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "M3 North mall gallery"
+          ]
+        },
+        {
+          "label": "M3 Sporting goods shop",
+          "box": [
+            30,
+            34,
+            41,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "M3 North mall gallery"
+          ]
+        },
+        {
+          "label": "M3 Craft supplies shop",
+          "box": [
+            41,
+            34,
+            52,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "M3 North mall gallery"
+          ]
+        },
+        {
+          "label": "M3 Mobile devices shop",
+          "box": [
+            0,
+            11,
+            8,
+            16
+          ],
+          "kind": "program",
+          "access_to": [
+            "M3 West mall gallery"
+          ]
+        },
+        {
+          "label": "M3 Camera shop",
+          "box": [
+            0,
+            16,
+            8,
+            21
+          ],
+          "kind": "program",
+          "access_to": [
+            "M3 West mall gallery"
+          ]
+        },
+        {
+          "label": "M3 Musical instruments shop",
+          "box": [
+            0,
+            21,
+            8,
+            26
+          ],
+          "kind": "program",
+          "access_to": [
+            "M3 West mall gallery"
+          ]
+        },
+        {
+          "label": "M3 Public toilet room west",
+          "box": [
+            0,
+            26,
+            8,
+            31
+          ],
+          "kind": "program",
+          "access_to": [
+            "M3 West mall gallery"
+          ]
+        },
+        {
+          "label": "M3 Electronics repair workshop",
+          "box": [
+            52,
+            11,
+            60,
+            16
+          ],
+          "kind": "program",
+          "access_to": [
+            "M3 East mall gallery"
+          ]
+        },
+        {
+          "label": "M3 Order collection room",
+          "box": [
+            52,
+            16,
+            60,
+            21
+          ],
+          "kind": "program",
+          "access_to": [
+            "M3 East mall gallery"
+          ]
+        },
+        {
+          "label": "M3 Shared tenant stockroom",
+          "box": [
+            52,
+            21,
+            60,
+            26
+          ],
+          "kind": "program",
+          "access_to": [
+            "M3 East mall gallery"
+          ]
+        },
+        {
+          "label": "M3 Public toilet room east",
+          "box": [
+            52,
+            26,
+            60,
+            31
+          ],
+          "kind": "program",
+          "access_to": [
+            "M3 East mall gallery"
+          ]
+        },
+        {
+          "label": "M3 Southwest riser and cleaner store",
+          "box": [
+            4,
+            0,
+            8,
+            8
+          ],
+          "kind": "service",
+          "access_to": [
+            "M3 South mall gallery"
+          ]
+        },
+        {
+          "label": "M3 Northeast cleaner and plant room",
+          "box": [
+            52,
+            34,
+            56,
+            42
+          ],
+          "kind": "service",
+          "access_to": [
+            "M3 North mall gallery"
+          ]
+        },
+        {
+          "label": "M3 Northwest building services room",
+          "box": [
+            3,
+            34,
+            8,
+            42
+          ],
+          "kind": "service",
+          "access_to": [
+            "M3 North mall gallery",
+            "M3 Northwest riser room"
+          ]
+        },
+        {
+          "label": "M3 Northwest riser room",
+          "box": [
+            0,
+            37,
+            3,
+            42
+          ],
+          "kind": "service",
+          "access_to": [
+            "M3 Northwest building services room"
+          ]
+        },
+        {
+          "label": "M3 Southeast goods lift store",
+          "box": [
+            56,
+            0,
+            60,
+            8
+          ],
+          "kind": "service",
+          "access_to": [
+            "M3 South mall gallery",
+            "M3 Southeast lift machine and riser room"
+          ]
+        },
+        {
+          "label": "M3 Southeast lift machine and riser room",
+          "box": [
+            52,
+            0,
+            56,
+            4
+          ],
+          "kind": "service",
+          "access_to": [
+            "M3 Southeast goods lift store"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "name": "Food and leisure",
+      "height_m": 4.8,
+      "rooms": [
+        {
+          "label": "M4 South mall gallery",
+          "box": [
+            0,
+            8,
+            60,
+            11
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "M4 West mall gallery",
+            "M4 East mall gallery",
+            "M4 Southwest riser and cleaner store",
+            "M4 Southeast goods lift store"
+          ]
+        },
+        {
+          "label": "M4 North mall gallery",
+          "box": [
+            0,
+            31,
+            60,
+            34
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "M4 West mall gallery",
+            "M4 East mall gallery",
+            "M4 Northeast cleaner and plant room",
+            "M4 Northwest building services room"
+          ]
+        },
+        {
+          "label": "M4 West mall gallery",
+          "box": [
+            8,
+            11,
+            11,
+            31
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "M4 South mall gallery",
+            "M4 North mall gallery"
+          ]
+        },
+        {
+          "label": "M4 East mall gallery",
+          "box": [
+            49,
+            11,
+            52,
+            31
+          ],
+          "kind": "circulation",
+          "access_to": [
+            "M4 South mall gallery",
+            "M4 North mall gallery"
+          ]
+        },
+        {
+          "label": "M4 Southwest stair reservation",
+          "box": [
+            0,
+            0,
+            4,
+            8
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "M4 South mall gallery"
+          ]
+        },
+        {
+          "label": "M4 Northeast stair reservation",
+          "box": [
+            56,
+            34,
+            60,
+            42
+          ],
+          "kind": "stair-reservation",
+          "access_to": [
+            "M4 North mall gallery"
+          ]
+        },
+        {
+          "label": "M4 Northwest passenger lift reservation",
+          "box": [
+            0,
+            34,
+            3,
+            37
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "M4 North mall gallery"
+          ]
+        },
+        {
+          "label": "M4 Southeast freight lift reservation",
+          "box": [
+            52,
+            4,
+            56,
+            8
+          ],
+          "kind": "lift-reservation",
+          "access_to": [
+            "M4 South mall gallery"
+          ]
+        },
+        {
+          "label": "M4 Noodle restaurant",
+          "box": [
+            8,
+            0,
+            19,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "M4 South mall gallery"
+          ]
+        },
+        {
+          "label": "M4 Grill restaurant",
+          "box": [
+            19,
+            0,
+            30,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "M4 South mall gallery"
+          ]
+        },
+        {
+          "label": "M4 Vegetarian restaurant",
+          "box": [
+            30,
+            0,
+            41,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "M4 South mall gallery"
+          ]
+        },
+        {
+          "label": "M4 Family dining lounge",
+          "box": [
+            41,
+            0,
+            52,
+            8
+          ],
+          "kind": "program",
+          "access_to": [
+            "M4 South mall gallery"
+          ]
+        },
+        {
+          "label": "M4 Cafe and dessert seating",
+          "box": [
+            8,
+            34,
+            19,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "M4 North mall gallery"
+          ]
+        },
+        {
+          "label": "M4 Children activity studio",
+          "box": [
+            19,
+            34,
+            30,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "M4 North mall gallery"
+          ]
+        },
+        {
+          "label": "M4 Table games lounge",
+          "box": [
+            30,
+            34,
+            41,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "M4 North mall gallery"
+          ]
+        },
+        {
+          "label": "M4 Shared catering preparation",
+          "box": [
+            41,
+            34,
+            52,
+            42
+          ],
+          "kind": "program",
+          "access_to": [
+            "M4 North mall gallery"
+          ]
+        },
+        {
+          "label": "M4 Juice bar",
+          "box": [
+            0,
+            11,
+            8,
+            16
+          ],
+          "kind": "program",
+          "access_to": [
+            "M4 West mall gallery"
+          ]
+        },
+        {
+          "label": "M4 Ice cream shop",
+          "box": [
+            0,
+            16,
+            8,
+            21
+          ],
+          "kind": "program",
+          "access_to": [
+            "M4 West mall gallery"
+          ]
+        },
+        {
+          "label": "M4 Family care room",
+          "box": [
+            0,
+            21,
+            8,
+            26
+          ],
+          "kind": "program",
+          "access_to": [
+            "M4 West mall gallery"
+          ]
+        },
+        {
+          "label": "M4 Public toilet room west",
+          "box": [
+            0,
+            26,
+            8,
+            31
+          ],
+          "kind": "program",
+          "access_to": [
+            "M4 West mall gallery"
+          ]
+        },
+        {
+          "label": "M4 Wash-up room",
+          "box": [
+            52,
+            11,
+            60,
+            16
+          ],
+          "kind": "program",
+          "access_to": [
+            "M4 East mall gallery"
+          ]
+        },
+        {
+          "label": "M4 Waste holding room",
+          "box": [
+            52,
+            16,
+            60,
+            21
+          ],
+          "kind": "program",
+          "access_to": [
+            "M4 East mall gallery"
+          ]
+        },
+        {
+          "label": "M4 Food staff rest room",
+          "box": [
+            52,
+            21,
+            60,
+            26
+          ],
+          "kind": "program",
+          "access_to": [
+            "M4 East mall gallery"
+          ]
+        },
+        {
+          "label": "M4 Public toilet room east",
+          "box": [
+            52,
+            26,
+            60,
+            31
+          ],
+          "kind": "program",
+          "access_to": [
+            "M4 East mall gallery"
+          ]
+        },
+        {
+          "label": "M4 Southwest riser and cleaner store",
+          "box": [
+            4,
+            0,
+            8,
+            8
+          ],
+          "kind": "service",
+          "access_to": [
+            "M4 South mall gallery"
+          ]
+        },
+        {
+          "label": "M4 Northeast cleaner and plant room",
+          "box": [
+            52,
+            34,
+            56,
+            42
+          ],
+          "kind": "service",
+          "access_to": [
+            "M4 North mall gallery"
+          ]
+        },
+        {
+          "label": "M4 Northwest building services room",
+          "box": [
+            3,
+            34,
+            8,
+            42
+          ],
+          "kind": "service",
+          "access_to": [
+            "M4 North mall gallery",
+            "M4 Northwest riser room"
+          ]
+        },
+        {
+          "label": "M4 Northwest riser room",
+          "box": [
+            0,
+            37,
+            3,
+            42
+          ],
+          "kind": "service",
+          "access_to": [
+            "M4 Northwest building services room"
+          ]
+        },
+        {
+          "label": "M4 Southeast goods lift store",
+          "box": [
+            56,
+            0,
+            60,
+            8
+          ],
+          "kind": "service",
+          "access_to": [
+            "M4 South mall gallery",
+            "M4 Southeast lift machine and riser room"
+          ]
+        },
+        {
+          "label": "M4 Southeast lift machine and riser room",
+          "box": [
+            52,
+            0,
+            56,
+            4
+          ],
+          "kind": "service",
+          "access_to": [
+            "M4 Southeast goods lift store"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+name: Dispute a score
+description: Tell us that a score or a review note is wrong.
+title: "[Dispute] <case>: "
+labels: [dispute]
+body:
+  - type: dropdown
+    id: case
+    attributes:
+      label: Case
+      options:
+        - apartment-block
+        - courthouse
+        - hospital6
+        - hotel
+        - laboratory-building
+        - library3
+        - mall4
+        - mixed-use-residential
+        - municipal-hall
+        - office-tower
+        - resort-lodge
+        - restaurant-inn3
+        - school4
+        - senior-living
+        - serviced-apartments
+        - sports-centre
+        - student-residence
+        - theatre3
+        - transport-terminal
+        - university-building
+    validations:
+      required: true
+  - type: input
+    id: run
+    attributes:
+      label: Run
+      description: The results folder, for example 2026-11-15_v1.0
+      value: 2026-11-15_v1.0
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong
+      description: Which door, window or note, and what the correct answer is.
+    validations:
+      required: true
+  - type: dropdown
+    id: role
+    attributes:
+      label: Are you an architect?
+      options: [Yes, No]
